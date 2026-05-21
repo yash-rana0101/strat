@@ -67,7 +67,13 @@ void mainImage(out vec4 fragColor,in vec2 fragCoord){
 
 void main(){
     vec4 col;mainImage(col,gl_FragCoord.xy);
-    col.rgb=hueShiftRGB(col.rgb,uHueShift);
+    // Map CPPN output to a premium dark teal, emerald, and mint green theme
+    vec3 color1 = vec3(0.005, 0.015, 0.025); // Deep slate-teal base
+    vec3 color2 = vec3(0.01, 0.32, 0.20);    // Rich trading emerald
+    vec3 color3 = vec3(0.04, 0.70, 0.48);    // Bright mint green highlights
+    float intensity = clamp(col.r * 0.4 + col.g * 0.4 + col.b * 0.2, 0.0, 1.0);
+    col.rgb = mix(color1, mix(color2, color3, col.b), intensity);
+    col.rgb = hueShiftRGB(col.rgb, uHueShift);
     float scanline_val=sin(gl_FragCoord.y*uScanFreq)*0.5+0.5;
     col.rgb*=1.-(scanline_val*scanline_val)*uScan;
     col.rgb+=(rand(gl_FragCoord.xy+uTime)-0.5)*uNoise;

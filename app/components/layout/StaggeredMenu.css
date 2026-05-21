@@ -32,10 +32,7 @@
 
 /* Glass effect when header is scrolled */
 .staggered-menu-header.scrolled {
-  background: rgba(6, 8, 15, 0.75);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border-subtle);
+  /* Scrolled background removed to prevent clash with menu slide-out */
 }
 
 .staggered-menu-header > * {

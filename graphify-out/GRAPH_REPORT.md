@@ -1,7 +1,7 @@
 # Graph Report - aitrader-landing  (2026-05-21)
 
 ## Corpus Check
-- 30 files · ~25,433 words
+- 30 files · ~25,608 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8222c027`
+- Built from commit: `7be6f8d7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 

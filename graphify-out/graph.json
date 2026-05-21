@@ -655,7 +655,7 @@
       "label": "DarkVeilProps",
       "file_type": "code",
       "source_file": "app/components/effects/DarkVeil.tsx",
-      "source_location": "L78",
+      "source_location": "L84",
       "id": "effects_darkveil_darkveilprops",
       "community": 0,
       "norm_label": "darkveilprops"
@@ -664,7 +664,7 @@
       "label": "DarkVeil()",
       "file_type": "code",
       "source_file": "app/components/effects/DarkVeil.tsx",
-      "source_location": "L88",
+      "source_location": "L94",
       "id": "effects_darkveil_darkveil",
       "community": 0,
       "norm_label": "darkveil()"
@@ -6307,5 +6307,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8222c027ca3127729bbe3d923b116e655f7b8422"
+  "built_at_commit": "7be6f8d7eaa249c365a2a37bbc34be0529b141bd"
 }
