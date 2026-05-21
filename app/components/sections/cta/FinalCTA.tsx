@@ -75,7 +75,7 @@ export default function FinalCTA() {
             id="final-cta"
             className="inline-flex items-center justify-center px-8 py-4 rounded-md bg-[var(--accent-primary)] text-[var(--bg-base)] font-semibold text-sm tracking-wide uppercase hover:bg-[var(--accent-hover)] transition-all duration-200 hover:shadow-[0_0_30px_var(--accent-glow)] cursor-pointer"
           >
-            Start Free Trial
+            Start 3 Days Free Trial
             <svg
               width="18"
               height="18"
