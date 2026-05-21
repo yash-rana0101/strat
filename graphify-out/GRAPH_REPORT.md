@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 317 nodes · 351 edges · 26 communities (20 shown, 6 thin omitted)
+- 318 nodes · 359 edges · 26 communities (20 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f0b3ae89`
+- Built from commit: `302c9d57`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -43,8 +43,8 @@
 ## God Nodes (most connected - your core abstractions)
 1. `AGENT_CONTEXT.md — Alpha Suite` - 17 edges
 2. `compilerOptions` - 16 edges
-3. `SECTION 4 — DATA FLOWS (CANONICAL)` - 9 edges
-4. `AnimateOnScroll()` - 8 edges
+3. `AnimateOnScroll()` - 9 edges
+4. `SECTION 4 — DATA FLOWS (CANONICAL)` - 9 edges
 5. `AnimateOnScroll()` - 8 edges
 6. `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` - 7 edges
 7. `SECTION 14 — AGENT INSTRUCTIONS` - 6 edges
@@ -58,7 +58,7 @@
 ## Communities (26 total, 6 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.07
+Cohesion: 0.08
 Nodes (13): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+5 more)
 
 ### Community 1 - "Community 1"
@@ -106,7 +106,7 @@ Cohesion: 0.40
 Nodes (4): code:bash (npm run dev), Deploy on Vercel, Getting Started, Learn More
 
 ### Community 20 - "Community 20"
-Cohesion: 0.09
+Cohesion: 0.08
 Nodes (18): cn(), Dot, DropdownItemProps, DropdownMenuProps, InteractiveHero(), InteractiveHeroProps, NavLink(), NavLinkProps (+10 more)
 
 ### Community 21 - "Community 21"
@@ -122,15 +122,15 @@ Cohesion: 0.18
 Nodes (4): BentoCardProps, BentoProps, MagicBento(), useMobileDetection()
 
 ### Community 24 - "Community 24"
-Cohesion: 0.09
-Nodes (12): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+4 more)
+Cohesion: 0.10
+Nodes (18): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+10 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.29
 Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
 
 ## Knowledge Gaps
-- **135 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+130 more)
+- **134 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+129 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -138,15 +138,15 @@ Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `AGENT_CONTEXT.md — Alpha Suite` connect `Community 1` to `Community 8`, `Community 9`, `Community 4`, `Community 6`?**
-  _High betweenness centrality (0.045) - this node is a cross-community bridge._
+  _High betweenness centrality (0.044) - this node is a cross-community bridge._
 - **Why does `SECTION 4 — DATA FLOWS (CANONICAL)` connect `Community 4` to `Community 1`?**
   _High betweenness centrality (0.020) - this node is a cross-community bridge._
 - **Why does `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` connect `Community 6` to `Community 1`?**
   _High betweenness centrality (0.014) - this node is a cross-community bridge._
 - **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
-  _135 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _134 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.07307692307692308 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07823613086770982 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**

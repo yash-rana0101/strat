@@ -918,7 +918,7 @@
       "source_file": "app/components/sections/hero/Hero.tsx",
       "source_location": "L1",
       "id": "app_components_sections_hero_hero_tsx",
-      "community": 0,
+      "community": 20,
       "norm_label": "hero.tsx"
     },
     {
@@ -927,7 +927,7 @@
       "source_file": "app/components/sections/hero/Hero.tsx",
       "source_location": "L6",
       "id": "hero_hero_hero",
-      "community": 0,
+      "community": 20,
       "norm_label": "hero()"
     },
     {
@@ -2198,6 +2198,15 @@
       "id": "strat_master_pre_delivery_checklist",
       "community": 5,
       "norm_label": "pre-delivery checklist"
+    },
+    {
+      "label": "HowItWorks.tsx",
+      "file_type": "code",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "howitworks.tsx",
+      "id": "howitworks_tsx"
     },
     {
       "label": "DarkVeil.tsx",
@@ -3918,6 +3927,17 @@
       "target": "effects_animateonscroll_animateonscroll"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "effects_animateonscroll_animateonscroll"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/components/effects/DarkVeil.tsx",
@@ -4290,6 +4310,76 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_howitworks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_steps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L130",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L168",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L254",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
       "target": "how_it_works_howitworks_howitworks"
     },
     {
@@ -6450,5 +6540,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f0b3ae89d704e9da52e7df66d302f33af86b1dc2"
+  "built_at_commit": "302c9d5772d6b143ffc29c356b9f08e2b12e5263"
 }

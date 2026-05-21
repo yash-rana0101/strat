@@ -141,14 +141,37 @@ export default function FeatureBento() {
         </svg>
       ),
     },
+    {
+      title: "Tauri Stronghold Vault",
+      description:
+        "Isolate and encrypt Zerodha Kite API keys locally using Argon2id key derivation and AES-256. Credentials never touch external servers or plaintext storage.",
+      span: "md:col-span-1",
+      glowColor: "245, 158, 11", // Gold/Amber for security
+      label: "Security",
+      icon: (
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#F59E0B"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+          <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+        </svg>
+      ),
+    },
   ];
 
   return (
-    <section id="features" className="py-24 px-6 relative overflow-hidden bg-[#06080F]">
+    <section id="features" className="py-24 px-8 md:px-16 relative overflow-hidden bg-[#06080F]">
       {/* Background glow */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full orb-emerald pointer-events-none" />
 
-      <div className="mx-auto max-w-[1400px] relative">
+      <div className="mx-auto max-w-[1100px] relative">
         <AnimateOnScroll className="text-center mb-16">
           <p className="text-[11px] font-medium text-[var(--accent-primary)] font-mono tracking-[0.15em] uppercase mb-4">
             Platform
