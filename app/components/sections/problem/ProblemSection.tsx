@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { AnimateOnScroll, StaggerContainer, StaggerItem } from "./AnimateOnScroll";
+import { AnimateOnScroll, StaggerContainer, StaggerItem } from "../../effects/AnimateOnScroll";
 
 export default function ProblemSection() {
   const problems = [

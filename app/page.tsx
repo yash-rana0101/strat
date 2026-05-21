@@ -1,15 +1,14 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Ticker from "./components/Ticker";
-import ProblemSection from "./components/ProblemSection";
-import HowItWorks from "./components/HowItWorks";
-import FeatureBento from "./components/FeatureBento";
-import Stats from "./components/Stats";
-import Pricing from "./components/Pricing";
-import FAQ from "./components/FAQ";
-import FinalCTA from "./components/FinalCTA";
-import Footer from "./components/Footer";
-import DarkVeil from "./components/DarkVeil";
+import Navbar from "./components/layout/Navbar";
+import Hero from "./components/sections/hero/Hero";
+import ProblemSection from "./components/sections/problem/ProblemSection";
+import HowItWorks from "./components/sections/how-it-works/HowItWorks";
+import FeatureBento from "./components/sections/features/FeatureBento";
+import Stats from "./components/sections/stats/Stats";
+import Pricing from "./components/sections/pricing/Pricing";
+import FAQ from "./components/sections/faq/FAQ";
+import FinalCTA from "./components/sections/cta/FinalCTA";
+import Footer from "./components/layout/Footer";
+import DarkVeil from "./components/effects/DarkVeil";
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimateOnScroll } from "./AnimateOnScroll";
+import { AnimateOnScroll } from "../../effects/AnimateOnScroll";
 import MagicBento, { BentoCardProps } from "./MagicBento";
 
 export default function FeatureBento() {

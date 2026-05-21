@@ -547,7 +547,7 @@
       "label": "Home()",
       "file_type": "code",
       "source_file": "app/page.tsx",
-      "source_location": "L14",
+      "source_location": "L13",
       "id": "app_page_home",
       "community": 0,
       "norm_label": "home()"
@@ -555,488 +555,677 @@
     {
       "label": "AnimateOnScroll.tsx",
       "file_type": "code",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L1",
-      "id": "app_components_animateonscroll_tsx",
-      "community": 0,
+      "id": "app_components_effects_animateonscroll_tsx",
+      "community": 24,
       "norm_label": "animateonscroll.tsx"
     },
     {
       "label": "fadeUp",
       "file_type": "code",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L7",
-      "id": "components_animateonscroll_fadeup",
-      "community": 0,
+      "id": "effects_animateonscroll_fadeup",
+      "community": 24,
       "norm_label": "fadeup"
     },
     {
       "label": "fadeDown",
       "file_type": "code",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L12",
-      "id": "components_animateonscroll_fadedown",
-      "community": 0,
+      "id": "effects_animateonscroll_fadedown",
+      "community": 24,
       "norm_label": "fadedown"
     },
     {
       "label": "fadeLeft",
       "file_type": "code",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L17",
-      "id": "components_animateonscroll_fadeleft",
-      "community": 0,
+      "id": "effects_animateonscroll_fadeleft",
+      "community": 24,
       "norm_label": "fadeleft"
     },
     {
       "label": "fadeRight",
       "file_type": "code",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L22",
-      "id": "components_animateonscroll_faderight",
-      "community": 0,
+      "id": "effects_animateonscroll_faderight",
+      "community": 24,
       "norm_label": "faderight"
     },
     {
       "label": "scaleIn",
       "file_type": "code",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L27",
-      "id": "components_animateonscroll_scalein",
-      "community": 0,
+      "id": "effects_animateonscroll_scalein",
+      "community": 24,
       "norm_label": "scalein"
     },
     {
       "label": "staggerContainer",
       "file_type": "code",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L32",
-      "id": "components_animateonscroll_staggercontainer",
-      "community": 0,
+      "id": "effects_animateonscroll_staggercontainer",
+      "community": 24,
       "norm_label": "staggercontainer"
     },
     {
       "label": "staggerItem",
       "file_type": "code",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L43",
-      "id": "components_animateonscroll_staggeritem",
-      "community": 0,
+      "id": "effects_animateonscroll_staggeritem",
+      "community": 24,
       "norm_label": "staggeritem"
     },
     {
       "label": "AnimateOnScroll()",
       "file_type": "code",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L53",
-      "id": "components_animateonscroll_animateonscroll",
-      "community": 0,
+      "id": "effects_animateonscroll_animateonscroll",
+      "community": 24,
       "norm_label": "animateonscroll()"
     },
     {
       "label": "ParallaxSection()",
       "file_type": "code",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L122",
-      "id": "components_animateonscroll_parallaxsection",
-      "community": 0,
+      "id": "effects_animateonscroll_parallaxsection",
+      "community": 24,
       "norm_label": "parallaxsection()"
     },
     {
       "label": "DarkVeil.tsx",
       "file_type": "code",
-      "source_file": "app/components/DarkVeil.tsx",
+      "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L1",
-      "id": "app_components_darkveil_tsx",
+      "id": "app_components_effects_darkveil_tsx",
       "community": 0,
       "norm_label": "darkveil.tsx"
     },
     {
       "label": "DarkVeilProps",
       "file_type": "code",
-      "source_file": "app/components/DarkVeil.tsx",
+      "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L78",
-      "id": "components_darkveil_darkveilprops",
+      "id": "effects_darkveil_darkveilprops",
       "community": 0,
       "norm_label": "darkveilprops"
     },
     {
       "label": "DarkVeil()",
       "file_type": "code",
-      "source_file": "app/components/DarkVeil.tsx",
+      "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L88",
-      "id": "components_darkveil_darkveil",
+      "id": "effects_darkveil_darkveil",
       "community": 0,
       "norm_label": "darkveil()"
     },
     {
-      "label": "FAQ.tsx",
-      "file_type": "code",
-      "source_file": "app/components/FAQ.tsx",
-      "source_location": "L1",
-      "id": "app_components_faq_tsx",
-      "community": 0,
-      "norm_label": "faq.tsx"
-    },
-    {
-      "label": "faqs",
-      "file_type": "code",
-      "source_file": "app/components/FAQ.tsx",
-      "source_location": "L7",
-      "id": "components_faq_faqs",
-      "community": 0,
-      "norm_label": "faqs"
-    },
-    {
-      "label": "FAQ()",
-      "file_type": "code",
-      "source_file": "app/components/FAQ.tsx",
-      "source_location": "L34",
-      "id": "components_faq_faq",
-      "community": 0,
-      "norm_label": "faq()"
-    },
-    {
-      "label": "FeatureBento.tsx",
-      "file_type": "code",
-      "source_file": "app/components/FeatureBento.tsx",
-      "source_location": "L1",
-      "id": "app_components_featurebento_tsx",
-      "community": 0,
-      "norm_label": "featurebento.tsx"
-    },
-    {
-      "label": "FeatureBento()",
-      "file_type": "code",
-      "source_file": "app/components/FeatureBento.tsx",
-      "source_location": "L6",
-      "id": "components_featurebento_featurebento",
-      "community": 0,
-      "norm_label": "featurebento()"
-    },
-    {
-      "label": "FinalCTA.tsx",
-      "file_type": "code",
-      "source_file": "app/components/FinalCTA.tsx",
-      "source_location": "L1",
-      "id": "app_components_finalcta_tsx",
-      "community": 0,
-      "norm_label": "finalcta.tsx"
-    },
-    {
-      "label": "FinalCTA()",
-      "file_type": "code",
-      "source_file": "app/components/FinalCTA.tsx",
-      "source_location": "L6",
-      "id": "components_finalcta_finalcta",
-      "community": 0,
-      "norm_label": "finalcta()"
-    },
-    {
       "label": "Footer.tsx",
       "file_type": "code",
-      "source_file": "app/components/Footer.tsx",
+      "source_file": "app/components/layout/Footer.tsx",
       "source_location": "L1",
-      "id": "app_components_footer_tsx",
+      "id": "app_components_layout_footer_tsx",
       "community": 0,
       "norm_label": "footer.tsx"
     },
     {
       "label": "Footer()",
       "file_type": "code",
-      "source_file": "app/components/Footer.tsx",
+      "source_file": "app/components/layout/Footer.tsx",
       "source_location": "L5",
-      "id": "components_footer_footer",
+      "id": "layout_footer_footer",
       "community": 0,
       "norm_label": "footer()"
     },
     {
-      "label": "Hero.tsx",
-      "file_type": "code",
-      "source_file": "app/components/Hero.tsx",
-      "source_location": "L1",
-      "id": "app_components_hero_tsx",
-      "community": 20,
-      "norm_label": "hero.tsx"
-    },
-    {
-      "label": "Hero()",
-      "file_type": "code",
-      "source_file": "app/components/Hero.tsx",
-      "source_location": "L5",
-      "id": "components_hero_hero",
-      "community": 20,
-      "norm_label": "hero()"
-    },
-    {
-      "label": "TerminalChart()",
-      "file_type": "code",
-      "source_file": "app/components/Hero.tsx",
-      "source_location": "L240",
-      "id": "components_hero_terminalchart",
-      "community": 20,
-      "norm_label": "terminalchart()"
-    },
-    {
-      "label": "HowItWorks.tsx",
-      "file_type": "code",
-      "source_file": "app/components/HowItWorks.tsx",
-      "source_location": "L1",
-      "id": "app_components_howitworks_tsx",
-      "community": 0,
-      "norm_label": "howitworks.tsx"
-    },
-    {
-      "label": "HowItWorks()",
-      "file_type": "code",
-      "source_file": "app/components/HowItWorks.tsx",
-      "source_location": "L6",
-      "id": "components_howitworks_howitworks",
-      "community": 0,
-      "norm_label": "howitworks()"
-    },
-    {
-      "label": "MagicBento.tsx",
-      "file_type": "code",
-      "source_file": "app/components/MagicBento.tsx",
-      "source_location": "L1",
-      "id": "app_components_magicbento_tsx",
-      "community": 7,
-      "norm_label": "magicbento.tsx"
-    },
-    {
-      "label": "BentoCardProps",
-      "file_type": "code",
-      "source_file": "app/components/MagicBento.tsx",
-      "source_location": "L7",
-      "id": "components_magicbento_bentocardprops",
-      "community": 0,
-      "norm_label": "bentocardprops"
-    },
-    {
-      "label": "BentoProps",
-      "file_type": "code",
-      "source_file": "app/components/MagicBento.tsx",
-      "source_location": "L19",
-      "id": "components_magicbento_bentoprops",
-      "community": 7,
-      "norm_label": "bentoprops"
-    },
-    {
-      "label": "createParticleElement()",
-      "file_type": "code",
-      "source_file": "app/components/MagicBento.tsx",
-      "source_location": "L39",
-      "id": "components_magicbento_createparticleelement",
-      "community": 7,
-      "norm_label": "createparticleelement()"
-    },
-    {
-      "label": "calculateSpotlightValues()",
-      "file_type": "code",
-      "source_file": "app/components/MagicBento.tsx",
-      "source_location": "L57",
-      "id": "components_magicbento_calculatespotlightvalues",
-      "community": 7,
-      "norm_label": "calculatespotlightvalues()"
-    },
-    {
-      "label": "updateCardGlowProperties()",
-      "file_type": "code",
-      "source_file": "app/components/MagicBento.tsx",
-      "source_location": "L62",
-      "id": "components_magicbento_updatecardglowproperties",
-      "community": 7,
-      "norm_label": "updatecardglowproperties()"
-    },
-    {
-      "label": "ParticleCard()",
-      "file_type": "code",
-      "source_file": "app/components/MagicBento.tsx",
-      "source_location": "L73",
-      "id": "components_magicbento_particlecard",
-      "community": 7,
-      "norm_label": "particlecard()"
-    },
-    {
-      "label": "GlobalSpotlight()",
-      "file_type": "code",
-      "source_file": "app/components/MagicBento.tsx",
-      "source_location": "L320",
-      "id": "components_magicbento_globalspotlight",
-      "community": 7,
-      "norm_label": "globalspotlight()"
-    },
-    {
-      "label": "BentoCardGrid()",
-      "file_type": "code",
-      "source_file": "app/components/MagicBento.tsx",
-      "source_location": "L458",
-      "id": "components_magicbento_bentocardgrid",
-      "community": 7,
-      "norm_label": "bentocardgrid()"
-    },
-    {
-      "label": "useMobileDetection()",
-      "file_type": "code",
-      "source_file": "app/components/MagicBento.tsx",
-      "source_location": "L468",
-      "id": "components_magicbento_usemobiledetection",
-      "community": 7,
-      "norm_label": "usemobiledetection()"
-    },
-    {
-      "label": "MagicBento()",
-      "file_type": "code",
-      "source_file": "app/components/MagicBento.tsx",
-      "source_location": "L483",
-      "id": "components_magicbento_magicbento",
-      "community": 7,
-      "norm_label": "magicbento()"
-    },
-    {
       "label": "Navbar.tsx",
       "file_type": "code",
-      "source_file": "app/components/Navbar.tsx",
+      "source_file": "app/components/layout/Navbar.tsx",
       "source_location": "L1",
-      "id": "app_components_navbar_tsx",
-      "community": 21,
+      "id": "app_components_layout_navbar_tsx",
+      "community": 25,
       "norm_label": "navbar.tsx"
     },
     {
       "label": "Navbar()",
       "file_type": "code",
-      "source_file": "app/components/Navbar.tsx",
+      "source_file": "app/components/layout/Navbar.tsx",
       "source_location": "L5",
-      "id": "components_navbar_navbar",
-      "community": 21,
+      "id": "layout_navbar_navbar",
+      "community": 25,
       "norm_label": "navbar()"
-    },
-    {
-      "label": "Pricing.tsx",
-      "file_type": "code",
-      "source_file": "app/components/Pricing.tsx",
-      "source_location": "L1",
-      "id": "app_components_pricing_tsx",
-      "community": 0,
-      "norm_label": "pricing.tsx"
-    },
-    {
-      "label": "Pricing()",
-      "file_type": "code",
-      "source_file": "app/components/Pricing.tsx",
-      "source_location": "L6",
-      "id": "components_pricing_pricing",
-      "community": 0,
-      "norm_label": "pricing()"
-    },
-    {
-      "label": "ProblemSection.tsx",
-      "file_type": "code",
-      "source_file": "app/components/ProblemSection.tsx",
-      "source_location": "L1",
-      "id": "app_components_problemsection_tsx",
-      "community": 0,
-      "norm_label": "problemsection.tsx"
-    },
-    {
-      "label": "ProblemSection()",
-      "file_type": "code",
-      "source_file": "app/components/ProblemSection.tsx",
-      "source_location": "L6",
-      "id": "components_problemsection_problemsection",
-      "community": 0,
-      "norm_label": "problemsection()"
     },
     {
       "label": "StaggeredMenu.tsx",
       "file_type": "code",
-      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
       "source_location": "L1",
-      "id": "app_components_staggeredmenu_tsx",
-      "community": 21,
+      "id": "app_components_layout_staggeredmenu_tsx",
+      "community": 25,
       "norm_label": "staggeredmenu.tsx"
     },
     {
       "label": "StaggeredMenuItem",
       "file_type": "code",
-      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
       "source_location": "L7",
-      "id": "components_staggeredmenu_staggeredmenuitem",
-      "community": 21,
+      "id": "layout_staggeredmenu_staggeredmenuitem",
+      "community": 25,
       "norm_label": "staggeredmenuitem"
     },
     {
       "label": "StaggeredMenuSocialItem",
       "file_type": "code",
-      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
       "source_location": "L13",
-      "id": "components_staggeredmenu_staggeredmenusocialitem",
-      "community": 21,
+      "id": "layout_staggeredmenu_staggeredmenusocialitem",
+      "community": 25,
       "norm_label": "staggeredmenusocialitem"
     },
     {
       "label": "StaggeredMenuProps",
       "file_type": "code",
-      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
       "source_location": "L18",
-      "id": "components_staggeredmenu_staggeredmenuprops",
-      "community": 21,
+      "id": "layout_staggeredmenu_staggeredmenuprops",
+      "community": 25,
       "norm_label": "staggeredmenuprops"
     },
     {
       "label": "StaggeredMenu()",
       "file_type": "code",
-      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
       "source_location": "L38",
-      "id": "components_staggeredmenu_staggeredmenu",
-      "community": 21,
+      "id": "layout_staggeredmenu_staggeredmenu",
+      "community": 25,
       "norm_label": "staggeredmenu()"
+    },
+    {
+      "label": "FinalCTA.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/cta/FinalCTA.tsx",
+      "source_location": "L1",
+      "id": "app_components_sections_cta_finalcta_tsx",
+      "community": 24,
+      "norm_label": "finalcta.tsx"
+    },
+    {
+      "label": "FinalCTA()",
+      "file_type": "code",
+      "source_file": "app/components/sections/cta/FinalCTA.tsx",
+      "source_location": "L6",
+      "id": "cta_finalcta_finalcta",
+      "community": 24,
+      "norm_label": "finalcta()"
+    },
+    {
+      "label": "FAQ.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/faq/FAQ.tsx",
+      "source_location": "L1",
+      "id": "app_components_sections_faq_faq_tsx",
+      "community": 24,
+      "norm_label": "faq.tsx"
+    },
+    {
+      "label": "faqs",
+      "file_type": "code",
+      "source_file": "app/components/sections/faq/FAQ.tsx",
+      "source_location": "L7",
+      "id": "faq_faq_faqs",
+      "community": 24,
+      "norm_label": "faqs"
+    },
+    {
+      "label": "FAQ()",
+      "file_type": "code",
+      "source_file": "app/components/sections/faq/FAQ.tsx",
+      "source_location": "L34",
+      "id": "faq_faq_faq",
+      "community": 24,
+      "norm_label": "faq()"
+    },
+    {
+      "label": "FeatureBento.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/FeatureBento.tsx",
+      "source_location": "L1",
+      "id": "app_components_sections_features_featurebento_tsx",
+      "community": 23,
+      "norm_label": "featurebento.tsx"
+    },
+    {
+      "label": "FeatureBento()",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/FeatureBento.tsx",
+      "source_location": "L6",
+      "id": "features_featurebento_featurebento",
+      "community": 23,
+      "norm_label": "featurebento()"
+    },
+    {
+      "label": "MagicBento.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
+      "source_location": "L1",
+      "id": "app_components_sections_features_magicbento_tsx",
+      "community": 23,
+      "norm_label": "magicbento.tsx"
+    },
+    {
+      "label": "BentoCardProps",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
+      "source_location": "L7",
+      "id": "features_magicbento_bentocardprops",
+      "community": 23,
+      "norm_label": "bentocardprops"
+    },
+    {
+      "label": "BentoProps",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
+      "source_location": "L19",
+      "id": "features_magicbento_bentoprops",
+      "community": 23,
+      "norm_label": "bentoprops"
+    },
+    {
+      "label": "createParticleElement()",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
+      "source_location": "L39",
+      "id": "features_magicbento_createparticleelement",
+      "community": 23,
+      "norm_label": "createparticleelement()"
+    },
+    {
+      "label": "calculateSpotlightValues()",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
+      "source_location": "L57",
+      "id": "features_magicbento_calculatespotlightvalues",
+      "community": 23,
+      "norm_label": "calculatespotlightvalues()"
+    },
+    {
+      "label": "updateCardGlowProperties()",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
+      "source_location": "L62",
+      "id": "features_magicbento_updatecardglowproperties",
+      "community": 23,
+      "norm_label": "updatecardglowproperties()"
+    },
+    {
+      "label": "ParticleCard()",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
+      "source_location": "L73",
+      "id": "features_magicbento_particlecard",
+      "community": 23,
+      "norm_label": "particlecard()"
+    },
+    {
+      "label": "GlobalSpotlight()",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
+      "source_location": "L320",
+      "id": "features_magicbento_globalspotlight",
+      "community": 23,
+      "norm_label": "globalspotlight()"
+    },
+    {
+      "label": "BentoCardGrid()",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
+      "source_location": "L458",
+      "id": "features_magicbento_bentocardgrid",
+      "community": 23,
+      "norm_label": "bentocardgrid()"
+    },
+    {
+      "label": "useMobileDetection()",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
+      "source_location": "L468",
+      "id": "features_magicbento_usemobiledetection",
+      "community": 23,
+      "norm_label": "usemobiledetection()"
+    },
+    {
+      "label": "MagicBento()",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
+      "source_location": "L483",
+      "id": "features_magicbento_magicbento",
+      "community": 23,
+      "norm_label": "magicbento()"
+    },
+    {
+      "label": "Hero.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/hero/Hero.tsx",
+      "source_location": "L1",
+      "id": "app_components_sections_hero_hero_tsx",
+      "community": 0,
+      "norm_label": "hero.tsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "app/components/sections/hero/Hero.tsx",
+      "source_location": "L6",
+      "id": "hero_hero_hero",
+      "community": 0,
+      "norm_label": "hero()"
+    },
+    {
+      "label": "HowItWorks.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L1",
+      "id": "app_components_sections_how_it_works_howitworks_tsx",
+      "community": 24,
+      "norm_label": "howitworks.tsx"
+    },
+    {
+      "label": "HowItWorks()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L6",
+      "id": "how_it_works_howitworks_howitworks",
+      "community": 24,
+      "norm_label": "howitworks()"
+    },
+    {
+      "label": "Pricing.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/pricing/Pricing.tsx",
+      "source_location": "L1",
+      "id": "app_components_sections_pricing_pricing_tsx",
+      "community": 24,
+      "norm_label": "pricing.tsx"
+    },
+    {
+      "label": "Pricing()",
+      "file_type": "code",
+      "source_file": "app/components/sections/pricing/Pricing.tsx",
+      "source_location": "L6",
+      "id": "pricing_pricing_pricing",
+      "community": 24,
+      "norm_label": "pricing()"
+    },
+    {
+      "label": "ProblemSection.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L1",
+      "id": "app_components_sections_problem_problemsection_tsx",
+      "community": 24,
+      "norm_label": "problemsection.tsx"
+    },
+    {
+      "label": "ProblemSection()",
+      "file_type": "code",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L6",
+      "id": "problem_problemsection_problemsection",
+      "community": 24,
+      "norm_label": "problemsection()"
     },
     {
       "label": "Stats.tsx",
       "file_type": "code",
-      "source_file": "app/components/Stats.tsx",
+      "source_file": "app/components/sections/stats/Stats.tsx",
       "source_location": "L1",
-      "id": "app_components_stats_tsx",
-      "community": 0,
+      "id": "app_components_sections_stats_stats_tsx",
+      "community": 24,
       "norm_label": "stats.tsx"
     },
     {
       "label": "useCountUp()",
       "file_type": "code",
-      "source_file": "app/components/Stats.tsx",
+      "source_file": "app/components/sections/stats/Stats.tsx",
       "source_location": "L6",
-      "id": "components_stats_usecountup",
-      "community": 0,
+      "id": "stats_stats_usecountup",
+      "community": 24,
       "norm_label": "usecountup()"
     },
     {
       "label": "Stats()",
       "file_type": "code",
-      "source_file": "app/components/Stats.tsx",
+      "source_file": "app/components/sections/stats/Stats.tsx",
       "source_location": "L41",
-      "id": "components_stats_stats",
-      "community": 0,
+      "id": "stats_stats_stats",
+      "community": 24,
       "norm_label": "stats()"
     },
     {
-      "label": "Ticker.tsx",
+      "label": "hero-section-nexus.tsx",
       "file_type": "code",
-      "source_file": "app/components/Ticker.tsx",
+      "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L1",
-      "id": "app_components_ticker_tsx",
-      "community": 0,
-      "norm_label": "ticker.tsx"
+      "id": "components_ui_hero_section_nexus_tsx",
+      "community": 20,
+      "norm_label": "hero-section-nexus.tsx"
     },
     {
-      "label": "Ticker()",
+      "label": "cn()",
       "file_type": "code",
-      "source_file": "app/components/Ticker.tsx",
-      "source_location": "L3",
-      "id": "components_ticker_ticker",
-      "community": 0,
-      "norm_label": "ticker()"
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L29",
+      "id": "ui_hero_section_nexus_cn",
+      "community": 20,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "ChevronDownIcon()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L36",
+      "id": "ui_hero_section_nexus_chevrondownicon",
+      "community": 20,
+      "norm_label": "chevrondownicon()"
+    },
+    {
+      "label": "MenuIcon()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L42",
+      "id": "ui_hero_section_nexus_menuicon",
+      "community": 20,
+      "norm_label": "menuicon()"
+    },
+    {
+      "label": "CloseIcon()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L48",
+      "id": "ui_hero_section_nexus_closeicon",
+      "community": 20,
+      "norm_label": "closeicon()"
+    },
+    {
+      "label": "ExternalLinkIcon()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L54",
+      "id": "ui_hero_section_nexus_externallinkicon",
+      "community": 20,
+      "norm_label": "externallinkicon()"
+    },
+    {
+      "label": "NavLinkProps",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L60",
+      "id": "ui_hero_section_nexus_navlinkprops",
+      "community": 20,
+      "norm_label": "navlinkprops"
+    },
+    {
+      "label": "NavLink()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L68",
+      "id": "ui_hero_section_nexus_navlink",
+      "community": 20,
+      "norm_label": "navlink()"
+    },
+    {
+      "label": "DropdownMenuProps",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L88",
+      "id": "ui_hero_section_nexus_dropdownmenuprops",
+      "community": 20,
+      "norm_label": "dropdownmenuprops"
+    },
+    {
+      "label": "DropdownMenu()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L93",
+      "id": "ui_hero_section_nexus_dropdownmenu",
+      "community": 20,
+      "norm_label": "dropdownmenu()"
+    },
+    {
+      "label": "DropdownItemProps",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L111",
+      "id": "ui_hero_section_nexus_dropdownitemprops",
+      "community": 20,
+      "norm_label": "dropdownitemprops"
+    },
+    {
+      "label": "DropdownItem()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L117",
+      "id": "ui_hero_section_nexus_dropdownitem",
+      "community": 20,
+      "norm_label": "dropdownitem()"
+    },
+    {
+      "label": "Dot",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L127",
+      "id": "ui_hero_section_nexus_dot",
+      "community": 20,
+      "norm_label": "dot"
+    },
+    {
+      "label": "InteractiveHeroProps",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L138",
+      "id": "ui_hero_section_nexus_interactiveheroprops",
+      "community": 20,
+      "norm_label": "interactiveheroprops"
+    },
+    {
+      "label": "InteractiveHero()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L142",
+      "id": "ui_hero_section_nexus_interactivehero",
+      "community": 20,
+      "norm_label": "interactivehero()"
+    },
+    {
+      "label": "RotatingText.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/RotatingText.tsx",
+      "source_location": "L1",
+      "id": "components_ui_rotatingtext_tsx",
+      "community": 20,
+      "norm_label": "rotatingtext.tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "components/ui/RotatingText.tsx",
+      "source_location": "L20",
+      "id": "ui_rotatingtext_cn",
+      "community": 20,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "RotatingTextRef",
+      "file_type": "code",
+      "source_file": "components/ui/RotatingText.tsx",
+      "source_location": "L24",
+      "id": "ui_rotatingtext_rotatingtextref",
+      "community": 20,
+      "norm_label": "rotatingtextref"
+    },
+    {
+      "label": "RotatingTextProps",
+      "file_type": "code",
+      "source_file": "components/ui/RotatingText.tsx",
+      "source_location": "L31",
+      "id": "ui_rotatingtext_rotatingtextprops",
+      "community": 20,
+      "norm_label": "rotatingtextprops"
+    },
+    {
+      "label": "RotatingText",
+      "file_type": "code",
+      "source_file": "components/ui/RotatingText.tsx",
+      "source_location": "L55",
+      "id": "ui_rotatingtext_rotatingtext",
+      "community": 20,
+      "norm_label": "rotatingtext"
+    },
+    {
+      "label": "ShinyText.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/ShinyText.tsx",
+      "source_location": "L1",
+      "id": "components_ui_shinytext_tsx",
+      "community": 20,
+      "norm_label": "shinytext.tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "components/ui/ShinyText.tsx",
+      "source_location": "L5",
+      "id": "ui_shinytext_cn",
+      "community": 20,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "ShinyTextProps",
+      "file_type": "code",
+      "source_file": "components/ui/ShinyText.tsx",
+      "source_location": "L9",
+      "id": "ui_shinytext_shinytextprops",
+      "community": 20,
+      "norm_label": "shinytextprops"
+    },
+    {
+      "label": "ShinyText()",
+      "file_type": "code",
+      "source_file": "components/ui/ShinyText.tsx",
+      "source_location": "L14",
+      "id": "ui_shinytext_shinytext",
+      "community": 20,
+      "norm_label": "shinytext()"
     },
     {
       "label": "AGENTS.md",
@@ -1957,6 +2146,618 @@
       "norm_label": "pre-delivery checklist"
     },
     {
+      "label": "RotatingTextRef",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L32",
+      "community": 20,
+      "norm_label": "rotatingtextref",
+      "id": "ui_hero_section_nexus_rotatingtextref"
+    },
+    {
+      "label": "RotatingTextProps",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L39",
+      "community": 20,
+      "norm_label": "rotatingtextprops",
+      "id": "ui_hero_section_nexus_rotatingtextprops"
+    },
+    {
+      "label": "RotatingText",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L63",
+      "community": 20,
+      "norm_label": "rotatingtext",
+      "id": "ui_hero_section_nexus_rotatingtext"
+    },
+    {
+      "label": "ShinyText()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L246",
+      "community": 20,
+      "norm_label": "shinytext()",
+      "id": "ui_hero_section_nexus_shinytext"
+    },
+    {
+      "label": "ShinyText.tsx",
+      "file_type": "code",
+      "source_file": "app/components/ShinyText.tsx",
+      "source_location": "L1",
+      "community": 22,
+      "norm_label": "shinytext.tsx",
+      "id": "app_components_shinytext_tsx"
+    },
+    {
+      "label": "ShinyTextProps",
+      "file_type": "code",
+      "source_file": "app/components/ShinyText.tsx",
+      "source_location": "L5",
+      "community": 22,
+      "norm_label": "shinytextprops",
+      "id": "components_shinytext_shinytextprops"
+    },
+    {
+      "label": "ShinyText()",
+      "file_type": "code",
+      "source_file": "app/components/ShinyText.tsx",
+      "source_location": "L12",
+      "community": 22,
+      "norm_label": "shinytext()",
+      "id": "components_shinytext_shinytext"
+    },
+    {
+      "label": "SplitText.tsx",
+      "file_type": "code",
+      "source_file": "app/components/SplitText.tsx",
+      "source_location": "L1",
+      "community": 22,
+      "norm_label": "splittext.tsx",
+      "id": "app_components_splittext_tsx"
+    },
+    {
+      "label": "SplitTextProps",
+      "file_type": "code",
+      "source_file": "app/components/SplitText.tsx",
+      "source_location": "L6",
+      "community": 22,
+      "norm_label": "splittextprops",
+      "id": "components_splittext_splittextprops"
+    },
+    {
+      "label": "SplitText()",
+      "file_type": "code",
+      "source_file": "app/components/SplitText.tsx",
+      "source_location": "L14",
+      "community": 22,
+      "norm_label": "splittext()",
+      "id": "components_splittext_splittext"
+    },
+    {
+      "label": "Ticker.tsx",
+      "file_type": "code",
+      "source_file": "app/components/Ticker.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "ticker.tsx",
+      "id": "app_components_ticker_tsx"
+    },
+    {
+      "label": "Ticker()",
+      "file_type": "code",
+      "source_file": "app/components/Ticker.tsx",
+      "source_location": "L3",
+      "community": 0,
+      "norm_label": "ticker()",
+      "id": "components_ticker_ticker"
+    },
+    {
+      "label": "TiltedCard.tsx",
+      "file_type": "code",
+      "source_file": "app/components/TiltedCard.tsx",
+      "source_location": "L1",
+      "community": 22,
+      "norm_label": "tiltedcard.tsx",
+      "id": "app_components_tiltedcard_tsx"
+    },
+    {
+      "label": "TiltedCardProps",
+      "file_type": "code",
+      "source_file": "app/components/TiltedCard.tsx",
+      "source_location": "L6",
+      "community": 22,
+      "norm_label": "tiltedcardprops",
+      "id": "components_tiltedcard_tiltedcardprops"
+    },
+    {
+      "label": "springConfig",
+      "file_type": "code",
+      "source_file": "app/components/TiltedCard.tsx",
+      "source_location": "L14",
+      "community": 22,
+      "norm_label": "springconfig",
+      "id": "components_tiltedcard_springconfig"
+    },
+    {
+      "label": "TiltedCard()",
+      "file_type": "code",
+      "source_file": "app/components/TiltedCard.tsx",
+      "source_location": "L20",
+      "community": 22,
+      "norm_label": "tiltedcard()",
+      "id": "components_tiltedcard_tiltedcard"
+    },
+    {
+      "label": "AnimateOnScroll.tsx",
+      "file_type": "code",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "animateonscroll.tsx",
+      "id": "app_components_animateonscroll_tsx"
+    },
+    {
+      "label": "fadeUp",
+      "file_type": "code",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L7",
+      "community": 0,
+      "norm_label": "fadeup",
+      "id": "components_animateonscroll_fadeup"
+    },
+    {
+      "label": "fadeDown",
+      "file_type": "code",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L12",
+      "community": 0,
+      "norm_label": "fadedown",
+      "id": "components_animateonscroll_fadedown"
+    },
+    {
+      "label": "fadeLeft",
+      "file_type": "code",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L17",
+      "community": 0,
+      "norm_label": "fadeleft",
+      "id": "components_animateonscroll_fadeleft"
+    },
+    {
+      "label": "fadeRight",
+      "file_type": "code",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L22",
+      "community": 0,
+      "norm_label": "faderight",
+      "id": "components_animateonscroll_faderight"
+    },
+    {
+      "label": "scaleIn",
+      "file_type": "code",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L27",
+      "community": 0,
+      "norm_label": "scalein",
+      "id": "components_animateonscroll_scalein"
+    },
+    {
+      "label": "staggerContainer",
+      "file_type": "code",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L32",
+      "community": 0,
+      "norm_label": "staggercontainer",
+      "id": "components_animateonscroll_staggercontainer"
+    },
+    {
+      "label": "staggerItem",
+      "file_type": "code",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L43",
+      "community": 0,
+      "norm_label": "staggeritem",
+      "id": "components_animateonscroll_staggeritem"
+    },
+    {
+      "label": "AnimateOnScroll()",
+      "file_type": "code",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L53",
+      "community": 0,
+      "norm_label": "animateonscroll()",
+      "id": "components_animateonscroll_animateonscroll"
+    },
+    {
+      "label": "ParallaxSection()",
+      "file_type": "code",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L122",
+      "community": 0,
+      "norm_label": "parallaxsection()",
+      "id": "components_animateonscroll_parallaxsection"
+    },
+    {
+      "label": "DarkVeil.tsx",
+      "file_type": "code",
+      "source_file": "app/components/DarkVeil.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "darkveil.tsx",
+      "id": "app_components_darkveil_tsx"
+    },
+    {
+      "label": "DarkVeilProps",
+      "file_type": "code",
+      "source_file": "app/components/DarkVeil.tsx",
+      "source_location": "L78",
+      "community": 0,
+      "norm_label": "darkveilprops",
+      "id": "components_darkveil_darkveilprops"
+    },
+    {
+      "label": "DarkVeil()",
+      "file_type": "code",
+      "source_file": "app/components/DarkVeil.tsx",
+      "source_location": "L88",
+      "community": 0,
+      "norm_label": "darkveil()",
+      "id": "components_darkveil_darkveil"
+    },
+    {
+      "label": "FAQ.tsx",
+      "file_type": "code",
+      "source_file": "app/components/FAQ.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "faq.tsx",
+      "id": "app_components_faq_tsx"
+    },
+    {
+      "label": "faqs",
+      "file_type": "code",
+      "source_file": "app/components/FAQ.tsx",
+      "source_location": "L7",
+      "community": 0,
+      "norm_label": "faqs",
+      "id": "components_faq_faqs"
+    },
+    {
+      "label": "FAQ()",
+      "file_type": "code",
+      "source_file": "app/components/FAQ.tsx",
+      "source_location": "L34",
+      "community": 0,
+      "norm_label": "faq()",
+      "id": "components_faq_faq"
+    },
+    {
+      "label": "FeatureBento.tsx",
+      "file_type": "code",
+      "source_file": "app/components/FeatureBento.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "featurebento.tsx",
+      "id": "app_components_featurebento_tsx"
+    },
+    {
+      "label": "FeatureBento()",
+      "file_type": "code",
+      "source_file": "app/components/FeatureBento.tsx",
+      "source_location": "L6",
+      "community": 0,
+      "norm_label": "featurebento()",
+      "id": "components_featurebento_featurebento"
+    },
+    {
+      "label": "FinalCTA.tsx",
+      "file_type": "code",
+      "source_file": "app/components/FinalCTA.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "finalcta.tsx",
+      "id": "app_components_finalcta_tsx"
+    },
+    {
+      "label": "FinalCTA()",
+      "file_type": "code",
+      "source_file": "app/components/FinalCTA.tsx",
+      "source_location": "L6",
+      "community": 0,
+      "norm_label": "finalcta()",
+      "id": "components_finalcta_finalcta"
+    },
+    {
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "app/components/Footer.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "footer.tsx",
+      "id": "app_components_footer_tsx"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "app/components/Footer.tsx",
+      "source_location": "L5",
+      "community": 0,
+      "norm_label": "footer()",
+      "id": "components_footer_footer"
+    },
+    {
+      "label": "Hero.tsx",
+      "file_type": "code",
+      "source_file": "app/components/Hero.tsx",
+      "source_location": "L1",
+      "community": 22,
+      "norm_label": "hero.tsx",
+      "id": "app_components_hero_tsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "app/components/Hero.tsx",
+      "source_location": "L6",
+      "community": 22,
+      "norm_label": "hero()",
+      "id": "components_hero_hero"
+    },
+    {
+      "label": "HowItWorks.tsx",
+      "file_type": "code",
+      "source_file": "app/components/HowItWorks.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "howitworks.tsx",
+      "id": "app_components_howitworks_tsx"
+    },
+    {
+      "label": "HowItWorks()",
+      "file_type": "code",
+      "source_file": "app/components/HowItWorks.tsx",
+      "source_location": "L6",
+      "community": 0,
+      "norm_label": "howitworks()",
+      "id": "components_howitworks_howitworks"
+    },
+    {
+      "label": "MagicBento.tsx",
+      "file_type": "code",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "magicbento.tsx",
+      "id": "app_components_magicbento_tsx"
+    },
+    {
+      "label": "BentoCardProps",
+      "file_type": "code",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L7",
+      "community": 0,
+      "norm_label": "bentocardprops",
+      "id": "components_magicbento_bentocardprops"
+    },
+    {
+      "label": "BentoProps",
+      "file_type": "code",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L19",
+      "community": 7,
+      "norm_label": "bentoprops",
+      "id": "components_magicbento_bentoprops"
+    },
+    {
+      "label": "createParticleElement()",
+      "file_type": "code",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L39",
+      "community": 7,
+      "norm_label": "createparticleelement()",
+      "id": "components_magicbento_createparticleelement"
+    },
+    {
+      "label": "calculateSpotlightValues()",
+      "file_type": "code",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L57",
+      "community": 7,
+      "norm_label": "calculatespotlightvalues()",
+      "id": "components_magicbento_calculatespotlightvalues"
+    },
+    {
+      "label": "updateCardGlowProperties()",
+      "file_type": "code",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L62",
+      "community": 7,
+      "norm_label": "updatecardglowproperties()",
+      "id": "components_magicbento_updatecardglowproperties"
+    },
+    {
+      "label": "ParticleCard()",
+      "file_type": "code",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L73",
+      "community": 7,
+      "norm_label": "particlecard()",
+      "id": "components_magicbento_particlecard"
+    },
+    {
+      "label": "GlobalSpotlight()",
+      "file_type": "code",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L320",
+      "community": 7,
+      "norm_label": "globalspotlight()",
+      "id": "components_magicbento_globalspotlight"
+    },
+    {
+      "label": "BentoCardGrid()",
+      "file_type": "code",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L458",
+      "community": 7,
+      "norm_label": "bentocardgrid()",
+      "id": "components_magicbento_bentocardgrid"
+    },
+    {
+      "label": "useMobileDetection()",
+      "file_type": "code",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L468",
+      "community": 7,
+      "norm_label": "usemobiledetection()",
+      "id": "components_magicbento_usemobiledetection"
+    },
+    {
+      "label": "MagicBento()",
+      "file_type": "code",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L483",
+      "community": 7,
+      "norm_label": "magicbento()",
+      "id": "components_magicbento_magicbento"
+    },
+    {
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "app/components/Navbar.tsx",
+      "source_location": "L1",
+      "community": 21,
+      "norm_label": "navbar.tsx",
+      "id": "app_components_navbar_tsx"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "app/components/Navbar.tsx",
+      "source_location": "L5",
+      "community": 21,
+      "norm_label": "navbar()",
+      "id": "components_navbar_navbar"
+    },
+    {
+      "label": "Pricing.tsx",
+      "file_type": "code",
+      "source_file": "app/components/Pricing.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "pricing.tsx",
+      "id": "app_components_pricing_tsx"
+    },
+    {
+      "label": "Pricing()",
+      "file_type": "code",
+      "source_file": "app/components/Pricing.tsx",
+      "source_location": "L6",
+      "community": 0,
+      "norm_label": "pricing()",
+      "id": "components_pricing_pricing"
+    },
+    {
+      "label": "ProblemSection.tsx",
+      "file_type": "code",
+      "source_file": "app/components/ProblemSection.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "problemsection.tsx",
+      "id": "app_components_problemsection_tsx"
+    },
+    {
+      "label": "ProblemSection()",
+      "file_type": "code",
+      "source_file": "app/components/ProblemSection.tsx",
+      "source_location": "L6",
+      "community": 0,
+      "norm_label": "problemsection()",
+      "id": "components_problemsection_problemsection"
+    },
+    {
+      "label": "StaggeredMenu.tsx",
+      "file_type": "code",
+      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_location": "L1",
+      "community": 21,
+      "norm_label": "staggeredmenu.tsx",
+      "id": "app_components_staggeredmenu_tsx"
+    },
+    {
+      "label": "StaggeredMenuItem",
+      "file_type": "code",
+      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_location": "L7",
+      "community": 21,
+      "norm_label": "staggeredmenuitem",
+      "id": "components_staggeredmenu_staggeredmenuitem"
+    },
+    {
+      "label": "StaggeredMenuSocialItem",
+      "file_type": "code",
+      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_location": "L13",
+      "community": 21,
+      "norm_label": "staggeredmenusocialitem",
+      "id": "components_staggeredmenu_staggeredmenusocialitem"
+    },
+    {
+      "label": "StaggeredMenuProps",
+      "file_type": "code",
+      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_location": "L18",
+      "community": 21,
+      "norm_label": "staggeredmenuprops",
+      "id": "components_staggeredmenu_staggeredmenuprops"
+    },
+    {
+      "label": "StaggeredMenu()",
+      "file_type": "code",
+      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_location": "L38",
+      "community": 21,
+      "norm_label": "staggeredmenu()",
+      "id": "components_staggeredmenu_staggeredmenu"
+    },
+    {
+      "label": "Stats.tsx",
+      "file_type": "code",
+      "source_file": "app/components/Stats.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "stats.tsx",
+      "id": "app_components_stats_tsx"
+    },
+    {
+      "label": "useCountUp()",
+      "file_type": "code",
+      "source_file": "app/components/Stats.tsx",
+      "source_location": "L6",
+      "community": 0,
+      "norm_label": "usecountup()",
+      "id": "components_stats_usecountup"
+    },
+    {
+      "label": "Stats()",
+      "file_type": "code",
+      "source_file": "app/components/Stats.tsx",
+      "source_location": "L41",
+      "community": 0,
+      "norm_label": "stats()",
+      "id": "components_stats_stats"
+    },
+    {
+      "label": "TerminalChart()",
+      "file_type": "code",
+      "source_file": "app/components/Hero.tsx",
+      "source_location": "L231",
+      "community": 22,
+      "norm_label": "terminalchart()",
+      "id": "components_hero_terminalchart"
+    },
+    {
       "label": "graphify.md",
       "file_type": "document",
       "source_file": ".agents/rules/graphify.md",
@@ -2533,6 +3334,148 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_page_tsx",
+      "target": "app_components_layout_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_sections_hero_hero_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_sections_problem_problemsection_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_sections_how_it_works_howitworks_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_sections_features_featurebento_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_sections_stats_stats_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_sections_pricing_pricing_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_sections_faq_faq_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_sections_cta_finalcta_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_layout_footer_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_effects_darkveil_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_page_home"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_components_ticker_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
       "target": "app_components_navbar_tsx"
     },
     {
@@ -2545,17 +3488,6 @@
       "confidence_score": 1.0,
       "source": "app_page_tsx",
       "target": "app_components_hero_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_page_tsx",
-      "target": "app_components_ticker_tsx"
     },
     {
       "relation": "imports_from",
@@ -2652,662 +3584,970 @@
       "source_file": "app/page.tsx",
       "source_location": "L12",
       "weight": 1.0,
-      "source": "app_page_tsx",
-      "target": "app_components_darkveil_tsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_page_tsx",
-      "target": "app_page_home"
+      "target": "app_components_darkveil_tsx"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L7",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_animateonscroll_tsx",
-      "target": "components_animateonscroll_fadeup"
+      "source": "app_components_effects_animateonscroll_tsx",
+      "target": "effects_animateonscroll_fadeup"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L12",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_animateonscroll_tsx",
-      "target": "components_animateonscroll_fadedown"
+      "source": "app_components_effects_animateonscroll_tsx",
+      "target": "effects_animateonscroll_fadedown"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L17",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_animateonscroll_tsx",
-      "target": "components_animateonscroll_fadeleft"
+      "source": "app_components_effects_animateonscroll_tsx",
+      "target": "effects_animateonscroll_fadeleft"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L22",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_animateonscroll_tsx",
-      "target": "components_animateonscroll_faderight"
+      "source": "app_components_effects_animateonscroll_tsx",
+      "target": "effects_animateonscroll_faderight"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L27",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_animateonscroll_tsx",
-      "target": "components_animateonscroll_scalein"
+      "source": "app_components_effects_animateonscroll_tsx",
+      "target": "effects_animateonscroll_scalein"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L83",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_animateonscroll_tsx",
-      "target": "components_animateonscroll_staggercontainer"
+      "source": "app_components_effects_animateonscroll_tsx",
+      "target": "effects_animateonscroll_staggercontainer"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L107",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_animateonscroll_tsx",
-      "target": "components_animateonscroll_staggeritem"
+      "source": "app_components_effects_animateonscroll_tsx",
+      "target": "effects_animateonscroll_staggeritem"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L53",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_animateonscroll_tsx",
-      "target": "components_animateonscroll_animateonscroll"
+      "source": "app_components_effects_animateonscroll_tsx",
+      "target": "effects_animateonscroll_animateonscroll"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_file": "app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L122",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_animateonscroll_tsx",
-      "target": "components_animateonscroll_parallaxsection"
+      "source": "app_components_effects_animateonscroll_tsx",
+      "target": "effects_animateonscroll_parallaxsection"
     },
     {
-      "relation": "imports",
+      "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/FAQ.tsx",
+      "source_file": "app/components/sections/cta/FinalCTA.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_cta_finalcta_tsx",
+      "target": "app_components_effects_animateonscroll_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/faq/FAQ.tsx",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_faq_tsx",
-      "target": "app_components_animateonscroll_tsx"
+      "source": "app_components_sections_faq_faq_tsx",
+      "target": "app_components_effects_animateonscroll_tsx"
     },
     {
-      "relation": "imports",
+      "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/FeatureBento.tsx",
+      "source_file": "app/components/sections/features/FeatureBento.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_features_featurebento_tsx",
+      "target": "app_components_effects_animateonscroll_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_featurebento_tsx",
-      "target": "app_components_animateonscroll_tsx"
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "app_components_effects_animateonscroll_tsx"
     },
     {
-      "relation": "imports",
+      "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/FinalCTA.tsx",
+      "source_file": "app/components/sections/pricing/Pricing.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_finalcta_tsx",
-      "target": "app_components_animateonscroll_tsx"
+      "source": "app_components_sections_pricing_pricing_tsx",
+      "target": "app_components_effects_animateonscroll_tsx"
     },
     {
-      "relation": "imports",
+      "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/HowItWorks.tsx",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_howitworks_tsx",
-      "target": "app_components_animateonscroll_tsx"
+      "source": "app_components_sections_problem_problemsection_tsx",
+      "target": "app_components_effects_animateonscroll_tsx"
     },
     {
-      "relation": "imports",
+      "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/Pricing.tsx",
+      "source_file": "app/components/sections/stats/Stats.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_pricing_tsx",
-      "target": "app_components_animateonscroll_tsx"
+      "source": "app_components_sections_stats_stats_tsx",
+      "target": "app_components_effects_animateonscroll_tsx"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/ProblemSection.tsx",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_problemsection_tsx",
-      "target": "app_components_animateonscroll_tsx"
+      "source": "app_components_sections_problem_problemsection_tsx",
+      "target": "effects_animateonscroll_staggercontainer"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/Stats.tsx",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_stats_tsx",
-      "target": "app_components_animateonscroll_tsx"
+      "source": "app_components_sections_problem_problemsection_tsx",
+      "target": "effects_animateonscroll_staggeritem"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/ProblemSection.tsx",
+      "source_file": "app/components/sections/cta/FinalCTA.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_problemsection_tsx",
-      "target": "components_animateonscroll_staggercontainer"
+      "source": "app_components_sections_cta_finalcta_tsx",
+      "target": "effects_animateonscroll_animateonscroll"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/FeatureBento.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_featurebento_tsx",
-      "target": "components_animateonscroll_staggercontainer"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/ProblemSection.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_problemsection_tsx",
-      "target": "components_animateonscroll_staggeritem"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/FeatureBento.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_featurebento_tsx",
-      "target": "components_animateonscroll_staggeritem"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/FAQ.tsx",
+      "source_file": "app/components/sections/faq/FAQ.tsx",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_faq_tsx",
-      "target": "components_animateonscroll_animateonscroll"
+      "source": "app_components_sections_faq_faq_tsx",
+      "target": "effects_animateonscroll_animateonscroll"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/FeatureBento.tsx",
-      "source_location": "L4",
+      "source_file": "app/components/sections/features/FeatureBento.tsx",
+      "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_featurebento_tsx",
-      "target": "components_animateonscroll_animateonscroll"
+      "source": "app_components_sections_features_featurebento_tsx",
+      "target": "effects_animateonscroll_animateonscroll"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/FinalCTA.tsx",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_finalcta_tsx",
-      "target": "components_animateonscroll_animateonscroll"
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "effects_animateonscroll_animateonscroll"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/HowItWorks.tsx",
+      "source_file": "app/components/sections/pricing/Pricing.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_howitworks_tsx",
-      "target": "components_animateonscroll_animateonscroll"
+      "source": "app_components_sections_pricing_pricing_tsx",
+      "target": "effects_animateonscroll_animateonscroll"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/Pricing.tsx",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_pricing_tsx",
-      "target": "components_animateonscroll_animateonscroll"
+      "source": "app_components_sections_problem_problemsection_tsx",
+      "target": "effects_animateonscroll_animateonscroll"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/ProblemSection.tsx",
+      "source_file": "app/components/sections/stats/Stats.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_problemsection_tsx",
-      "target": "components_animateonscroll_animateonscroll"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/Stats.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_stats_tsx",
-      "target": "components_animateonscroll_animateonscroll"
+      "source": "app_components_sections_stats_stats_tsx",
+      "target": "effects_animateonscroll_animateonscroll"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/DarkVeil.tsx",
+      "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L78",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_darkveil_tsx",
-      "target": "components_darkveil_darkveilprops"
+      "source": "app_components_effects_darkveil_tsx",
+      "target": "effects_darkveil_darkveilprops"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/DarkVeil.tsx",
+      "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L88",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_darkveil_tsx",
-      "target": "components_darkveil_darkveil"
+      "source": "app_components_effects_darkveil_tsx",
+      "target": "effects_darkveil_darkveil"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/FAQ.tsx",
-      "source_location": "L7",
+      "source_file": "app/components/layout/Footer.tsx",
+      "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_faq_tsx",
-      "target": "components_faq_faqs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/FAQ.tsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_faq_tsx",
-      "target": "components_faq_faq"
+      "source": "app_components_layout_footer_tsx",
+      "target": "layout_footer_footer"
     },
     {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/FeatureBento.tsx",
+      "source_file": "app/components/layout/Navbar.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_layout_navbar_tsx",
+      "target": "app_components_layout_staggeredmenu_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/layout/Navbar.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_layout_navbar_tsx",
+      "target": "layout_navbar_navbar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_layout_staggeredmenu_tsx",
+      "target": "layout_staggeredmenu_staggeredmenuitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_layout_staggeredmenu_tsx",
+      "target": "layout_staggeredmenu_staggeredmenusocialitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_layout_staggeredmenu_tsx",
+      "target": "layout_staggeredmenu_staggeredmenuprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_layout_staggeredmenu_tsx",
+      "target": "layout_staggeredmenu_staggeredmenu"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/cta/FinalCTA.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_cta_finalcta_tsx",
+      "target": "cta_finalcta_finalcta"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/faq/FAQ.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_faq_faq_tsx",
+      "target": "faq_faq_faqs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/faq/FAQ.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_faq_faq_tsx",
+      "target": "faq_faq_faq"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/features/FeatureBento.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_featurebento_tsx",
-      "target": "app_components_magicbento_tsx"
+      "source": "app_components_sections_features_featurebento_tsx",
+      "target": "app_components_sections_features_magicbento_tsx"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/FeatureBento.tsx",
+      "source_file": "app/components/sections/features/FeatureBento.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_featurebento_tsx",
-      "target": "components_magicbento_bentocardprops"
+      "source": "app_components_sections_features_featurebento_tsx",
+      "target": "features_magicbento_bentocardprops"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/FeatureBento.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_featurebento_tsx",
-      "target": "components_featurebento_featurebento"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/FinalCTA.tsx",
+      "source_file": "app/components/sections/features/FeatureBento.tsx",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_finalcta_tsx",
-      "target": "components_finalcta_finalcta"
+      "source": "app_components_sections_features_featurebento_tsx",
+      "target": "features_featurebento_featurebento"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/Footer.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_footer_tsx",
-      "target": "components_footer_footer"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/Hero.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_hero_tsx",
-      "target": "components_hero_hero"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/Hero.tsx",
-      "source_location": "L240",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_hero_tsx",
-      "target": "components_hero_terminalchart"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/HowItWorks.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_howitworks_tsx",
-      "target": "components_howitworks_howitworks"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/MagicBento.tsx",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L7",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_magicbento_tsx",
-      "target": "components_magicbento_bentocardprops"
+      "source": "app_components_sections_features_magicbento_tsx",
+      "target": "features_magicbento_bentocardprops"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/MagicBento.tsx",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L19",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_magicbento_tsx",
-      "target": "components_magicbento_bentoprops"
+      "source": "app_components_sections_features_magicbento_tsx",
+      "target": "features_magicbento_bentoprops"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/MagicBento.tsx",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L39",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_magicbento_tsx",
-      "target": "components_magicbento_createparticleelement"
+      "source": "app_components_sections_features_magicbento_tsx",
+      "target": "features_magicbento_createparticleelement"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/MagicBento.tsx",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L57",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_magicbento_tsx",
-      "target": "components_magicbento_calculatespotlightvalues"
+      "source": "app_components_sections_features_magicbento_tsx",
+      "target": "features_magicbento_calculatespotlightvalues"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/MagicBento.tsx",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L62",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_magicbento_tsx",
-      "target": "components_magicbento_updatecardglowproperties"
+      "source": "app_components_sections_features_magicbento_tsx",
+      "target": "features_magicbento_updatecardglowproperties"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/MagicBento.tsx",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L73",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_magicbento_tsx",
-      "target": "components_magicbento_particlecard"
+      "source": "app_components_sections_features_magicbento_tsx",
+      "target": "features_magicbento_particlecard"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/MagicBento.tsx",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L320",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_magicbento_tsx",
-      "target": "components_magicbento_globalspotlight"
+      "source": "app_components_sections_features_magicbento_tsx",
+      "target": "features_magicbento_globalspotlight"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/MagicBento.tsx",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L458",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_magicbento_tsx",
-      "target": "components_magicbento_bentocardgrid"
+      "source": "app_components_sections_features_magicbento_tsx",
+      "target": "features_magicbento_bentocardgrid"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/MagicBento.tsx",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L468",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_magicbento_tsx",
-      "target": "components_magicbento_usemobiledetection"
+      "source": "app_components_sections_features_magicbento_tsx",
+      "target": "features_magicbento_usemobiledetection"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/MagicBento.tsx",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L483",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_magicbento_tsx",
-      "target": "components_magicbento_magicbento"
+      "source": "app_components_sections_features_magicbento_tsx",
+      "target": "features_magicbento_magicbento"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/MagicBento.tsx",
+      "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L498",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "components_magicbento_magicbento",
-      "target": "components_magicbento_usemobiledetection"
+      "source": "features_magicbento_magicbento",
+      "target": "features_magicbento_usemobiledetection"
     },
     {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/Navbar.tsx",
-      "source_location": "L3",
+      "source_file": "app/components/sections/hero/Hero.tsx",
+      "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_navbar_tsx",
-      "target": "app_components_staggeredmenu_tsx"
+      "source": "app_components_sections_hero_hero_tsx",
+      "target": "components_ui_hero_section_nexus_tsx"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/Navbar.tsx",
+      "source_file": "app/components/sections/hero/Hero.tsx",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_navbar_tsx",
-      "target": "components_navbar_navbar"
+      "source": "app_components_sections_hero_hero_tsx",
+      "target": "hero_hero_hero"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/Pricing.tsx",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_pricing_tsx",
-      "target": "components_pricing_pricing"
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_howitworks"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/ProblemSection.tsx",
+      "source_file": "app/components/sections/pricing/Pricing.tsx",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_problemsection_tsx",
-      "target": "components_problemsection_problemsection"
+      "source": "app_components_sections_pricing_pricing_tsx",
+      "target": "pricing_pricing_pricing"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/StaggeredMenu.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_staggeredmenu_tsx",
-      "target": "components_staggeredmenu_staggeredmenuitem"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/StaggeredMenu.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_staggeredmenu_tsx",
-      "target": "components_staggeredmenu_staggeredmenusocialitem"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/StaggeredMenu.tsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_staggeredmenu_tsx",
-      "target": "components_staggeredmenu_staggeredmenuprops"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/StaggeredMenu.tsx",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_staggeredmenu_tsx",
-      "target": "components_staggeredmenu_staggeredmenu"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/Stats.tsx",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_stats_tsx",
-      "target": "components_stats_usecountup"
+      "source": "app_components_sections_problem_problemsection_tsx",
+      "target": "problem_problemsection_problemsection"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/Stats.tsx",
+      "source_file": "app/components/sections/stats/Stats.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_stats_stats_tsx",
+      "target": "stats_stats_usecountup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/stats/Stats.tsx",
       "source_location": "L41",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_stats_tsx",
-      "target": "components_stats_stats"
+      "source": "app_components_sections_stats_stats_tsx",
+      "target": "stats_stats_stats"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/Stats.tsx",
+      "source_file": "app/components/sections/stats/Stats.tsx",
       "source_location": "L42",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "components_stats_stats",
-      "target": "components_stats_usecountup"
+      "source": "stats_stats_stats",
+      "target": "stats_stats_usecountup"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/components/Ticker.tsx",
-      "source_location": "L3",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L29",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "app_components_ticker_tsx",
-      "target": "components_ticker_ticker"
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_cn"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "components_ui_rotatingtext_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_rotatingtext_rotatingtext"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "components_ui_shinytext_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_shinytext_shinytext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L267",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_chevrondownicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L273",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_menuicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L279",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_closeicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L285",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_externallinkicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L291",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_navlinkprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L299",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_navlink"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L319",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_dropdownmenuprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L324",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_dropdownmenu"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L342",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_dropdownitemprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L348",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_dropdownitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L358",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_dot"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L369",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_interactiveheroprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L369",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_interactivehero"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_rotatingtextref"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_rotatingtextprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_rotatingtext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L247",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_shinytext"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Hero.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_hero_tsx",
+      "target": "components_ui_hero_section_nexus_tsx"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L303",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_hero_section_nexus_navlink",
+      "target": "ui_hero_section_nexus_cn"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L629",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_hero_section_nexus_interactivehero",
+      "target": "ui_hero_section_nexus_cn"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L248",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_hero_section_nexus_shinytext",
+      "target": "ui_hero_section_nexus_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/RotatingText.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_rotatingtext_tsx",
+      "target": "ui_rotatingtext_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/RotatingText.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_rotatingtext_tsx",
+      "target": "ui_rotatingtext_rotatingtextref"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/RotatingText.tsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_rotatingtext_tsx",
+      "target": "ui_rotatingtext_rotatingtextprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/RotatingText.tsx",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_rotatingtext_tsx",
+      "target": "ui_rotatingtext_rotatingtext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/ShinyText.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_shinytext_tsx",
+      "target": "ui_shinytext_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/ShinyText.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_shinytext_tsx",
+      "target": "ui_shinytext_shinytextprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/ShinyText.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_shinytext_tsx",
+      "target": "ui_shinytext_shinytext"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/ShinyText.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_shinytext_shinytext",
+      "target": "ui_shinytext_cn"
     },
     {
       "relation": "contains",
@@ -4302,6 +5542,752 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app/components/ShinyText.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_shinytext_tsx",
+      "target": "components_shinytext_shinytextprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/ShinyText.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_shinytext_tsx",
+      "target": "components_shinytext_shinytext"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Hero.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_hero_tsx",
+      "target": "app_components_shinytext_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/SplitText.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_splittext_tsx",
+      "target": "components_splittext_splittextprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/SplitText.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_splittext_tsx",
+      "target": "components_splittext_splittext"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Hero.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_hero_tsx",
+      "target": "app_components_splittext_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Ticker.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_ticker_tsx",
+      "target": "components_ticker_ticker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/TiltedCard.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_tiltedcard_tsx",
+      "target": "components_tiltedcard_tiltedcardprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/TiltedCard.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_tiltedcard_tsx",
+      "target": "components_tiltedcard_springconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/TiltedCard.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_tiltedcard_tsx",
+      "target": "components_tiltedcard_tiltedcard"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Hero.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_hero_tsx",
+      "target": "app_components_tiltedcard_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_animateonscroll_tsx",
+      "target": "components_animateonscroll_fadeup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_animateonscroll_tsx",
+      "target": "components_animateonscroll_fadedown"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_animateonscroll_tsx",
+      "target": "components_animateonscroll_fadeleft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_animateonscroll_tsx",
+      "target": "components_animateonscroll_faderight"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_animateonscroll_tsx",
+      "target": "components_animateonscroll_scalein"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_animateonscroll_tsx",
+      "target": "components_animateonscroll_staggercontainer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_animateonscroll_tsx",
+      "target": "components_animateonscroll_staggeritem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_animateonscroll_tsx",
+      "target": "components_animateonscroll_animateonscroll"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/AnimateOnScroll.tsx",
+      "source_location": "L122",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_animateonscroll_tsx",
+      "target": "components_animateonscroll_parallaxsection"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FAQ.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_faq_tsx",
+      "target": "app_components_animateonscroll_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FeatureBento.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_featurebento_tsx",
+      "target": "app_components_animateonscroll_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FinalCTA.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_finalcta_tsx",
+      "target": "app_components_animateonscroll_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/HowItWorks.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_howitworks_tsx",
+      "target": "app_components_animateonscroll_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Pricing.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_pricing_tsx",
+      "target": "app_components_animateonscroll_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/ProblemSection.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_problemsection_tsx",
+      "target": "app_components_animateonscroll_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Stats.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_stats_tsx",
+      "target": "app_components_animateonscroll_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/ProblemSection.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_problemsection_tsx",
+      "target": "components_animateonscroll_staggercontainer"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FeatureBento.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_featurebento_tsx",
+      "target": "components_animateonscroll_staggercontainer"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/ProblemSection.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_problemsection_tsx",
+      "target": "components_animateonscroll_staggeritem"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FeatureBento.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_featurebento_tsx",
+      "target": "components_animateonscroll_staggeritem"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FAQ.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_faq_tsx",
+      "target": "components_animateonscroll_animateonscroll"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FeatureBento.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_featurebento_tsx",
+      "target": "components_animateonscroll_animateonscroll"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FinalCTA.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_finalcta_tsx",
+      "target": "components_animateonscroll_animateonscroll"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/HowItWorks.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_howitworks_tsx",
+      "target": "components_animateonscroll_animateonscroll"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Pricing.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_pricing_tsx",
+      "target": "components_animateonscroll_animateonscroll"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/ProblemSection.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_problemsection_tsx",
+      "target": "components_animateonscroll_animateonscroll"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Stats.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_stats_tsx",
+      "target": "components_animateonscroll_animateonscroll"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/DarkVeil.tsx",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_darkveil_tsx",
+      "target": "components_darkveil_darkveilprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/DarkVeil.tsx",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_darkveil_tsx",
+      "target": "components_darkveil_darkveil"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FAQ.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_faq_tsx",
+      "target": "components_faq_faqs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FAQ.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_faq_tsx",
+      "target": "components_faq_faq"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FeatureBento.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_featurebento_tsx",
+      "target": "app_components_magicbento_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FeatureBento.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_featurebento_tsx",
+      "target": "components_magicbento_bentocardprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FeatureBento.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_featurebento_tsx",
+      "target": "components_featurebento_featurebento"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/FinalCTA.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_finalcta_tsx",
+      "target": "components_finalcta_finalcta"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Footer.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_footer_tsx",
+      "target": "components_footer_footer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Hero.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_hero_tsx",
+      "target": "components_hero_hero"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Hero.tsx",
+      "source_location": "L240",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_hero_tsx",
+      "target": "components_hero_terminalchart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/HowItWorks.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_howitworks_tsx",
+      "target": "components_howitworks_howitworks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_magicbento_tsx",
+      "target": "components_magicbento_bentocardprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_magicbento_tsx",
+      "target": "components_magicbento_bentoprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_magicbento_tsx",
+      "target": "components_magicbento_createparticleelement"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_magicbento_tsx",
+      "target": "components_magicbento_calculatespotlightvalues"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_magicbento_tsx",
+      "target": "components_magicbento_updatecardglowproperties"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_magicbento_tsx",
+      "target": "components_magicbento_particlecard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L320",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_magicbento_tsx",
+      "target": "components_magicbento_globalspotlight"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L458",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_magicbento_tsx",
+      "target": "components_magicbento_bentocardgrid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L468",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_magicbento_tsx",
+      "target": "components_magicbento_usemobiledetection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L483",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_magicbento_tsx",
+      "target": "components_magicbento_magicbento"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/MagicBento.tsx",
+      "source_location": "L498",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_magicbento_magicbento",
+      "target": "components_magicbento_usemobiledetection"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Navbar.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_navbar_tsx",
+      "target": "app_components_staggeredmenu_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Navbar.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_navbar_tsx",
+      "target": "components_navbar_navbar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Pricing.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_pricing_tsx",
+      "target": "components_pricing_pricing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/ProblemSection.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_problemsection_tsx",
+      "target": "components_problemsection_problemsection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_staggeredmenu_tsx",
+      "target": "components_staggeredmenu_staggeredmenuitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_staggeredmenu_tsx",
+      "target": "components_staggeredmenu_staggeredmenusocialitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_staggeredmenu_tsx",
+      "target": "components_staggeredmenu_staggeredmenuprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/StaggeredMenu.tsx",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_staggeredmenu_tsx",
+      "target": "components_staggeredmenu_staggeredmenu"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Stats.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_stats_tsx",
+      "target": "components_stats_usecountup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Stats.tsx",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_stats_tsx",
+      "target": "components_stats_stats"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/Stats.tsx",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_stats_stats",
+      "target": "components_stats_usecountup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
@@ -4321,5 +6307,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9000fbde5f6cb68e6c0473d8b108ec3ad5e2aabb"
+  "built_at_commit": "8222c027ca3127729bbe3d923b116e655f7b8422"
 }

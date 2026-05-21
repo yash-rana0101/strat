@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { AnimateOnScroll } from "./AnimateOnScroll";
+import { AnimateOnScroll } from "../../effects/AnimateOnScroll";
 
 function useCountUp(
   target: number,

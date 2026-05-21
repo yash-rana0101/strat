@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { AnimateOnScroll } from "./AnimateOnScroll";
+import { AnimateOnScroll } from "../../effects/AnimateOnScroll";
 
 const faqs = [
   {

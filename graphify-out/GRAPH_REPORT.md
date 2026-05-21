@@ -1,16 +1,16 @@
 # Graph Report - aitrader-landing  (2026-05-21)
 
 ## Corpus Check
-- 28 files · ~15,044 words
+- 30 files · ~25,433 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 221 nodes · 229 edges · 22 communities (17 shown, 5 thin omitted)
+- 310 nodes · 343 edges · 26 communities (21 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `9000fbde`
+- Built from commit: `8222c027`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -33,28 +33,33 @@
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 20|Community 20]]
 - [[_COMMUNITY_Community 21|Community 21]]
+- [[_COMMUNITY_Community 22|Community 22]]
+- [[_COMMUNITY_Community 23|Community 23]]
+- [[_COMMUNITY_Community 24|Community 24]]
+- [[_COMMUNITY_Community 25|Community 25]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `AGENT_CONTEXT.md — Alpha Suite` - 17 edges
 2. `compilerOptions` - 16 edges
 3. `SECTION 4 — DATA FLOWS (CANONICAL)` - 9 edges
 4. `AnimateOnScroll()` - 8 edges
-5. `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` - 7 edges
-6. `SECTION 14 — AGENT INSTRUCTIONS` - 6 edges
-7. `Design System Master File` - 6 edges
-8. `scripts` - 5 edges
-9. `SECTION 7 — WHAT STILL NEEDS TO BE BUILT` - 5 edges
-10. `Global Rules` - 5 edges
+5. `AnimateOnScroll()` - 8 edges
+6. `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` - 7 edges
+7. `SECTION 14 — AGENT INSTRUCTIONS` - 6 edges
+8. `Design System Master File` - 6 edges
+9. `scripts` - 5 edges
+10. `SECTION 7 — WHAT STILL NEEDS TO BE BUILT` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (22 total, 5 thin omitted)
+## Communities (26 total, 5 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.08
-Nodes (13): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+5 more)
+Cohesion: 0.07
+Nodes (14): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+6 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.07
@@ -104,12 +109,32 @@ Nodes (4): code:bash (npm run dev), Deploy on Vercel, Getting Started, Learn Mor
 Cohesion: 0.18
 Nodes (10): eslintConfig, devDependencies, eslint, eslint-config-next, tailwindcss, @tailwindcss/postcss, @types/node, @types/react (+2 more)
 
+### Community 20 - "Community 20"
+Cohesion: 0.09
+Nodes (18): cn(), Dot, DropdownItemProps, DropdownMenuProps, InteractiveHero(), InteractiveHeroProps, NavLink(), NavLinkProps (+10 more)
+
 ### Community 21 - "Community 21"
 Cohesion: 0.29
 Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
 
+### Community 22 - "Community 22"
+Cohesion: 0.15
+Nodes (4): ShinyTextProps, SplitTextProps, springConfig, TiltedCardProps
+
+### Community 23 - "Community 23"
+Cohesion: 0.18
+Nodes (4): BentoCardProps, BentoProps, MagicBento(), useMobileDetection()
+
+### Community 24 - "Community 24"
+Cohesion: 0.12
+Nodes (11): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+3 more)
+
+### Community 25 - "Community 25"
+Cohesion: 0.29
+Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
+
 ## Knowledge Gaps
-- **109 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+104 more)
+- **135 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+130 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -117,15 +142,15 @@ Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `AGENT_CONTEXT.md — Alpha Suite` connect `Community 1` to `Community 8`, `Community 9`, `Community 4`, `Community 6`?**
-  _High betweenness centrality (0.092) - this node is a cross-community bridge._
+  _High betweenness centrality (0.047) - this node is a cross-community bridge._
 - **Why does `SECTION 4 — DATA FLOWS (CANONICAL)` connect `Community 4` to `Community 1`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **Why does `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` connect `Community 6` to `Community 1`?**
-  _High betweenness centrality (0.029) - this node is a cross-community bridge._
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
-  _109 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _135 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.08412698412698413 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0664451827242525 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**

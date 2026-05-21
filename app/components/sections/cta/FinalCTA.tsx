@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { AnimateOnScroll } from "./AnimateOnScroll";
+import { AnimateOnScroll } from "../../effects/AnimateOnScroll";
 
 export default function FinalCTA() {
   return (

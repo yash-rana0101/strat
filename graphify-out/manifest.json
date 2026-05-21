@@ -35,69 +35,9 @@
     "semantic_hash": "4e2588d4b6a997326d7cf6546a3849fb"
   },
   "D:\\projects\\aitrader-landing\\app\\page.tsx": {
-    "mtime": 1779374837.7994795,
-    "ast_hash": "307d2cd6a1536bedf242cda03fbb0f76",
+    "mtime": 1779377091.0743933,
+    "ast_hash": "52d05c8e1b31752155bc895f108a7103",
     "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\AnimateOnScroll.tsx": {
-    "mtime": 1779357162.5395691,
-    "ast_hash": "7778193e0ea3d1f16e81fe35b5f217e1",
-    "semantic_hash": "7778193e0ea3d1f16e81fe35b5f217e1"
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\FAQ.tsx": {
-    "mtime": 1779368518.121636,
-    "ast_hash": "2ec5f6dc75153f2d6b405eeb3e709cff",
-    "semantic_hash": "2ec5f6dc75153f2d6b405eeb3e709cff"
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\FeatureBento.tsx": {
-    "mtime": 1779374311.2461915,
-    "ast_hash": "c0ee3768b901f4ccb87a0ec05da55755",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\FinalCTA.tsx": {
-    "mtime": 1779368520.1486402,
-    "ast_hash": "723445107939d0c178358ccc38b66353",
-    "semantic_hash": "723445107939d0c178358ccc38b66353"
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\Footer.tsx": {
-    "mtime": 1779373728.8508415,
-    "ast_hash": "6a12f14c20fae5e05eb0c880f60c1cd0",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\Hero.tsx": {
-    "mtime": 1779374009.5596159,
-    "ast_hash": "75f75d2167fc655611fd45fa675dcd01",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\HowItWorks.tsx": {
-    "mtime": 1779372618.7969906,
-    "ast_hash": "ae12a6904722daef6c177012e2aa4f57",
-    "semantic_hash": "ae12a6904722daef6c177012e2aa4f57"
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\Navbar.tsx": {
-    "mtime": 1779374514.0380156,
-    "ast_hash": "57cbf1571356198b73e0ec34134c4dd4",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\Pricing.tsx": {
-    "mtime": 1779372620.8196516,
-    "ast_hash": "6a3d1945a85fb798521016b19e040b41",
-    "semantic_hash": "6a3d1945a85fb798521016b19e040b41"
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\ProblemSection.tsx": {
-    "mtime": 1779368434.2327795,
-    "ast_hash": "f84a35136ab9bf8dd1835b6a53e70059",
-    "semantic_hash": "f84a35136ab9bf8dd1835b6a53e70059"
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\Stats.tsx": {
-    "mtime": 1779372615.9721127,
-    "ast_hash": "1f4cac76e8ddf1c3f7f0a6000661403e",
-    "semantic_hash": "1f4cac76e8ddf1c3f7f0a6000661403e"
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\Ticker.tsx": {
-    "mtime": 1779368307.875499,
-    "ast_hash": "c64e8f353dfc0e4ee9269a7b22acb68e",
-    "semantic_hash": "c64e8f353dfc0e4ee9269a7b22acb68e"
   },
   "D:\\projects\\aitrader-landing\\AGENTS.md": {
     "mtime": 1779354525.4121978,
@@ -149,19 +89,94 @@
     "ast_hash": "a2760511c65806022ad20adf74370ff3",
     "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\app\\components\\MagicBento.tsx": {
-    "mtime": 1779374301.960155,
-    "ast_hash": "6ea2822ea444efd8862ff9980a7b46a5",
+  "D:\\projects\\aitrader-landing\\components\\ui\\hero-section-nexus.tsx": {
+    "mtime": 1779378286.5256472,
+    "ast_hash": "6a781485e93a82c3f9f13045ede75899",
     "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\app\\components\\StaggeredMenu.tsx": {
+  "D:\\projects\\aitrader-landing\\app\\components\\effects\\AnimateOnScroll.tsx": {
+    "mtime": 1779357162.5395691,
+    "ast_hash": "7778193e0ea3d1f16e81fe35b5f217e1",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\effects\\DarkVeil.tsx": {
+    "mtime": 1779374759.7966874,
+    "ast_hash": "0c54e897c880cc2af539c928aecafa3b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\layout\\Footer.tsx": {
+    "mtime": 1779373728.8508415,
+    "ast_hash": "6a12f14c20fae5e05eb0c880f60c1cd0",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\layout\\Navbar.tsx": {
+    "mtime": 1779374514.0380156,
+    "ast_hash": "57cbf1571356198b73e0ec34134c4dd4",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\layout\\StaggeredMenu.tsx": {
     "mtime": 1779374508.0456164,
     "ast_hash": "533f93e363b8b26915fbd2927aff491b",
     "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\app\\components\\DarkVeil.tsx": {
-    "mtime": 1779374759.7966874,
-    "ast_hash": "0c54e897c880cc2af539c928aecafa3b",
+  "D:\\projects\\aitrader-landing\\app\\components\\sections\\cta\\FinalCTA.tsx": {
+    "mtime": 1779377121.5642164,
+    "ast_hash": "0634c431981fbd960fb0f399aef942df",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\sections\\faq\\FAQ.tsx": {
+    "mtime": 1779377132.9822805,
+    "ast_hash": "82c1faaa299b0c9df579ee640ff95bbb",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\sections\\features\\FeatureBento.tsx": {
+    "mtime": 1779377127.1630914,
+    "ast_hash": "f9c4418515977bdee90ebfb5b7aa74c7",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\sections\\features\\MagicBento.tsx": {
+    "mtime": 1779374301.960155,
+    "ast_hash": "6ea2822ea444efd8862ff9980a7b46a5",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\sections\\hero\\Hero.tsx": {
+    "mtime": 1779376841.4500272,
+    "ast_hash": "b032dc931d48140a016e796f5bfa945b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\sections\\how-it-works\\HowItWorks.tsx": {
+    "mtime": 1779377115.3978484,
+    "ast_hash": "55f4719fe167baecf9a7ffc9f3271ecb",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\sections\\pricing\\Pricing.tsx": {
+    "mtime": 1779377108.8934834,
+    "ast_hash": "37d728e8d9d31aad471eb9e91f40b66f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\sections\\problem\\ProblemSection.tsx": {
+    "mtime": 1779377102.3710427,
+    "ast_hash": "b5b92795bdc5a420fd21753a6c7897df",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\sections\\stats\\Stats.tsx": {
+    "mtime": 1779377097.4379644,
+    "ast_hash": "9738103a9221ae0967ca36bb2813ad62",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\components\\ui\\RotatingText.tsx": {
+    "mtime": 1779377884.9816425,
+    "ast_hash": "ab1936ac0ff2030b639518d97dadeba0",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\public\\hero\\hero.png": {
+    "mtime": 1779377425.8214757,
+    "ast_hash": "0436ac00f5dcd647e79f50a201d3d015",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\components\\ui\\ShinyText.tsx": {
+    "mtime": 1779377889.4866679,
+    "ast_hash": "f1063b5c3cb93ccc31e6680e62e8a99a",
     "semantic_hash": ""
   }
 }
