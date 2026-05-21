@@ -648,7 +648,7 @@
       "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L1",
       "id": "app_components_effects_darkveil_tsx",
-      "community": 21,
+      "community": 26,
       "norm_label": "darkveil.tsx"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L84",
       "id": "effects_darkveil_darkveilprops",
-      "community": 21,
+      "community": 26,
       "norm_label": "darkveilprops"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L94",
       "id": "effects_darkveil_darkveil",
-      "community": 21,
+      "community": 26,
       "norm_label": "darkveil()"
     },
     {
@@ -801,7 +801,7 @@
       "source_file": "app/components/sections/features/FeatureBento.tsx",
       "source_location": "L1",
       "id": "app_components_sections_features_featurebento_tsx",
-      "community": 23,
+      "community": 24,
       "norm_label": "featurebento.tsx"
     },
     {
@@ -810,7 +810,7 @@
       "source_file": "app/components/sections/features/FeatureBento.tsx",
       "source_location": "L6",
       "id": "features_featurebento_featurebento",
-      "community": 23,
+      "community": 24,
       "norm_label": "featurebento()"
     },
     {
@@ -828,7 +828,7 @@
       "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L7",
       "id": "features_magicbento_bentocardprops",
-      "community": 23,
+      "community": 24,
       "norm_label": "bentocardprops"
     },
     {
@@ -936,7 +936,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L1",
       "id": "app_components_sections_how_it_works_howitworks_tsx",
-      "community": 24,
+      "community": 19,
       "norm_label": "howitworks.tsx"
     },
     {
@@ -945,7 +945,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L7",
       "id": "how_it_works_howitworks_steps",
-      "community": 24,
+      "community": 19,
       "norm_label": "steps"
     },
     {
@@ -954,7 +954,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L40",
       "id": "how_it_works_howitworks_mockup1",
-      "community": 24,
+      "community": 19,
       "norm_label": "mockup1()"
     },
     {
@@ -963,7 +963,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L98",
       "id": "how_it_works_howitworks_mockup2",
-      "community": 24,
+      "community": 19,
       "norm_label": "mockup2()"
     },
     {
@@ -972,7 +972,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L130",
       "id": "how_it_works_howitworks_mockup3",
-      "community": 24,
+      "community": 19,
       "norm_label": "mockup3()"
     },
     {
@@ -981,7 +981,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L168",
       "id": "how_it_works_howitworks_mockup4",
-      "community": 24,
+      "community": 19,
       "norm_label": "mockup4()"
     },
     {
@@ -990,7 +990,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L208",
       "id": "how_it_works_howitworks_mockup5",
-      "community": 24,
+      "community": 19,
       "norm_label": "mockup5()"
     },
     {
@@ -999,7 +999,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L254",
       "id": "how_it_works_howitworks_howitworks",
-      "community": 24,
+      "community": 19,
       "norm_label": "howitworks()"
     },
     {
@@ -1030,10 +1030,37 @@
       "norm_label": "problemsection.tsx"
     },
     {
+      "label": "ScalperMockup()",
+      "file_type": "code",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L8",
+      "id": "problem_problemsection_scalpermockup",
+      "community": 24,
+      "norm_label": "scalpermockup()"
+    },
+    {
+      "label": "SwingMockup()",
+      "file_type": "code",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L63",
+      "id": "problem_problemsection_swingmockup",
+      "community": 24,
+      "norm_label": "swingmockup()"
+    },
+    {
+      "label": "QuantMockup()",
+      "file_type": "code",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L141",
+      "id": "problem_problemsection_quantmockup",
+      "community": 24,
+      "norm_label": "quantmockup()"
+    },
+    {
       "label": "ProblemSection()",
       "file_type": "code",
       "source_file": "app/components/sections/problem/ProblemSection.tsx",
-      "source_location": "L6",
+      "source_location": "L197",
       "id": "problem_problemsection_problemsection",
       "community": 24,
       "norm_label": "problemsection()"
@@ -2213,7 +2240,7 @@
       "file_type": "code",
       "source_file": "FeatureBento.tsx",
       "source_location": "L1",
-      "community": 23,
+      "community": 24,
       "norm_label": "featurebento.tsx",
       "id": "featurebento_tsx"
     },
@@ -2222,7 +2249,7 @@
       "file_type": "code",
       "source_file": "HowItWorks.tsx",
       "source_location": "L1",
-      "community": 24,
+      "community": 19,
       "norm_label": "howitworks.tsx",
       "id": "howitworks_tsx"
     },
@@ -2231,7 +2258,7 @@
       "file_type": "code",
       "source_file": "DarkVeil.tsx",
       "source_location": "L1",
-      "community": 21,
+      "community": 26,
       "norm_label": "darkveil.tsx",
       "id": "darkveil_tsx"
     },
@@ -4546,6 +4573,36 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_components_sections_problem_problemsection_tsx",
+      "target": "problem_problemsection_scalpermockup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "app_components_sections_problem_problemsection_tsx",
+      "target": "problem_problemsection_swingmockup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "app_components_sections_problem_problemsection_tsx",
+      "target": "problem_problemsection_quantmockup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6690,5 +6747,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "272e4dcd1877132d2cb1a6d794134e1a2bc62224"
+  "built_at_commit": "ca64d0e8fc14c5e32449586dea648997646df6b5"
 }
