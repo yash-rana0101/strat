@@ -801,7 +801,7 @@
       "source_file": "app/components/sections/features/FeatureBento.tsx",
       "source_location": "L1",
       "id": "app_components_sections_features_featurebento_tsx",
-      "community": 23,
+      "community": 24,
       "norm_label": "featurebento.tsx"
     },
     {
@@ -810,7 +810,7 @@
       "source_file": "app/components/sections/features/FeatureBento.tsx",
       "source_location": "L6",
       "id": "features_featurebento_featurebento",
-      "community": 23,
+      "community": 24,
       "norm_label": "featurebento()"
     },
     {
@@ -828,7 +828,7 @@
       "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L7",
       "id": "features_magicbento_bentocardprops",
-      "community": 23,
+      "community": 24,
       "norm_label": "bentocardprops"
     },
     {
@@ -889,7 +889,7 @@
       "label": "BentoCardGrid()",
       "file_type": "code",
       "source_file": "app/components/sections/features/MagicBento.tsx",
-      "source_location": "L458",
+      "source_location": "L396",
       "id": "features_magicbento_bentocardgrid",
       "community": 23,
       "norm_label": "bentocardgrid()"
@@ -898,7 +898,7 @@
       "label": "useMobileDetection()",
       "file_type": "code",
       "source_file": "app/components/sections/features/MagicBento.tsx",
-      "source_location": "L468",
+      "source_location": "L406",
       "id": "features_magicbento_usemobiledetection",
       "community": 23,
       "norm_label": "usemobiledetection()"
@@ -907,7 +907,7 @@
       "label": "MagicBento()",
       "file_type": "code",
       "source_file": "app/components/sections/features/MagicBento.tsx",
-      "source_location": "L483",
+      "source_location": "L421",
       "id": "features_magicbento_magicbento",
       "community": 23,
       "norm_label": "magicbento()"
@@ -918,7 +918,7 @@
       "source_file": "app/components/sections/hero/Hero.tsx",
       "source_location": "L1",
       "id": "app_components_sections_hero_hero_tsx",
-      "community": 20,
+      "community": 0,
       "norm_label": "hero.tsx"
     },
     {
@@ -927,7 +927,7 @@
       "source_file": "app/components/sections/hero/Hero.tsx",
       "source_location": "L6",
       "id": "hero_hero_hero",
-      "community": 20,
+      "community": 0,
       "norm_label": "hero()"
     },
     {
@@ -936,7 +936,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L1",
       "id": "app_components_sections_how_it_works_howitworks_tsx",
-      "community": 24,
+      "community": 26,
       "norm_label": "howitworks.tsx"
     },
     {
@@ -945,7 +945,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L7",
       "id": "how_it_works_howitworks_steps",
-      "community": 24,
+      "community": 26,
       "norm_label": "steps"
     },
     {
@@ -954,7 +954,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L40",
       "id": "how_it_works_howitworks_mockup1",
-      "community": 24,
+      "community": 26,
       "norm_label": "mockup1()"
     },
     {
@@ -963,7 +963,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L98",
       "id": "how_it_works_howitworks_mockup2",
-      "community": 24,
+      "community": 26,
       "norm_label": "mockup2()"
     },
     {
@@ -972,7 +972,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L130",
       "id": "how_it_works_howitworks_mockup3",
-      "community": 24,
+      "community": 26,
       "norm_label": "mockup3()"
     },
     {
@@ -981,7 +981,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L168",
       "id": "how_it_works_howitworks_mockup4",
-      "community": 24,
+      "community": 26,
       "norm_label": "mockup4()"
     },
     {
@@ -990,7 +990,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L208",
       "id": "how_it_works_howitworks_mockup5",
-      "community": 24,
+      "community": 26,
       "norm_label": "mockup5()"
     },
     {
@@ -999,7 +999,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L254",
       "id": "how_it_works_howitworks_howitworks",
-      "community": 24,
+      "community": 26,
       "norm_label": "howitworks()"
     },
     {
@@ -2200,11 +2200,20 @@
       "norm_label": "pre-delivery checklist"
     },
     {
+      "label": "FeatureBento.tsx",
+      "file_type": "code",
+      "source_file": "FeatureBento.tsx",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "featurebento.tsx",
+      "id": "featurebento_tsx"
+    },
+    {
       "label": "HowItWorks.tsx",
       "file_type": "code",
       "source_file": "HowItWorks.tsx",
       "source_location": "L1",
-      "community": 24,
+      "community": 26,
       "norm_label": "howitworks.tsx",
       "id": "howitworks_tsx"
     },
@@ -3930,6 +3939,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "FeatureBento.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "featurebento_tsx",
+      "target": "effects_animateonscroll_animateonscroll"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "HowItWorks.tsx",
       "source_location": "L5",
       "weight": 1.0,
@@ -4113,6 +4133,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "FeatureBento.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "featurebento_tsx",
+      "target": "features_featurebento_featurebento"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/components/sections/features/MagicBento.tsx",
       "source_location": "L7",
       "weight": 1.0,
@@ -4209,6 +4239,17 @@
       "confidence_score": 1.0,
       "source": "app_components_sections_features_magicbento_tsx",
       "target": "features_magicbento_magicbento"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FeatureBento.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "featurebento_tsx",
+      "target": "features_magicbento_bentocardprops"
     },
     {
       "relation": "calls",
@@ -6540,5 +6581,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "302c9d5772d6b143ffc29c356b9f08e2b12e5263"
+  "built_at_commit": "ee1274f8eb7d763abe4130242b471eba0701f8c8"
 }
