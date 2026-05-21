@@ -9,7 +9,7 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L1",
       "id": "eslint_config_mjs",
-      "community": 19,
+      "community": 2,
       "norm_label": "eslint.config.mjs"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L5",
       "id": "aitrader_landing_eslint_config_eslintconfig",
-      "community": 19,
+      "community": 2,
       "norm_label": "eslintconfig"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "package.json",
       "source_location": "L20",
       "id": "aitrader_landing_package_devdependencies",
-      "community": 19,
+      "community": 2,
       "norm_label": "devdependencies"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "package.json",
       "source_location": "L21",
       "id": "aitrader_landing_package_devdependencies_tailwindcss_postcss",
-      "community": 19,
+      "community": 2,
       "norm_label": "@tailwindcss/postcss"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "package.json",
       "source_location": "L22",
       "id": "aitrader_landing_package_devdependencies_types_node",
-      "community": 19,
+      "community": 2,
       "norm_label": "@types/node"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "package.json",
       "source_location": "L23",
       "id": "aitrader_landing_package_devdependencies_types_react",
-      "community": 19,
+      "community": 2,
       "norm_label": "@types/react"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "package.json",
       "source_location": "L24",
       "id": "aitrader_landing_package_devdependencies_types_react_dom",
-      "community": 19,
+      "community": 2,
       "norm_label": "@types/react-dom"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "package.json",
       "source_location": "L25",
       "id": "aitrader_landing_package_devdependencies_eslint",
-      "community": 19,
+      "community": 2,
       "norm_label": "eslint"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "package.json",
       "source_location": "L26",
       "id": "aitrader_landing_package_devdependencies_eslint_config_next",
-      "community": 19,
+      "community": 2,
       "norm_label": "eslint-config-next"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "package.json",
       "source_location": "L27",
       "id": "aitrader_landing_package_devdependencies_tailwindcss",
-      "community": 19,
+      "community": 2,
       "norm_label": "tailwindcss"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "package.json",
       "source_location": "L28",
       "id": "aitrader_landing_package_devdependencies_typescript",
-      "community": 19,
+      "community": 2,
       "norm_label": "typescript"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L1",
       "id": "app_components_effects_darkveil_tsx",
-      "community": 0,
+      "community": 19,
       "norm_label": "darkveil.tsx"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L84",
       "id": "effects_darkveil_darkveilprops",
-      "community": 0,
+      "community": 19,
       "norm_label": "darkveilprops"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L94",
       "id": "effects_darkveil_darkveil",
-      "community": 0,
+      "community": 19,
       "norm_label": "darkveil()"
     },
     {
@@ -940,10 +940,64 @@
       "norm_label": "howitworks.tsx"
     },
     {
+      "label": "steps",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L7",
+      "id": "how_it_works_howitworks_steps",
+      "community": 24,
+      "norm_label": "steps"
+    },
+    {
+      "label": "Mockup1()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L40",
+      "id": "how_it_works_howitworks_mockup1",
+      "community": 24,
+      "norm_label": "mockup1()"
+    },
+    {
+      "label": "Mockup2()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L98",
+      "id": "how_it_works_howitworks_mockup2",
+      "community": 24,
+      "norm_label": "mockup2()"
+    },
+    {
+      "label": "Mockup3()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L130",
+      "id": "how_it_works_howitworks_mockup3",
+      "community": 24,
+      "norm_label": "mockup3()"
+    },
+    {
+      "label": "Mockup4()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L168",
+      "id": "how_it_works_howitworks_mockup4",
+      "community": 24,
+      "norm_label": "mockup4()"
+    },
+    {
+      "label": "Mockup5()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L208",
+      "id": "how_it_works_howitworks_mockup5",
+      "community": 24,
+      "norm_label": "mockup5()"
+    },
+    {
       "label": "HowItWorks()",
       "file_type": "code",
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L6",
+      "source_location": "L254",
       "id": "how_it_works_howitworks_howitworks",
       "community": 24,
       "norm_label": "howitworks()"
@@ -2144,6 +2198,15 @@
       "id": "strat_master_pre_delivery_checklist",
       "community": 5,
       "norm_label": "pre-delivery checklist"
+    },
+    {
+      "label": "DarkVeil.tsx",
+      "file_type": "code",
+      "source_file": "DarkVeil.tsx",
+      "source_location": "L1",
+      "community": 19,
+      "norm_label": "darkveil.tsx",
+      "id": "darkveil_tsx"
     },
     {
       "label": "RotatingTextRef",
@@ -3877,6 +3940,26 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "DarkVeil.tsx",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "darkveil_tsx",
+      "target": "effects_darkveil_darkveilprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DarkVeil.tsx",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "darkveil_tsx",
+      "target": "effects_darkveil_darkveil"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/components/layout/Footer.tsx",
       "source_location": "L5",
       "weight": 1.0,
@@ -4138,6 +4221,66 @@
       "confidence_score": 1.0,
       "source": "app_components_sections_hero_hero_tsx",
       "target": "hero_hero_hero"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_steps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L110",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L148",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L188",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup5"
     },
     {
       "relation": "contains",
@@ -6307,5 +6450,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "7be6f8d7eaa249c365a2a37bbc34be0529b141bd"
+  "built_at_commit": "f0b3ae89d704e9da52e7df66d302f33af86b1dc2"
 }

@@ -1,16 +1,16 @@
 # Graph Report - aitrader-landing  (2026-05-21)
 
 ## Corpus Check
-- 30 files · ~25,608 words
+- 30 files · ~26,530 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 310 nodes · 343 edges · 26 communities (21 shown, 5 thin omitted)
+- 317 nodes · 351 edges · 26 communities (20 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7be6f8d7`
+- Built from commit: `f0b3ae89`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -55,19 +55,19 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (26 total, 5 thin omitted)
+## Communities (26 total, 6 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.07
-Nodes (14): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+6 more)
+Nodes (13): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+5 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.07
 Nodes (28): AGENT_CONTEXT.md — Alpha Suite, Before writing any code:, code:block1 (LAYER               TECHNOLOGY                  NOTES), code:block2 (/alpha-suite (monorepo root)), code:block21 (8080   — Aggregator Engine          WebSocket  (BUY/SELL/HOL), code:block22 (market.ticks           Ingestion service → raw Zerodha ticks), code:block23 (1. Ghost Line is ONLY visible on 10m timeframe.), code:block24 (THEME:        Dark (--bg-base: #080C14 always)) (+20 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.12
-Nodes (16): dependencies, framer-motion, gsap, lucide-react, next, ogl, react, react-dom (+8 more)
+Cohesion: 0.07
+Nodes (26): eslintConfig, dependencies, framer-motion, gsap, lucide-react, next, ogl, react (+18 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.10
@@ -105,10 +105,6 @@ Nodes (4): inter, jetbrainsMono, metadata, outfit
 Cohesion: 0.40
 Nodes (4): code:bash (npm run dev), Deploy on Vercel, Getting Started, Learn More
 
-### Community 19 - "Community 19"
-Cohesion: 0.18
-Nodes (10): eslintConfig, devDependencies, eslint, eslint-config-next, tailwindcss, @tailwindcss/postcss, @types/node, @types/react (+2 more)
-
 ### Community 20 - "Community 20"
 Cohesion: 0.09
 Nodes (18): cn(), Dot, DropdownItemProps, DropdownMenuProps, InteractiveHero(), InteractiveHeroProps, NavLink(), NavLinkProps (+10 more)
@@ -126,8 +122,8 @@ Cohesion: 0.18
 Nodes (4): BentoCardProps, BentoProps, MagicBento(), useMobileDetection()
 
 ### Community 24 - "Community 24"
-Cohesion: 0.12
-Nodes (11): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+3 more)
+Cohesion: 0.09
+Nodes (12): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+4 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.29
@@ -136,22 +132,22 @@ Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
 ## Knowledge Gaps
 - **135 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+130 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `AGENT_CONTEXT.md — Alpha Suite` connect `Community 1` to `Community 8`, `Community 9`, `Community 4`, `Community 6`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
+  _High betweenness centrality (0.045) - this node is a cross-community bridge._
 - **Why does `SECTION 4 — DATA FLOWS (CANONICAL)` connect `Community 4` to `Community 1`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+  _High betweenness centrality (0.020) - this node is a cross-community bridge._
 - **Why does `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` connect `Community 6` to `Community 1`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+  _High betweenness centrality (0.014) - this node is a cross-community bridge._
 - **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
   _135 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.0664451827242525 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07307692307692308 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
