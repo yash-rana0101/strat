@@ -1,0 +1,167 @@
+{
+  "D:\\projects\\aitrader-landing\\eslint.config.mjs": {
+    "mtime": 1779354429.36459,
+    "ast_hash": "dfa1f5f6a7037bf39dc510f30b180002",
+    "semantic_hash": "dfa1f5f6a7037bf39dc510f30b180002"
+  },
+  "D:\\projects\\aitrader-landing\\next.config.ts": {
+    "mtime": 1779354429.5071476,
+    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
+    "semantic_hash": "9b77af189a21a7a64e4bd7a426f64176"
+  },
+  "D:\\projects\\aitrader-landing\\package.json": {
+    "mtime": 1779374750.34615,
+    "ast_hash": "11a44e761501a9d8b09084cc41e12ec0",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\postcss.config.mjs": {
+    "mtime": 1779354429.398798,
+    "ast_hash": "239f3ebf717465dc636818a1a619398d",
+    "semantic_hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "D:\\projects\\aitrader-landing\\tsconfig.json": {
+    "mtime": 1779354429.8938365,
+    "ast_hash": "02fc19ad21338c2ab820a70136310db4",
+    "semantic_hash": "02fc19ad21338c2ab820a70136310db4"
+  },
+  "D:\\projects\\aitrader-landing\\.vscode\\settings.json": {
+    "mtime": 1779357477.028698,
+    "ast_hash": "73792b9af3fc811b105441cc773526b1",
+    "semantic_hash": "73792b9af3fc811b105441cc773526b1"
+  },
+  "D:\\projects\\aitrader-landing\\app\\layout.tsx": {
+    "mtime": 1779367743.578724,
+    "ast_hash": "4e2588d4b6a997326d7cf6546a3849fb",
+    "semantic_hash": "4e2588d4b6a997326d7cf6546a3849fb"
+  },
+  "D:\\projects\\aitrader-landing\\app\\page.tsx": {
+    "mtime": 1779374837.7994795,
+    "ast_hash": "307d2cd6a1536bedf242cda03fbb0f76",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\AnimateOnScroll.tsx": {
+    "mtime": 1779357162.5395691,
+    "ast_hash": "7778193e0ea3d1f16e81fe35b5f217e1",
+    "semantic_hash": "7778193e0ea3d1f16e81fe35b5f217e1"
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\FAQ.tsx": {
+    "mtime": 1779368518.121636,
+    "ast_hash": "2ec5f6dc75153f2d6b405eeb3e709cff",
+    "semantic_hash": "2ec5f6dc75153f2d6b405eeb3e709cff"
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\FeatureBento.tsx": {
+    "mtime": 1779374311.2461915,
+    "ast_hash": "c0ee3768b901f4ccb87a0ec05da55755",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\FinalCTA.tsx": {
+    "mtime": 1779368520.1486402,
+    "ast_hash": "723445107939d0c178358ccc38b66353",
+    "semantic_hash": "723445107939d0c178358ccc38b66353"
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\Footer.tsx": {
+    "mtime": 1779373728.8508415,
+    "ast_hash": "6a12f14c20fae5e05eb0c880f60c1cd0",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\Hero.tsx": {
+    "mtime": 1779374009.5596159,
+    "ast_hash": "75f75d2167fc655611fd45fa675dcd01",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\HowItWorks.tsx": {
+    "mtime": 1779372618.7969906,
+    "ast_hash": "ae12a6904722daef6c177012e2aa4f57",
+    "semantic_hash": "ae12a6904722daef6c177012e2aa4f57"
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\Navbar.tsx": {
+    "mtime": 1779374514.0380156,
+    "ast_hash": "57cbf1571356198b73e0ec34134c4dd4",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\Pricing.tsx": {
+    "mtime": 1779372620.8196516,
+    "ast_hash": "6a3d1945a85fb798521016b19e040b41",
+    "semantic_hash": "6a3d1945a85fb798521016b19e040b41"
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\ProblemSection.tsx": {
+    "mtime": 1779368434.2327795,
+    "ast_hash": "f84a35136ab9bf8dd1835b6a53e70059",
+    "semantic_hash": "f84a35136ab9bf8dd1835b6a53e70059"
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\Stats.tsx": {
+    "mtime": 1779372615.9721127,
+    "ast_hash": "1f4cac76e8ddf1c3f7f0a6000661403e",
+    "semantic_hash": "1f4cac76e8ddf1c3f7f0a6000661403e"
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\Ticker.tsx": {
+    "mtime": 1779368307.875499,
+    "ast_hash": "c64e8f353dfc0e4ee9269a7b22acb68e",
+    "semantic_hash": "c64e8f353dfc0e4ee9269a7b22acb68e"
+  },
+  "D:\\projects\\aitrader-landing\\AGENTS.md": {
+    "mtime": 1779354525.4121978,
+    "ast_hash": "9e09241799026ac05be315a2f0b50055",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\AGENT_CONTEXT.md": {
+    "mtime": 1779355744.621093,
+    "ast_hash": "59d6a7ed11792d643f618d7119787d50",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\CLAUDE.md": {
+    "mtime": 1779354525.4135003,
+    "ast_hash": "5c27369b226fcf2be8a6cfe52224e767",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\README.md": {
+    "mtime": 1779354429.3327389,
+    "ast_hash": "f15aaa42d5d299d091b1171097ea56ad",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\design-system\\strat\\MASTER.md": {
+    "mtime": 1779367249.527849,
+    "ast_hash": "d2d1f2d199f2161982536423f28692d4",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\public\\file.svg": {
+    "mtime": 1779354429.4114468,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\public\\globe.svg": {
+    "mtime": 1779354429.4270577,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\public\\next.svg": {
+    "mtime": 1779354429.443725,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\public\\vercel.svg": {
+    "mtime": 1779354429.4587796,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\public\\window.svg": {
+    "mtime": 1779354429.4723787,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\MagicBento.tsx": {
+    "mtime": 1779374301.960155,
+    "ast_hash": "6ea2822ea444efd8862ff9980a7b46a5",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\StaggeredMenu.tsx": {
+    "mtime": 1779374508.0456164,
+    "ast_hash": "533f93e363b8b26915fbd2927aff491b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\DarkVeil.tsx": {
+    "mtime": 1779374759.7966874,
+    "ast_hash": "0c54e897c880cc2af539c928aecafa3b",
+    "semantic_hash": ""
+  }
+}

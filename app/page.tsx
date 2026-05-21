@@ -9,11 +9,14 @@ import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
+import DarkVeil from "./components/DarkVeil";
 
 export default function Home() {
   return (
     <>
-      <Ticker />
+      <div className="fixed inset-0 pointer-events-none -z-50 opacity-[0.22]">
+        <DarkVeil speed={0.15} noiseIntensity={0.01} scanlineIntensity={0.08} scanlineFrequency={1.2} />
+      </div>
       <Navbar />
       <main>
         <Hero />

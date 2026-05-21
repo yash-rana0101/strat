@@ -45,7 +45,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-[var(--border-subtle)] bg-[var(--bg-muted)]">
       {/* Top gradient line */}
-      <div className="h-px bg-gradient-to-r from-transparent via-[var(--accent-primary)]/20 to-transparent" />
+      <div className="h-px bg-gradient-to-r from-transparent via-[rgba(16,185,129,0.2)] to-transparent" />
 
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10 py-16">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">

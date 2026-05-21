@@ -1,27 +1,24 @@
 "use client";
 
-import { motion } from "framer-motion";
-import {
-  AnimateOnScroll,
-  StaggerContainer,
-  StaggerItem,
-} from "./AnimateOnScroll";
+import { AnimateOnScroll } from "./AnimateOnScroll";
+import MagicBento, { BentoCardProps } from "./MagicBento";
 
 export default function FeatureBento() {
-  const features = [
+  const features: BentoCardProps[] = [
     {
       title: "5 AI Agents",
       description:
         "Technical, Sentiment, Predictive, Quant-RAG, and Aggregator — each analyzing a different market dimension in parallel.",
       span: "md:col-span-2",
-      accent: "emerald",
+      glowColor: "16, 185, 129", // Emerald
+      label: "AI Swarm",
       icon: (
         <svg
-          width="28"
-          height="28"
+          width="24"
+          height="24"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="var(--accent-primary)"
+          stroke="#10b981"
           strokeWidth="1.5"
           strokeLinecap="round"
         >
@@ -35,14 +32,15 @@ export default function FeatureBento() {
       description:
         "14-period linear regression predicts the next candle close with R² confidence scoring. Visible on 10m timeframe.",
       span: "md:col-span-1",
-      accent: "emerald",
+      glowColor: "16, 185, 129", // Emerald
+      label: "Predictive",
       icon: (
         <svg
-          width="28"
-          height="28"
+          width="24"
+          height="24"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="var(--accent-primary)"
+          stroke="#10b981"
           strokeWidth="1.5"
           strokeLinecap="round"
         >
@@ -57,14 +55,15 @@ export default function FeatureBento() {
       description:
         "Background scanner monitors 50 F&O symbols every 60 seconds. Alerts fire on Golden Cross, ORB Breakout, and high-conviction setups.",
       span: "md:col-span-1",
-      accent: "emerald",
+      glowColor: "16, 185, 129", // Emerald
+      label: "Scanner",
       icon: (
         <svg
-          width="28"
-          height="28"
+          width="24"
+          height="24"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="var(--accent-primary)"
+          stroke="#10b981"
           strokeWidth="1.5"
           strokeLinecap="round"
         >
@@ -80,14 +79,15 @@ export default function FeatureBento() {
       description:
         "On-demand LLM analysis. Generates conviction scores, setup validation, entry/SL/target levels from 200 candles + news context.",
       span: "md:col-span-2",
-      accent: "purple",
+      glowColor: "139, 92, 246", // Purple
+      label: "Generative Model",
       icon: (
         <svg
-          width="28"
-          height="28"
+          width="24"
+          height="24"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="var(--color-ai)"
+          stroke="#8B5CF6"
           strokeWidth="1.5"
           strokeLinecap="round"
         >
@@ -102,14 +102,15 @@ export default function FeatureBento() {
       description:
         "RSI, VWAP, MACD, Bollinger Bands, Stochastic, OBV, CMF, ATR, Parabolic SAR, and more — computed in Rust at native speed.",
       span: "md:col-span-1",
-      accent: "emerald",
+      glowColor: "16, 185, 129", // Emerald
+      label: "Analytics",
       icon: (
         <svg
-          width="28"
-          height="28"
+          width="24"
+          height="24"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="var(--accent-primary)"
+          stroke="#10b981"
           strokeWidth="1.5"
           strokeLinecap="round"
         >
@@ -122,14 +123,15 @@ export default function FeatureBento() {
       description:
         "Built on Tauri + Rust. No browser overhead. Direct IPC, bincode serialization, and chart rendering that bypasses React for zero-latency updates.",
       span: "md:col-span-1",
-      accent: "emerald",
+      glowColor: "16, 185, 129", // Emerald
+      label: "Performance",
       icon: (
         <svg
-          width="28"
-          height="28"
+          width="24"
+          height="24"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="var(--accent-primary)"
+          stroke="#10b981"
           strokeWidth="1.5"
           strokeLinecap="round"
         >
@@ -142,7 +144,7 @@ export default function FeatureBento() {
   ];
 
   return (
-    <section id="features" className="py-24 px-6 relative overflow-hidden">
+    <section id="features" className="py-24 px-6 relative overflow-hidden bg-[#06080F]">
       {/* Background glow */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full orb-emerald pointer-events-none" />
 
@@ -162,43 +164,21 @@ export default function FeatureBento() {
           </p>
         </AnimateOnScroll>
 
-        <StaggerContainer className="grid md:grid-cols-3 gap-4">
-          {features.map((feature) => (
-            <StaggerItem key={feature.title} className={feature.span}>
-              <motion.div
-                whileHover={{
-                  y: -4,
-                  borderColor:
-                    feature.accent === "purple"
-                      ? "rgba(139, 92, 246, 0.3)"
-                      : "rgba(16, 185, 129, 0.25)",
-                  boxShadow:
-                    feature.accent === "purple"
-                      ? "0 0 30px rgba(139, 92, 246, 0.08), 0 0 60px rgba(139, 92, 246, 0.03)"
-                      : "0 0 30px rgba(16, 185, 129, 0.08), 0 0 60px rgba(16, 185, 129, 0.03)",
-                }}
-                transition={{ duration: 0.25 }}
-                className="rounded-xl border border-[var(--border-subtle)] bg-[var(--bg-card)] p-6 h-full cursor-pointer group"
-              >
-                <div
-                  className={`mb-4 w-12 h-12 rounded-lg flex items-center justify-center transition-colors duration-200 ${
-                    feature.accent === "purple"
-                      ? "bg-[rgba(139,92,246,0.1)] group-hover:bg-[rgba(139,92,246,0.18)]"
-                      : "bg-[var(--accent-soft)] group-hover:bg-[var(--accent-strong)]"
-                  }`}
-                >
-                  {feature.icon}
-                </div>
-                <h3 className="text-lg font-semibold mb-2 font-heading">
-                  {feature.title}
-                </h3>
-                <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-                  {feature.description}
-                </p>
-              </motion.div>
-            </StaggerItem>
-          ))}
-        </StaggerContainer>
+        <AnimateOnScroll>
+          <MagicBento
+            cards={features}
+            textAutoHide={true}
+            enableStars={true}
+            enableSpotlight={true}
+            enableBorderGlow={true}
+            enableTilt={true}
+            enableMagnetism={true}
+            clickEffect={true}
+            spotlightRadius={350}
+            particleCount={15}
+            glowColor="16, 185, 129"
+          />
+        </AnimateOnScroll>
       </div>
     </section>
   );

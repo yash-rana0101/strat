@@ -58,7 +58,7 @@ export default function Pricing() {
             />
 
             <div className="text-center mb-8 relative">
-              <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-[var(--accent-soft)] text-[var(--accent-hover)] border border-[var(--accent-primary)]/20 mb-4 font-mono">
+              <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-[var(--accent-soft)] text-[var(--accent-hover)] border border-[rgba(16,185,129,0.2)] mb-4 font-mono">
                 EARLY ACCESS
               </span>
               <div className="flex items-baseline justify-center gap-1">

@@ -54,7 +54,7 @@ export default function Stats() {
   return (
     <section className="py-24 px-6 bg-[var(--bg-surface)] relative overflow-hidden">
       {/* Top decorative line */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--accent-primary)]/20 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[rgba(16,185,129,0.2)] to-transparent" />
 
       <div className="mx-auto max-w-[1400px]">
         <AnimateOnScroll className="text-center mb-12">

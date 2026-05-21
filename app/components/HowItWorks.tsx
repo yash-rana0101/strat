@@ -127,7 +127,7 @@ export default function HowItWorks() {
 
         <div className="relative">
           {/* Vertical connector line — desktop only */}
-          <div className="absolute left-[28px] top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-[var(--accent-primary)]/15 to-transparent pointer-events-none hidden md:block" />
+          <div className="absolute left-[28px] top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-[rgba(16,185,129,0.15)] to-transparent pointer-events-none hidden md:block" />
 
           <div className="space-y-4">
             {steps.map((step, i) => (
