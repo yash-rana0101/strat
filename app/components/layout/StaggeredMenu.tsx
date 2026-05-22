@@ -427,7 +427,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
               height={24}
             />
           ) : (
-            <a href="#" className="flex items-center gap-3 group cursor-pointer">
+            <a href="/" className="flex items-center gap-3 group cursor-pointer">
               <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[var(--accent-primary)] to-[#6EE7B7] flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
                 <svg
                   width="16"

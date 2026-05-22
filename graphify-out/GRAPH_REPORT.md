@@ -1,16 +1,16 @@
 # Graph Report - aitrader-landing  (2026-05-22)
 
 ## Corpus Check
-- 32 files · ~29,158 words
+- 45 files · ~33,766 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 338 nodes · 415 edges · 26 communities (19 shown, 7 thin omitted)
+- 365 nodes · 444 edges · 26 communities (21 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a674e733`
+- Built from commit: `a0b50134`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -55,7 +55,7 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (26 total, 7 thin omitted)
+## Communities (26 total, 5 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.08
@@ -94,8 +94,8 @@ Cohesion: 0.29
 Nodes (6): 8.1 useTradeStore.ts (Zustand — central state), 8.2 useChartUIStore.ts (Zustand — drawing state), 8.3 Cache Key Convention, code:typescript (activeCursorMode:   'default' | 'crosshair' | 'drawing'), code:block20 (historicalCache key format: 'SYMBOL::kiteInterval'), SECTION 8 — STATE MANAGEMENT REFERENCE
 
 ### Community 9 - "Community 9"
-Cohesion: 0.29
-Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
+Cohesion: 0.06
+Nodes (4): DarkVeil(), DarkVeilProps, SubpageLayoutProps, TextHoverEffect()
 
 ### Community 10 - "Community 10"
 Cohesion: 0.33
@@ -113,6 +113,10 @@ Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
 Cohesion: 0.09
 Nodes (28): CandlestickIcon(), ChevronDownIcon(), CloseIcon(), cn(), CpuIcon(), DatabaseIcon(), Dot, DropdownItem() (+20 more)
 
+### Community 21 - "Community 21"
+Cohesion: 0.39
+Nodes (7): HowItWorks(), Mockup1(), Mockup2(), Mockup3(), Mockup4(), Mockup5(), steps
+
 ### Community 22 - "Community 22"
 Cohesion: 0.15
 Nodes (4): ShinyTextProps, SplitTextProps, springConfig, TiltedCardProps
@@ -122,25 +126,29 @@ Cohesion: 0.25
 Nodes (11): FeatureBento(), BentoCardGrid(), BentoCardProps, BentoProps, calculateSpotlightValues(), createParticleElement(), GlobalSpotlight(), MagicBento() (+3 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.09
-Nodes (22): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+14 more)
+Cohesion: 0.11
+Nodes (15): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+7 more)
+
+### Community 25 - "Community 25"
+Cohesion: 0.29
+Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
 
 ## Knowledge Gaps
-- **128 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+123 more)
+- **129 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+124 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `AGENT_CONTEXT.md — Alpha Suite` connect `Community 1` to `Community 8`, `Community 4`, `Community 6`?**
-  _High betweenness centrality (0.039) - this node is a cross-community bridge._
+  _High betweenness centrality (0.034) - this node is a cross-community bridge._
 - **Why does `SECTION 4 — DATA FLOWS (CANONICAL)` connect `Community 4` to `Community 1`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **Why does `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` connect `Community 6` to `Community 1`?**
-  _High betweenness centrality (0.013) - this node is a cross-community bridge._
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
-  _128 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _129 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.07557354925775979 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

@@ -105,18 +105,18 @@
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\layout\\Footer.tsx": {
-    "mtime": 1779444929.804498,
-    "ast_hash": "d49ad061cb29c458a2d829b75b320d99",
+    "mtime": 1779448976.5351446,
+    "ast_hash": "55e47a4bad12fda9580caed67ca44b05",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\layout\\Navbar.tsx": {
-    "mtime": 1779445256.5325303,
-    "ast_hash": "2e42080279e12a68c682a4bb666ee4e8",
+    "mtime": 1779448982.0619464,
+    "ast_hash": "ec0c40a789b70dae05be23eea3afc5ab",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\layout\\StaggeredMenu.tsx": {
-    "mtime": 1779374508.0456164,
-    "ast_hash": "533f93e363b8b26915fbd2927aff491b",
+    "mtime": 1779448986.3328693,
+    "ast_hash": "2ff334f10ad6a3845e3ade7884b91df5",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\sections\\cta\\FinalCTA.tsx": {
@@ -187,6 +187,71 @@
   "D:\\projects\\aitrader-landing\\components\\text-hover-effect-demo.tsx": {
     "mtime": 1779444643.5906434,
     "ast_hash": "99d9d776655e405f5bfec97e2555b07f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\components\\layout\\SubpageLayout.tsx": {
+    "mtime": 1779449008.3377283,
+    "ast_hash": "dc06fc1d98e86791303e45780c1a766c",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\changelog\\page.tsx": {
+    "mtime": 1779450266.393356,
+    "ast_hash": "bf3129bd1d01846f567fd71eea18eb6a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\docs\\page.tsx": {
+    "mtime": 1779450273.9871976,
+    "ast_hash": "0081ad09cb191a284dd0632ac377800d",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\api-reference\\page.tsx": {
+    "mtime": 1779450281.4911842,
+    "ast_hash": "2275ae418a0e132494fe906219c0f7c3",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\status\\page.tsx": {
+    "mtime": 1779450287.9293203,
+    "ast_hash": "0b1f4e94ec83c9f4befbc9537bcf416a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\about\\page.tsx": {
+    "mtime": 1779450294.0612054,
+    "ast_hash": "ac1ac2fe250a8fd3ed007906beaf1b30",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\blog\\page.tsx": {
+    "mtime": 1779450299.583779,
+    "ast_hash": "a1de887ea6c40b1e305ed03ebf505d8b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\careers\\page.tsx": {
+    "mtime": 1779450305.2273486,
+    "ast_hash": "bca98544af65ab07cbfe9189f8565544",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\contact\\page.tsx": {
+    "mtime": 1779450311.1609318,
+    "ast_hash": "387c8a374427853d9156a38c55e8b738",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\privacy\\page.tsx": {
+    "mtime": 1779450317.40999,
+    "ast_hash": "77d6e7055cd29cc894940e9b8029e7fb",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\terms\\page.tsx": {
+    "mtime": 1779450322.3133879,
+    "ast_hash": "d8de7042c35b40a078ac79e23a0e39c3",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\disclaimer\\page.tsx": {
+    "mtime": 1779450327.6669936,
+    "ast_hash": "bc2097d442cf31a2518329cf00c79b8d",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\app\\refund\\page.tsx": {
+    "mtime": 1779450332.2686346,
+    "ast_hash": "a6c01ab7d2fc5e8669d8697f1ce0844c",
     "semantic_hash": ""
   }
 }

@@ -2,43 +2,44 @@
 
 import { motion } from "framer-motion";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
+import Link from "next/link";
 
 export default function Footer() {
   const columns = [
     {
       title: "Platform",
       links: [
-        { label: "Features", href: "#features" },
-        { label: "How It Works", href: "#how-it-works" },
-        { label: "Pricing", href: "#pricing" },
-        { label: "Changelog", href: "#" },
+        { label: "Features", href: "/#features", isInternal: true },
+        { label: "How It Works", href: "/#how-it-works", isInternal: true },
+        { label: "Pricing", href: "/#pricing", isInternal: true },
+        { label: "Changelog", href: "/changelog", isInternal: true },
       ],
     },
     {
       title: "Resources",
       links: [
-        { label: "Documentation", href: "#" },
-        { label: "API Reference", href: "#" },
-        { label: "System Status", href: "#" },
-        { label: "FAQ", href: "#faq" },
+        { label: "Documentation", href: "/docs", isInternal: true },
+        { label: "API Reference", href: "/api-reference", isInternal: true },
+        { label: "System Status", href: "/status", isInternal: true },
+        { label: "FAQ", href: "/#faq", isInternal: true },
       ],
     },
     {
       title: "Company",
       links: [
-        { label: "About", href: "#" },
-        { label: "Blog", href: "#" },
-        { label: "Careers", href: "#" },
-        { label: "Contact", href: "#" },
+        { label: "About", href: "/about", isInternal: true },
+        { label: "Blog", href: "/blog", isInternal: true },
+        { label: "Careers", href: "/careers", isInternal: true },
+        { label: "Contact", href: "/contact", isInternal: true },
       ],
     },
     {
       title: "Legal",
       links: [
-        { label: "Privacy Policy", href: "#" },
-        { label: "Terms of Service", href: "#" },
-        { label: "Disclaimer", href: "#" },
-        { label: "Refund Policy", href: "#" },
+        { label: "Privacy Policy", href: "/privacy", isInternal: true },
+        { label: "Terms of Service", href: "/terms", isInternal: true },
+        { label: "Disclaimer", href: "/disclaimer", isInternal: true },
+        { label: "Refund Policy", href: "/refund", isInternal: true },
       ],
     },
   ];
@@ -92,12 +93,12 @@ export default function Footer() {
               <ul className="space-y-2">
                 {col.links.map((link) => (
                   <li key={link.label}>
-                    <a
+                    <Link
                       href={link.href}
                       className="text-xs text-[var(--text-muted)] hover:text-[var(--accent-hover)] transition-colors duration-200 cursor-pointer"
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
