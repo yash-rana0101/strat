@@ -590,7 +590,7 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                 animate="visible"
                 className="text-xs text-gray-500 mb-10"
             >
-                Invite-only beta • 3 days free trial
+                Invite-only beta 
             </motion.p>
 
             <motion.div

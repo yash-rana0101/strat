@@ -2227,6 +2227,15 @@
       "norm_label": "pre-delivery checklist"
     },
     {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "page.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "page.tsx",
+      "id": "page_tsx"
+    },
+    {
       "label": "ProblemSection.tsx",
       "file_type": "code",
       "source_file": "ProblemSection.tsx",
@@ -2753,7 +2762,7 @@
       "file_type": "code",
       "source_file": "app/components/Navbar.tsx",
       "source_location": "L1",
-      "community": 21,
+      "community": 19,
       "norm_label": "navbar.tsx",
       "id": "app_components_navbar_tsx"
     },
@@ -2762,7 +2771,7 @@
       "file_type": "code",
       "source_file": "app/components/Navbar.tsx",
       "source_location": "L5",
-      "community": 21,
+      "community": 19,
       "norm_label": "navbar()",
       "id": "components_navbar_navbar"
     },
@@ -2807,7 +2816,7 @@
       "file_type": "code",
       "source_file": "app/components/StaggeredMenu.tsx",
       "source_location": "L1",
-      "community": 21,
+      "community": 19,
       "norm_label": "staggeredmenu.tsx",
       "id": "app_components_staggeredmenu_tsx"
     },
@@ -2816,7 +2825,7 @@
       "file_type": "code",
       "source_file": "app/components/StaggeredMenu.tsx",
       "source_location": "L7",
-      "community": 21,
+      "community": 19,
       "norm_label": "staggeredmenuitem",
       "id": "components_staggeredmenu_staggeredmenuitem"
     },
@@ -2825,7 +2834,7 @@
       "file_type": "code",
       "source_file": "app/components/StaggeredMenu.tsx",
       "source_location": "L13",
-      "community": 21,
+      "community": 19,
       "norm_label": "staggeredmenusocialitem",
       "id": "components_staggeredmenu_staggeredmenusocialitem"
     },
@@ -2834,7 +2843,7 @@
       "file_type": "code",
       "source_file": "app/components/StaggeredMenu.tsx",
       "source_location": "L18",
-      "community": 21,
+      "community": 19,
       "norm_label": "staggeredmenuprops",
       "id": "components_staggeredmenu_staggeredmenuprops"
     },
@@ -2843,7 +2852,7 @@
       "file_type": "code",
       "source_file": "app/components/StaggeredMenu.tsx",
       "source_location": "L38",
-      "community": 21,
+      "community": 19,
       "norm_label": "staggeredmenu()",
       "id": "components_staggeredmenu_staggeredmenu"
     },
@@ -3713,6 +3722,16 @@
       "confidence_score": 1.0,
       "source": "app_page_tsx",
       "target": "app_components_darkveil_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "page.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "page_tsx",
+      "target": "app_page_home"
     },
     {
       "relation": "contains",
@@ -6807,5 +6826,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "0b4c0fef64807c2ec5985ae846f387e94feb8a2b"
+  "built_at_commit": "4cf9a9fc5ad6feedd5533f5cb4aab83b131053fe"
 }
