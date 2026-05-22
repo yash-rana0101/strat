@@ -57,6 +57,34 @@ const ExternalLinkIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
   </svg>
 );
 
+const CandlestickIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <path d="M6 3v18M6 8h4v6H6zM18 3v18M14 6h4v12h-4z" />
+  </svg>
+);
+
+const CpuIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <rect x="4" y="4" width="16" height="16" rx="2" />
+    <rect x="9" y="9" width="6" height="6" rx="1" />
+    <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3" />
+  </svg>
+);
+
+const LightningIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+  </svg>
+);
+
+const DatabaseIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <ellipse cx="12" cy="5" rx="9" ry="3" />
+    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+    <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" />
+  </svg>
+);
+
 interface NavLinkProps {
     href?: string;
     children: ReactNode;
@@ -163,6 +191,11 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
     const imageY = useTransform(scrollYProgress, [0, 1], [0, 150]);
     const imageRotateX = useTransform(scrollYProgress, [0, 1], [15, 0]);
     const imageScale = useTransform(scrollYProgress, [0, 0.6], [0.95, 1.03]);
+
+    const widgetY1 = useTransform(scrollYProgress, [0, 1], [0, -160]);
+    const widgetY2 = useTransform(scrollYProgress, [0, 1], [0, -60]);
+    const widgetY3 = useTransform(scrollYProgress, [0, 1], [0, -110]);
+    const widgetY4 = useTransform(scrollYProgress, [0, 1], [0, -220]);
 
    const dotsRef = useRef<Dot[]>([]);
    const gridRef = useRef<Record<string, number[]>>({});
@@ -521,6 +554,98 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
             style={{ perspective: 1200 }}
             className="flex-grow flex flex-col items-center justify-center text-center px-4 pt-8 pb-16 relative z-10 w-full"
         >
+            {/* Floating Parallax Widgets */}
+            {/* Widget 1: Left Top (NIFTY 50 Ticker) */}
+            <motion.div
+                style={{ y: widgetY1 }}
+                className="absolute left-[4%] top-[10%] hidden xl:block z-20 pointer-events-auto"
+            >
+                <motion.div
+                    animate={{ y: [0, -10, 0] }}
+                    transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
+                    className="bg-gradient-to-br from-[#181818]/80 to-[#111111]/90 backdrop-blur-md border border-white/10 hover:border-[#0CF2A0]/40 rounded-xl p-3 pr-4 flex items-center gap-3 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(12,242,160,0.04)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(12,242,160,0.15)] transition-all duration-300 group cursor-pointer"
+                >
+                    <div className="p-2 rounded-lg bg-[#0CF2A0]/10 text-[#0CF2A0] group-hover:scale-110 transition-transform duration-300">
+                        <CandlestickIcon className="w-5 h-5" />
+                    </div>
+                    <div className="text-left font-sans">
+                        <div className="text-[10px] text-gray-500 font-bold tracking-wider uppercase">Live Index</div>
+                        <div className="text-xs font-semibold text-white flex items-center gap-1.5">
+                            NIFTY 50
+                            <span className="text-[9px] bg-[#0CF2A0]/20 text-[#0CF2A0] px-1.5 py-0.5 rounded font-mono font-bold">+1.24%</span>
+                        </div>
+                        <div className="text-xs font-mono font-semibold text-[#0CF2A0] mt-0.5">22,419.50</div>
+                    </div>
+                </motion.div>
+            </motion.div>
+
+            {/* Widget 2: Left Bottom (AI Agent Consensus) */}
+            <motion.div
+                style={{ y: widgetY2 }}
+                className="absolute left-[6%] top-[52%] hidden lg:block z-20 pointer-events-auto"
+            >
+                <motion.div
+                    animate={{ y: [0, 8, 0] }}
+                    transition={{ repeat: Infinity, duration: 4.8, ease: "easeInOut" }}
+                    className="bg-gradient-to-br from-[#181818]/80 to-[#111111]/90 backdrop-blur-md border border-white/10 hover:border-[#57DCCD]/40 rounded-xl p-3 pr-4 flex items-center gap-3 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(87,220,205,0.04)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(87,220,205,0.15)] transition-all duration-300 group cursor-pointer"
+                >
+                    <div className="p-2 rounded-lg bg-[#57DCCD]/10 text-[#57DCCD] group-hover:scale-110 transition-transform duration-300 relative">
+                        <CpuIcon className="w-5 h-5" />
+                        <span className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#57DCCD] animate-pulse"></span>
+                    </div>
+                    <div className="text-left font-sans">
+                        <div className="text-[10px] text-gray-500 font-bold tracking-wider uppercase">AI Consensus</div>
+                        <div className="text-xs font-semibold text-white">STRONG BUY</div>
+                        <div className="text-[10px] text-gray-400 mt-0.5 font-medium">5 Agents · <span className="font-mono text-[#57DCCD]">94.8% Conviction</span></div>
+                    </div>
+                </motion.div>
+            </motion.div>
+
+            {/* Widget 3: Right Top (Kite Live Feed Latency) */}
+            <motion.div
+                style={{ y: widgetY3 }}
+                className="absolute right-[4%] top-[15%] hidden xl:block z-20 pointer-events-auto"
+            >
+                <motion.div
+                    animate={{ y: [0, -12, 0] }}
+                    transition={{ repeat: Infinity, duration: 4.4, ease: "easeInOut" }}
+                    className="bg-gradient-to-br from-[#181818]/80 to-[#111111]/90 backdrop-blur-md border border-white/10 hover:border-[#0CF2A0]/40 rounded-xl p-3 pr-4 flex items-center gap-3 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(12,242,160,0.04)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(12,242,160,0.15)] transition-all duration-300 group cursor-pointer"
+                >
+                    <div className="p-2 rounded-lg bg-[#0CF2A0]/10 text-[#0CF2A0] group-hover:scale-110 transition-transform duration-300">
+                        <LightningIcon className="w-5 h-5" />
+                    </div>
+                    <div className="text-left font-sans">
+                        <div className="text-[10px] text-gray-500 font-bold tracking-wider uppercase">Ingestion Stream</div>
+                        <div className="text-xs font-semibold text-white flex items-center gap-1.5">
+                            Kite Live Ticks
+                            <span className="w-1.5 h-1.5 rounded-full bg-[#0CF2A0] animate-pulse" />
+                        </div>
+                        <div className="text-[10px] text-gray-400 mt-0.5">Latency: <span className="font-mono text-[#0CF2A0]">12ms</span></div>
+                    </div>
+                </motion.div>
+            </motion.div>
+
+            {/* Widget 4: Right Bottom (QuestDB Ingest Speed) */}
+            <motion.div
+                style={{ y: widgetY4 }}
+                className="absolute right-[6%] top-[58%] hidden lg:block z-20 pointer-events-auto"
+            >
+                <motion.div
+                    animate={{ y: [0, 10, 0] }}
+                    transition={{ repeat: Infinity, duration: 3.8, ease: "easeInOut" }}
+                    className="bg-gradient-to-br from-[#181818]/80 to-[#111111]/90 backdrop-blur-md border border-white/10 hover:border-[#57DCCD]/40 rounded-xl p-3 pr-4 flex items-center gap-3 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(87,220,205,0.04)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(87,220,205,0.15)] transition-all duration-300 group cursor-pointer"
+                >
+                    <div className="p-2 rounded-lg bg-[#57DCCD]/10 text-[#57DCCD] group-hover:scale-110 transition-transform duration-300">
+                        <DatabaseIcon className="w-5 h-5" />
+                    </div>
+                    <div className="text-left font-sans">
+                        <div className="text-[10px] text-gray-500 font-bold tracking-wider uppercase">Tick Storage</div>
+                        <div className="text-xs font-semibold text-white">QuestDB Sink</div>
+                        <div className="text-[10px] text-gray-400 mt-0.5">Throughput: <span className="font-mono text-[#57DCCD]">320k/s</span></div>
+                    </div>
+                </motion.div>
+            </motion.div>
+
             <motion.div
                 style={{ y: textY, opacity: textOpacity, scale: textScale }}
                 className="flex flex-col items-center justify-center text-center w-full"

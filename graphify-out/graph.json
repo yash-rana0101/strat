@@ -918,7 +918,7 @@
       "source_file": "app/components/sections/hero/Hero.tsx",
       "source_location": "L1",
       "id": "app_components_sections_hero_hero_tsx",
-      "community": 0,
+      "community": 20,
       "norm_label": "hero.tsx"
     },
     {
@@ -927,7 +927,7 @@
       "source_file": "app/components/sections/hero/Hero.tsx",
       "source_location": "L6",
       "id": "hero_hero_hero",
-      "community": 0,
+      "community": 20,
       "norm_label": "hero()"
     },
     {
@@ -936,7 +936,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L1",
       "id": "app_components_sections_how_it_works_howitworks_tsx",
-      "community": 24,
+      "community": 25,
       "norm_label": "howitworks.tsx"
     },
     {
@@ -945,7 +945,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L7",
       "id": "how_it_works_howitworks_steps",
-      "community": 24,
+      "community": 25,
       "norm_label": "steps"
     },
     {
@@ -954,7 +954,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L40",
       "id": "how_it_works_howitworks_mockup1",
-      "community": 24,
+      "community": 25,
       "norm_label": "mockup1()"
     },
     {
@@ -963,7 +963,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L98",
       "id": "how_it_works_howitworks_mockup2",
-      "community": 24,
+      "community": 25,
       "norm_label": "mockup2()"
     },
     {
@@ -972,7 +972,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L130",
       "id": "how_it_works_howitworks_mockup3",
-      "community": 24,
+      "community": 25,
       "norm_label": "mockup3()"
     },
     {
@@ -981,7 +981,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L168",
       "id": "how_it_works_howitworks_mockup4",
-      "community": 24,
+      "community": 25,
       "norm_label": "mockup4()"
     },
     {
@@ -990,7 +990,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L208",
       "id": "how_it_works_howitworks_mockup5",
-      "community": 24,
+      "community": 25,
       "norm_label": "mockup5()"
     },
     {
@@ -999,7 +999,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L254",
       "id": "how_it_works_howitworks_howitworks",
-      "community": 24,
+      "community": 25,
       "norm_label": "howitworks()"
     },
     {
@@ -1147,10 +1147,46 @@
       "norm_label": "externallinkicon()"
     },
     {
-      "label": "NavLinkProps",
+      "label": "CandlestickIcon()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L60",
+      "id": "ui_hero_section_nexus_candlestickicon",
+      "community": 20,
+      "norm_label": "candlestickicon()"
+    },
+    {
+      "label": "CpuIcon()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L66",
+      "id": "ui_hero_section_nexus_cpuicon",
+      "community": 20,
+      "norm_label": "cpuicon()"
+    },
+    {
+      "label": "LightningIcon()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L74",
+      "id": "ui_hero_section_nexus_lightningicon",
+      "community": 20,
+      "norm_label": "lightningicon()"
+    },
+    {
+      "label": "DatabaseIcon()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L80",
+      "id": "ui_hero_section_nexus_databaseicon",
+      "community": 20,
+      "norm_label": "databaseicon()"
+    },
+    {
+      "label": "NavLinkProps",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L88",
       "id": "ui_hero_section_nexus_navlinkprops",
       "community": 20,
       "norm_label": "navlinkprops"
@@ -1159,7 +1195,7 @@
       "label": "NavLink()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L68",
+      "source_location": "L96",
       "id": "ui_hero_section_nexus_navlink",
       "community": 20,
       "norm_label": "navlink()"
@@ -1168,7 +1204,7 @@
       "label": "DropdownMenuProps",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L88",
+      "source_location": "L116",
       "id": "ui_hero_section_nexus_dropdownmenuprops",
       "community": 20,
       "norm_label": "dropdownmenuprops"
@@ -1177,7 +1213,7 @@
       "label": "DropdownMenu()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L93",
+      "source_location": "L121",
       "id": "ui_hero_section_nexus_dropdownmenu",
       "community": 20,
       "norm_label": "dropdownmenu()"
@@ -1186,7 +1222,7 @@
       "label": "DropdownItemProps",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L111",
+      "source_location": "L139",
       "id": "ui_hero_section_nexus_dropdownitemprops",
       "community": 20,
       "norm_label": "dropdownitemprops"
@@ -1195,7 +1231,7 @@
       "label": "DropdownItem()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L117",
+      "source_location": "L145",
       "id": "ui_hero_section_nexus_dropdownitem",
       "community": 20,
       "norm_label": "dropdownitem()"
@@ -1204,7 +1240,7 @@
       "label": "Dot",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L127",
+      "source_location": "L155",
       "id": "ui_hero_section_nexus_dot",
       "community": 20,
       "norm_label": "dot"
@@ -1213,7 +1249,7 @@
       "label": "InteractiveHeroProps",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L138",
+      "source_location": "L166",
       "id": "ui_hero_section_nexus_interactiveheroprops",
       "community": 20,
       "norm_label": "interactiveheroprops"
@@ -1222,7 +1258,7 @@
       "label": "InteractiveHero()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L142",
+      "source_location": "L170",
       "id": "ui_hero_section_nexus_interactivehero",
       "community": 20,
       "norm_label": "interactivehero()"
@@ -2267,7 +2303,7 @@
       "file_type": "code",
       "source_file": "HowItWorks.tsx",
       "source_location": "L1",
-      "community": 24,
+      "community": 25,
       "norm_label": "howitworks.tsx",
       "id": "howitworks_tsx"
     },
@@ -4817,6 +4853,46 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_candlestickicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_cpuicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_lightningicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_databaseicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L291",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6826,5 +6902,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4cf9a9fc5ad6feedd5533f5cb4aab83b131053fe"
+  "built_at_commit": "3874aca07c1bd311f07cc8e32039c02269b449fd"
 }

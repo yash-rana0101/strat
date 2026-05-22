@@ -1,16 +1,16 @@
 # Graph Report - aitrader-landing  (2026-05-22)
 
 ## Corpus Check
-- 30 files · ~27,975 words
+- 30 files · ~28,584 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 325 nodes · 381 edges · 26 communities (20 shown, 6 thin omitted)
+- 329 nodes · 385 edges · 27 communities (21 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4cf9a9fc`
+- Built from commit: `3874aca0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -38,6 +38,7 @@
 - [[_COMMUNITY_Community 22|Community 22]]
 - [[_COMMUNITY_Community 23|Community 23]]
 - [[_COMMUNITY_Community 24|Community 24]]
+- [[_COMMUNITY_Community 25|Community 25]]
 - [[_COMMUNITY_Community 26|Community 26]]
 
 ## God Nodes (most connected - your core abstractions)
@@ -55,10 +56,10 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (26 total, 6 thin omitted)
+## Communities (27 total, 6 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.07
+Cohesion: 0.08
 Nodes (14): Home(), AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer (+6 more)
 
 ### Community 1 - "Community 1"
@@ -110,7 +111,7 @@ Cohesion: 0.29
 Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
 
 ### Community 20 - "Community 20"
-Cohesion: 0.09
+Cohesion: 0.07
 Nodes (18): cn(), Dot, DropdownItemProps, DropdownMenuProps, InteractiveHero(), InteractiveHeroProps, NavLink(), NavLinkProps (+10 more)
 
 ### Community 21 - "Community 21"
@@ -126,8 +127,12 @@ Cohesion: 0.25
 Nodes (11): FeatureBento(), BentoCardGrid(), BentoCardProps, BentoProps, calculateSpotlightValues(), createParticleElement(), GlobalSpotlight(), MagicBento() (+3 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.09
-Nodes (22): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+14 more)
+Cohesion: 0.11
+Nodes (15): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+7 more)
+
+### Community 25 - "Community 25"
+Cohesion: 0.39
+Nodes (7): HowItWorks(), Mockup1(), Mockup2(), Mockup3(), Mockup4(), Mockup5(), steps
 
 ## Knowledge Gaps
 - **133 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+128 more)
@@ -138,15 +143,15 @@ Nodes (22): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, s
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `AGENT_CONTEXT.md — Alpha Suite` connect `Community 1` to `Community 8`, `Community 9`, `Community 4`, `Community 6`?**
-  _High betweenness centrality (0.042) - this node is a cross-community bridge._
+  _High betweenness centrality (0.041) - this node is a cross-community bridge._
 - **Why does `SECTION 4 — DATA FLOWS (CANONICAL)` connect `Community 4` to `Community 1`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Why does `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` connect `Community 6` to `Community 1`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
   _133 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.07073170731707316 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07557354925775979 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
