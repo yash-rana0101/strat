@@ -5,7 +5,7 @@ import StaggeredMenu from "./StaggeredMenu";
 export default function Navbar() {
   const menuItems = [
     { label: "PLATFORM", ariaLabel: "Platform Features", link: "#features" },
-    { label: "HOW IT WORKS", ariaLabel: "How it works step by step", link: "#how-it-works" },
+    { label: "WORKING", ariaLabel: "How it works step by step", link: "#how-it-works" },
     { label: "PRICING", ariaLabel: "Platform pricing plans", link: "#pricing" },
     { label: "FAQ", ariaLabel: "Frequently Asked Questions", link: "#faq" },
   ];

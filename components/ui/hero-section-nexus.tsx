@@ -57,31 +57,38 @@ const ExternalLinkIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
   </svg>
 );
 
-const CandlestickIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" {...props}>
-    <path d="M6 3v18M6 8h4v6H6zM18 3v18M14 6h4v12h-4z" />
+const NiftyLogo: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <path d="M4 20V4l12 12V4" />
+    <path d="M17 7l4-4 4 4" stroke="#0CF2A0" />
+    <path d="M21 3v8" stroke="#0CF2A0" />
   </svg>
 );
 
-const CpuIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" {...props}>
-    <rect x="4" y="4" width="16" height="16" rx="2" />
-    <rect x="9" y="9" width="6" height="6" rx="1" />
-    <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3" />
+const RelianceLogo: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" {...props}>
+    <path d="M12 2C8 6 6 9 6 13a6 6 0 0 0 12 0c0-4-2-7-6-11Z" fill="#ff5a00" />
+    <path d="M12 6c-2 2.5-3 4-3 6.5a3 3 0 0 0 6 0c0-2.5-1-4-3-6.5Z" fill="#ffcc00" />
   </svg>
 );
 
-const LightningIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" {...props}>
-    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+const HdfcLogo: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" {...props}>
+    <rect x="2" y="2" width="20" height="20" rx="3.5" fill="#004C8F" />
+    <rect x="6" y="6" width="12" height="12" fill="#ffffff" />
+    <rect x="9" y="9" width="6" height="6" fill="#004C8F" />
+    <rect x="11" y="2" width="2" height="4" fill="#004C8F" />
+    <rect x="11" y="18" width="2" height="4" fill="#004C8F" />
+    <rect x="2" y="11" width="4" height="2" fill="#004C8F" />
+    <rect x="18" y="11" width="4" height="2" fill="#004C8F" />
   </svg>
 );
 
-const DatabaseIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" {...props}>
-    <ellipse cx="12" cy="5" rx="9" ry="3" />
-    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
-    <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" />
+const TcsLogo: React.FC<SVGProps<SVGSVGElement>> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" {...props}>
+    <path d="M4 12c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="#0052cc" strokeWidth={2.5} />
+    <path d="M6 14c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="#0080ff" strokeWidth={2} />
+    <path d="M8 16c0-2.2 1.8-4 4-4s4 1.8 4 4" stroke="#00c8ff" strokeWidth={1.5} />
   </svg>
 );
 
@@ -555,7 +562,7 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
             className="flex-grow flex flex-col items-center justify-center text-center px-4 pt-8 pb-16 relative z-10 w-full"
         >
             {/* Floating Parallax Widgets */}
-            {/* Widget 1: Left Top (NIFTY 50 Ticker) */}
+            {/* Widget 1: Left Top (NIFTY 50 Index) */}
             <motion.div
                 style={{ y: widgetY1 }}
                 className="absolute left-[4%] top-[10%] hidden xl:block z-20 pointer-events-auto"
@@ -563,23 +570,26 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                 <motion.div
                     animate={{ y: [0, -10, 0] }}
                     transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                    className="bg-gradient-to-br from-[#181818]/80 to-[#111111]/90 backdrop-blur-md border border-white/10 hover:border-[#0CF2A0]/40 rounded-xl p-3 pr-4 flex items-center gap-3 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(12,242,160,0.04)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(12,242,160,0.15)] transition-all duration-300 group cursor-pointer"
+                    className="bg-gradient-to-br from-[#181818]/90 to-[#111111]/95 backdrop-blur-md border border-white/10 hover:border-[#0CF2A0]/40 rounded-xl p-3 pr-4 flex items-center gap-3.5 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(12,242,160,0.03)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(12,242,160,0.15)] transition-all duration-300 group cursor-pointer"
                 >
-                    <div className="p-2 rounded-lg bg-[#0CF2A0]/10 text-[#0CF2A0] group-hover:scale-110 transition-transform duration-300">
-                        <CandlestickIcon className="w-5 h-5" />
+                    <div className="p-2 rounded-lg bg-white/5 border border-white/10 text-white group-hover:scale-110 transition-transform duration-300 w-10 h-10 flex items-center justify-center">
+                        <NiftyLogo className="w-6 h-6 text-[#0CF2A0]" />
                     </div>
                     <div className="text-left font-sans">
-                        <div className="text-[10px] text-gray-500 font-bold tracking-wider uppercase">Live Index</div>
-                        <div className="text-xs font-semibold text-white flex items-center gap-1.5">
-                            NIFTY 50
-                            <span className="text-[9px] bg-[#0CF2A0]/20 text-[#0CF2A0] px-1.5 py-0.5 rounded font-mono font-bold">+1.24%</span>
-                        </div>
+                        <div className="text-[9px] text-gray-500 font-bold tracking-wider uppercase">NSE Index</div>
+                        <div className="text-xs font-semibold text-white">NIFTY 50</div>
                         <div className="text-xs font-mono font-semibold text-[#0CF2A0] mt-0.5">22,419.50</div>
+                    </div>
+                    <div className="flex flex-col items-end gap-1.5 ml-1">
+                        <span className="text-[9px] bg-[#0CF2A0]/15 text-[#0CF2A0] px-1.5 py-0.5 rounded font-mono font-bold">+1.24%</span>
+                        <svg width="46" height="14" viewBox="0 0 46 14" fill="none" className="opacity-80 group-hover:opacity-100 transition-opacity">
+                            <path d="M2 12 L8 10 L14 11 L20 6 L26 8 L32 2 L38 4 L44 1" stroke="#0CF2A0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
                     </div>
                 </motion.div>
             </motion.div>
 
-            {/* Widget 2: Left Bottom (AI Agent Consensus) */}
+            {/* Widget 2: Left Bottom (RELIANCE Stock) */}
             <motion.div
                 style={{ y: widgetY2 }}
                 className="absolute left-[6%] top-[52%] hidden lg:block z-20 pointer-events-auto"
@@ -587,21 +597,26 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                 <motion.div
                     animate={{ y: [0, 8, 0] }}
                     transition={{ repeat: Infinity, duration: 4.8, ease: "easeInOut" }}
-                    className="bg-gradient-to-br from-[#181818]/80 to-[#111111]/90 backdrop-blur-md border border-white/10 hover:border-[#57DCCD]/40 rounded-xl p-3 pr-4 flex items-center gap-3 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(87,220,205,0.04)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(87,220,205,0.15)] transition-all duration-300 group cursor-pointer"
+                    className="bg-gradient-to-br from-[#181818]/90 to-[#111111]/95 backdrop-blur-md border border-white/10 hover:border-[#0CF2A0]/40 rounded-xl p-3 pr-4 flex items-center gap-3.5 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(12,242,160,0.03)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(12,242,160,0.15)] transition-all duration-300 group cursor-pointer"
                 >
-                    <div className="p-2 rounded-lg bg-[#57DCCD]/10 text-[#57DCCD] group-hover:scale-110 transition-transform duration-300 relative">
-                        <CpuIcon className="w-5 h-5" />
-                        <span className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#57DCCD] animate-pulse"></span>
+                    <div className="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:scale-110 transition-transform duration-300 w-10 h-10 flex items-center justify-center">
+                        <RelianceLogo className="w-6 h-6" />
                     </div>
                     <div className="text-left font-sans">
-                        <div className="text-[10px] text-gray-500 font-bold tracking-wider uppercase">AI Consensus</div>
-                        <div className="text-xs font-semibold text-white">STRONG BUY</div>
-                        <div className="text-[10px] text-gray-400 mt-0.5 font-medium">5 Agents · <span className="font-mono text-[#57DCCD]">94.8% Conviction</span></div>
+                        <div className="text-[9px] text-gray-500 font-bold tracking-wider uppercase">Energy & Retail</div>
+                        <div className="text-xs font-semibold text-white">RELIANCE</div>
+                        <div className="text-xs font-mono font-semibold text-[#0CF2A0] mt-0.5">2,914.80</div>
+                    </div>
+                    <div className="flex flex-col items-end gap-1.5 ml-1">
+                        <span className="text-[9px] bg-[#0CF2A0]/15 text-[#0CF2A0] px-1.5 py-0.5 rounded font-mono font-bold">+2.15%</span>
+                        <svg width="46" height="14" viewBox="0 0 46 14" fill="none" className="opacity-80 group-hover:opacity-100 transition-opacity">
+                            <path d="M2 11 L8 12 L14 9 L20 10 L26 5 L32 7 L38 2 L44 3" stroke="#0CF2A0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
                     </div>
                 </motion.div>
             </motion.div>
 
-            {/* Widget 3: Right Top (Kite Live Feed Latency) */}
+            {/* Widget 3: Right Top (HDFC BANK Stock) */}
             <motion.div
                 style={{ y: widgetY3 }}
                 className="absolute right-[4%] top-[15%] hidden xl:block z-20 pointer-events-auto"
@@ -609,23 +624,26 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                 <motion.div
                     animate={{ y: [0, -12, 0] }}
                     transition={{ repeat: Infinity, duration: 4.4, ease: "easeInOut" }}
-                    className="bg-gradient-to-br from-[#181818]/80 to-[#111111]/90 backdrop-blur-md border border-white/10 hover:border-[#0CF2A0]/40 rounded-xl p-3 pr-4 flex items-center gap-3 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(12,242,160,0.04)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(12,242,160,0.15)] transition-all duration-300 group cursor-pointer"
+                    className="bg-gradient-to-br from-[#181818]/90 to-[#111111]/95 backdrop-blur-md border border-white/10 hover:border-red-500/40 rounded-xl p-3 pr-4 flex items-center gap-3.5 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(239,68,68,0.03)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(239,68,68,0.15)] transition-all duration-300 group cursor-pointer"
                 >
-                    <div className="p-2 rounded-lg bg-[#0CF2A0]/10 text-[#0CF2A0] group-hover:scale-110 transition-transform duration-300">
-                        <LightningIcon className="w-5 h-5" />
+                    <div className="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:scale-110 transition-transform duration-300 w-10 h-10 flex items-center justify-center">
+                        <HdfcLogo className="w-6 h-6" />
                     </div>
                     <div className="text-left font-sans">
-                        <div className="text-[10px] text-gray-500 font-bold tracking-wider uppercase">Ingestion Stream</div>
-                        <div className="text-xs font-semibold text-white flex items-center gap-1.5">
-                            Kite Live Ticks
-                            <span className="w-1.5 h-1.5 rounded-full bg-[#0CF2A0] animate-pulse" />
-                        </div>
-                        <div className="text-[10px] text-gray-400 mt-0.5">Latency: <span className="font-mono text-[#0CF2A0]">12ms</span></div>
+                        <div className="text-[9px] text-gray-500 font-bold tracking-wider uppercase">Private Banking</div>
+                        <div className="text-xs font-semibold text-white">HDFC BANK</div>
+                        <div className="text-xs font-mono font-semibold text-red-400 mt-0.5">1,521.10</div>
+                    </div>
+                    <div className="flex flex-col items-end gap-1.5 ml-1">
+                        <span className="text-[9px] bg-red-500/15 text-red-400 px-1.5 py-0.5 rounded font-mono font-bold">-0.45%</span>
+                        <svg width="46" height="14" viewBox="0 0 46 14" fill="none" className="opacity-80 group-hover:opacity-100 transition-opacity">
+                            <path d="M2 2 L8 5 L14 4 L20 8 L26 7 L32 12 L38 10 L44 13" stroke="#EF4444" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
                     </div>
                 </motion.div>
             </motion.div>
 
-            {/* Widget 4: Right Bottom (QuestDB Ingest Speed) */}
+            {/* Widget 4: Right Bottom (TCS Stock) */}
             <motion.div
                 style={{ y: widgetY4 }}
                 className="absolute right-[6%] top-[58%] hidden lg:block z-20 pointer-events-auto"
@@ -633,15 +651,21 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                 <motion.div
                     animate={{ y: [0, 10, 0] }}
                     transition={{ repeat: Infinity, duration: 3.8, ease: "easeInOut" }}
-                    className="bg-gradient-to-br from-[#181818]/80 to-[#111111]/90 backdrop-blur-md border border-white/10 hover:border-[#57DCCD]/40 rounded-xl p-3 pr-4 flex items-center gap-3 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(87,220,205,0.04)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(87,220,205,0.15)] transition-all duration-300 group cursor-pointer"
+                    className="bg-gradient-to-br from-[#181818]/90 to-[#111111]/95 backdrop-blur-md border border-white/10 hover:border-[#0CF2A0]/40 rounded-xl p-3 pr-4 flex items-center gap-3.5 shadow-[0_10px_30px_rgba(0,0,0,0.5),_0_0_20px_rgba(12,242,160,0.03)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.6),_0_0_25px_rgba(12,242,160,0.15)] transition-all duration-300 group cursor-pointer"
                 >
-                    <div className="p-2 rounded-lg bg-[#57DCCD]/10 text-[#57DCCD] group-hover:scale-110 transition-transform duration-300">
-                        <DatabaseIcon className="w-5 h-5" />
+                    <div className="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:scale-110 transition-transform duration-300 w-10 h-10 flex items-center justify-center">
+                        <TcsLogo className="w-6 h-6 text-[#00c8ff]" />
                     </div>
                     <div className="text-left font-sans">
-                        <div className="text-[10px] text-gray-500 font-bold tracking-wider uppercase">Tick Storage</div>
-                        <div className="text-xs font-semibold text-white">QuestDB Sink</div>
-                        <div className="text-[10px] text-gray-400 mt-0.5">Throughput: <span className="font-mono text-[#57DCCD]">320k/s</span></div>
+                        <div className="text-[9px] text-gray-500 font-bold tracking-wider uppercase">IT Services</div>
+                        <div className="text-xs font-semibold text-white">TCS</div>
+                        <div className="text-xs font-mono font-semibold text-[#0CF2A0] mt-0.5">3,852.40</div>
+                    </div>
+                    <div className="flex flex-col items-end gap-1.5 ml-1">
+                        <span className="text-[9px] bg-[#0CF2A0]/15 text-[#0CF2A0] px-1.5 py-0.5 rounded font-mono font-bold">+0.95%</span>
+                        <svg width="46" height="14" viewBox="0 0 46 14" fill="none" className="opacity-80 group-hover:opacity-100 transition-opacity">
+                            <path d="M2 10 L8 8 L14 9 L20 6 L26 8 L32 4 L38 5 L44 1" stroke="#0CF2A0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
                     </div>
                 </motion.div>
             </motion.div>
@@ -654,7 +678,7 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                 variants={headlineVariants}
                 initial="hidden"
                 animate="visible"
-                className="text-4xl sm:text-5xl lg:text-[64px] font-semibold text-white leading-tight max-w-4xl mb-4"
+                className="text-4xl sm:text-5xl lg:text-[64px] font-bold text-white leading-[1.05] font-heading tracking-[-0.02em] max-w-4xl mb-4"
             >
                 Trade with institutional-grade<br />{' '}
                 <span className="inline-block h-[1.2em] sm:h-[1.2em] lg:h-[1.2em] overflow-hidden align-bottom">

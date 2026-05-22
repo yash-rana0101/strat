@@ -90,8 +90,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\components\\ui\\hero-section-nexus.tsx": {
-    "mtime": 1779443209.4014935,
-    "ast_hash": "057ba3500e0e517bacfe7e3846bc822a",
+    "mtime": 1779445543.9070587,
+    "ast_hash": "c65afc4fa6c3b63b6e071c38e7035c64",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\effects\\AnimateOnScroll.tsx": {
@@ -105,13 +105,13 @@
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\layout\\Footer.tsx": {
-    "mtime": 1779373728.8508415,
-    "ast_hash": "6a12f14c20fae5e05eb0c880f60c1cd0",
+    "mtime": 1779444929.804498,
+    "ast_hash": "d49ad061cb29c458a2d829b75b320d99",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\layout\\Navbar.tsx": {
-    "mtime": 1779374514.0380156,
-    "ast_hash": "57cbf1571356198b73e0ec34134c4dd4",
+    "mtime": 1779445256.5325303,
+    "ast_hash": "2e42080279e12a68c682a4bb666ee4e8",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\layout\\StaggeredMenu.tsx": {
@@ -177,6 +177,16 @@
   "D:\\projects\\aitrader-landing\\components\\ui\\ShinyText.tsx": {
     "mtime": 1779377889.4866679,
     "ast_hash": "f1063b5c3cb93ccc31e6680e62e8a99a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\components\\ui\\text-hover-effect.tsx": {
+    "mtime": 1779444824.143973,
+    "ast_hash": "18509afaf5cee0791da10706baa70cca",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\components\\text-hover-effect-demo.tsx": {
+    "mtime": 1779444643.5906434,
+    "ast_hash": "99d9d776655e405f5bfec97e2555b07f",
     "semantic_hash": ""
   }
 }

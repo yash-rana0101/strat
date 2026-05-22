@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 
 export default function Footer() {
   const columns = [
@@ -47,7 +48,12 @@ export default function Footer() {
       {/* Top gradient line */}
       <div className="h-px bg-gradient-to-r from-transparent via-[rgba(16,185,129,0.2)] to-transparent" />
 
-      <div className="mx-auto max-w-[1400px] px-6 lg:px-10 py-16">
+      <div className="mx-auto max-w-[1400px] px-6 lg:px-10 pt-8 pb-16">
+        {/* Brand Text Hover Effect Header */}
+        <div className="w-full h-[6rem] sm:h-[8rem] md:h-[11rem] lg:h-[14rem] flex items-center justify-center overflow-hidden select-none mb-4">
+          <TextHoverEffect text="STRAT" />
+        </div>
+
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">

@@ -648,7 +648,7 @@
       "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L1",
       "id": "app_components_effects_darkveil_tsx",
-      "community": 26,
+      "community": 21,
       "norm_label": "darkveil.tsx"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L84",
       "id": "effects_darkveil_darkveilprops",
-      "community": 26,
+      "community": 21,
       "norm_label": "darkveilprops"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "app/components/effects/DarkVeil.tsx",
       "source_location": "L94",
       "id": "effects_darkveil_darkveil",
-      "community": 26,
+      "community": 21,
       "norm_label": "darkveil()"
     },
     {
@@ -675,16 +675,16 @@
       "source_file": "app/components/layout/Footer.tsx",
       "source_location": "L1",
       "id": "app_components_layout_footer_tsx",
-      "community": 0,
+      "community": 25,
       "norm_label": "footer.tsx"
     },
     {
       "label": "Footer()",
       "file_type": "code",
       "source_file": "app/components/layout/Footer.tsx",
-      "source_location": "L5",
+      "source_location": "L6",
       "id": "layout_footer_footer",
-      "community": 0,
+      "community": 25,
       "norm_label": "footer()"
     },
     {
@@ -693,7 +693,7 @@
       "source_file": "app/components/layout/Navbar.tsx",
       "source_location": "L1",
       "id": "app_components_layout_navbar_tsx",
-      "community": 21,
+      "community": 9,
       "norm_label": "navbar.tsx"
     },
     {
@@ -702,7 +702,7 @@
       "source_file": "app/components/layout/Navbar.tsx",
       "source_location": "L5",
       "id": "layout_navbar_navbar",
-      "community": 21,
+      "community": 9,
       "norm_label": "navbar()"
     },
     {
@@ -711,7 +711,7 @@
       "source_file": "app/components/layout/StaggeredMenu.tsx",
       "source_location": "L1",
       "id": "app_components_layout_staggeredmenu_tsx",
-      "community": 21,
+      "community": 9,
       "norm_label": "staggeredmenu.tsx"
     },
     {
@@ -720,7 +720,7 @@
       "source_file": "app/components/layout/StaggeredMenu.tsx",
       "source_location": "L7",
       "id": "layout_staggeredmenu_staggeredmenuitem",
-      "community": 21,
+      "community": 9,
       "norm_label": "staggeredmenuitem"
     },
     {
@@ -729,7 +729,7 @@
       "source_file": "app/components/layout/StaggeredMenu.tsx",
       "source_location": "L13",
       "id": "layout_staggeredmenu_staggeredmenusocialitem",
-      "community": 21,
+      "community": 9,
       "norm_label": "staggeredmenusocialitem"
     },
     {
@@ -738,7 +738,7 @@
       "source_file": "app/components/layout/StaggeredMenu.tsx",
       "source_location": "L18",
       "id": "layout_staggeredmenu_staggeredmenuprops",
-      "community": 21,
+      "community": 9,
       "norm_label": "staggeredmenuprops"
     },
     {
@@ -747,7 +747,7 @@
       "source_file": "app/components/layout/StaggeredMenu.tsx",
       "source_location": "L38",
       "id": "layout_staggeredmenu_staggeredmenu",
-      "community": 21,
+      "community": 9,
       "norm_label": "staggeredmenu()"
     },
     {
@@ -918,7 +918,7 @@
       "source_file": "app/components/sections/hero/Hero.tsx",
       "source_location": "L1",
       "id": "app_components_sections_hero_hero_tsx",
-      "community": 20,
+      "community": 0,
       "norm_label": "hero.tsx"
     },
     {
@@ -927,7 +927,7 @@
       "source_file": "app/components/sections/hero/Hero.tsx",
       "source_location": "L6",
       "id": "hero_hero_hero",
-      "community": 20,
+      "community": 0,
       "norm_label": "hero()"
     },
     {
@@ -936,7 +936,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L1",
       "id": "app_components_sections_how_it_works_howitworks_tsx",
-      "community": 25,
+      "community": 24,
       "norm_label": "howitworks.tsx"
     },
     {
@@ -945,7 +945,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L7",
       "id": "how_it_works_howitworks_steps",
-      "community": 25,
+      "community": 24,
       "norm_label": "steps"
     },
     {
@@ -954,7 +954,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L40",
       "id": "how_it_works_howitworks_mockup1",
-      "community": 25,
+      "community": 24,
       "norm_label": "mockup1()"
     },
     {
@@ -963,7 +963,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L98",
       "id": "how_it_works_howitworks_mockup2",
-      "community": 25,
+      "community": 24,
       "norm_label": "mockup2()"
     },
     {
@@ -972,7 +972,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L130",
       "id": "how_it_works_howitworks_mockup3",
-      "community": 25,
+      "community": 24,
       "norm_label": "mockup3()"
     },
     {
@@ -981,7 +981,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L168",
       "id": "how_it_works_howitworks_mockup4",
-      "community": 25,
+      "community": 24,
       "norm_label": "mockup4()"
     },
     {
@@ -990,7 +990,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L208",
       "id": "how_it_works_howitworks_mockup5",
-      "community": 25,
+      "community": 24,
       "norm_label": "mockup5()"
     },
     {
@@ -999,7 +999,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L254",
       "id": "how_it_works_howitworks_howitworks",
-      "community": 25,
+      "community": 24,
       "norm_label": "howitworks()"
     },
     {
@@ -1093,6 +1093,24 @@
       "norm_label": "stats()"
     },
     {
+      "label": "text-hover-effect-demo.tsx",
+      "file_type": "code",
+      "source_file": "components/text-hover-effect-demo.tsx",
+      "source_location": "L1",
+      "id": "components_text_hover_effect_demo_tsx",
+      "community": 25,
+      "norm_label": "text-hover-effect-demo.tsx"
+    },
+    {
+      "label": "TextHoverEffectDemo()",
+      "file_type": "code",
+      "source_file": "components/text-hover-effect-demo.tsx",
+      "source_location": "L4",
+      "id": "components_text_hover_effect_demo_texthovereffectdemo",
+      "community": 25,
+      "norm_label": "texthovereffectdemo()"
+    },
+    {
       "label": "hero-section-nexus.tsx",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
@@ -1147,46 +1165,46 @@
       "norm_label": "externallinkicon()"
     },
     {
-      "label": "CandlestickIcon()",
+      "label": "NiftyLogo()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L60",
-      "id": "ui_hero_section_nexus_candlestickicon",
+      "id": "ui_hero_section_nexus_niftylogo",
       "community": 20,
-      "norm_label": "candlestickicon()"
+      "norm_label": "niftylogo()"
     },
     {
-      "label": "CpuIcon()",
+      "label": "RelianceLogo()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L66",
-      "id": "ui_hero_section_nexus_cpuicon",
+      "source_location": "L68",
+      "id": "ui_hero_section_nexus_reliancelogo",
       "community": 20,
-      "norm_label": "cpuicon()"
+      "norm_label": "reliancelogo()"
     },
     {
-      "label": "LightningIcon()",
+      "label": "HdfcLogo()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L74",
-      "id": "ui_hero_section_nexus_lightningicon",
+      "source_location": "L75",
+      "id": "ui_hero_section_nexus_hdfclogo",
       "community": 20,
-      "norm_label": "lightningicon()"
+      "norm_label": "hdfclogo()"
     },
     {
-      "label": "DatabaseIcon()",
+      "label": "TcsLogo()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L80",
-      "id": "ui_hero_section_nexus_databaseicon",
+      "source_location": "L87",
+      "id": "ui_hero_section_nexus_tcslogo",
       "community": 20,
-      "norm_label": "databaseicon()"
+      "norm_label": "tcslogo()"
     },
     {
       "label": "NavLinkProps",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L88",
+      "source_location": "L95",
       "id": "ui_hero_section_nexus_navlinkprops",
       "community": 20,
       "norm_label": "navlinkprops"
@@ -1195,7 +1213,7 @@
       "label": "NavLink()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L96",
+      "source_location": "L103",
       "id": "ui_hero_section_nexus_navlink",
       "community": 20,
       "norm_label": "navlink()"
@@ -1204,7 +1222,7 @@
       "label": "DropdownMenuProps",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L116",
+      "source_location": "L123",
       "id": "ui_hero_section_nexus_dropdownmenuprops",
       "community": 20,
       "norm_label": "dropdownmenuprops"
@@ -1213,7 +1231,7 @@
       "label": "DropdownMenu()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L121",
+      "source_location": "L128",
       "id": "ui_hero_section_nexus_dropdownmenu",
       "community": 20,
       "norm_label": "dropdownmenu()"
@@ -1222,7 +1240,7 @@
       "label": "DropdownItemProps",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L139",
+      "source_location": "L146",
       "id": "ui_hero_section_nexus_dropdownitemprops",
       "community": 20,
       "norm_label": "dropdownitemprops"
@@ -1231,7 +1249,7 @@
       "label": "DropdownItem()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L145",
+      "source_location": "L152",
       "id": "ui_hero_section_nexus_dropdownitem",
       "community": 20,
       "norm_label": "dropdownitem()"
@@ -1240,7 +1258,7 @@
       "label": "Dot",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L155",
+      "source_location": "L162",
       "id": "ui_hero_section_nexus_dot",
       "community": 20,
       "norm_label": "dot"
@@ -1249,7 +1267,7 @@
       "label": "InteractiveHeroProps",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L166",
+      "source_location": "L173",
       "id": "ui_hero_section_nexus_interactiveheroprops",
       "community": 20,
       "norm_label": "interactiveheroprops"
@@ -1258,7 +1276,7 @@
       "label": "InteractiveHero()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L170",
+      "source_location": "L177",
       "id": "ui_hero_section_nexus_interactivehero",
       "community": 20,
       "norm_label": "interactivehero()"
@@ -1343,6 +1361,24 @@
       "id": "ui_shinytext_shinytext",
       "community": 20,
       "norm_label": "shinytext()"
+    },
+    {
+      "label": "text-hover-effect.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/text-hover-effect.tsx",
+      "source_location": "L1",
+      "id": "components_ui_text_hover_effect_tsx",
+      "community": 25,
+      "norm_label": "text-hover-effect.tsx"
+    },
+    {
+      "label": "TextHoverEffect()",
+      "file_type": "code",
+      "source_file": "components/ui/text-hover-effect.tsx",
+      "source_location": "L5",
+      "id": "ui_text_hover_effect_texthovereffect",
+      "community": 25,
+      "norm_label": "texthovereffect()"
     },
     {
       "label": "AGENTS.md",
@@ -1701,7 +1737,7 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L408",
       "id": "aitrader_landing_agent_context_section_7_what_still_needs_to_be_built",
-      "community": 9,
+      "community": 1,
       "norm_label": "section 7 \u2014 what still needs to be built"
     },
     {
@@ -1710,7 +1746,7 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L412",
       "id": "aitrader_landing_agent_context_7_1_landing_page_priority_high",
-      "community": 9,
+      "community": 1,
       "norm_label": "7.1 landing page (priority: high)"
     },
     {
@@ -1719,7 +1755,7 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L420",
       "id": "aitrader_landing_agent_context_codeblock_16",
-      "community": 9,
+      "community": 1,
       "norm_label": "code:block16 (1.  navbar           \u2014 fixed, glassmorphism on scroll, logo )"
     },
     {
@@ -1728,7 +1764,7 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L444",
       "id": "aitrader_landing_agent_context_7_2_remaining_indicators_priority_medium",
-      "community": 9,
+      "community": 1,
       "norm_label": "7.2 remaining indicators (priority: medium)"
     },
     {
@@ -1737,7 +1773,7 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L448",
       "id": "aitrader_landing_agent_context_codeblock_17",
-      "community": 9,
+      "community": 1,
       "norm_label": "code:block17 (macd histogram    \u2014 12/26 ema difference, then 9-period ema )"
     },
     {
@@ -1746,7 +1782,7 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L462",
       "id": "aitrader_landing_agent_context_7_3_order_book_priority_low",
-      "community": 9,
+      "community": 1,
       "norm_label": "7.3 order book (priority: low)"
     },
     {
@@ -1755,7 +1791,7 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L467",
       "id": "aitrader_landing_agent_context_7_4_deployment_pipeline_priority_low",
-      "community": 9,
+      "community": 1,
       "norm_label": "7.4 deployment pipeline (priority: low)"
     },
     {
@@ -2263,6 +2299,51 @@
       "norm_label": "pre-delivery checklist"
     },
     {
+      "label": "CandlestickIcon()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L60",
+      "community": 20,
+      "norm_label": "candlestickicon()",
+      "id": "ui_hero_section_nexus_candlestickicon"
+    },
+    {
+      "label": "CpuIcon()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L66",
+      "community": 20,
+      "norm_label": "cpuicon()",
+      "id": "ui_hero_section_nexus_cpuicon"
+    },
+    {
+      "label": "LightningIcon()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L74",
+      "community": 20,
+      "norm_label": "lightningicon()",
+      "id": "ui_hero_section_nexus_lightningicon"
+    },
+    {
+      "label": "DatabaseIcon()",
+      "file_type": "code",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L80",
+      "community": 20,
+      "norm_label": "databaseicon()",
+      "id": "ui_hero_section_nexus_databaseicon"
+    },
+    {
+      "label": "hero-section-nexus.tsx",
+      "file_type": "code",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L1",
+      "community": 20,
+      "norm_label": "hero-section-nexus.tsx",
+      "id": "hero_section_nexus_tsx"
+    },
+    {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "page.tsx",
@@ -2303,7 +2384,7 @@
       "file_type": "code",
       "source_file": "HowItWorks.tsx",
       "source_location": "L1",
-      "community": 25,
+      "community": 24,
       "norm_label": "howitworks.tsx",
       "id": "howitworks_tsx"
     },
@@ -2312,7 +2393,7 @@
       "file_type": "code",
       "source_file": "DarkVeil.tsx",
       "source_location": "L1",
-      "community": 26,
+      "community": 21,
       "norm_label": "darkveil.tsx",
       "id": "darkveil_tsx"
     },
@@ -4109,6 +4190,28 @@
       "target": "effects_darkveil_darkveil"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/layout/Footer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_components_layout_footer_tsx",
+      "target": "components_ui_text_hover_effect_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/layout/Footer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_components_layout_footer_tsx",
+      "target": "ui_text_hover_effect_texthovereffect",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/components/layout/Footer.tsx",
@@ -4756,6 +4859,38 @@
       "target": "stats_stats_usecountup"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/text-hover-effect-demo.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_text_hover_effect_demo_tsx",
+      "target": "components_ui_text_hover_effect_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/text-hover-effect-demo.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_text_hover_effect_demo_tsx",
+      "target": "ui_text_hover_effect_texthovereffect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/text-hover-effect-demo.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_text_hover_effect_demo_tsx",
+      "target": "components_text_hover_effect_demo_texthovereffectdemo"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/ui/hero-section-nexus.tsx",
@@ -4855,39 +4990,39 @@
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_ui_hero_section_nexus_tsx",
-      "target": "ui_hero_section_nexus_candlestickicon",
-      "confidence_score": 1.0
+      "target": "ui_hero_section_nexus_niftylogo"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L66",
+      "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_ui_hero_section_nexus_tsx",
-      "target": "ui_hero_section_nexus_cpuicon",
-      "confidence_score": 1.0
+      "target": "ui_hero_section_nexus_reliancelogo"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L74",
+      "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_ui_hero_section_nexus_tsx",
-      "target": "ui_hero_section_nexus_lightningicon",
-      "confidence_score": 1.0
+      "target": "ui_hero_section_nexus_hdfclogo"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/ui/hero-section-nexus.tsx",
-      "source_location": "L80",
+      "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_ui_hero_section_nexus_tsx",
-      "target": "ui_hero_section_nexus_databaseicon",
-      "confidence_score": 1.0
+      "target": "ui_hero_section_nexus_tcslogo"
     },
     {
       "relation": "contains",
@@ -4983,6 +5118,46 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_candlestickicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_cpuicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_lightningicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_databaseicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L33",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -5053,6 +5228,16 @@
       "target": "ui_hero_section_nexus_cn"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_cn"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -5062,6 +5247,136 @@
       "confidence_score": 1.0,
       "source": "ui_hero_section_nexus_shinytext",
       "target": "ui_hero_section_nexus_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_chevrondownicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_menuicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_closeicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_externallinkicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_navlinkprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L96",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_navlink"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_dropdownmenuprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_dropdownmenu"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_dropdownitemprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L145",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_dropdownitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L155",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_dot"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L166",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_interactiveheroprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L170",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_interactivehero"
     },
     {
       "relation": "contains",
@@ -5104,6 +5419,17 @@
       "target": "ui_rotatingtext_rotatingtext"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_rotatingtext_rotatingtext"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/ui/ShinyText.tsx",
@@ -5143,6 +5469,27 @@
       "confidence_score": 1.0,
       "source": "ui_shinytext_shinytext",
       "target": "ui_shinytext_cn"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_shinytext_shinytext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/text-hover-effect.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_ui_text_hover_effect_tsx",
+      "target": "ui_text_hover_effect_texthovereffect"
     },
     {
       "relation": "contains",
@@ -6137,6 +6484,46 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_candlestickicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_cpuicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_lightningicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hero-section-nexus.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hero_section_nexus_tsx",
+      "target": "ui_hero_section_nexus_databaseicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/components/ShinyText.tsx",
       "source_location": "L5",
       "weight": 1.0,
@@ -6902,5 +7289,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "3874aca07c1bd311f07cc8e32039c02269b449fd"
+  "built_at_commit": "a674e7332dd8dd499fff06a426dcc3e3012300d6"
 }
