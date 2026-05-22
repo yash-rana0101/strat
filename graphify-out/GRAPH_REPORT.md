@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 323 nodes · 375 edges · 27 communities (21 shown, 6 thin omitted)
+- 324 nodes · 380 edges · 25 communities (19 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ca64d0e8`
+- Built from commit: `0b4c0fef`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -32,19 +32,17 @@
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
-- [[_COMMUNITY_Community 19|Community 19]]
 - [[_COMMUNITY_Community 20|Community 20]]
 - [[_COMMUNITY_Community 21|Community 21]]
 - [[_COMMUNITY_Community 22|Community 22]]
 - [[_COMMUNITY_Community 23|Community 23]]
 - [[_COMMUNITY_Community 24|Community 24]]
-- [[_COMMUNITY_Community 25|Community 25]]
 - [[_COMMUNITY_Community 26|Community 26]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `AGENT_CONTEXT.md — Alpha Suite` - 17 edges
 2. `compilerOptions` - 16 edges
-3. `AnimateOnScroll()` - 10 edges
+3. `AnimateOnScroll()` - 11 edges
 4. `SECTION 4 — DATA FLOWS (CANONICAL)` - 9 edges
 5. `AnimateOnScroll()` - 8 edges
 6. `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` - 7 edges
@@ -56,7 +54,7 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (27 total, 6 thin omitted)
+## Communities (25 total, 6 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.07
@@ -106,33 +104,25 @@ Nodes (4): inter, jetbrainsMono, metadata, outfit
 Cohesion: 0.40
 Nodes (4): code:bash (npm run dev), Deploy on Vercel, Getting Started, Learn More
 
-### Community 19 - "Community 19"
-Cohesion: 0.39
-Nodes (7): HowItWorks(), Mockup1(), Mockup2(), Mockup3(), Mockup4(), Mockup5(), steps
-
 ### Community 20 - "Community 20"
 Cohesion: 0.09
 Nodes (18): cn(), Dot, DropdownItemProps, DropdownMenuProps, InteractiveHero(), InteractiveHeroProps, NavLink(), NavLinkProps (+10 more)
 
 ### Community 21 - "Community 21"
-Cohesion: 0.29
-Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
+Cohesion: 0.13
+Nodes (6): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem, StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
 
 ### Community 22 - "Community 22"
 Cohesion: 0.15
 Nodes (4): ShinyTextProps, SplitTextProps, springConfig, TiltedCardProps
 
 ### Community 23 - "Community 23"
-Cohesion: 0.35
-Nodes (9): BentoCardGrid(), BentoProps, calculateSpotlightValues(), createParticleElement(), GlobalSpotlight(), MagicBento(), ParticleCard(), updateCardGlowProperties() (+1 more)
+Cohesion: 0.25
+Nodes (11): FeatureBento(), BentoCardGrid(), BentoCardProps, BentoProps, calculateSpotlightValues(), createParticleElement(), GlobalSpotlight(), MagicBento() (+3 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.10
-Nodes (13): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+5 more)
-
-### Community 25 - "Community 25"
-Cohesion: 0.29
-Nodes (3): StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
+Cohesion: 0.09
+Nodes (22): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+14 more)
 
 ## Knowledge Gaps
 - **133 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+128 more)

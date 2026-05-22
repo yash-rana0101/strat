@@ -23,7 +23,7 @@ export default function Home() {
         <HowItWorks />
         <FeatureBento />
         <Stats />
-        <Pricing />
+        {/* <Pricing /> */}
         <FAQ />
         <FinalCTA />
       </main>
