@@ -1,16 +1,16 @@
 # Graph Report - aitrader-landing  (2026-05-23)
 
 ## Corpus Check
-- 48 files · ~37,364 words
+- 51 files · ~42,387 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 431 nodes · 527 edges · 29 communities (22 shown, 7 thin omitted)
+- 453 nodes · 553 edges · 38 communities (23 shown, 15 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3737b0f3`
+- Built from commit: `a3465b58`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -42,23 +42,32 @@
 - [[_COMMUNITY_Community 26|Community 26]]
 - [[_COMMUNITY_Community 27|Community 27]]
 - [[_COMMUNITY_Community 28|Community 28]]
+- [[_COMMUNITY_Community 29|Community 29]]
+- [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 32|Community 32]]
+- [[_COMMUNITY_Community 33|Community 33]]
+- [[_COMMUNITY_Community 34|Community 34]]
+- [[_COMMUNITY_Community 35|Community 35]]
+- [[_COMMUNITY_Community 36|Community 36]]
+- [[_COMMUNITY_Community 37|Community 37]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `AGENT_CONTEXT.md — Alpha Suite` - 17 edges
+1. `AGENT_CONTEXT.md — Strat` - 17 edges
 2. `compilerOptions` - 16 edges
 3. `AnimateOnScroll()` - 11 edges
 4. `SECTION 4 — DATA FLOWS (CANONICAL)` - 9 edges
 5. `AnimateOnScroll()` - 8 edges
-6. `Contributor Covenant Code of Conduct` - 7 edges
-7. `Alpha Suite (Strat)` - 7 edges
+6. `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` - 7 edges
+7. `Strat` - 7 edges
 8. `4. Local Quick Start` - 7 edges
-9. `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` - 7 edges
-10. `Contributing to Alpha Suite (Strat)` - 6 edges
+9. `Contributor Covenant Code of Conduct` - 7 edges
+10. `SECTION 14 — AGENT INSTRUCTIONS` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (29 total, 7 thin omitted)
+## Communities (38 total, 15 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.08
@@ -66,7 +75,7 @@ Nodes (14): Home(), AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, sc
 
 ### Community 1 - "Community 1"
 Cohesion: 0.05
-Nodes (41): 7.1 LANDING PAGE (Priority: HIGH), 7.2 REMAINING INDICATORS (Priority: MEDIUM), 7.3 ORDER BOOK (Priority: LOW), 7.4 DEPLOYMENT PIPELINE (Priority: LOW), 8.1 useTradeStore.ts (Zustand — central state), 8.2 useChartUIStore.ts (Zustand — drawing state), 8.3 Cache Key Convention, AGENT_CONTEXT.md — Alpha Suite (+33 more)
+Nodes (41): 7.1 LANDING PAGE (Priority: HIGH), 7.2 REMAINING INDICATORS (Priority: MEDIUM), 7.3 ORDER BOOK (Priority: LOW), 7.4 DEPLOYMENT PIPELINE (Priority: LOW), 8.1 useTradeStore.ts (Zustand — central state), 8.2 useChartUIStore.ts (Zustand — drawing state), 8.3 Cache Key Convention, AGENT_CONTEXT.md — Strat (+33 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.07
@@ -93,8 +102,8 @@ Cohesion: 0.22
 Nodes (3): BentoProps, MagicBento(), useMobileDetection()
 
 ### Community 9 - "Community 9"
-Cohesion: 0.07
-Nodes (14): AboutPage(), ApiReferencePage(), BlogPage(), CareersPage(), ChangelogPage(), ContactPage(), DisclaimerPage(), DocsPage() (+6 more)
+Cohesion: 0.18
+Nodes (5): ContactPage(), DisclaimerPage(), SubpageLayout(), SubpageLayoutProps, StatusPage()
 
 ### Community 10 - "Community 10"
 Cohesion: 0.33
@@ -102,7 +111,7 @@ Nodes (4): inter, jetbrainsMono, metadata, outfit
 
 ### Community 11 - "Community 11"
 Cohesion: 0.09
-Nodes (22): 1. Executive Summary, 2. Platform Architecture & Services, 3. Technology Stack & Ports, 4. Local Quick Start, 5. UI Design Guidelines & Visual Tokens, 6. Private Codebase Guidelines & Security, Alpha Suite (Strat), code:mermaid (graph TD) (+14 more)
+Nodes (22): 1. Executive Summary, 2. Platform Architecture & Services, 3. Technology Stack & Ports, 4. Local Quick Start, 5. UI Design Guidelines & Visual Tokens, 6. Private Codebase Guidelines & Security, code:mermaid (graph TD), code:bash (git clone https://github.com/yash-rana0101/strat.git) (+14 more)
 
 ### Community 19 - "Community 19"
 Cohesion: 0.29
@@ -117,20 +126,20 @@ Cohesion: 0.15
 Nodes (4): ShinyTextProps, SplitTextProps, springConfig, TiltedCardProps
 
 ### Community 23 - "Community 23"
-Cohesion: 0.25
-Nodes (11): FeatureBento(), BentoCardGrid(), BentoCardProps, BentoProps, calculateSpotlightValues(), createParticleElement(), GlobalSpotlight(), MagicBento() (+3 more)
+Cohesion: 0.12
+Nodes (9): BlogPage(), BlogPost, blogPosts, categories, featuredArticle, popularTags, BlogHeroProps, CategoryFilterProps (+1 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.09
-Nodes (22): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+14 more)
+Cohesion: 0.07
+Nodes (33): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+25 more)
 
 ### Community 25 - "Community 25"
-Cohesion: 0.33
-Nodes (5): Navbar(), StaggeredMenu(), StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
+Cohesion: 0.53
+Nodes (4): StaggeredMenu(), StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
 
 ### Community 26 - "Community 26"
 Cohesion: 0.13
-Nodes (14): 1. Codebase Architecture, 2. Development Workflow, 3. Git Rules & Branching, 4. Code Quality & Standards, 5. Reporting Issues & Feedback, code:bash (docker-compose up -d), code:bash (ALPHA_TEST_MODE=true), Contributing to Alpha Suite (Strat) (+6 more)
+Nodes (14): 1. Codebase Architecture, 2. Development Workflow, 3. Git Rules & Branching, 4. Code Quality & Standards, 5. Reporting Issues & Feedback, code:bash (docker-compose up -d), code:bash (ALPHA_TEST_MODE=true), Contributing to Strat (+6 more)
 
 ### Community 27 - "Community 27"
 Cohesion: 0.22
@@ -140,25 +149,29 @@ Nodes (8): 1. Vulnerability Reporting, 2.1 API Credentials Security (Tauri Stron
 Cohesion: 0.25
 Nodes (7): Confidentiality & IP Safeguards, Contributor Covenant Code of Conduct, Enforcement, Enforcement Responsibilities, Our Pledge, Our Standards, Scope
 
+### Community 30 - "Community 30"
+Cohesion: 0.29
+Nodes (5): benefits, CareersPage(), openPositions, Position, values
+
 ## Knowledge Gaps
-- **156 isolated node(s):** `Our Pledge`, `Confidentiality & IP Safeguards`, `Our Standards`, `Enforcement Responsibilities`, `Scope` (+151 more)
+- **170 isolated node(s):** `SECTION 1 — WHAT IS STRAT?`, `code:block1 (LAYER               TECHNOLOGY                  NOTES)`, `code:block2 (/alpha-suite (monorepo root))`, `code:block3 (Zerodha Kite WS (binary, 184 bytes))`, `code:block5 (Kafka [market.ticks])` (+165 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `AGENT_CONTEXT.md — Alpha Suite` connect `Community 1` to `Community 4`, `Community 6`?**
-  _High betweenness centrality (0.024) - this node is a cross-community bridge._
+- **Why does `AGENT_CONTEXT.md — Strat` connect `Community 1` to `Community 4`, `Community 6`?**
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **Why does `SECTION 4 — DATA FLOWS (CANONICAL)` connect `Community 4` to `Community 1`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
-- **Why does `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` connect `Community 6` to `Community 1`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **What connects `Our Pledge`, `Confidentiality & IP Safeguards`, `Our Standards` to the rest of the system?**
-  _156 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+- **What connects `SECTION 1 — WHAT IS STRAT?`, `code:block1 (LAYER               TECHNOLOGY                  NOTES)`, `code:block2 (/alpha-suite (monorepo root))` to the rest of the system?**
+  _170 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.07557354925775979 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.046511627906976744 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
+- **Should `Community 3` be split into smaller, more focused modules?**
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
