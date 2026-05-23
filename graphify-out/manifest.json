@@ -100,8 +100,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\layout\\Footer.tsx": {
-    "mtime": 1779448976.5351446,
-    "ast_hash": "55e47a4bad12fda9580caed67ca44b05",
+    "mtime": 1779558034.721636,
+    "ast_hash": "e2ff23dfaf458ebf1fcbe98b63fa9c17",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\layout\\Navbar.tsx": {
@@ -125,8 +125,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\sections\\features\\FeatureBento.tsx": {
-    "mtime": 1779380853.6466515,
-    "ast_hash": "476092049e8ba755a67a46b7ea2c125b",
+    "mtime": 1779554339.3463745,
+    "ast_hash": "1e80b7c9626d006f645cbd9ffbb18558",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\sections\\features\\MagicBento.tsx": {
@@ -140,8 +140,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\sections\\how-it-works\\HowItWorks.tsx": {
-    "mtime": 1779380639.5807219,
-    "ast_hash": "9bd002187d257b43b0349360c0d9c7d4",
+    "mtime": 1779554329.5686853,
+    "ast_hash": "9f8c34284542f992d036c4540d186ada",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\sections\\pricing\\Pricing.tsx": {
@@ -150,8 +150,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\sections\\problem\\ProblemSection.tsx": {
-    "mtime": 1779552467.23036,
-    "ast_hash": "243c68293a7b3d6e34679f9b7c0672bb",
+    "mtime": 1779557913.1393745,
+    "ast_hash": "94fd9ecd05ef517352fbf307aec9c63e",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\sections\\stats\\Stats.tsx": {
@@ -190,28 +190,28 @@
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\changelog\\page.tsx": {
-    "mtime": 1779552474.60982,
-    "ast_hash": "a8fc2b6c674ab7b43169297fa674e55a",
+    "mtime": 1779553889.508506,
+    "ast_hash": "88dfb15e960f2534a3dd74db73227558",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\docs\\page.tsx": {
-    "mtime": 1779552450.160876,
-    "ast_hash": "fe7a215570f27b7f9a48ef03db0dfca7",
+    "mtime": 1779553872.9432495,
+    "ast_hash": "236e21ca789058dad3b57df1b074137b",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\api-reference\\page.tsx": {
-    "mtime": 1779552489.232428,
-    "ast_hash": "3197cd68d9efa88f264d22d15254dc0a",
+    "mtime": 1779554406.5680883,
+    "ast_hash": "df28c3d2609e6bfbb42e6940817d8b6d",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\status\\page.tsx": {
-    "mtime": 1779450287.9293203,
-    "ast_hash": "0b1f4e94ec83c9f4befbc9537bcf416a",
+    "mtime": 1779553860.9464302,
+    "ast_hash": "f924690fad2bda46456e8bcef480df07",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\about\\page.tsx": {
-    "mtime": 1779552406.1163113,
-    "ast_hash": "9f692c3aa313a84d4e194e06d4df1474",
+    "mtime": 1779554356.353049,
+    "ast_hash": "4a2df0a4eaef65a12d435622d537fef3",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\blog\\page.tsx": {
@@ -225,28 +225,28 @@
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\contact\\page.tsx": {
-    "mtime": 1779553560.1153884,
-    "ast_hash": "84351ded46c089db4381b3367b163055",
+    "mtime": 1779554377.4294517,
+    "ast_hash": "d9a09dab504297c08f3c12ef518e1d78",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\privacy\\page.tsx": {
-    "mtime": 1779552442.9740539,
-    "ast_hash": "785ac6416e5f64ec713f9e5a374dddbc",
+    "mtime": 1779553835.7432468,
+    "ast_hash": "871eb06709a00df252d7da93406b31c2",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\terms\\page.tsx": {
-    "mtime": 1779552425.4377365,
-    "ast_hash": "54af36f0ba2f0bb74f55073a4e19ac70",
+    "mtime": 1779553827.9551992,
+    "ast_hash": "801c6b78f0351d7d77fd1a07773b572b",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\disclaimer\\page.tsx": {
-    "mtime": 1779552457.9915967,
-    "ast_hash": "858b23cbb0af41c7b32a128b8de408f8",
+    "mtime": 1779553843.6814058,
+    "ast_hash": "4dd804037831263e117608cd116603cc",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\refund\\page.tsx": {
-    "mtime": 1779552432.52884,
-    "ast_hash": "65fb1f0e6bb6b0f8bdeaab778443552f",
+    "mtime": 1779553851.0359266,
+    "ast_hash": "c7c983247a8a0e23c7045cb1bfc495ce",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\CODE_OF_CONDUCT.md": {
