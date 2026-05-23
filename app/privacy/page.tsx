@@ -5,7 +5,7 @@ export default function PrivacyPolicyPage() {
   const sections = [
     {
       title: "1. No Cloud Storage for Brokerage Credentials",
-      content: "Alpha Suite is a local desktop application. Your Zerodha Kite Connect API Key, API Secret, and daily Access Tokens are stored locally on your own machine. We do not operate cloud databases to host or mirror your credentials, rendering centralized leaks impossible.",
+      content: "Strat is a local desktop application. Your Zerodha Kite Connect API Key, API Secret, and daily Access Tokens are stored locally on your own machine. We do not operate cloud databases to host or mirror your credentials, rendering centralized leaks impossible.",
     },
     {
       title: "2. Tauri Stronghold Encryption Standards",
@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
     >
       <div className="max-w-3xl space-y-8 pb-8">
         <p className="text-xs text-[var(--text-muted)] leading-relaxed">
-          At Alpha Suite, we prioritize the absolute sovereignty of your trading configurations. Because our terminal operates entirely inside a sandboxed desktop container, we do not monitor, compile, or sell your trading logs, watchlist entries, or ML indicator configurations.
+          At Strat, we prioritize the absolute sovereignty of your trading configurations. Because our terminal operates entirely inside a sandboxed desktop container, we do not monitor, compile, or sell your trading logs, watchlist entries, or ML indicator configurations.
         </p>
 
         <div className="space-y-8 mt-6">

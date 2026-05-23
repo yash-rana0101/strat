@@ -4,10 +4,12 @@ import StaggeredMenu from "./StaggeredMenu";
 
 export default function Navbar() {
   const menuItems = [
-    { label: "PLATFORM", ariaLabel: "Platform Features", link: "/#features" },
-    { label: "WORKING", ariaLabel: "How it works step by step", link: "/#how-it-works" },
+    { label: "HOME", ariaLabel: "Go to home page", link: "/" },
+    { label: "ABOUT", ariaLabel: "Learn more about Strat", link: "/about" },
+    { label: "CAREERS", ariaLabel: "Explore career opportunities at Strat", link: "/careers" },
+    { label: "BLOG", ariaLabel: "Read Strat engineering and quant blogs", link: "/blog" },
     { label: "PRICING", ariaLabel: "Platform pricing plans", link: "/#pricing" },
-    { label: "FAQ", ariaLabel: "Frequently Asked Questions", link: "/#faq" },
+    { label: "CONTACT", ariaLabel: "Contact Strat", link: "/contact" },
   ];
 
   const socialItems = [

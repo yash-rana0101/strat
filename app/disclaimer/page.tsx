@@ -25,7 +25,7 @@ export default function DisclaimerPage() {
               1. Non-Broker & Non-Advisory Operations
             </h3>
             <p className="text-xs text-[var(--text-muted)] leading-relaxed">
-              Alpha Suite is a **software terminal for analytics and indicators**. We do **not act as a SEBI-registered Investment Advisor (RIA)**, a Research Analyst, or a stock broker. We do **not provide financial advisory**, portfolio management, or trade execution services. The terminal is a localized dashboard designed for user-directed research and manual execution.
+              Strat is a **software terminal for analytics and indicators**. We do **not act as a SEBI-registered Investment Advisor (RIA)**, a Research Analyst, or a stock broker. We do **not provide financial advisory**, portfolio management, or trade execution services. The terminal is a localized dashboard designed for user-directed research and manual execution.
             </p>
           </div>
 
@@ -43,7 +43,7 @@ export default function DisclaimerPage() {
               3. Algorithmic Execution Responsibilities
             </h3>
             <p className="text-xs text-[var(--text-muted)] leading-relaxed">
-              Alpha Suite does not support pooled-funds, automated copy-trading, or unsupervised execution bots. Any strategy routing or indicators evaluations must be validated manually by the user. The user is solely responsible for getting required regulatory approvals from exchanges if they choose to link indicators directly to broker order APIs.
+              Strat does not support pooled-funds, automated copy-trading, or unsupervised execution bots. Any strategy routing or indicators evaluations must be validated manually by the user. The user is solely responsible for getting required regulatory approvals from exchanges if they choose to link indicators directly to broker order APIs.
             </p>
           </div>
         </div>

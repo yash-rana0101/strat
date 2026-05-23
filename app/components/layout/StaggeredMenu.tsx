@@ -505,17 +505,35 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
             )}
           </ul>
           {displaySocials && socialItems && socialItems.length > 0 && (
-            <div className="sm-socials" aria-label="Social links">
-              <h3 className="sm-socials-title font-mono uppercase tracking-wider text-[11px] text-slate-500">Socials</h3>
-              <ul className="sm-socials-list" role="list">
-                {socialItems.map((s, i) => (
-                  <li key={s.label + i} className="sm-socials-item">
-                    <a href={s.link} target="_blank" rel="noopener noreferrer" className="sm-socials-link">
-                      {s.label}
+            <div className="sm-socials flex flex-col gap-6" aria-label="Social and legal links">
+              <div>
+                <h3 className="sm-socials-title font-mono uppercase tracking-wider text-[11px] text-slate-500 mb-2">Socials</h3>
+                <ul className="sm-socials-list" role="list">
+                  {socialItems.map((s, i) => (
+                    <li key={s.label + i} className="sm-socials-item">
+                      <a href={s.link} target="_blank" rel="noopener noreferrer" className="sm-socials-link">
+                        {s.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Legal links section below socials */}
+              <div className="sm-legal border-t border-[var(--border-subtle)] pt-4" aria-label="Legal links">
+                <ul className="flex gap-4 text-[10px] font-mono text-slate-500 font-bold uppercase tracking-wider">
+                  <li>
+                    <a href="/terms" className="hover:text-[var(--accent-primary)] transition-colors" onClick={closeMenu}>
+                      Terms
                     </a>
                   </li>
-                ))}
-              </ul>
+                  <li>
+                    <a href="/privacy" className="hover:text-[var(--accent-primary)] transition-colors" onClick={closeMenu}>
+                      Privacy
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           )}
         </div>

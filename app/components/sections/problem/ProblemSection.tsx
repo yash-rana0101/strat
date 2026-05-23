@@ -270,7 +270,7 @@ export default function ProblemSection() {
             Your <span className="text-gradient italic">Trading Style</span>
           </h2>
           <p className="text-[var(--text-secondary)] max-w-xl mx-auto text-base sm:text-lg">
-            Select your persona to see how the Alpha Suite aligns specialized AI agents and sub-50ms execution to your exact trading strategy.
+            Select your persona to see how the Strat aligns specialized AI agents and sub-50ms execution to your exact trading strategy.
           </p>
         </AnimateOnScroll>
 

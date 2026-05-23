@@ -13,7 +13,7 @@ export default function DocsPage() {
   return (
     <SubpageLayout
       title="Platform Documentation"
-      subtitle="Complete architecture blueprints, agent specifications, and database pipelines for the Alpha Suite terminal."
+      subtitle="Complete architecture blueprints, agent specifications, and database pipelines for the Strat terminal."
       category="Documentation"
     >
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -51,7 +51,7 @@ export default function DocsPage() {
               1. Ingestion Pipeline & Time-Series DB
             </h2>
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-              Alpha Suite connects directly to the **Zerodha Kite Connect WebSocket** feed. The `/ingestion` microservice is built in Rust using Tokio async loops to ingest binary stream frames.
+              Strat connects directly to the **Zerodha Kite Connect WebSocket** feed. The `/ingestion` microservice is built in Rust using Tokio async loops to ingest binary stream frames.
             </p>
             <div className="bg-[var(--bg-card)] border border-[var(--border-subtle)] rounded-xl p-5 space-y-3 font-mono text-xs">
               <div className="flex justify-between border-b border-[var(--border-subtle)] pb-2 text-[10px] text-[var(--text-muted)]">

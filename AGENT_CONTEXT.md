@@ -1,8 +1,8 @@
-# AGENT_CONTEXT.md — Alpha Suite
+# AGENT_CONTEXT.md — Strat
 > **Read this file first. Always. Before writing a single line of code, markup, or copy.**
 >
 > This is the single source of truth for any AI agent, developer, or tool working on
-> the Alpha Suite project. It tells you what this product is, what has already been built,
+> the Strat project. It tells you what this product is, what has already been built,
 > what still needs to be built, how every layer connects, and what decisions are final.
 >
 > Cross-reference:
@@ -13,9 +13,9 @@
 
 ---
 
-## SECTION 1 — WHAT IS ALPHA SUITE?
+## SECTION 1 — WHAT IS STRAT?
 
-Alpha Suite is a **native desktop trading terminal** for Indian stock markets (NSE/BSE)
+Strat is a **native desktop trading terminal** for Indian stock markets (NSE/BSE)
 built on **Tauri + Next.js**. It connects to **Zerodha Kite** via their official API,
 ingests live binary market data, runs it through **5 AI/ML agents**, fuses the signals,
 and presents institutional-grade analysis in a professional charting interface.
@@ -744,7 +744,7 @@ Emits deterministic mock data at 100 candles/sec via `/tools/load_tester/`.
 
 ---
 
-*AGENT_CONTEXT.md — Alpha Suite v1.0*
+*AGENT_CONTEXT.md — Strat v1.0*
 *This file is the authoritative entry point for all AI agents and developers.*
 *When in doubt about any decision, this file + DESIGN.md have the answer.*
 *Do not begin building without reading Sections 1, 7, 11, and 14 at minimum.*

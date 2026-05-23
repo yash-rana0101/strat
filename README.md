@@ -1,4 +1,4 @@
-# Alpha Suite (Strat)
+# Strat
 
 <p align="center">
   <strong>Bloomberg Terminal intelligence, built in Rust, for the serious Indian F&O trader.</strong>
@@ -22,7 +22,7 @@
 
 ## 1. Executive Summary
 
-**Alpha Suite (Strat)** is a native, high-performance desktop trading terminal tailored specifically for the Indian equity and F&O (Futures & Options) markets (NSE/BSE). By connecting to the **Zerodha Kite WebSocket** and REST APIs, the system ingests high-frequency binary tick data, routes it through an event bus, runs real-time quantitative calculations inside native Rust agents, aggregates consensus scores, and streams insights into a latency-optimized charting interface.
+**Strat** is a native, high-performance desktop trading terminal tailored specifically for the Indian equity and F&O (Futures & Options) markets (NSE/BSE). By connecting to the **Zerodha Kite WebSocket** and REST APIs, the system ingests high-frequency binary tick data, routes it through an event bus, runs real-time quantitative calculations inside native Rust agents, aggregates consensus scores, and streams insights into a latency-optimized charting interface.
 
 ### Key Highlights:
 * **Sub-50ms Tick Path:** Direct binary parsing of Zerodha 184-byte tick frames to internal protobuf messages, written directly to QuestDB at native speeds.

@@ -47,7 +47,7 @@ export default function ChangelogPage() {
   return (
     <SubpageLayout
       title="System Changelog"
-      subtitle="Track the engineering evolution, database pipeline updates, and agent performance releases of the Alpha Suite terminal."
+      subtitle="Track the engineering evolution, database pipeline updates, and agent performance releases of the Strat terminal."
       category="Changelog"
     >
       <div className="relative border-l border-[var(--border-default)] ml-4 md:ml-6 space-y-12 pb-8">

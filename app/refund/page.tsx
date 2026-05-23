@@ -5,7 +5,7 @@ export default function RefundPolicyPage() {
   const policies = [
     {
       title: "1. Invite-Only Beta Trial",
-      content: "Alpha Suite is currently in an invite-only beta testing phase. Trial licenses are provided to selected developers and alpha testers for zero charge. No credit card information is collected or billed during this sandbox test segment.",
+      content: "Strat is currently in an invite-only beta testing phase. Trial licenses are provided to selected developers and alpha testers for zero charge. No credit card information is collected or billed during this sandbox test segment.",
     },
     {
       title: "2. Premium Software Licensing Subscriptions",
@@ -29,7 +29,7 @@ export default function RefundPolicyPage() {
     >
       <div className="max-w-3xl space-y-8 pb-8">
         <p className="text-xs text-[var(--text-muted)] leading-relaxed">
-          Thank you for choosing Alpha Suite. We aim to keep our licensing simple and transparent. Please review our policies on cancellations and refund eligibility.
+          Thank you for choosing Strat. We aim to keep our licensing simple and transparent. Please review our policies on cancellations and refund eligibility.
         </p>
 
         <div className="space-y-8 mt-6">

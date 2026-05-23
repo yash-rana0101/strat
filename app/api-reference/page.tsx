@@ -51,7 +51,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     },
     {
       title: "2. Fetching Historical ticks from QuestDB",
-      description: "Alpha Suite uses QuestDB at Port 8812 for high-speed local time-series queries. You can pull historical ticks bypassing HTTP loops by query serialization in bincode format.",
+      description: "Strat uses QuestDB at Port 8812 for high-speed local time-series queries. You can pull historical ticks bypassing HTTP loops by query serialization in bincode format.",
       endpoint: "SQL Port 8812",
       pythonCode: `import psycopg2
 
@@ -95,7 +95,7 @@ async fn main() -> Result<(), sqlx::Error> {
   return (
     <SubpageLayout
       title="Developer API & Port Map"
-      subtitle="Connect directly to Alpha Suite's background microservices, WebSocket streams, and local QuestDB schema."
+      subtitle="Connect directly to Strat's background microservices, WebSocket streams, and local QuestDB schema."
       category="Developer API"
     >
       <div className="space-y-16">
@@ -105,7 +105,7 @@ async fn main() -> Result<(), sqlx::Error> {
             1. Core Microservices Port Allocation
           </h2>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-            All Alpha Suite modules execute locally on your machine, communicating via native IPC and local TCP/WebSocket connections.
+            All Strat modules execute locally on your machine, communicating via native IPC and local TCP/WebSocket connections.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {ports.map((p, idx) => (

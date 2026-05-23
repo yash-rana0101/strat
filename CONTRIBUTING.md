@@ -1,4 +1,4 @@
-# Contributing to Alpha Suite (Strat)
+# Contributing to Strat
 
 This is a **private, proprietary codebase**. Contributions are restricted to authorized internal developers and partners only. If you have been granted access, please read and follow these guidelines strictly to ensure code quality, performance, and security.
 
@@ -6,7 +6,7 @@ This is a **private, proprietary codebase**. Contributions are restricted to aut
 
 ## 1. Codebase Architecture
 
-Alpha Suite is structured as a monorepo containing multiple high-performance services written in Rust, Node.js, and TypeScript/Next.js:
+Strat is structured as a monorepo containing multiple high-performance services written in Rust, Node.js, and TypeScript/Next.js:
 * `/ingestion`: Ingests raw binary ticks from Zerodha Kite (Rust)
 * `/alpha-terminal`: Aggregates ticks into tumbling 10m OHLC candles (Rust)
 * `/agents`: Intelligence layer (Technical, Sentiment, Predictive, Quant-RAG agents)

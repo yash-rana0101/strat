@@ -5,7 +5,7 @@ export default function TermsOfServicePage() {
   const terms = [
     {
       title: "1. Scope of the Application License",
-      content: "Alpha Suite is a local desktop analytical terminal. When downloading our binaries, you are granted a non-transferable, revocable license to run our calculations locally on your own CPU. We do not provide brokerage accounts, pooled fund custody, or execution servers.",
+      content: "Strat is a local desktop analytical terminal. When downloading our binaries, you are granted a non-transferable, revocable license to run our calculations locally on your own CPU. We do not provide brokerage accounts, pooled fund custody, or execution servers.",
     },
     {
       title: "2. User-Provided API Subscriptions",
@@ -17,19 +17,19 @@ export default function TermsOfServicePage() {
     },
     {
       title: "4. Technical Liability Limitations",
-      content: "Because the application runs on your local workstation, Alpha Suite is not liable for financial outcomes resulting from local hardware crashes, network interface lag, Redpanda buffer backpressure, QuestDB disk failures, or broker websocket gateway drops.",
+      content: "Because the application runs on your local workstation, Strat is not liable for financial outcomes resulting from local hardware crashes, network interface lag, Redpanda buffer backpressure, QuestDB disk failures, or broker websocket gateway drops.",
     },
   ];
 
   return (
     <SubpageLayout
       title="Terms of Service"
-      subtitle="Last updated: May 22, 2026. Read the software license parameters and operational terms of the Alpha Suite terminal."
+      subtitle="Last updated: May 22, 2026. Read the software license parameters and operational terms of the Strat terminal."
       category="Legal"
     >
       <div className="max-w-3xl space-y-8 pb-8">
         <p className="text-xs text-[var(--text-muted)] leading-relaxed">
-          Welcome to Alpha Suite. By downloading, compiling, or executing our software shells, you agree to comply with and be bound by the following terms and licensing provisions.
+          Welcome to Strat. By downloading, compiling, or executing our software shells, you agree to comply with and be bound by the following terms and licensing provisions.
         </p>
 
         <div className="space-y-8 mt-6">
