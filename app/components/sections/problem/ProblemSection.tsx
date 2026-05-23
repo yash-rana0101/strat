@@ -4,26 +4,25 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { AnimateOnScroll } from "../../effects/AnimateOnScroll";
 
-// ── MOCKUP 1: F&O Scalper Live Ingestion Terminal ─────────────────────────────
+// ── MOCKUP 1: Live Market Telemetry Feed ─────────────────────────────
 const ScalperMockup: React.FC = () => {
   const [ticks, setTicks] = useState<string[]>([
-    "[08:42:01.025] WS FEED: Connected to NSE-FO binary stream",
-    "[08:42:01.102] SINK: Writing tick packet #20194 to Redpanda",
-    "[08:42:01.150] AGENT-FUSION: Consensus updated to 86% BUY",
-    "[08:42:01.211] BRACKET_ORDER: Slopes check NIFTY26MAYFUT -> +0.024/sec",
+    "Ingesting NSE live option chain analytics...",
+    "Computing confluence thresholds: Volatility matches",
+    "Consensus Aggregator: Market momentumBUY BIAS",
+    "Optimal target region detected for NIFTY Futures",
   ]);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const time = new Date().toTimeString().split(" ")[0] + "." + Math.floor(Math.random() * 1000).toString().padStart(3, "0");
-      const symbols = ["NIFTY26MAYFUT", "BANKNIFTY26MAYFUT", "RELIANCE", "TCS", "INFY"];
+      const symbols = ["NIFTY Futures", "BANK NIFTY Futures", "RELIANCE", "TCS", "INFY"];
       const sym = symbols[Math.floor(Math.random() * symbols.length)];
       const price = (15000 + Math.random() * 5000).toFixed(2);
-      const action = Math.random() > 0.5 ? "BUY" : "SELL";
+      const action = Math.random() > 0.5 ? "BUY CONFIRMATION" : "RETRACEMENT ALERT";
       
-      const newTick = `[${time}] TICK: ${sym} @ ₹${price} | ${action}`;
-      setTicks(prev => [...prev.slice(-4), newTick]);
-    }, 1500);
+      const newTick = `Analyzed ${sym} at ₹${price} | ${action}`;
+      setTicks(prev => [...prev.slice(-3), newTick]);
+    }, 2000);
     return () => clearInterval(interval);
   }, []);
 
@@ -32,27 +31,27 @@ const ScalperMockup: React.FC = () => {
       <div className="flex items-center justify-between border-b border-[#1e293b] pb-3 shrink-0">
         <div className="flex items-center gap-1.5">
           <div className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
-          <span className="text-[10px] text-gray-400 tracking-wider uppercase font-semibold">Live Ingestion Terminal</span>
+          <span className="text-[10px] text-gray-400 tracking-wider uppercase font-semibold">Market Telemetry Stream</span>
         </div>
         <div className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 font-bold border border-emerald-500/20 text-[9px]">
-          LATENCY: 42ms
+          UPDATE RATE: REAL-TIME
         </div>
       </div>
       
       <div className="flex-grow overflow-y-auto space-y-2 py-3 scrollbar-none text-left">
         {ticks.map((tick, i) => (
           <div key={i} className={i === ticks.length - 1 ? "text-emerald-400 font-medium" : "opacity-60"}>
-            {tick}
+            ⚡ {tick}
           </div>
         ))}
       </div>
 
       <div className="pt-3 border-t border-[#1e293b] shrink-0 flex items-center justify-between">
-        <div className="text-[10px] text-gray-500">Queue Sink: QuestDB</div>
+        <div className="text-[10px] text-gray-500">Workspace Feed Ingest</div>
         <div className="flex items-center gap-1.5 text-[10px]">
-          <span className="text-emerald-400 font-bold">● ACTIVE</span>
+          <span className="text-emerald-400 font-bold">● CONNECTED</span>
           <span className="text-slate-600">|</span>
-          <span className="text-gray-400">12,492 ticks/sec</span>
+          <span className="text-gray-400">Continuous Sync</span>
         </div>
       </div>
     </div>
@@ -61,13 +60,13 @@ const ScalperMockup: React.FC = () => {
 
 // ── MOCKUP 2: Swing Trader Strategy Consensus Dial ──────────────────────────
 const SwingMockup: React.FC = () => {
-  const [conviction, setConviction] = useState(82);
+  const [conviction, setConviction] = useState(86);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setConviction(prev => {
         const delta = Math.floor(Math.random() * 5) - 2;
-        return Math.min(Math.max(prev + delta, 78), 92);
+        return Math.min(Math.max(prev + delta, 82), 94);
       });
     }, 2000);
     return () => clearInterval(interval);
@@ -76,9 +75,9 @@ const SwingMockup: React.FC = () => {
   return (
     <div className="bg-[#080B12] rounded-xl p-5 border border-[#1e293b] shadow-inner relative overflow-hidden h-[320px] flex flex-col justify-between">
       <div className="flex items-center justify-between border-b border-[#1e293b] pb-3 shrink-0">
-        <span className="text-xs text-gray-400 tracking-wider uppercase font-semibold font-mono">Consensus Hub</span>
+        <span className="text-xs text-gray-400 tracking-wider uppercase font-semibold font-mono">Consensus Synthesis</span>
         <span className="px-2 py-0.5 rounded bg-[var(--accent-soft)] text-[var(--accent-hover)] font-mono text-[9px] border border-[rgba(16,185,129,0.2)] font-semibold">
-          BULL REGIME
+          STABLE CONFLUENCE
         </span>
       </div>
 
@@ -104,90 +103,68 @@ const SwingMockup: React.FC = () => {
           </svg>
           <div className="text-center z-10">
             <span className="text-2xl font-bold font-mono tracking-tighter text-white">{conviction}%</span>
-            <p className="text-[9px] text-[var(--accent-primary)] font-semibold uppercase tracking-wider font-mono">BUY BIAS</p>
+            <p className="text-[9px] text-[var(--accent-primary)] font-semibold uppercase tracking-wider font-mono">CONVICTION</p>
           </div>
         </div>
 
         {/* Status indicator list */}
         <div className="space-y-2 text-xs font-mono w-full sm:w-auto text-left shrink-0">
           <div className="flex items-center justify-between gap-4">
-            <span className="text-gray-500 text-[10px]">TECHNICALS</span>
-            <span className="text-emerald-400 font-bold uppercase text-[10px]">STRONG BUY</span>
+            <span className="text-gray-500 text-[10px]">TREND DIRECTION</span>
+            <span className="text-emerald-400 font-bold uppercase text-[10px]">BULLISH ACCELERATION</span>
           </div>
           <div className="flex items-center justify-between gap-4">
-            <span className="text-gray-500 text-[10px]">SENTIMENT</span>
-            <span className="text-emerald-400 font-bold uppercase text-[10px]">BULLISH (+0.72)</span>
+            <span className="text-gray-500 text-[10px]">NEWS SENTIMENT</span>
+            <span className="text-emerald-400 font-bold uppercase text-[10px]">POSITIVE FORECAST</span>
           </div>
           <div className="flex items-center justify-between gap-4">
-            <span className="text-gray-500 text-[10px]">PREDICTIVE OLS</span>
-            <span className="text-yellow-500 font-bold uppercase text-[10px]">SIDEWAYS (R² 0.44)</span>
+            <span className="text-gray-500 text-[10px]">VOLATILITY INDEX</span>
+            <span className="text-emerald-400 font-bold uppercase text-[10px]">STABLE PROFILE</span>
           </div>
           <div className="flex items-center justify-between gap-4">
-            <span className="text-gray-500 text-[10px]">ANOMALY SCANS</span>
-            <span className="text-emerald-400 font-bold uppercase text-[10px]">CLEAN</span>
+            <span className="text-gray-500 text-[10px]">INDICATORS CROSS</span>
+            <span className="text-emerald-400 font-bold uppercase text-[10px]">CLEAN CONFLUENCE</span>
           </div>
         </div>
       </div>
 
       <div className="pt-3 border-t border-[#1e293b] shrink-0 flex items-center justify-between text-[10px] text-gray-500 font-mono">
-        <span>Consensus update: stream mode</span>
-        <span className="text-emerald-400 font-bold">5/5 AGENTS SYNCD</span>
+        <span>Consensus: active synthesis</span>
+        <span className="text-emerald-400 font-bold">ALL RESEARCH SWARMS SYNCED</span>
       </div>
     </div>
   );
 };
 
-// ── MOCKUP 3: Quant Researcher Custom Rust Strategy Compiler ──────────────
+// ── MOCKUP 3: Zero-Custody Security Vault ──────────────────────────────
 const QuantMockup: React.FC = () => {
-  const [dots, setDots] = useState("");
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setDots(prev => (prev.length >= 3 ? "" : prev + "."));
-    }, 500);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <div className="bg-[#080B12] rounded-xl p-5 border border-[#1e293b] font-mono text-[11px] leading-relaxed text-gray-300 shadow-inner relative overflow-hidden h-[320px] flex flex-col justify-between">
       <div className="flex items-center justify-between border-b border-[#1e293b] pb-3 shrink-0">
-        <span className="text-xs text-gray-400 tracking-wider uppercase font-semibold">Tauri Wasm Compiler</span>
-        <span className="px-2 py-0.5 rounded bg-[var(--gold-soft)] text-[var(--gold-hover)] text-[9px] border border-[rgba(245,158,11,0.2)] font-semibold">
-          TARGET: WASM32
+        <span className="text-xs text-gray-400 tracking-wider uppercase font-semibold">Zero-Custody Desktop Vault</span>
+        <span className="px-2 py-0.5 rounded bg-[var(--accent-soft)] text-[var(--accent-hover)] text-[9px] border border-[rgba(16,185,129,0.2)] font-semibold">
+          LOCAL ONLY
         </span>
       </div>
 
-      <div className="flex-grow py-3 overflow-hidden text-left font-mono select-none">
-        <div className="text-gray-500 text-[10px] mb-1">// Rust Strategy Template</div>
-        <div>
-          <span className="text-purple-400">#[spindle_strategy]</span>
+      <div className="flex-grow py-6 flex flex-col justify-center text-center space-y-4">
+        <div className="w-12 h-12 rounded-full bg-[var(--accent-soft)] border border-[rgba(16,185,129,0.2)] flex items-center justify-center mx-auto text-[var(--accent-primary)] text-lg animate-pulse">
+          🔒
         </div>
-        <div>
-          <span className="text-purple-400">pub struct</span> <span className="text-yellow-400">AlphaOscillator</span> &#123;
+        <div className="space-y-1">
+          <h4 className="text-xs font-bold text-white uppercase tracking-wider">Cryptographic Handshake Locked</h4>
+          <p className="text-[10px] text-gray-500 max-w-[240px] mx-auto leading-relaxed">
+            Your indicators, watchlist parameters, and API secrets are stored locally on your SSD. Strat operates with absolute privacy—we never custody your trading keys.
+          </p>
         </div>
-        <div className="pl-4">
-          <span className="text-blue-400">period:</span> <span className="text-emerald-400">usize</span>,
-        </div>
-        <div className="pl-4">
-          <span className="text-blue-400">threshold:</span> <span className="text-emerald-400">f64</span>,
-        </div>
-        <div>&#125;</div>
-        
-        <div className="mt-3">
-          <span className="text-purple-400">impl</span> <span className="text-yellow-400">Strategy</span> <span className="text-purple-400">for</span> <span className="text-yellow-400">AlphaOscillator</span> &#123;
-        </div>
-        <div className="pl-4">
-          <span className="text-purple-400">fn</span> <span className="text-blue-400">on_tick</span>(&amp;<span className="text-purple-400">mut</span> <span className="text-red-400">self</span>, <span className="text-blue-400">tick:</span> &amp;<span className="text-yellow-400">Tick</span>) &#123; ... &#125;
-        </div>
-        <div>&#125;</div>
       </div>
 
       <div className="pt-3 border-t border-[#1e293b] shrink-0 bg-[#080B12]">
         <div className="flex items-center justify-between text-[10px] text-gray-500">
           <div className="flex items-center gap-1">
-            <span className="text-amber-500 font-bold">● COMPILING{dots}</span>
+            <span className="text-emerald-400 font-bold">● PROTECTED LOCAL HOST</span>
           </div>
-          <span className="text-emerald-400">Compile Time: 14.2ms</span>
+          <span className="text-emerald-400">Zero Cloud Mirroring</span>
         </div>
       </div>
     </div>
@@ -200,55 +177,55 @@ export default function ProblemSection() {
   const personas = [
     {
       id: "scalper",
-      title: "F&O Scalper",
-      subtitle: "Millisecond execution and speed pipeline",
-      benefit: "Execute rapid bracket orders and trail dynamic trends with zero latency overhead.",
+      title: "Telemetry",
+      subtitle: "Unified visual confluence streams",
+      benefit: "Eliminate the fatigue of cross-referencing multiple disjointed charts. Strat fuses option chain stats, volume acceleration metrics, and chart updates into one focus-driven workspace.",
       metrics: [
-        { label: "Latency", value: "sub-50ms" },
-        { label: "Data Pipeline", value: "Kite Stream" },
-        { label: "Order Style", value: "Bracket Link" },
+        { label: "Execution Feed", value: "Real-Time" },
+        { label: "Confluence", value: "Automatic" },
+        { label: "Indicators State", value: "Aggregated" },
       ],
       points: [
-        "Parallel signals updates (Technical + Trend agents)",
-        "Adaptive slippage checks and micro-bracket exits",
-        "SPIKE volume monitoring directly on NSE Option chain",
-        "Instant drag-and-drop order pricing triggers",
+        "Continuous analysis tracking (Volume + Trend metrics)",
+        "Unified option chain analytics with real-time volatility tracking",
+        "Clear drag-and-drop price thresholds directly on canvas",
+        "Aesthetic focus interface designed to reduce visual clutter",
       ],
       mockup: <ScalperMockup />,
     },
     {
       id: "swing",
-      title: "Swing Trader",
-      subtitle: "Multi-agent conviction consensus matching",
-      benefit: "Ride swings with strong structural confirmation backed by 5 active analysis agents.",
+      title: "Market Consensus",
+      subtitle: "Multi-factor conviction scoring",
+      benefit: "Trade with absolute conviction. Strat aggregates live indicators, sentiment trackers, and predictive regressions to compute a clean, visual market regime report.",
       metrics: [
-        { label: "Timeframe", value: "15m to Daily" },
-        { label: "Consensus Check", value: "Custom Threshold" },
-        { label: "Telemetry updates", value: "Live WebSocket" },
+        { label: "Regime Checks", value: "Live" },
+        { label: "Factors Fused", value: "Technicals + Sentiment" },
+        { label: "Consensus Model", value: "Consolidated" },
       ],
       points: [
-        "5-agent parallel data fusion consensus scoring engine",
-        "Historical strategy validator over historical NSE database",
-        "Macro regime filters (Bull, Bear, Volatile range)",
-        "Compression breakout squeeze and volume profile alerts",
+        "Consolidated conviction scoring utilizing 5 analytical metrics",
+        "Dynamic macro filters (Bull, Bear, Volatility range markers)",
+        "Volume profile alerts and compression breakout trackers",
+        "Visual indicators confluence checking directly on the chart",
       ],
       mockup: <SwingMockup />,
     },
     {
       id: "quant",
-      title: "Quant Researcher",
-      subtitle: "Sandboxed Rust strategy sandboxing",
-      benefit: "Upload, backtest, and stream custom indicators locally inside Tauri wasm virtual machines.",
+      title: "Absolute Privacy",
+      subtitle: "Zero-custody personal workspace",
+      benefit: "Strat respects your intellectual property. Your strategies, indicators, watchlists, and secure API keys are stored entirely on your own local device—never on a central database.",
       metrics: [
-        { label: "Compilation host", value: "Tauri Sandbox" },
-        { label: "Telemetry", value: "QuestDB Sink" },
-        { label: "Wasm Speeds", value: "10M ticks/sec" },
+        { label: "Data Custody", value: "100% Local" },
+        { label: "Vault Security", value: "Cryptographic" },
+        { label: "Cloud Uploads", value: "Zero" },
       ],
       points: [
-        "Upload custom indicators compiled safely as WebAssembly",
-        "Direct connection queries to structured QuestDB tick tables",
-        "Raw telemetry logs and JSON WebSocket endpoints outputs",
-        "Sandboxed memory footprint strategy execution isolation",
+        "Tauri-secured cryptographic storage locked on your SSD",
+        "API keys are derived locally with zero cloud routing or mirroring",
+        "Your indicator setups and watchlists are entirely yours",
+        "Absolute sovereignty over your private trading intellectual property",
       ],
       mockup: <QuantMockup />,
     },
@@ -262,15 +239,15 @@ export default function ProblemSection() {
       <div className="mx-auto max-w-[1200px] relative">
         <AnimateOnScroll className="text-center mb-16">
           <p className="text-[11px] font-medium text-[var(--accent-primary)] font-mono tracking-[0.15em] uppercase mb-4">
-            Personas
+            Capabilities
           </p>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-5 font-heading tracking-[-0.02em] leading-[1.05]">
             Engineered for
             <br />
-            Your <span className="text-gradient italic">Trading Style</span>
+            Your <span className="text-gradient italic">Trading Focus</span>
           </h2>
           <p className="text-[var(--text-secondary)] max-w-xl mx-auto text-base sm:text-lg">
-            Select your persona to see how the Strat aligns specialized AI agents and sub-50ms execution to your exact trading strategy.
+            Choose your focus area to see how Strat consolidates research streams and visual market metrics into a premium trading environment.
           </p>
         </AnimateOnScroll>
 
@@ -385,3 +362,4 @@ export default function ProblemSection() {
     </section>
   );
 }
+

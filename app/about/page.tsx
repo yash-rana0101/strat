@@ -21,22 +21,22 @@ import ShinyText from "@/components/ui/ShinyText";
 export default function AboutPage() {
   const pillars = [
     {
-      title: "Bloomberg-Style Desktop Ingestion",
-      label: "01. Tick Ingestion",
+      title: "Direct-to-Canvas Charting",
+      label: "01. Visual Performance",
       icon: <Database className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "Traditional browser tools rely on slow REST APIs to poll candle states, introducing 500ms to 2s delays. Strat runs as a local Tauri desktop client, consuming raw binary websocket tick packages directly from Zerodha Kite in under 5µs, caching everything locally in QuestDB.",
+      content: "Traditional web-based charting solutions introduce visual fatigue and lag during highly volatile market sessions. Strat's dedicated charting interface is custom-built to deliver liquid-smooth interactive updates and zero visual overhead, ensuring your focus remains entirely unbroken.",
     },
     {
-      title: "Local-First Cryptographic Vaults",
-      label: "02. Stronghold Vault",
+      title: "Zero-Custody Local Privacy",
+      label: "02. Absolute Sovereignty",
       icon: <Shield className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "We never take custody of your credentials or host them on cloud SQL databases. Your developer API secrets and session tokens are encrypted directly on your SSD inside a Tauri Stronghold vault utilizing Argon2id key derivation and AES-GCM-256 security envelopes.",
+      content: "Your custom setups, technical parameters, and API credentials are your unique competitive advantage. Strat respects your intellectual property by storing all configurations, keys, and session data strictly on your own hardware. Your trading secrets never touch our servers.",
     },
     {
-      title: "Five-Agent Decision Fusion",
-      label: "03. Agent Swarm",
+      title: "Autonomous Swarm Synthesis",
+      label: "03. Intelligence Fusion",
       icon: <Cpu className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "We run 5 discrete quant agents (Technical Indicators, Google News Sentiment, OLS Linear Regression, Quant-RAG swing anomaly parser, and the Consensus Aggregator) to construct a comprehensive market consensus report at local port 8080.",
+      content: "Avoid cognitive overload by delegating complex calculations to our specialized analytical swarm. Strat continuously processes technical confluences, momentum dynamics, and session media feeds in parallel—synthesizing them into a single, cohesive consensus score.",
     },
   ];
 
@@ -68,7 +68,7 @@ export default function AboutPage() {
             className="backdrop-filter-[12px] inline-flex h-8 items-center justify-between rounded-full border border-white/5 bg-white/10 px-4 text-xs text-white transition-all ease-in hover:cursor-pointer hover:bg-white/20 group gap-2 mb-8 cursor-pointer select-none"
           >
             <ShinyText
-              text="🚀 Our Core Architecture & Vision"
+              text="🚀 Discover Who We Are & What We Are Building"
               className="inline-flex items-center justify-center text-[10px] font-mono tracking-widest font-bold text-[var(--accent-primary)] uppercase"
             />
             <ArrowRight className="h-3 w-3 text-[var(--accent-primary)] transition-transform duration-300 group-hover:translate-x-0.5" />
@@ -80,8 +80,8 @@ export default function AboutPage() {
             transition={{ delay: 0.15, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="text-[var(--text-primary)] py-6 text-4xl font-bold leading-none tracking-tighter text-balance sm:text-6xl md:text-7xl lg:text-8xl font-heading"
           >
-            Institutional Intelligence
-            <br className="hidden md:block" /> Running Locally
+            Empowering Traders
+            <br className="hidden md:block" /> With Professional Edge
           </motion.h1>
 
           <motion.p
@@ -90,7 +90,7 @@ export default function AboutPage() {
             transition={{ delay: 0.3, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="mb-12 text-sm text-[var(--text-secondary)] leading-relaxed max-w-2xl text-balance"
           >
-            Strat is a native desktop trading intelligence terminal, built in Rust, engineered for the serious Indian F&O trader who demands zero cloud overhead and sub-millisecond precision.
+            Strat is a high-fidelity visual workspace and market intelligence terminal, designed specifically for retail F&O traders in India who value absolute analytical privacy, real-time speed, and clean trading conviction.
           </motion.p>
 
           <motion.button
@@ -103,7 +103,7 @@ export default function AboutPage() {
             }}
             className="inline-flex items-center justify-center px-8 py-4 rounded-md bg-[var(--accent-primary)] text-[var(--bg-base)] font-bold text-xs tracking-wider uppercase hover:bg-[var(--accent-hover)] transition-all duration-200 hover:shadow-[0_0_20px_var(--accent-glow)] cursor-pointer gap-2"
           >
-            <span>Explore Architecture</span>
+            <span>Explore Our Offerings</span>
             <ArrowRight className="h-4 w-4" />
           </motion.button>
         </section>
@@ -128,16 +128,16 @@ export default function AboutPage() {
           <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-7 space-y-5">
               <span className="text-[10px] font-mono text-[var(--accent-primary)] font-bold tracking-widest uppercase block">
-                The Latency Gap
+                Restoring Clarity
               </span>
               <h2 className="text-xl sm:text-2xl font-bold font-heading text-[var(--text-primary)]">
-                Bridging the Institutional Ingestion Divide
+                Bridging the Gap to Quantitative Precision
               </h2>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                Active Futures & Options traders in India are often limited by visual lag, browser state delays, and cloud routing latency. Strat was designed by systems engineers and quantitative researchers to bring institutional-grade time-series databases and local agent models directly to retail hardware.
+                Active Futures & Options traders in India are often limited by information overload, visual fatigue, and fragmented tools. Traditional platforms flood users with complex, disjointed columns of raw numbers without providing synthesis. Strat was created by a dedicated team of quantitative designers, traders, and software developers to clear the noise and restore deep analytical focus.
               </p>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                By packaging a high-speed Rust ingest parser, a Redpanda streaming queue, a QuestDB time-series datastore, and a local deep learning RAG framework into a sandboxed desktop client, we unlock rapid calculations with zero cloud overhead.
+                By combining a high-performance local-first architecture, beautiful direct-to-canvas rendering, and autonomous analytical swarms into a single elegant interface, we treat trading like the craft it is—giving retail traders the precise visual edge they deserve.
               </p>
             </div>
 
@@ -149,7 +149,7 @@ export default function AboutPage() {
               <div className="absolute top-0 right-0 w-24 h-24 orb-emerald opacity-25" />
               
               <span className="text-[10px] font-mono text-[var(--accent-primary)] block mb-2 font-bold uppercase tracking-widest">
-                Engine Throughput
+                Synthesis Speed
               </span>
               
               <div className="text-5xl font-bold font-heading text-[var(--text-primary)] font-mono mb-3 tracking-tighter">
@@ -157,7 +157,7 @@ export default function AboutPage() {
               </div>
               
               <p className="text-xs text-[var(--text-muted)] leading-relaxed">
-                End-to-end processing path: Ingesting binary Kite tick frames, parsing packages, computing technical indicators and OLS linear regressions, and performing local chart paints.
+                Strat parses incoming market feeds, synchronizes multi-source indicator confluences, computes momentum regimes, and paints high-fidelity charts in milliseconds—keeping your visual terminal perfectly aligned with live price movements.
               </p>
             </div>
           </section>
@@ -166,10 +166,10 @@ export default function AboutPage() {
           <section className="space-y-10" id="pillars-section">
             <div className="text-center space-y-2">
               <span className="text-[10px] font-mono text-[var(--accent-primary)] font-bold tracking-widest uppercase block">
-                Foundations
+                What We Offer
               </span>
               <h2 className="text-xl sm:text-2xl font-bold font-heading text-[var(--text-primary)]">
-                Our Architectural Pillars
+                Our Core Analytical Pillars
               </h2>
             </div>
             
@@ -212,10 +212,10 @@ export default function AboutPage() {
             
             <div className="max-w-xl mx-auto space-y-3">
               <h2 className="text-2xl font-bold font-heading text-[var(--text-primary)] leading-tight">
-                Want to Build High-Performance Trading Systems?
+                Want to Build the Future of Trading Workspaces?
               </h2>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                We are actively looking for exceptional developers, low-latency architects, and quantitative researchers to join our Noida-based internal engineering swarm.
+                We are actively growing our team of quantitative designers, product visionaries, and systems developers at our Noida-based workspace. Let's create beautiful things together.
               </p>
             </div>
 

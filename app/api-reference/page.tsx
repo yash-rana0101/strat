@@ -3,31 +3,28 @@ import SubpageLayout from "@/app/components/layout/SubpageLayout";
 
 export default function ApiReferencePage() {
   const ports = [
-    { port: "8080", service: "Aggregator Engine", protocol: "WebSocket", desc: "BUY/SELL/HOLD signals and strategy triggers" },
-    { port: "8081", service: "Alpha Terminal Engine", protocol: "WebSocket", desc: "Streaming 10m OHLC candle ticks" },
-    { port: "8082", service: "Predictive Agent (OLS)", protocol: "WebSocket", desc: "Dashed Ghost Line price coordinates" },
-    { port: "8083", service: "Quant-RAG Agent (DeepSeek)", protocol: "WebSocket", desc: "Market anomaly insights and summaries" },
-    { port: "8812", service: "QuestDB SQL Interface", protocol: "PostgreSQL", desc: "Lazy loading historical stock ticks" },
-    { port: "9009", service: "QuestDB Ingest Interface", protocol: "TCP (ILP)", desc: "High-speed tick ingestion channel" },
+    { port: "8080", service: "Swarm Consensus Feed", protocol: "WebSocket", desc: "Live BUY/SELL/HOLD conviction scores and momentum states" },
+    { port: "8081", service: "Session Telemetry Feed", protocol: "WebSocket", desc: "High-fidelity tick streams and interactive chart coordinates" },
+    { port: "8082", service: "Secure Journal Export", protocol: "HTTP JSON", desc: "Local analytics export for automated trading journals" },
   ];
 
   const apis = [
     {
-      title: "1. Connecting to the Aggregator Signals",
-      description: "Subscribe to the Aggregator Engine (Port 8080) to receive unified Buy/Sell/Hold consensus signals compiled from Technical, Sentiment, and Predictive agents.",
+      title: "1. Subscribing to Swarm Consensus Signals",
+      description: "Subscribe to the local Consensus stream (Port 8080) to receive unified market conviction scores calculated by Strat's specialized analytics swarm in real-time.",
       endpoint: "WS /ws/consensus",
       pythonCode: `import websocket
 import json
 
-def on_message(ws, message):
+def on_consensus(ws, message):
     data = json.loads(message)
-    # Renders trend_score (-100 to +100), momentum, and active patterns
-    print(f"Consensus: {data['decision']} | Trend: {data['trend_score']}")
-    print(f"Patterns: {data['patterns']} | Strategies: {data['strategies']}")
+    # Access unified conviction scores and analytical decisions
+    print(f"Decision: {data['decision']} | Conviction Score: {data['conviction_score']}/100")
+    print(f"Active Regime: {data['regime']} | Supporting Indicators: {data['confluences']}")
 
 ws = websocket.WebSocketApp(
     "ws://127.0.0.1:8080/ws/consensus",
-    on_message=on_message
+    on_message=on_consensus
 )
 ws.run_forever()`,
       rustCode: `use tokio_tungstenite::connect_async;
@@ -37,55 +34,43 @@ use futures_util::StreamExt;
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let url = "ws://127.0.0.1:8080/ws/consensus";
     let (mut ws_stream, _) = connect_async(url).await?;
-    println!("Consensus stream connected.");
+    println!("Swarm consensus stream connected successfully.");
 
     while let Some(msg) = ws_stream.next().await {
         let msg = msg?;
         if msg.is_text() {
-            let parsed: ConsensusReport = serde_json::from_str(msg.to_text()?)?;
-            println!("Regime: {:?}", parsed.momentum_state);
+            let report: SwarmReport = serde_json::from_str(msg.to_text()?)?;
+            println!("Swarm Conviction Score: {}", report.conviction_score);
         }
     }
     Ok(())
 }`,
     },
     {
-      title: "2. Fetching Historical ticks from QuestDB",
-      description: "Strat uses QuestDB at Port 8812 for high-speed local time-series queries. You can pull historical ticks bypassing HTTP loops by query serialization in bincode format.",
-      endpoint: "SQL Port 8812",
-      pythonCode: `import psycopg2
+      title: "2. Automating Your Trading Journal",
+      description: "Query your local secure endpoint to fetch setups, trade targets, and statistical performance metrics to automatically log into your private sheets.",
+      endpoint: "GET /api/journal",
+      pythonCode: `import requests
 
-# Connect directly to local QuestDB SQL engine
-conn = psycopg2.connect(
-    host="127.0.0.1",
-    port=8812,
-    user="admin",
-    password="quest",
-    database="qdb"
-)
-cursor = conn.cursor()
-cursor.execute(
-    "SELECT timestamp, symbol, ltp, volume "
-    "FROM market_ticks WHERE symbol = 'RELIANCE' "
-    "LIMIT 1000"
-)
-for row in cursor.fetchall():
-    print(f"Tick: {row[0]} | Price: {row[2]}")`,
-      rustCode: `use sqlx::postgres::PgPoolOptions;
+# Fetch compiled daily setups from secure local memory
+response = requests.get("http://127.0.0.1:8082/api/journal")
+if response.status_code == 200:
+    setups = response.json()
+    for setup in setups:
+        print(f"Instrument: {setup['symbol']} | Limit Entry: {setup['entry']}")
+        print(f"Target: {setup['target']} | Stop-Loss: {setup['stop_loss']}")`,
+      rustCode: `use reqwest;
 
 #[tokio::main]
-async fn main() -> Result<(), sqlx::Error> {
-    // Pipe QuestDB SQL results into local engine vectors
-    let pool = PgPoolOptions::new()
-        .max_connections(5)
-        .connect("postgres://admin:quest@127.0.0.1:8812/qdb").await?;
-
-    let ticks = sqlx::query!("SELECT symbol, ltp, volume FROM market_ticks LIMIT 500")
-        .fetch_all(&pool)
+async fn main() -> Result<(), reqwest::Error> {
+    // Fetch local secure setups for sheet synchronization
+    let response = reqwest::get("http://127.0.0.1:8082/api/journal")
+        .await?
+        .json::<Vec<TradingSetup>>()
         .await?;
 
-    for tick in ticks {
-        println!("Symbol: {} | Price: {:?}", tick.symbol, tick.ltp);
+    for setup in response {
+        println!("Exporting {} setup - Entry: {}", setup.symbol, setup.entry);
     }
     Ok(())
 }`,
@@ -94,20 +79,20 @@ async fn main() -> Result<(), sqlx::Error> {
 
   return (
     <SubpageLayout
-      title="Developer API & Port Map"
-      subtitle="Connect directly to Strat's background microservices, WebSocket streams, and local QuestDB schema."
+      title="Integration & Automation Hub"
+      subtitle="Synchronize conviction scores, telemetry streams, and custom setups directly into your private spreadsheets or analytical dashboards."
       category="Developer API"
     >
       <div className="space-y-16">
         {/* Port Map Section */}
         <section className="space-y-6">
           <h2 className="text-xl font-bold font-heading text-[var(--text-primary)] border-b border-[var(--border-subtle)] pb-2">
-            1. Core Microservices Port Allocation
+            1. Secure Local Port Allocations
           </h2>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-            All Strat modules execute locally on your machine, communicating via native IPC and local TCP/WebSocket connections.
+            All Strat modules execute locally on your machine, communicating via native IPC and secure local ports to ensure your strategy setups remain completely private.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {ports.map((p, idx) => (
               <div key={idx} className="glass p-4 rounded-xl border border-[var(--border-subtle)] flex items-start gap-4">
                 <div className="font-mono text-xs font-bold text-[var(--accent-primary)] bg-[var(--accent-soft)] px-2.5 py-1.5 rounded border border-[rgba(16,185,129,0.15)] select-none">
@@ -129,7 +114,7 @@ async fn main() -> Result<(), sqlx::Error> {
         {/* API Details */}
         <section className="space-y-12">
           <h2 className="text-xl font-bold font-heading text-[var(--text-primary)] border-b border-[var(--border-subtle)] pb-2">
-            2. Stream & Query Specifications
+            2. Local Feed Specifications
           </h2>
           {apis.map((api, index) => (
             <div key={index} className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">

@@ -6,9 +6,9 @@ import MagicBento, { BentoCardProps } from "./MagicBento";
 export default function FeatureBento() {
   const features: BentoCardProps[] = [
     {
-      title: "5 AI Agents",
+      title: "Market Swarm Consensus",
       description:
-        "Technical, Sentiment, Predictive, Quant-RAG, and Aggregator — each analyzing a different market dimension in parallel.",
+        "Fuses technical, sentiment, and trend metrics from multiple specialized analytical nodes into a single, high-fidelity visual consensus report.",
       span: "md:col-span-2",
       glowColor: "16, 185, 129", // Emerald
       label: "AI Swarm",
@@ -28,9 +28,9 @@ export default function FeatureBento() {
       ),
     },
     {
-      title: "OLS Ghost Line",
+      title: "Visual Trend Projection",
       description:
-        "14-period linear regression predicts the next candle close with R² confidence scoring. Visible on 10m timeframe.",
+        "Instantly projects potential trend trajectories onto your active chart window, offering real-time statistical insight.",
       span: "md:col-span-1",
       glowColor: "16, 185, 129", // Emerald
       label: "Predictive",
@@ -51,9 +51,9 @@ export default function FeatureBento() {
       ),
     },
     {
-      title: "Quant Radar",
+      title: "Session Momentum Radar",
       description:
-        "Background scanner monitors 50 F&O symbols every 60 seconds. Alerts fire on Golden Cross, ORB Breakout, and high-conviction setups.",
+        "Automated scanning that continuously monitors major F&O symbols. Proactively highlights price breakouts, support confluences, and key momentum shifts.",
       span: "md:col-span-1",
       glowColor: "16, 185, 129", // Emerald
       label: "Scanner",
@@ -75,9 +75,9 @@ export default function FeatureBento() {
       ),
     },
     {
-      title: "Deep Quant AI",
+      title: "Cognitive Analytics Hub",
       description:
-        "On-demand LLM analysis. Generates conviction scores, setup validation, entry/SL/target levels from 200 candles + news context.",
+        "Context-aware quantitative analysis on-demand. Synthesizes key indicators, historical setups, and real-time news to validate your trading conviction.",
       span: "md:col-span-2",
       glowColor: "139, 92, 246", // Purple
       label: "Generative Model",
@@ -98,9 +98,9 @@ export default function FeatureBento() {
       ),
     },
     {
-      title: "16 Technical Indicators",
+      title: "Multi-Indicator Confluence",
       description:
-        "RSI, VWAP, MACD, Bollinger Bands, Stochastic, OBV, CMF, ATR, Parabolic SAR, and more — computed in Rust at native speed.",
+        "RSI, VWAP, MACD, Bollinger Bands, and more—all computed simultaneously in real-time, delivering zero-lag charts directly to your workspace.",
       span: "md:col-span-1",
       glowColor: "16, 185, 129", // Emerald
       label: "Analytics",
@@ -119,9 +119,9 @@ export default function FeatureBento() {
       ),
     },
     {
-      title: "Native Desktop Performance",
+      title: "Direct-to-Canvas Charting",
       description:
-        "Built on Tauri + Rust. No browser overhead. Direct IPC, bincode serialization, and chart rendering that bypasses React for zero-latency updates.",
+        "Fluid, high-performance charting engineered for continuous trading focus. Completely native execution for stutter-free data updates and seamless interaction.",
       span: "md:col-span-1",
       glowColor: "16, 185, 129", // Emerald
       label: "Performance",
@@ -142,9 +142,9 @@ export default function FeatureBento() {
       ),
     },
     {
-      title: "Tauri Stronghold Vault",
+      title: "Zero-Custody Desktop Terminal",
       description:
-        "Isolate and encrypt Zerodha Kite API keys locally using Argon2id key derivation and AES-256. Credentials never touch external servers or plaintext storage.",
+        "Your API credentials, strategy configurations, and private trading setups remain strictly yours. Everything is safely encrypted and stored locally on your own computer.",
       span: "md:col-span-1",
       glowColor: "245, 158, 11", // Gold/Amber for security
       label: "Security",

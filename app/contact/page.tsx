@@ -26,20 +26,19 @@ export default function ContactPage() {
     firstName: "",
     lastName: "",
     email: "",
-    subject: "technical",
+    subject: "support",
     message: ""
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate high-performance API submission
     setFormSubmitted(true);
     setTimeout(() => {
       setFormData({
         firstName: "",
         lastName: "",
         email: "",
-        subject: "technical",
+        subject: "support",
         message: ""
       });
     }, 3000);
@@ -48,34 +47,34 @@ export default function ContactPage() {
   const contactMethods = [
     {
       icon: <Mail className="h-5 w-5 text-[var(--accent-primary)]" />,
-      title: "Email Ingestion",
-      description: "Direct channel for systems architects and commercial licensing",
+      title: "General & Support Email",
+      description: "Direct channel for setup assistance, billing, or licensing inquiries",
       contact: "support@strat.io",
       action: "Send Email",
       link: "mailto:support@strat.io"
     },
     {
       icon: <Phone className="h-5 w-5 text-[var(--accent-primary)]" />,
-      title: "Systems Hotline",
-      description: "Speak directly with our Noida & Bengaluru engineers",
+      title: "Support Hotline",
+      description: "Speak directly with our customer support and product experts",
       contact: "+91-7060603346",
       action: "Call Now",
       link: "tel:+917060603346"
     },
     {
       icon: <MessageCircle className="h-5 w-5 text-[var(--accent-primary)]" />,
-      title: "Quant Discord",
-      description: "Join 5,000+ serious algorithmic traders in our swarm channel",
+      title: "Trader Community",
+      description: "Join active traders in our official community channel",
       contact: "Active Community",
-      action: "Start Chat",
+      action: "Join Discord",
       link: "https://discord.gg"
     },
     {
       icon: <MapPin className="h-5 w-5 text-[var(--accent-primary)]" />,
-      title: "Research Lab",
-      description: "Visit our low-latency infrastructure development center",
-      contact: "Bengaluru, KA, India",
-      action: "View Coordinates",
+      title: "Noida Design Studio",
+      description: "Visit our core quantitative product design office",
+      contact: "Noida, UP, India",
+      action: "View Location",
       link: "#office-coords"
     }
   ];
@@ -83,18 +82,18 @@ export default function ContactPage() {
   const supportOptions = [
     {
       icon: <Headphones className="h-5 w-5 text-[var(--accent-primary)]" />,
-      title: "Technical Support",
-      description: "Resolve Kite Connect daily OAuth handshake errors, local Redpanda topic streaming, or QuestDB schema corruption errors."
+      title: "Technical & Setup Support",
+      description: "Get assistance with installing the desktop client, setting up your workspace, or configuring local indicators."
     },
     {
       icon: <Users className="h-5 w-5 text-[var(--accent-primary)]" />,
-      title: "Commercial swarm limits",
-      description: "Learn about institutional limits, multi-workstation concurrency keys, and bespoke agent consensus integrations."
+      title: "Commercial & Team Licenses",
+      description: "Learn about custom multi-workstation keys, corporate trading desk setups, and premium integrations."
     },
     {
       icon: <MessageCircle className="h-5 w-5 text-[var(--accent-primary)]" />,
-      title: "General Inquiries",
-      description: "Questions regarding product roadmap, community meetups, or academic developer licenses."
+      title: "General Product Inquiries",
+      description: "Ask questions about the feature roadmap, beta access programs, or strategic partner options."
     }
   ];
 
@@ -125,7 +124,7 @@ export default function ContactPage() {
             className="backdrop-filter-[12px] inline-flex h-8 items-center justify-between rounded-full border border-white/5 bg-white/10 px-4 text-xs text-white transition-all ease-in hover:cursor-pointer hover:bg-white/20 group gap-2 mb-8 cursor-pointer select-none"
           >
             <ShinyText
-              text="💬 CONNECT WITH SYSTEMS ARCHITECTS"
+              text="💬 WE ARE HERE TO HELP"
               className="inline-flex items-center justify-center text-[10px] font-mono tracking-widest font-bold text-[var(--accent-primary)] uppercase"
             />
             <ArrowRight className="h-3 w-3 text-[var(--accent-primary)] transition-transform duration-300 group-hover:translate-x-0.5" />
@@ -137,8 +136,8 @@ export default function ContactPage() {
             transition={{ delay: 0.1, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className="text-[var(--text-primary)] py-4 text-4xl font-bold leading-[1.1] tracking-tighter text-balance sm:text-6xl md:text-7xl lg:text-8xl font-heading"
           >
-            Contact Our
-            <br className="hidden md:block" /> Systems Swarm
+            Connect With
+            <br className="hidden md:block" /> Our Support Team
           </motion.h1>
 
           <motion.p
@@ -147,7 +146,7 @@ export default function ContactPage() {
             transition={{ delay: 0.2, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className="mb-10 text-xs sm:text-sm md:text-base text-[var(--text-secondary)] leading-relaxed max-w-2xl text-balance"
           >
-            Have deep questions about local database ingestion throughput, Tauri cryptographic vault compliance, or institutional licensing? Our Noida & Bengaluru teams are ready to support your local operations.
+            Have questions about Strat's visual interface, custom workspace setups, or licensing options? Our team in Noida and Bengaluru is ready to assist you.
           </motion.p>
 
           <motion.div
@@ -159,7 +158,7 @@ export default function ContactPage() {
               href="#contact-form-section"
               className="inline-flex items-center justify-center px-8 py-4 rounded-md bg-[var(--accent-primary)] text-[var(--bg-base)] font-bold text-xs tracking-wider uppercase hover:bg-[var(--accent-hover)] transition-all duration-200 hover:shadow-[0_0_20px_var(--accent-glow)] cursor-pointer gap-2"
             >
-              <span>Initialize Support Inquiry</span>
+              <span>Send Us an Inquiry</span>
               <ArrowRight className="h-4 w-4" />
             </a>
           </motion.div>
@@ -222,7 +221,7 @@ export default function ContactPage() {
               <div className="absolute inset-[1px] bg-[var(--bg-card)] rounded-[11px] -z-10 pointer-events-none" />
 
               <h2 className="text-xl font-bold font-heading text-[var(--text-primary)] mb-6 border-b border-[var(--border-subtle)] pb-3">
-                Send us an Inquiry Package
+                Send Us a Message
               </h2>
 
               {formSubmitted ? (
@@ -235,10 +234,10 @@ export default function ContactPage() {
                     <CheckCircle2 className="h-10 w-10 animate-bounce" />
                   </div>
                   <h3 className="text-base font-bold font-heading text-[var(--text-primary)]">
-                    Inquiry Package Sent Successfully
+                    Message Sent Successfully
                   </h3>
                   <p className="text-xs text-[var(--text-secondary)] leading-relaxed max-w-sm">
-                    Your parameters have been logged and queued. A systems architect from our swarms will initiate connection shortly.
+                    Thank you for reaching out. Your inquiry has been queued, and a support representative will contact you shortly.
                   </p>
                 </motion.div>
               ) : (
@@ -274,7 +273,7 @@ export default function ContactPage() {
 
                   <div className="space-y-1.5">
                     <label className="text-[10px] font-mono text-[var(--text-muted)] uppercase tracking-wider block">
-                      Secure Email Address
+                      Email Address
                     </label>
                     <input
                       type="email"
@@ -288,32 +287,31 @@ export default function ContactPage() {
 
                   <div className="space-y-1.5">
                     <label className="text-[10px] font-mono text-[var(--text-muted)] uppercase tracking-wider block">
-                      Inquiry Subject Topic
+                      Inquiry Topic
                     </label>
                     <select
                       value={formData.subject}
                       onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                       className="w-full bg-[var(--bg-base)] border border-[var(--border-subtle)] rounded-lg px-3.5 py-2.5 text-xs text-[var(--text-primary)] focus:outline-none focus:border-[var(--accent-primary)] focus:ring-1 focus:ring-[var(--accent-primary)] transition-all duration-200 font-sans cursor-pointer"
                     >
-                      <option value="technical">Kite Connect Daily Handshake Errors</option>
-                      <option value="vault">Tauri Stronghold Encrypted Credentials</option>
-                      <option value="database">QuestDB SQL Table Query Timeouts</option>
-                      <option value="ingestion">Redpanda Message Stream Latency</option>
-                      <option value="partnership">API Licensing & Corporate swarms</option>
+                      <option value="support">Technical & Setup Support</option>
+                      <option value="licensing">Commercial & Team Licenses</option>
+                      <option value="product">General Product Inquiries</option>
+                      <option value="feedback">Product Feedback & Suggestions</option>
                     </select>
                   </div>
 
                   <div className="space-y-1.5">
                     <label className="text-[10px] font-mono text-[var(--text-muted)] uppercase tracking-wider block">
-                      Logs / Detailed Description
+                      Message Details
                     </label>
                     <textarea
                       rows={5}
                       required
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      className="w-full bg-[var(--bg-base)] border border-[var(--border-subtle)] rounded-lg px-3.5 py-2.5 text-xs text-[var(--text-primary)] focus:outline-none focus:border-[var(--accent-primary)] focus:ring-1 focus:ring-[var(--accent-primary)] transition-all duration-200 font-mono resize-none placeholder:text-[var(--text-muted)]"
-                      placeholder="Paste terminal trace error logs or describe your quantitative architecture parameters here..."
+                      className="w-full bg-[var(--bg-base)] border border-[var(--border-subtle)] rounded-lg px-3.5 py-2.5 text-xs text-[var(--text-primary)] focus:outline-none focus:border-[var(--accent-primary)] focus:ring-1 focus:ring-[var(--accent-primary)] transition-all duration-200 font-sans resize-none placeholder:text-[var(--text-muted)]"
+                      placeholder="Describe your question or issue in detail here..."
                     ></textarea>
                   </div>
 
@@ -321,7 +319,7 @@ export default function ContactPage() {
                     type="submit"
                     className="w-full bg-gradient-to-r from-[var(--accent-primary)] to-[#6EE7B7] hover:from-[var(--accent-hover)] hover:to-[#34D399] text-[var(--bg-base)] font-bold rounded-lg py-3.5 text-xs font-mono tracking-widest uppercase transition-all duration-200 shadow-[0_0_15px_rgba(16,185,129,0.25)] hover:shadow-[0_0_25px_rgba(16,185,129,0.4)] cursor-pointer flex items-center justify-center gap-2"
                   >
-                    <span>Transmit Parameters Package</span>
+                    <span>Send Message</span>
                     <Send className="h-3.5 w-3.5" />
                   </button>
                 </form>
@@ -361,7 +359,7 @@ export default function ContactPage() {
               <div className="relative rounded-xl border border-[var(--border-subtle)] bg-[var(--accent-soft)] p-6 text-center space-y-4 overflow-hidden">
                 <div className="absolute top-0 right-0 w-24 h-24 orb-emerald opacity-10 pointer-events-none" />
                 <h3 className="font-semibold font-heading text-sm text-[var(--text-primary)]">
-                  Need Immediate Handshake Diagnostics?
+                  Need Immediate System Diagnostics?
                 </h3>
                 <p className="text-[11px] text-[var(--text-secondary)] leading-relaxed max-w-sm mx-auto">
                   Verify our dynamic network metrics, active systems interfaces, and operational telemetry in real-time.
@@ -382,13 +380,13 @@ export default function ContactPage() {
         <section id="office-coords" className="relative mx-auto mt-24 max-w-[80rem] px-6 md:px-8">
           <div className="text-center mb-10">
             <span className="text-[10px] font-mono text-[var(--accent-primary)] font-bold tracking-widest uppercase block mb-2">
-              PHYSICAL SWARMS
+              OUR OFFICES
             </span>
             <h2 className="text-2xl font-bold font-heading text-[var(--text-primary)]">
-              Research swarms Coordinates
+              Noida & Bengaluru Coordinates
             </h2>
             <p className="text-[11px] text-[var(--text-secondary)] max-w-md mx-auto mt-2 leading-relaxed">
-              Our low-latency computation lab and quantitative research center is located in Bengaluru's core tech enclave.
+              Our quantitative design studio and infrastructure labs are located in India's leading technology enclaves.
             </p>
           </div>
 
@@ -412,13 +410,13 @@ export default function ContactPage() {
             <div className="flex flex-wrap justify-center items-center gap-6 text-[10px] font-mono text-[var(--text-muted)] border-t border-[var(--border-subtle)] pt-4 mt-4">
               <span className="flex items-center gap-1.5">
                 <Clock className="h-3.5 w-3.5 text-[var(--accent-primary)]" />
-                Lab Hours: Mon - Fri, 09:00 - 18:00 IST
+                Support Hours: Mon - Fri, 09:00 - 18:00 IST
               </span>
               <span>
                 •
               </span>
               <span>
-                Ingestion Latency: Noida Grid Connectivity
+                Operational Support: Active Session Enclaves
               </span>
             </div>
 
@@ -428,7 +426,7 @@ export default function ContactPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-[var(--bg-elevated)] border border-[var(--border-subtle)] text-[var(--text-primary)] hover:text-white hover:bg-[var(--accent-soft)] hover:border-[var(--accent-primary)] font-bold text-xs tracking-wider uppercase transition-all duration-200 mt-6 gap-2"
             >
-              <span>Get Swarm Directions</span>
+              <span>Get Office Directions</span>
               <ExternalLink className="h-3.5 w-3.5" />
             </a>
           </div>
