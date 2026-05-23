@@ -1,16 +1,16 @@
-# Graph Report - aitrader-landing  (2026-05-22)
+# Graph Report - aitrader-landing  (2026-05-23)
 
 ## Corpus Check
-- 45 files · ~34,679 words
+- 48 files · ~37,364 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 381 nodes · 480 edges · 26 communities (19 shown, 7 thin omitted)
+- 431 nodes · 527 edges · 29 communities (22 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c258623f`
+- Built from commit: `3737b0f3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -39,6 +39,9 @@
 - [[_COMMUNITY_Community 23|Community 23]]
 - [[_COMMUNITY_Community 24|Community 24]]
 - [[_COMMUNITY_Community 25|Community 25]]
+- [[_COMMUNITY_Community 26|Community 26]]
+- [[_COMMUNITY_Community 27|Community 27]]
+- [[_COMMUNITY_Community 28|Community 28]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `AGENT_CONTEXT.md — Alpha Suite` - 17 edges
@@ -46,16 +49,16 @@
 3. `AnimateOnScroll()` - 11 edges
 4. `SECTION 4 — DATA FLOWS (CANONICAL)` - 9 edges
 5. `AnimateOnScroll()` - 8 edges
-6. `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` - 7 edges
-7. `SECTION 14 — AGENT INSTRUCTIONS` - 6 edges
-8. `Design System Master File` - 6 edges
-9. `scripts` - 5 edges
-10. `cn()` - 5 edges
+6. `Contributor Covenant Code of Conduct` - 7 edges
+7. `Alpha Suite (Strat)` - 7 edges
+8. `4. Local Quick Start` - 7 edges
+9. `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` - 7 edges
+10. `Contributing to Alpha Suite (Strat)` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (26 total, 7 thin omitted)
+## Communities (29 total, 7 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.08
@@ -98,8 +101,8 @@ Cohesion: 0.33
 Nodes (4): inter, jetbrainsMono, metadata, outfit
 
 ### Community 11 - "Community 11"
-Cohesion: 0.40
-Nodes (4): code:bash (npm run dev), Deploy on Vercel, Getting Started, Learn More
+Cohesion: 0.09
+Nodes (22): 1. Executive Summary, 2. Platform Architecture & Services, 3. Technology Stack & Ports, 4. Local Quick Start, 5. UI Design Guidelines & Visual Tokens, 6. Private Codebase Guidelines & Security, Alpha Suite (Strat), code:mermaid (graph TD) (+14 more)
 
 ### Community 19 - "Community 19"
 Cohesion: 0.29
@@ -114,19 +117,31 @@ Cohesion: 0.15
 Nodes (4): ShinyTextProps, SplitTextProps, springConfig, TiltedCardProps
 
 ### Community 23 - "Community 23"
-Cohesion: 0.35
-Nodes (9): BentoCardGrid(), BentoProps, calculateSpotlightValues(), createParticleElement(), GlobalSpotlight(), MagicBento(), ParticleCard(), updateCardGlowProperties() (+1 more)
+Cohesion: 0.25
+Nodes (11): FeatureBento(), BentoCardGrid(), BentoCardProps, BentoProps, calculateSpotlightValues(), createParticleElement(), GlobalSpotlight(), MagicBento() (+3 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.08
-Nodes (24): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+16 more)
+Cohesion: 0.09
+Nodes (22): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+14 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.33
 Nodes (5): Navbar(), StaggeredMenu(), StaggeredMenuItem, StaggeredMenuProps, StaggeredMenuSocialItem
 
+### Community 26 - "Community 26"
+Cohesion: 0.13
+Nodes (14): 1. Codebase Architecture, 2. Development Workflow, 3. Git Rules & Branching, 4. Code Quality & Standards, 5. Reporting Issues & Feedback, code:bash (docker-compose up -d), code:bash (ALPHA_TEST_MODE=true), Contributing to Alpha Suite (Strat) (+6 more)
+
+### Community 27 - "Community 27"
+Cohesion: 0.22
+Nodes (8): 1. Vulnerability Reporting, 2.1 API Credentials Security (Tauri Stronghold Vault), 2.2 Docker & DB Infrastructure, 2.3 IPC Serializations (Bincode vs JSON), 2. Core Security Guarantees & Constraints, 3. Threat Model, 4. Best Practices for Developers, Security Policy (Strictly Private)
+
+### Community 28 - "Community 28"
+Cohesion: 0.25
+Nodes (7): Confidentiality & IP Safeguards, Contributor Covenant Code of Conduct, Enforcement, Enforcement Responsibilities, Our Pledge, Our Standards, Scope
+
 ## Knowledge Gaps
-- **125 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+120 more)
+- **156 isolated node(s):** `Our Pledge`, `Confidentiality & IP Safeguards`, `Our Standards`, `Enforcement Responsibilities`, `Scope` (+151 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -134,13 +149,13 @@ Nodes (5): Navbar(), StaggeredMenu(), StaggeredMenuItem, StaggeredMenuProps, Sta
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `AGENT_CONTEXT.md — Alpha Suite` connect `Community 1` to `Community 4`, `Community 6`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
 - **Why does `SECTION 4 — DATA FLOWS (CANONICAL)` connect `Community 4` to `Community 1`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Why does `SECTION 5 — INTELLIGENCE LAYER (16 INDICATORS + 5 PATTERNS + 5 STRATEGIES)` connect `Community 6` to `Community 1`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
-  _125 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+- **What connects `Our Pledge`, `Confidentiality & IP Safeguards`, `Our Standards` to the rest of the system?**
+  _156 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.07557354925775979 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

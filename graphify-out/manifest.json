@@ -55,8 +55,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\README.md": {
-    "mtime": 1779354429.3327389,
-    "ast_hash": "f15aaa42d5d299d091b1171097ea56ad",
+    "mtime": 1779551036.951451,
+    "ast_hash": "8a7ead1efcaa2b0f90eb359716941d69",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\design-system\\strat\\MASTER.md": {
@@ -252,6 +252,26 @@
   "D:\\projects\\aitrader-landing\\app\\refund\\page.tsx": {
     "mtime": 1779450332.2686346,
     "ast_hash": "a6c01ab7d2fc5e8669d8697f1ce0844c",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\CODE_OF_CONDUCT.md": {
+    "mtime": 1779551017.4474628,
+    "ast_hash": "8e92d68873748d27998a90af3391a092",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\CONTRIBUTING.md": {
+    "mtime": 1779551023.4420414,
+    "ast_hash": "5f4dccb8789e2022f79bc80052532065",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\LICENSE.txt": {
+    "mtime": 1779551011.6931145,
+    "ast_hash": "ff106fb6d999069241f23ee93adb9992",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\SECURITY.md": {
+    "mtime": 1779551028.7880661,
+    "ast_hash": "6f9bec5b09af30a2705a2f12fdc49c42",
     "semantic_hash": ""
   }
 }
