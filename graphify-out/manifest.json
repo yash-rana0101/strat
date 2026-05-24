@@ -100,18 +100,18 @@
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\layout\\Footer.tsx": {
-    "mtime": 1779558034.721636,
-    "ast_hash": "e2ff23dfaf458ebf1fcbe98b63fa9c17",
+    "mtime": 1779616485.4202013,
+    "ast_hash": "0f4e2c9f923d68019cdd95658a75b268",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\layout\\Navbar.tsx": {
-    "mtime": 1779553570.0598414,
+    "mtime": 1779616315.4159265,
     "ast_hash": "b7e53deea9a60123ae539f8f32e4b41b",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\layout\\StaggeredMenu.tsx": {
-    "mtime": 1779552841.26973,
-    "ast_hash": "35dd53908265de15cbd995707c8fe12e",
+    "mtime": 1779616479.811806,
+    "ast_hash": "d1f2380ea7a81ede244fbf6ad5bbc619",
     "semantic_hash": ""
   },
   "D:\\projects\\aitrader-landing\\app\\components\\sections\\cta\\FinalCTA.tsx": {
@@ -287,6 +287,11 @@
   "D:\\projects\\aitrader-landing\\app\\blog\\components\\FeaturedPost.tsx": {
     "mtime": 1779552977.3025672,
     "ast_hash": "32a7e3da8e2ebc10655099b2fa6e55d1",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\aitrader-landing\\public\\strat.svg": {
+    "mtime": 1779616156.315701,
+    "ast_hash": "50438655f9e2071d8a7616d9afccb2fa",
     "semantic_hash": ""
   }
 }
