@@ -53,7 +53,7 @@ export default function Footer() {
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10 pt-8 pb-16">
         {/* Brand Text Hover Effect Header */}
         <div className="w-full h-[6rem] sm:h-[8rem] md:h-[11rem] lg:h-[14rem] flex items-center justify-center overflow-hidden select-none mb-4">
-          <TextHoverEffect text="STRAT" />
+          <TextHoverEffect text="STRAT AI" />
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
@@ -63,24 +63,23 @@ export default function Footer() {
               <div className="w-7 h-7 flex items-center justify-center">
                 <img
                   src="/strat.svg"
-                  alt="Strat Logo"
+                  alt="Strat Ai Logo"
                   className="w-6 h-6 object-contain"
                   draggable={false}
                 />
               </div>
               <span className="text-sm font-bold text-[var(--text-primary)] font-heading">
-                STRAT
+                STRAT AI
               </span>
             </div>
             <p className="text-xs text-[var(--text-muted)] leading-relaxed mb-4">
-              Intelligent trading, engineered for precision. Built for the
-              serious trader who demands an edge.
+              Intelligent trading terminal, engineered for absolute clarity and unshakeable confidence in Indian Equities F&O and global Crypto.
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-2 text-[11px] text-[var(--text-muted)]">
                 <MapPin className="h-3.5 w-3.5 mt-0.5 text-[var(--accent-primary)] shrink-0" />
                 <span>
-                  Strat Labs Private Ltd.<br />
+                  Strat Ai Labs Private Ltd.<br />
                   Koramangala 4th Block,<br />
                   Bengaluru, KA 560034
                 </span>
@@ -149,10 +148,10 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-[var(--border-subtle)] flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[var(--text-muted)]">
-            © 2026 Strat. All rights reserved.
+            © 2026 Strat Ai. All rights reserved.
           </p>
           <p className="text-xs text-[var(--text-muted)]">
-            Built with &nbsp;<span className="text-red-500">❤</span>&nbsp; by bStrat
+            Built with &nbsp;<span className="text-red-500">❤</span>&nbsp; by Strat Ai Team
           </p>
         </div>
       </div>

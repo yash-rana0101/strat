@@ -154,7 +154,7 @@ const QuantMockup: React.FC = () => {
         <div className="space-y-1">
           <h4 className="text-xs font-bold text-white uppercase tracking-wider">Cryptographic Handshake Locked</h4>
           <p className="text-[10px] text-gray-500 max-w-[240px] mx-auto leading-relaxed">
-            Your indicators, watchlist parameters, and API secrets are stored locally on your SSD. Strat operates with absolute privacy—we never custody your trading keys.
+            Your indicators, watchlist parameters, and API secrets are stored locally on your SSD. Strat Ai operates with absolute privacy—we never custody your trading keys.
           </p>
         </div>
       </div>
@@ -172,60 +172,60 @@ const QuantMockup: React.FC = () => {
 };
 
 export default function ProblemSection() {
-  const [activeTab, setActiveTab] = useState("scalper");
+  const [activeTab, setActiveTab] = useState("asymmetry");
 
   const personas = [
     {
-      id: "scalper",
-      title: "Telemetry",
-      subtitle: "Unified visual confluence streams",
-      benefit: "Eliminate the fatigue of cross-referencing multiple disjointed charts. Strat fuses option chain stats, volume acceleration metrics, and chart updates into one focus-driven workspace.",
+      id: "asymmetry",
+      title: "Asymmetry",
+      subtitle: "Institutional Asymmetry",
+      benefit: "For decades, financial markets operated on a deep asymmetry. Institutional desks use dedicated quantitative analysts, risk managers, and behavioral economists to map volume, volatility, and trapped liquidity, while retail traders remain in isolation.",
       metrics: [
-        { label: "Execution Feed", value: "Real-Time" },
-        { label: "Confluence", value: "Automatic" },
-        { label: "Indicators State", value: "Aggregated" },
+        { label: "Institutional Desks", value: "Fully Armed" },
+        { label: "Retail Trader", value: "Isolated" },
+        { label: "Market Advantage", value: "Institutional" },
       ],
       points: [
-        "Continuous analysis tracking (Volume + Trend metrics)",
-        "Unified option chain analytics with real-time volatility tracking",
-        "Clear drag-and-drop price thresholds directly on canvas",
-        "Aesthetic focus interface designed to reduce visual clutter",
+        "Institutions track volume profiles, volatility skews, and liquidity pools",
+        "Retail operates in isolation, bombarded by conflicting streams of data",
+        "This cognitive asymmetry breeds severe trading hesitation and fear",
+        "Gut feeling takes over, causing late entries and costly psychological errors",
       ],
       mockup: <ScalperMockup />,
     },
     {
-      id: "swing",
-      title: "Market Consensus",
-      subtitle: "Multi-factor conviction scoring",
-      benefit: "Trade with absolute conviction. Strat aggregates live indicators, sentiment trackers, and predictive regressions to compute a clean, visual market regime report.",
+      id: "overload",
+      title: "Overload",
+      subtitle: "Cognitive Overload & Noise",
+      benefit: "Bombarded with sensationalist media noise, deceptive price spikes, and fragmented indicators across half a dozen screens, the modern retail trader is left asking WHAT happened, long after institutions knew WHY it was going to happen.",
       metrics: [
-        { label: "Regime Checks", value: "Live" },
-        { label: "Factors Fused", value: "Technicals + Sentiment" },
-        { label: "Consensus Model", value: "Consolidated" },
+        { label: "Media Noise", value: "Constant" },
+        { label: "Price Spikes", value: "Deceptive" },
+        { label: "Decision Delay", value: "High Latency" },
       ],
       points: [
-        "Consolidated conviction scoring utilizing 5 analytical metrics",
-        "Dynamic macro filters (Bull, Bear, Volatility range markers)",
-        "Volume profile alerts and compression breakout trackers",
-        "Visual indicators confluence checking directly on the chart",
+        "Dozens of conflicting metrics across fragmented browser screens",
+        "Deceptive price movements trigger late FOMO entries",
+        "Retail is left reactive, forever chasing the trailing edge of the trend",
+        "Objective reality is entirely obscured by media hyperbole and noise",
       ],
       mockup: <SwingMockup />,
     },
     {
-      id: "quant",
-      title: "Absolute Privacy",
-      subtitle: "Zero-custody personal workspace",
-      benefit: "Strat respects your intellectual property. Your strategies, indicators, watchlists, and secure API keys are stored entirely on your own local device—never on a central database.",
+      id: "resolution",
+      title: "Resolution",
+      subtitle: "The Intelligent Resolution",
+      benefit: "Strat Ai was engineered to obliterate this asymmetry. It acts as a brilliant, untiring intelligence layer between you and the market. It sees the invisible board, synthesizes the chaos, neutralizes the noise, and arms you with research depth previously reserved for proprietary desks.",
       metrics: [
-        { label: "Data Custody", value: "100% Local" },
-        { label: "Vault Security", value: "Cryptographic" },
-        { label: "Cloud Uploads", value: "Zero" },
+        { label: "Intelligence Layer", value: "Untiring" },
+        { label: "Invisible Board", value: "Synthesized" },
+        { label: "Decision Engine", value: "Local-First" },
       ],
       points: [
-        "Tauri-secured cryptographic storage locked on your SSD",
-        "API keys are derived locally with zero cloud routing or mirroring",
-        "Your indicator setups and watchlists are entirely yours",
-        "Absolute sovereignty over your private trading intellectual property",
+        "Obliterates market asymmetry with professional quant-level depth",
+        "Fuses volume Open Interest and volatility skews into a single narrative",
+        "Eliminates noise to help you trade with unshakeable psychological control",
+        "Tauri-secured cryptographic storage guarantees absolute data privacy",
       ],
       mockup: <QuantMockup />,
     },
@@ -239,15 +239,15 @@ export default function ProblemSection() {
       <div className="mx-auto max-w-[1200px] relative">
         <AnimateOnScroll className="text-center mb-16">
           <p className="text-[11px] font-medium text-[var(--accent-primary)] font-mono tracking-[0.15em] uppercase mb-4">
-            Capabilities
+            The Philosophy
           </p>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-5 font-heading tracking-[-0.02em] leading-[1.05]">
-            Engineered for
+            The Philosophy:
             <br />
-            Your <span className="text-gradient italic">Trading Focus</span>
+            The <span className="text-gradient italic">Information War</span>
           </h2>
           <p className="text-[var(--text-secondary)] max-w-xl mx-auto text-base sm:text-lg">
-            Choose your focus area to see how Strat consolidates research streams and visual market metrics into a premium trading environment.
+            Trading is a war of information and psychology. Strat Ai was engineered to obliterate institutional asymmetry and restore absolute psychological control.
           </p>
         </AnimateOnScroll>
 
@@ -296,7 +296,7 @@ export default function ProblemSection() {
                   {/* Left Column (Feature Content) */}
                   <div className="lg:col-span-5 text-left flex flex-col justify-center h-full">
                     <span className="text-[11px] font-medium text-[var(--accent-primary)] font-mono tracking-[0.15em] uppercase mb-3">
-                      {p.title} Workspace
+                      {p.id === "resolution" ? "Strat Ai Resolution" : `${p.title} Pillar`}
                     </span>
                     <h3 className="text-2xl sm:text-3xl font-bold mb-4 font-heading tracking-tight leading-tight">
                       {p.subtitle}

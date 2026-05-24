@@ -6,28 +6,28 @@ import { AnimateOnScroll } from "../../effects/AnimateOnScroll";
 
 const faqs = [
   {
-    q: "Which brokers are supported?",
-    a: "Currently, Strat integrates with Zerodha Kite via their official API. Support for additional brokers (Upstox, Angel One) is on the roadmap.",
+    q: "Which brokers and exchanges are supported?",
+    a: "Currently, Strat Ai integrates with Zerodha Kite via their official API for Indian F&O. For global Crypto trading, it integrates directly via high-speed WebSockets with major exchanges like Binance, Coinbase, and OKX. Support for additional Indian brokers (Upstox, Angel One) is on the roadmap.",
   },
   {
     q: "Is this an auto-trading bot?",
-    a: "No. Strat provides intelligence and recommendations — BUY/SELL/HOLD signals with conviction scores, entry/SL/target levels. You make the final execution decision.",
+    a: "No. Strat Ai provides intelligence, setups, and recommendations — explaining the narrative of the market in real-time, providing supply/demand confluences, trend scores, and risk parameters. You always retain absolute sovereignty and make the final execution decision.",
   },
   {
     q: "How is my API key secured?",
-    a: "API keys are stored in a Tauri Stronghold vault using Argon2id key derivation and AES-256-GCM encryption. Keys never exist in plaintext on disk or in memory longer than needed.",
+    a: "API keys are stored in a local Tauri Stronghold cryptographic vault using Argon2id key derivation and AES-256-GCM encryption. Strat Ai has a zero-custody model—your keys are derived locally and never exit your device to a cloud server.",
   },
   {
     q: "What markets does it cover?",
-    a: "NSE and BSE — specifically optimized for F&O (Futures & Options) trading. The Quant Radar scans 50 of the most liquid F&O symbols on NSE.",
+    a: "It covers the complex depths of the Indian Equities sector (NSE/BSE) optimized for Futures & Options (F&O), and the relentless 24/7 global Crypto landscape. The terminal dynamically shifts its analytical lens based on the asset class you select.",
   },
   {
     q: "Does it work on Mac and Windows?",
-    a: "Yes. Strat is built on Tauri, which compiles to native binaries for both Windows and macOS. Linux support is planned.",
+    a: "Yes. Strat Ai is built on Tauri, which compiles to native binaries for both Windows and macOS. Linux support is planned.",
   },
   {
-    q: "What is the Ghost Line?",
-    a: "The Ghost Line is a predictive overlay using Ordinary Least Squares (OLS) regression on 14 closing prices. It shows where the next candle close is likely to land, with an R² confidence score. Only visible on the 10-minute timeframe where the math is valid.",
+    q: "What is the OLS Ghost Line?",
+    a: "The Ghost Line is a predictive overlay using Ordinary Least Squares (OLS) regression on 14 closing prices. It shows where the next candle close is likely to land, with an R² confidence score. Only visible on timeframes where the mathematical projection is statistically valid.",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function FAQ() {
             <span className="text-gradient italic">Answers</span>
           </h2>
           <p className="text-[var(--text-secondary)] max-w-lg mx-auto text-base sm:text-lg">
-            Everything you need to know about Strat.
+            Everything you need to know about Strat Ai.
           </p>
         </AnimateOnScroll>
 

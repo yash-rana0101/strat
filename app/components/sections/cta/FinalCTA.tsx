@@ -53,17 +53,16 @@ export default function FinalCTA() {
       <div className="relative mx-auto max-w-[800px] text-center">
         <AnimateOnScroll>
           <h2 className="text-4xl sm:text-5xl lg:text-[4rem] font-bold mb-6 leading-[1.05] font-heading tracking-[-0.02em]">
-            Your Edge
+            Trade with
             <br />
-            Starts{" "}
-            <span className="text-gradient italic">Now</span>
+            Unshakeable{" "}
+            <span className="text-gradient italic">Confidence</span>
           </h2>
         </AnimateOnScroll>
 
         <AnimateOnScroll delay={0.15}>
           <p className="text-base sm:text-lg text-[var(--text-secondary)] mb-8 max-w-md mx-auto">
-            Join the beta. Get institutional-grade intelligence built for the
-            serious trader who demands precision.
+            Get Strat Ai today. Obliterate information asymmetry, neutralize the noise, and trade with unshakeable psychological control.
           </p>
         </AnimateOnScroll>
 
@@ -75,7 +74,7 @@ export default function FinalCTA() {
             id="final-cta"
             className="inline-flex items-center justify-center px-8 py-4 rounded-md bg-[var(--accent-primary)] text-[var(--bg-base)] font-semibold text-sm tracking-wide uppercase hover:bg-[var(--accent-hover)] transition-all duration-200 hover:shadow-[0_0_30px_var(--accent-glow)] cursor-pointer"
           >
-            Get Early Access
+            Join the Exclusive Waitlist
             <svg
               width="18"
               height="18"

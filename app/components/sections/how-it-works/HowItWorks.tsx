@@ -7,33 +7,33 @@ import { AnimateOnScroll } from "../../effects/AnimateOnScroll";
 const steps = [
   {
     step: "01",
-    tag: "PREDICTIVE INTELLIGENCE",
-    title: "Visual Predictive Forecasting",
-    description: "Instantly visualize predictive market trajectories and confidence scores calculated in real-time. Strat helps you see potential trends ahead of time with zero cognitive load.",
+    tag: "OPTIONS & DERIVATIVES",
+    title: "The Options (F&O) Decoder",
+    description: "Tracks the footprints of giants. Strat Ai analyzes Open Interest, volume profiles, and volatility skews to map institutional positioning, identifying pain points to alert you to gamma squeezes or short-covering rallies.",
   },
   {
     step: "02",
-    tag: "REAL-TIME TELEMETRY",
-    title: "Instant Ingest Synchrony",
-    description: "Experience seamless, zero-delay ingestion of Indian market tick feeds. Your terminal remains continuously synchronized, giving you real-time data accuracy when it matters most.",
+    tag: "SETUP VALIDATION",
+    title: "The 360° Trade Validator",
+    description: "Before risking capital, Strat Ai demands logical sense. It performs a comprehensive teardown of market structure, evaluating supply/demand zones, trend strength, and risk-to-reward ratios to obliterate confirmation bias.",
   },
   {
     step: "03",
-    tag: "SWARM ANALYSIS",
-    title: "Multi-Source Analytics Swarm",
-    description: "Strat coordinates multiple specialized analytical nodes in parallel—evaluating technical, momentum, sentiment, and trend metrics simultaneously to parse through the market noise.",
+    tag: "MARKET SURVEILLANCE",
+    title: "Anomaly Translation Engine",
+    description: "Constant surveillance for structural anomalies—unusual volume surges, sudden sector rotations, or asset correlation decoupling. Strat Ai detects anomalies and translates the driving narrative in real-time.",
   },
   {
     step: "04",
-    tag: "CONSENSUS FUSION",
-    title: "Integrated Conviction Fusion",
-    description: "Fuses signals from all analytical nodes, weighting indicator confluences like RSI, VWAP, news, and trend dynamics into a single, elegant market conviction score.",
+    tag: "GLOBAL MACRO SENTIMENT",
+    title: "The Macro Narrative Engine",
+    description: "Weaves global news, financial reports, and macroeconomic sentiment directly into your charting experience, filtering media noise to deliver core narrative context.",
   },
   {
     step: "05",
-    tag: "WORKSPACE EXECUTION",
-    title: "Precision Execution Ready",
-    description: "View clean entry points, profit targets, and stop-loss levels. One-click transmission seamlessly formats trade configurations for your brokerage account.",
+    tag: "ADAPTIVE MINDSETS",
+    title: "From regulated F&O to Crypto",
+    description: "Dynamically adapts its analytical lens based on the asset class. Delivers structured daytime auction-market analysis for Indian F&O (NSE/BSE), and momentum-driven Swings for 24/7 global Crypto.",
   },
 ];
 
@@ -311,15 +311,15 @@ export default function HowItWorks() {
       <div className="mx-auto max-w-[1280px] relative">
         <AnimateOnScroll className="text-center mb-24">
           <p className="text-[11px] font-medium text-[var(--accent-primary)] font-mono tracking-[0.15em] uppercase mb-4">
-            How It Works
+            The Anatomy of Intelligence
           </p>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-5 font-heading tracking-[-0.02em] leading-[1.05]">
-            From Data to
+            What Strat Ai
             <br />
-            <span className="text-gradient italic">Conviction</span> in 50ms
+            <span className="text-gradient italic">Delivers</span> in Real-Time
           </h2>
           <p className="text-[var(--text-secondary)] max-w-xl mx-auto text-base sm:text-lg">
-            Every market movement is parsed, synthesized, and visualized in real-time by Strat's high-speed quantitative intelligence engine.
+            Strat Ai does not just flash arrows; it acts as a senior risk manager and quantitative researcher, explaining the narrative of the market with absolute clarity.
           </p>
         </AnimateOnScroll>
 

@@ -468,7 +468,7 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                                 <path d="M2 17L12 22L22 17" stroke="#0CF2A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M2 12L12 17L22 12" stroke="#0CF2A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
-                            <span className="text-xl font-bold text-white ml-2">Strat</span>
+                            <span className="text-xl font-bold text-white ml-2">Strat Ai</span>
                         </div>
 
                         <div className="hidden md:flex items-center justify-center flex-grow space-x-6 lg:space-x-8 px-4">
@@ -679,10 +679,10 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                         animate="visible"
                         className="text-4xl sm:text-5xl lg:text-[64px] font-bold text-white leading-[1.05] font-heading tracking-[-0.02em] max-w-4xl mb-4"
                     >
-                        Trade with institutional-grade<br />{' '}
+                        Trade with unshakeable<br />{' '}
                         <span className="inline-block h-[1.2em] sm:h-[1.2em] lg:h-[1.2em] overflow-hidden align-bottom">
                             <RotatingText
-                                texts={['Signals', 'Consensus', 'Conviction', 'Analysis', 'Insights']}
+                                texts={['Clarity', 'Confidence', 'Intelligence', 'Conviction', 'Precision']}
                                 mainClassName="text-[#0CF2A0] mx-1"
                                 staggerFrom={"last"}
                                 initial={{ y: "-100%", opacity: 0 }}
@@ -704,7 +704,7 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                         animate="visible"
                         className="text-base sm:text-lg lg:text-xl text-gray-400 max-w-2xl mx-auto mb-8"
                     >
-                        Ingest live binary ticks from Zerodha Kite, fuse signals from 5 specialized AI agents, and execute with institutional-grade conviction. Built in Rust for serious Indian F&O traders.
+                        Strat Ai is not merely a charting platform. It is your ultimate market co-pilot. Designed explicitly for the complex depths of the Indian Equities sector (NSE/BSE), the multi-dimensional world of Futures & Options (F&O), and the relentless global Crypto landscape, Strat Ai transforms chaotic market data into profound, actionable intelligence.
                     </motion.p>
 
                     <motion.form
@@ -716,7 +716,7 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                     >
                         <input
                             type="email"
-                            placeholder="Enter email for beta invite"
+                            placeholder="Enter email for early access"
                             required
                             aria-label="Email Address"
                             className="flex-grow w-full sm:w-auto px-4 py-2 rounded-md bg-[#2a2a2a] border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#0CF2A0] focus:border-transparent transition-all"
@@ -728,7 +728,7 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                             whileTap={{ scale: 0.97 }}
                             transition={{ type: "spring", stiffness: 400, damping: 15 }}
                         >
-                            Request Early Access
+                            Join the Exclusive Waitlist
                         </motion.button>
                     </motion.form>
 
@@ -738,7 +738,7 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                         animate="visible"
                         className="text-xs text-gray-500 mb-10"
                     >
-                        Invite-only beta
+                        Invite-only beta • 3 days free trial
                     </motion.p>
 
                     <motion.div
@@ -746,27 +746,27 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                         initial="hidden"
                         animate="visible"
                         className="flex flex-col items-center justify-center space-y-2 mb-10"
-                    >
-                        <span className="text-xs uppercase text-gray-500 tracking-wider font-medium">Works with</span>
-                        <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-gray-400">
-                            <span className="flex items-center whitespace-nowrap">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0CF2A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1.5"><path d="M3 3v18h18" /><path d="m19 9-5 5-4-4-3 3" /></svg>
-                                Zerodha Kite
-                            </span>
-                            <span className="flex items-center whitespace-nowrap">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0CF2A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1.5"><circle cx="12" cy="12" r="10" /><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /><path d="M2 12h20" /></svg>
-                                NSE & BSE
-                            </span>
-                            <span className="flex items-center whitespace-nowrap">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0CF2A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1.5"><polyline points="4 17 10 11 4 5" /><line x1="12" y1="19" x2="20" y2="19" /></svg>
-                                5 AI Agents
-                            </span>
-                            <span className="flex items-center whitespace-nowrap">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0CF2A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1.5"><ellipse cx="12" cy="5" rx="9" ry="3" /><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" /><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" /></svg>
-                                QuestDB Sink
-                            </span>
-                        </div>
-                    </motion.div>
+                      >
+                          <span className="text-xs uppercase text-gray-500 tracking-wider font-medium">Works with</span>
+                          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-gray-400">
+                              <span className="flex items-center whitespace-nowrap">
+                                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0CF2A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1.5"><path d="M3 3v18h18" /><path d="m19 9-5 5-4-4-3 3" /></svg>
+                                  NSE & BSE F&O
+                              </span>
+                              <span className="flex items-center whitespace-nowrap">
+                                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0CF2A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1.5"><circle cx="12" cy="12" r="10" /><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /><path d="M2 12h20" /></svg>
+                                  24/7 Global Crypto
+                              </span>
+                              <span className="flex items-center whitespace-nowrap">
+                                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0CF2A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1.5"><polyline points="4 17 10 11 4 5" /><line x1="12" y1="19" x2="20" y2="19" /></svg>
+                                  5 AI Agents
+                              </span>
+                              <span className="flex items-center whitespace-nowrap">
+                                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0CF2A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1.5"><ellipse cx="12" cy="5" rx="9" ry="3" /><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" /><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" /></svg>
+                                  Real-time
+                              </span>
+                          </div>
+                      </motion.div>
                 </motion.div>
 
                 <motion.div

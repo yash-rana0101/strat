@@ -6,9 +6,9 @@ import MagicBento, { BentoCardProps } from "./MagicBento";
 export default function FeatureBento() {
   const features: BentoCardProps[] = [
     {
-      title: "Market Swarm Consensus",
+      title: "Multi-Dimensional Consensus",
       description:
-        "Fuses technical, sentiment, and trend metrics from multiple specialized analytical nodes into a single, high-fidelity visual consensus report.",
+        "Fuses Open Interest footprints, volatility skews, and global macro narratives into a single, high-fidelity visual consensus report.",
       span: "md:col-span-2",
       glowColor: "16, 185, 129", // Emerald
       label: "AI Swarm",
@@ -28,9 +28,9 @@ export default function FeatureBento() {
       ),
     },
     {
-      title: "Visual Trend Projection",
+      title: "360° Trade Validator",
       description:
-        "Instantly projects potential trend trajectories onto your active chart window, offering real-time statistical insight.",
+        "Performs a complete teardown of supply/demand zones and trend strength to objectively validate setups before risking capital.",
       span: "md:col-span-1",
       glowColor: "16, 185, 129", // Emerald
       label: "Predictive",
@@ -51,9 +51,9 @@ export default function FeatureBento() {
       ),
     },
     {
-      title: "Session Momentum Radar",
+      title: "Anomaly Surveillance",
       description:
-        "Automated scanning that continuously monitors major F&O symbols. Proactively highlights price breakouts, support confluences, and key momentum shifts.",
+        "Continuously scans 500+ NSE symbols and Crypto pairs in real-time, proactively highlighting price breakouts and correlation decoupling.",
       span: "md:col-span-1",
       glowColor: "16, 185, 129", // Emerald
       label: "Scanner",
@@ -75,9 +75,9 @@ export default function FeatureBento() {
       ),
     },
     {
-      title: "Cognitive Analytics Hub",
+      title: "Narrative Translation Hub",
       description:
-        "Context-aware quantitative analysis on-demand. Synthesizes key indicators, historical setups, and real-time news to validate your trading conviction.",
+        "Translates sudden market moves by cross-referencing breaking news and macroeconomic narratives on-demand, explaining the exact 'why' behind price actions.",
       span: "md:col-span-2",
       glowColor: "139, 92, 246", // Purple
       label: "Generative Model",
@@ -100,7 +100,7 @@ export default function FeatureBento() {
     {
       title: "Multi-Indicator Confluence",
       description:
-        "RSI, VWAP, MACD, Bollinger Bands, and more—all computed simultaneously in real-time, delivering zero-lag charts directly to your workspace.",
+        "RSI, VWAP, MACD, Open Interest, and volatility skews—all computed simultaneously in real-time, delivering zero-lag charting intelligence.",
       span: "md:col-span-1",
       glowColor: "16, 185, 129", // Emerald
       label: "Analytics",
@@ -121,7 +121,7 @@ export default function FeatureBento() {
     {
       title: "Direct-to-Canvas Charting",
       description:
-        "Fluid, high-performance charting engineered for continuous trading focus. Completely native execution for stutter-free data updates and seamless interaction.",
+        "Fluid, high-performance charting engineered for Indian Equities and Crypto momentum, featuring completely native, zero-stutter execution.",
       span: "md:col-span-1",
       glowColor: "16, 185, 129", // Emerald
       label: "Performance",
@@ -144,7 +144,7 @@ export default function FeatureBento() {
     {
       title: "Zero-Custody Desktop Terminal",
       description:
-        "Your API credentials, strategy configurations, and private trading setups remain strictly yours. Everything is safely encrypted and stored locally on your own computer.",
+        "Your API credentials, strategy parameters, and watchlists remain strictly yours—safely encrypted and stored locally on your SSD via Tauri.",
       span: "md:col-span-1",
       glowColor: "245, 158, 11", // Gold/Amber for security
       label: "Security",
@@ -182,8 +182,7 @@ export default function FeatureBento() {
             <span className="text-gradient italic">Precision</span> Trading
           </h2>
           <p className="text-[var(--text-secondary)] max-w-xl mx-auto text-base sm:text-lg">
-            Every feature is engineered for serious traders. No generic
-            dashboards — only institutional-grade tools.
+            Every feature is engineered to obliterate asymmetry. No generic dashboards — only institutional-grade tools built for serious F&O and Crypto traders.
           </p>
         </AnimateOnScroll>
 

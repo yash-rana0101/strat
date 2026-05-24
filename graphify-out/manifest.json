@@ -1,297 +1,272 @@
 {
-  "D:\\projects\\aitrader-landing\\eslint.config.mjs": {
+  "D:\\projects\\strat\\eslint.config.mjs": {
     "mtime": 1779354429.36459,
     "ast_hash": "dfa1f5f6a7037bf39dc510f30b180002",
-    "semantic_hash": "dfa1f5f6a7037bf39dc510f30b180002"
+    "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\next.config.ts": {
+  "D:\\projects\\strat\\next.config.ts": {
     "mtime": 1779354429.5071476,
     "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
-    "semantic_hash": "9b77af189a21a7a64e4bd7a426f64176"
+    "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\package.json": {
+  "D:\\projects\\strat\\package.json": {
     "mtime": 1779374750.34615,
     "ast_hash": "11a44e761501a9d8b09084cc41e12ec0",
     "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\postcss.config.mjs": {
+  "D:\\projects\\strat\\postcss.config.mjs": {
     "mtime": 1779354429.398798,
     "ast_hash": "239f3ebf717465dc636818a1a619398d",
-    "semantic_hash": "239f3ebf717465dc636818a1a619398d"
+    "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\tsconfig.json": {
+  "D:\\projects\\strat\\tsconfig.json": {
     "mtime": 1779354429.8938365,
     "ast_hash": "02fc19ad21338c2ab820a70136310db4",
-    "semantic_hash": "02fc19ad21338c2ab820a70136310db4"
+    "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\.vscode\\settings.json": {
+  "D:\\projects\\strat\\.vscode\\settings.json": {
     "mtime": 1779357477.028698,
     "ast_hash": "73792b9af3fc811b105441cc773526b1",
-    "semantic_hash": "73792b9af3fc811b105441cc773526b1"
+    "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\app\\layout.tsx": {
+  "D:\\projects\\strat\\app\\layout.tsx": {
     "mtime": 1779367743.578724,
     "ast_hash": "4e2588d4b6a997326d7cf6546a3849fb",
-    "semantic_hash": "4e2588d4b6a997326d7cf6546a3849fb"
+    "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\app\\page.tsx": {
+  "D:\\projects\\strat\\app\\page.tsx": {
     "mtime": 1779553427.6485991,
     "ast_hash": "52d05c8e1b31752155bc895f108a7103",
     "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\AGENTS.md": {
-    "mtime": 1779354525.4121978,
-    "ast_hash": "9e09241799026ac05be315a2f0b50055",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\AGENT_CONTEXT.md": {
-    "mtime": 1779552521.7171764,
-    "ast_hash": "6f3dc79089eaf22cd9a98f28aca5f328",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\CLAUDE.md": {
-    "mtime": 1779354525.4135003,
-    "ast_hash": "5c27369b226fcf2be8a6cfe52224e767",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\README.md": {
-    "mtime": 1779552512.1032429,
-    "ast_hash": "18aab53374a7b160ad2397f28e8c1a86",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\public\\file.svg": {
-    "mtime": 1779354429.4114468,
-    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\public\\globe.svg": {
-    "mtime": 1779354429.4270577,
-    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\public\\next.svg": {
-    "mtime": 1779354429.443725,
-    "ast_hash": "8e061864f388b47f33a1c3780831193e",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\public\\vercel.svg": {
-    "mtime": 1779354429.4587796,
-    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\public\\window.svg": {
-    "mtime": 1779354429.4723787,
-    "ast_hash": "a2760511c65806022ad20adf74370ff3",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\components\\ui\\hero-section-nexus.tsx": {
-    "mtime": 1779553428.1812046,
-    "ast_hash": "69c0f7b43881b33425487778b2a0a585",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\effects\\AnimateOnScroll.tsx": {
-    "mtime": 1779357162.5395691,
-    "ast_hash": "7778193e0ea3d1f16e81fe35b5f217e1",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\effects\\DarkVeil.tsx": {
-    "mtime": 1779379819.263502,
-    "ast_hash": "8d55f5034dcae1c340864ce43ffefadd",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\layout\\Footer.tsx": {
-    "mtime": 1779616782.2709155,
-    "ast_hash": "3d60aa80ff0506bf9901d013211bb093",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\layout\\Navbar.tsx": {
-    "mtime": 1779616315.4159265,
-    "ast_hash": "b7e53deea9a60123ae539f8f32e4b41b",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\layout\\StaggeredMenu.tsx": {
-    "mtime": 1779616479.811806,
-    "ast_hash": "d1f2380ea7a81ede244fbf6ad5bbc619",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\sections\\cta\\FinalCTA.tsx": {
-    "mtime": 1779440009.7770417,
-    "ast_hash": "d1658410c190d77fc7af81d7ac1d872d",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\sections\\faq\\FAQ.tsx": {
-    "mtime": 1779377132.9822805,
-    "ast_hash": "82c1faaa299b0c9df579ee640ff95bbb",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\sections\\features\\FeatureBento.tsx": {
-    "mtime": 1779554339.3463745,
-    "ast_hash": "1e80b7c9626d006f645cbd9ffbb18558",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\sections\\features\\MagicBento.tsx": {
-    "mtime": 1779381014.177392,
-    "ast_hash": "e68962df4dd6db036f635ef6a5ac1304",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\sections\\hero\\Hero.tsx": {
-    "mtime": 1779376841.4500272,
-    "ast_hash": "b032dc931d48140a016e796f5bfa945b",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\sections\\how-it-works\\HowItWorks.tsx": {
-    "mtime": 1779554329.5686853,
-    "ast_hash": "9f8c34284542f992d036c4540d186ada",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\sections\\pricing\\Pricing.tsx": {
-    "mtime": 1779381380.3092885,
-    "ast_hash": "0eeb14688725355975c6f61086f4567a",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\sections\\problem\\ProblemSection.tsx": {
-    "mtime": 1779557913.1393745,
-    "ast_hash": "94fd9ecd05ef517352fbf307aec9c63e",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\sections\\stats\\Stats.tsx": {
-    "mtime": 1779377097.4379644,
-    "ast_hash": "9738103a9221ae0967ca36bb2813ad62",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\components\\ui\\RotatingText.tsx": {
-    "mtime": 1779377884.9816425,
-    "ast_hash": "ab1936ac0ff2030b639518d97dadeba0",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\public\\hero\\hero.png": {
-    "mtime": 1779377425.8214757,
-    "ast_hash": "0436ac00f5dcd647e79f50a201d3d015",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\components\\ui\\ShinyText.tsx": {
-    "mtime": 1779377889.4866679,
-    "ast_hash": "f1063b5c3cb93ccc31e6680e62e8a99a",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\components\\ui\\text-hover-effect.tsx": {
-    "mtime": 1779444824.143973,
-    "ast_hash": "18509afaf5cee0791da10706baa70cca",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\components\\text-hover-effect-demo.tsx": {
-    "mtime": 1779444643.5906434,
-    "ast_hash": "99d9d776655e405f5bfec97e2555b07f",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\components\\layout\\SubpageLayout.tsx": {
-    "mtime": 1779449008.3377283,
-    "ast_hash": "dc06fc1d98e86791303e45780c1a766c",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\changelog\\page.tsx": {
-    "mtime": 1779553889.508506,
-    "ast_hash": "88dfb15e960f2534a3dd74db73227558",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\docs\\page.tsx": {
-    "mtime": 1779553872.9432495,
-    "ast_hash": "236e21ca789058dad3b57df1b074137b",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\api-reference\\page.tsx": {
-    "mtime": 1779554406.5680883,
-    "ast_hash": "df28c3d2609e6bfbb42e6940817d8b6d",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\status\\page.tsx": {
-    "mtime": 1779553860.9464302,
-    "ast_hash": "f924690fad2bda46456e8bcef480df07",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\about\\page.tsx": {
+  "D:\\projects\\strat\\app\\about\\page.tsx": {
     "mtime": 1779554356.353049,
     "ast_hash": "4a2df0a4eaef65a12d435622d537fef3",
     "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\app\\blog\\page.tsx": {
+  "D:\\projects\\strat\\app\\api-reference\\page.tsx": {
+    "mtime": 1779554406.5680883,
+    "ast_hash": "df28c3d2609e6bfbb42e6940817d8b6d",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\blog\\page.tsx": {
     "mtime": 1779553000.7980418,
     "ast_hash": "d149a8063889219a1857f726596720c1",
     "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\app\\careers\\page.tsx": {
-    "mtime": 1779552417.3566692,
-    "ast_hash": "30823693f2193bf6b0baa3f54644d9bc",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\contact\\page.tsx": {
-    "mtime": 1779554377.4294517,
-    "ast_hash": "d9a09dab504297c08f3c12ef518e1d78",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\privacy\\page.tsx": {
-    "mtime": 1779553835.7432468,
-    "ast_hash": "871eb06709a00df252d7da93406b31c2",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\terms\\page.tsx": {
-    "mtime": 1779553827.9551992,
-    "ast_hash": "801c6b78f0351d7d77fd1a07773b572b",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\disclaimer\\page.tsx": {
-    "mtime": 1779553843.6814058,
-    "ast_hash": "4dd804037831263e117608cd116603cc",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\refund\\page.tsx": {
-    "mtime": 1779553851.0359266,
-    "ast_hash": "c7c983247a8a0e23c7045cb1bfc495ce",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\CODE_OF_CONDUCT.md": {
-    "mtime": 1779551017.4474628,
-    "ast_hash": "8e92d68873748d27998a90af3391a092",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\CONTRIBUTING.md": {
-    "mtime": 1779552502.298521,
-    "ast_hash": "9f4d9c901d1d3029ad2828d06eb1ca2a",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\LICENSE.txt": {
-    "mtime": 1779551011.6931145,
-    "ast_hash": "ff106fb6d999069241f23ee93adb9992",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\SECURITY.md": {
-    "mtime": 1779551028.7880661,
-    "ast_hash": "6f9bec5b09af30a2705a2f12fdc49c42",
-    "semantic_hash": ""
-  },
-  "D:\\projects\\aitrader-landing\\app\\blog\\components\\BlogGrid.tsx": {
+  "D:\\projects\\strat\\app\\blog\\components\\BlogGrid.tsx": {
     "mtime": 1779552991.9111168,
     "ast_hash": "8f7b2d389fbd99812883add35599476a",
     "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\app\\blog\\components\\BlogHero.tsx": {
+  "D:\\projects\\strat\\app\\blog\\components\\BlogHero.tsx": {
     "mtime": 1779552969.6188898,
     "ast_hash": "dc4b51f3a6be870301cb8cd01574d6e5",
     "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\app\\blog\\components\\CategoryFilter.tsx": {
+  "D:\\projects\\strat\\app\\blog\\components\\CategoryFilter.tsx": {
     "mtime": 1779552983.700537,
     "ast_hash": "a00880193b41056b08635ecbd7ef0825",
     "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\app\\blog\\components\\FeaturedPost.tsx": {
+  "D:\\projects\\strat\\app\\blog\\components\\FeaturedPost.tsx": {
     "mtime": 1779552977.3025672,
     "ast_hash": "32a7e3da8e2ebc10655099b2fa6e55d1",
     "semantic_hash": ""
   },
-  "D:\\projects\\aitrader-landing\\public\\strat.svg": {
+  "D:\\projects\\strat\\app\\careers\\page.tsx": {
+    "mtime": 1779552417.3566692,
+    "ast_hash": "30823693f2193bf6b0baa3f54644d9bc",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\changelog\\page.tsx": {
+    "mtime": 1779553889.508506,
+    "ast_hash": "88dfb15e960f2534a3dd74db73227558",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\effects\\AnimateOnScroll.tsx": {
+    "mtime": 1779357162.5395691,
+    "ast_hash": "7778193e0ea3d1f16e81fe35b5f217e1",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\effects\\DarkVeil.tsx": {
+    "mtime": 1779379819.263502,
+    "ast_hash": "8d55f5034dcae1c340864ce43ffefadd",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\layout\\Footer.tsx": {
+    "mtime": 1779616782.2709155,
+    "ast_hash": "3d60aa80ff0506bf9901d013211bb093",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\layout\\Navbar.tsx": {
+    "mtime": 1779616315.4159265,
+    "ast_hash": "b7e53deea9a60123ae539f8f32e4b41b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\layout\\StaggeredMenu.tsx": {
+    "mtime": 1779616479.811806,
+    "ast_hash": "d1f2380ea7a81ede244fbf6ad5bbc619",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\layout\\SubpageLayout.tsx": {
+    "mtime": 1779449008.3377283,
+    "ast_hash": "dc06fc1d98e86791303e45780c1a766c",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\sections\\cta\\FinalCTA.tsx": {
+    "mtime": 1779440009.7770417,
+    "ast_hash": "d1658410c190d77fc7af81d7ac1d872d",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\sections\\faq\\FAQ.tsx": {
+    "mtime": 1779377132.9822805,
+    "ast_hash": "82c1faaa299b0c9df579ee640ff95bbb",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\sections\\features\\FeatureBento.tsx": {
+    "mtime": 1779554339.3463745,
+    "ast_hash": "1e80b7c9626d006f645cbd9ffbb18558",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\sections\\features\\MagicBento.tsx": {
+    "mtime": 1779381014.177392,
+    "ast_hash": "e68962df4dd6db036f635ef6a5ac1304",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\sections\\hero\\Hero.tsx": {
+    "mtime": 1779376841.4500272,
+    "ast_hash": "b032dc931d48140a016e796f5bfa945b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\sections\\how-it-works\\HowItWorks.tsx": {
+    "mtime": 1779554329.5686853,
+    "ast_hash": "9f8c34284542f992d036c4540d186ada",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\sections\\pricing\\Pricing.tsx": {
+    "mtime": 1779381380.3092885,
+    "ast_hash": "0eeb14688725355975c6f61086f4567a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\sections\\problem\\ProblemSection.tsx": {
+    "mtime": 1779557913.1393745,
+    "ast_hash": "94fd9ecd05ef517352fbf307aec9c63e",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\sections\\stats\\Stats.tsx": {
+    "mtime": 1779377097.4379644,
+    "ast_hash": "9738103a9221ae0967ca36bb2813ad62",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\contact\\page.tsx": {
+    "mtime": 1779554377.4294517,
+    "ast_hash": "d9a09dab504297c08f3c12ef518e1d78",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\disclaimer\\page.tsx": {
+    "mtime": 1779553843.6814058,
+    "ast_hash": "4dd804037831263e117608cd116603cc",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\docs\\page.tsx": {
+    "mtime": 1779553872.9432495,
+    "ast_hash": "236e21ca789058dad3b57df1b074137b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\privacy\\page.tsx": {
+    "mtime": 1779553835.7432468,
+    "ast_hash": "871eb06709a00df252d7da93406b31c2",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\refund\\page.tsx": {
+    "mtime": 1779553851.0359266,
+    "ast_hash": "c7c983247a8a0e23c7045cb1bfc495ce",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\status\\page.tsx": {
+    "mtime": 1779553860.9464302,
+    "ast_hash": "f924690fad2bda46456e8bcef480df07",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\terms\\page.tsx": {
+    "mtime": 1779553827.9551992,
+    "ast_hash": "801c6b78f0351d7d77fd1a07773b572b",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\components\\text-hover-effect-demo.tsx": {
+    "mtime": 1779444643.5906434,
+    "ast_hash": "99d9d776655e405f5bfec97e2555b07f",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\components\\ui\\hero-section-nexus.tsx": {
+    "mtime": 1779553428.1812046,
+    "ast_hash": "69c0f7b43881b33425487778b2a0a585",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\components\\ui\\RotatingText.tsx": {
+    "mtime": 1779377884.9816425,
+    "ast_hash": "ab1936ac0ff2030b639518d97dadeba0",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\components\\ui\\ShinyText.tsx": {
+    "mtime": 1779377889.4866679,
+    "ast_hash": "f1063b5c3cb93ccc31e6680e62e8a99a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\components\\ui\\text-hover-effect.tsx": {
+    "mtime": 1779444824.143973,
+    "ast_hash": "18509afaf5cee0791da10706baa70cca",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\AGENTS.md": {
+    "mtime": 1779354525.4121978,
+    "ast_hash": "9e09241799026ac05be315a2f0b50055",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\AGENT_CONTEXT.md": {
+    "mtime": 1779552521.7171764,
+    "ast_hash": "6f3dc79089eaf22cd9a98f28aca5f328",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\CLAUDE.md": {
+    "mtime": 1779354525.4135003,
+    "ast_hash": "5c27369b226fcf2be8a6cfe52224e767",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\CODE_OF_CONDUCT.md": {
+    "mtime": 1779551017.4474628,
+    "ast_hash": "8e92d68873748d27998a90af3391a092",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\CONTRIBUTING.md": {
+    "mtime": 1779552502.298521,
+    "ast_hash": "9f4d9c901d1d3029ad2828d06eb1ca2a",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\LICENSE.txt": {
+    "mtime": 1779551011.6931145,
+    "ast_hash": "ff106fb6d999069241f23ee93adb9992",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\README.md": {
+    "mtime": 1779552512.1032429,
+    "ast_hash": "18aab53374a7b160ad2397f28e8c1a86",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\SECURITY.md": {
+    "mtime": 1779551028.7880661,
+    "ast_hash": "6f9bec5b09af30a2705a2f12fdc49c42",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\public\\strat.svg": {
     "mtime": 1779616156.315701,
     "ast_hash": "50438655f9e2071d8a7616d9afccb2fa",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\public\\hero\\hero.png": {
+    "mtime": 1779377425.8214757,
+    "ast_hash": "0436ac00f5dcd647e79f50a201d3d015",
     "semantic_hash": ""
   }
 }
