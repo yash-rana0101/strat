@@ -21,9 +21,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Strat — Intelligent Trading, Engineered for Precision",
+  title: "Strat Ai — Intelligent Trading, Engineered for Precision",
   description:
-    "AI-powered trading intelligence platform. 5 ML agents, 16 indicators, sub-50ms latency. Built for the serious trader who demands an edge.",
+    "AI-powered trading intelligence terminal. Fusing options Open Interest and global Crypto feeds via 5 ML agents, with sub-50ms latency. Built for the serious trader who demands an edge.",
   keywords: [
     "trading platform",
     "AI trading",

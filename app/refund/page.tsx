@@ -20,7 +20,7 @@ export default function RefundPolicyPage() {
     {
       title: "1. Invite-Only Beta Trial",
       icon: <History className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "Strat is currently in an invite-only beta testing phase. Trial licenses are provided to selected developers and alpha testers for zero charge. No credit card information is collected, and no billing is processed during this sandboxed simulation segment.",
+      content: "Strat Ai is currently in an invite-only beta testing phase. Trial licenses are provided to selected developers and alpha testers for zero charge. No credit card information is collected, and no billing is processed during this sandboxed simulation segment.",
     },
     {
       title: "2. Premium Software Licensing Subscriptions",
@@ -102,7 +102,7 @@ export default function RefundPolicyPage() {
             <div className="glass border border-[var(--border-subtle)] rounded-xl p-6 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-24 h-24 orb-emerald opacity-10 pointer-events-none" />
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                Thank you for utilizing the Strat terminal. We aim to keep our licensing, billing, and cancellations completely transparent. Please review the criteria below regarding refund eligibility and account standing policies.
+                Thank you for utilizing the Strat Ai terminal. We aim to keep our licensing, billing, and cancellations completely transparent. Please review the criteria below regarding refund eligibility and account standing policies.
               </p>
             </div>
 

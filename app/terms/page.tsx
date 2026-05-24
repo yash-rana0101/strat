@@ -21,12 +21,12 @@ export default function TermsOfServicePage() {
     {
       title: "1. Scope of the Application License",
       icon: <Cpu className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "Strat is a local desktop analytical terminal. When downloading our binaries, you are granted a non-transferable, revocable license to run our calculations locally on your own CPU/GPU. We do not operate cloud servers, hold funds, or provide automated execution.",
+      content: "Strat Ai is a local desktop analytical terminal. When downloading our binaries, you are granted a non-transferable, revocable license to run our calculations locally on your own CPU/GPU for Indian F&O and global Crypto. We do not operate cloud servers, hold funds, or provide automated execution.",
     },
     {
       title: "2. User-Provided API Subscriptions",
       icon: <Database className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "To utilize the real-time ingest pipeline, you must bind your own official broker credentials (e.g., Zerodha Kite Connect API key and secrets). You are solely responsible for paying subscription fees to your broker, managing rate limits, and securing your access key parameters locally.",
+      content: "To utilize the real-time ingest pipeline, you must bind your own official broker credentials (e.g. Zerodha Kite Connect API key and secrets) or direct Crypto exchange WebSockets. You are solely responsible for paying subscription fees, managing rate limits, and securing your key parameters locally.",
     },
     {
       title: "3. Algorithmic Signals and Disclaimers",
@@ -36,7 +36,7 @@ export default function TermsOfServicePage() {
     {
       title: "4. Technical Liability Limitations",
       icon: <AlertCircle className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "Because the application runs entirely on your local workstation, Strat is not liable for financial outcomes resulting from local hardware crashes, network interface lag, Redpanda buffer backpressure, QuestDB disk failures, or broker websocket gateway drops.",
+      content: "Because the application runs entirely on your local workstation, Strat Ai is not liable for financial outcomes resulting from local hardware crashes, network interface lag, Redpanda buffer backpressure, QuestDB disk failures, or broker and exchange gateway drops.",
     },
   ];
 
@@ -87,7 +87,7 @@ export default function TermsOfServicePage() {
             transition={{ delay: 0.2, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className="text-xs sm:text-sm md:text-base text-[var(--text-secondary)] leading-relaxed max-w-2xl text-balance"
           >
-            Last updated: May 22, 2026. Please read the license parameters, technical limitations, and compliance responsibilities of compiling or executing the Strat terminal.
+            Last updated: May 22, 2026. Please read the license parameters, technical limitations, and compliance responsibilities of compiling or executing the Strat Ai terminal.
           </motion.p>
         </section>
 
@@ -103,7 +103,7 @@ export default function TermsOfServicePage() {
             <div className="glass border border-[var(--border-subtle)] rounded-xl p-6 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-24 h-24 orb-emerald opacity-10 pointer-events-none" />
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                Welcome to Strat. By downloading, packaging, compiling, or executing our local software client, you agree to comply with and be bound by the following terms, conditions, and software licensing provisions. If you do not agree, please terminate your local session and delete all downloaded binaries immediately.
+                Welcome to Strat Ai. By downloading, packaging, compiling, or executing our local software client, you agree to comply with and be bound by the following terms, conditions, and software licensing provisions. If you do not agree, please terminate your local session and delete all downloaded binaries immediately.
               </p>
             </div>
 

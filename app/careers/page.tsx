@@ -66,7 +66,7 @@ const openPositions: Position[] = [
     type: "Full-time",
     experience: "3+ years",
     stack: "C++, Rust, Python, PyTorch, QuestDB",
-    description: "Refine and calibrate our 5 decision-making agents. Write high-frequency indicator logic (RSI, VWAP, Bollinger Bands, CMF) and OLS predictive models in C++ and Rust, backtesting algorithms against terabytes of QuestDB historical ticks.",
+    description: "Refine and calibrate our 5 decision-making agents. Write high-frequency indicator logic (RSI, VWAP, Open Interest skews) and OLS predictive models in C++ and Rust, backtesting algorithms against terabytes of historical NSE/BSE and Crypto ticks.",
     responsibilities: [
       "Implement mathematical formula templates for high-frequency technical indicators.",
       "Build and backtest OLS predictive systems (OLS Ghost Line) SPECIFIC to 10m timeframe datasets.",
@@ -149,12 +149,12 @@ const values = [
   {
     title: "Trader Obsession",
     label: "02. Empathy",
-    description: "Our core users are serious Indian F&O traders. We craft every line of code to provide them with a genuine statistical edge, keeping local ingestion latencies below 50ms."
+    description: "Our core users are serious Indian F&O and global Crypto traders. We craft every line of code to provide them with a genuine statistical edge, keeping local ingestion latencies below 50ms."
   },
   {
     title: "Local-First Privacy",
     label: "03. Security",
-    description: "Financial data is highly sensitive. We hold an unwavering commitment to client-side cryptography, encrypting Zerodha API keys locally in Tauri Stronghold vaults. We never run custody databases."
+    description: "Financial data is highly sensitive. We hold an unwavering commitment to client-side cryptography, encrypting Zerodha API keys and Crypto secrets locally in Tauri Stronghold vaults. We never run custody databases."
   },
   {
     title: "Engineering Excellence",
@@ -228,7 +228,7 @@ export default function CareersPage() {
             transition={{ delay: 0.3, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="mb-12 text-sm text-[var(--text-secondary)] leading-relaxed max-w-2xl text-balance"
           >
-            Join our elite engineering and quantitative team in Noida, India (or work remotely) and help us build the high-speed trading terminal that's transforming how serious traders analyze and execute in the markets.
+            Join our elite engineering and quantitative team in Noida, India (or work remotely) and help us build Strat Ai—the high-speed trading terminal that's transforming how serious traders analyze and execute in both Indian F&O and global Crypto.
           </motion.p>
 
           <motion.button
@@ -499,7 +499,7 @@ export default function CareersPage() {
                 An Equal Opportunity Engine
               </h2>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                We believe diverse cognitive perspectives generate more robust systems. At Strat, we are committed to building an inclusive space where engineers and developers thrive regardless of background, gender, identity, or academic pedigree.
+                We believe diverse cognitive perspectives generate more robust systems. At Strat Ai, we are committed to building an inclusive space where engineers and developers thrive regardless of background, gender, identity, or academic pedigree.
               </p>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
                 Whether you are a seasoned prop firm quantitative researcher or an open-source systems engineer pushing low-level Rust commits in your spare time, we build a platform where clear code and mathematical rigor act as the sole benchmark for impact.

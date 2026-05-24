@@ -5,11 +5,11 @@ import StaggeredMenu from "./StaggeredMenu";
 export default function Navbar() {
   const menuItems = [
     { label: "HOME", ariaLabel: "Go to home page", link: "/" },
-    { label: "ABOUT", ariaLabel: "Learn more about Strat", link: "/about" },
-    { label: "CAREERS", ariaLabel: "Explore career opportunities at Strat", link: "/careers" },
-    { label: "BLOG", ariaLabel: "Read Strat engineering and quant blogs", link: "/blog" },
+    { label: "ABOUT", ariaLabel: "Learn more about Strat Ai", link: "/about" },
+    { label: "CAREERS", ariaLabel: "Explore career opportunities at Strat Ai", link: "/careers" },
+    { label: "BLOG", ariaLabel: "Read Strat Ai engineering and quant blogs", link: "/blog" },
     { label: "PRICING", ariaLabel: "Platform pricing plans", link: "/#pricing" },
-    { label: "CONTACT", ariaLabel: "Contact Strat", link: "/contact" },
+    { label: "CONTACT", ariaLabel: "Contact Strat Ai", link: "/contact" },
   ];
 
   const socialItems = [

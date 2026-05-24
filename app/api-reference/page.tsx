@@ -11,7 +11,7 @@ export default function ApiReferencePage() {
   const apis = [
     {
       title: "1. Subscribing to Swarm Consensus Signals",
-      description: "Subscribe to the local Consensus stream (Port 8080) to receive unified market conviction scores calculated by Strat's specialized analytics swarm in real-time.",
+      description: "Subscribe to the local Consensus stream (Port 8080) to receive unified market conviction scores calculated by Strat Ai's specialized analytics swarm in real-time.",
       endpoint: "WS /ws/consensus",
       pythonCode: `import websocket
 import json
@@ -90,7 +90,7 @@ async fn main() -> Result<(), reqwest::Error> {
             1. Secure Local Port Allocations
           </h2>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-            All Strat modules execute locally on your machine, communicating via native IPC and secure local ports to ensure your strategy setups remain completely private.
+            All Strat Ai modules execute locally on your machine, communicating via native IPC and secure local ports to ensure your strategy setups remain completely private.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {ports.map((p, idx) => (

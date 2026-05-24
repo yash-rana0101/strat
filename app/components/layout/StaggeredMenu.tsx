@@ -431,14 +431,14 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
               <div className="w-9 h-9 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
                 <img
                   src="/strat.svg"
-                  alt="Strat Logo"
+                  alt="Strat Ai Logo"
                   className="w-8 h-8 object-contain"
                   draggable={false}
                 />
               </div>
               <div className="flex flex-col text-left">
                 <span className="text-lg font-bold tracking-tight text-[var(--text-primary)] font-heading leading-none">
-                  STRAT
+                  STRAT AI
                 </span>
                 <span className="text-[9px] tracking-[0.2em] text-[var(--text-muted)] font-mono uppercase leading-none mt-0.5">
                   Trading Intelligence

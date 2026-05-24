@@ -18,9 +18,9 @@ import ShinyText from "@/components/ui/ShinyText";
 export default function PrivacyPolicyPage() {
   const sections = [
     {
-      title: "1. No Cloud Storage for Brokerage Credentials",
+      title: "1. No Cloud Storage for Brokerage or Exchange Credentials",
       icon: <HardDrive className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "Strat is a local desktop application. Your Zerodha Kite Connect API Key, API Secret, and daily Access Tokens are stored locally on your own machine. We do not operate cloud databases to host or mirror your credentials, rendering centralized leaks impossible.",
+      content: "Strat Ai is a local desktop application. Your Zerodha Kite Connect API keys, daily access tokens, and Crypto exchange API secrets are stored locally on your own machine. We do not operate cloud databases to host or mirror your credentials, rendering centralized leaks impossible.",
     },
     {
       title: "2. Tauri Stronghold Encryption Standards",
@@ -28,9 +28,9 @@ export default function PrivacyPolicyPage() {
       content: "All sensitive files, including credentials and user watchlist paths, are written to local disk directories encrypted inside a Tauri Stronghold vault using Argon2id master key derivation and AES-GCM-256 encryption. Memory is zeroed out immediately after API requests complete to prevent RAM scraper exploits.",
     },
     {
-      title: "3. Direct-to-Broker WebSocket Pipeline",
+      title: "3. Direct-to-Broker & Exchange WebSocket Pipeline",
       icon: <Activity className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "When connecting your feed, the client initiates a direct connection from your computer to the official broker gateway (wss://ws.kite.trade). Ticks are parsed locally, sent to your local Redpanda message queue, and cached on your local QuestDB instance. No telemetry or transaction details are routed through any intermediary servers.",
+      content: "When connecting your feed, the client initiates a direct connection from your computer to the official broker gateway (wss://ws.kite.trade) or direct Crypto exchange WebSockets. Ticks are parsed locally, queued on your local Redpanda bus, and cached on your local QuestDB instance. No telemetry or transaction details are routed through intermediary servers.",
     },
     {
       title: "4. Anonymized Diagnostic Audits",
@@ -102,7 +102,7 @@ export default function PrivacyPolicyPage() {
             <div className="glass border border-[var(--border-subtle)] rounded-xl p-6 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-24 h-24 orb-emerald opacity-10 pointer-events-none" />
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                At Strat, we prioritize the absolute sovereignty of your trading configurations and credentials. Because our software terminal operates entirely inside a sandboxed desktop client, we do not monitor, compile, or sell your trading logs, watchlist entries, or ML indicator configurations.
+                At Strat Ai, we prioritize the absolute sovereignty of your trading configurations and credentials. Because our software terminal operates entirely inside a sandboxed desktop client, we do not monitor, compile, or sell your trading logs, watchlist entries, or ML indicator configurations.
               </p>
             </div>
 

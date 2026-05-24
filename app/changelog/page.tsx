@@ -105,7 +105,7 @@ export default function ChangelogPage() {
             transition={{ delay: 0.2, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className="text-xs sm:text-sm md:text-base text-[var(--text-secondary)] leading-relaxed max-w-2xl text-balance"
           >
-            Track the engineering evolution, database pipeline updates, and agent performance releases of the Strat terminal.
+            Track the engineering evolution, database pipeline updates, and agent performance releases of the Strat Ai terminal.
           </motion.p>
         </section>
 

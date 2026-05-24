@@ -24,19 +24,19 @@ export default function AboutPage() {
       title: "Direct-to-Canvas Charting",
       label: "01. Visual Performance",
       icon: <Database className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "Traditional web-based charting solutions introduce visual fatigue and lag during highly volatile market sessions. Strat's dedicated charting interface is custom-built to deliver liquid-smooth interactive updates and zero visual overhead, ensuring your focus remains entirely unbroken.",
+      content: "Traditional web charting introduces visual fatigue and lag during volatile sessions. Strat Ai's dedicated canvas charting is custom-built to deliver liquid-smooth interactive updates for Indian F&O and global Crypto momentum, ensuring unbroken focus.",
     },
     {
       title: "Zero-Custody Local Privacy",
       label: "02. Absolute Sovereignty",
       icon: <Shield className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "Your custom setups, technical parameters, and API credentials are your unique competitive advantage. Strat respects your intellectual property by storing all configurations, keys, and session data strictly on your own hardware. Your trading secrets never touch our servers.",
+      content: "Your custom setups, indicators, and API credentials are your edge. Strat Ai respects your intellectual property, storing all keys and configurations strictly on your own hardware. We never custody your trading keys.",
     },
     {
       title: "Autonomous Swarm Synthesis",
       label: "03. Intelligence Fusion",
       icon: <Cpu className="h-5 w-5 text-[var(--accent-primary)]" />,
-      content: "Avoid cognitive overload by delegating complex calculations to our specialized analytical swarm. Strat continuously processes technical confluences, momentum dynamics, and session media feeds in parallel—synthesizing them into a single, cohesive consensus score.",
+      content: "Avoid cognitive overload by delegating complex calculations to our specialized quant swarm. Strat Ai continuously processes options metrics, macroeconomic sentiment, and volatility skews in parallel, synthesizing them into actionable clarity.",
     },
   ];
 
@@ -90,7 +90,7 @@ export default function AboutPage() {
             transition={{ delay: 0.3, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="mb-12 text-sm text-[var(--text-secondary)] leading-relaxed max-w-2xl text-balance"
           >
-            Strat is a high-fidelity visual workspace and market intelligence terminal, designed specifically for retail F&O traders in India who value absolute analytical privacy, real-time speed, and clean trading conviction.
+            Strat Ai is a high-fidelity visual workspace and market intelligence terminal, designed specifically for retail F&O traders in India and global Crypto traders who value absolute analytical privacy, real-time speed, and unshakeable trading conviction.
           </motion.p>
 
           <motion.button
@@ -119,7 +119,7 @@ export default function AboutPage() {
                 ▲ Platform Notice & Operating Boundaries
               </span>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                Strat is an **intelligence and analytics terminal** only. We are **not a brokerage**, we do **not act as a trading platform**, and we **do not operate auto-execution bots**. Users must connect their own official Zerodha Kite API keys. All trade executions, strategy parameters, and risk allocations remain under the explicit, manual control of the user.
+                Strat Ai is an **intelligence and analytics terminal** only. We are **not a brokerage**, we do **not act as a trading platform**, and we **do not operate auto-execution bots**. Users must connect their own official Zerodha Kite API keys or Crypto exchange WebSocket feeds. All trade executions, strategy parameters, and risk allocations remain under the explicit, manual control of the user.
               </p>
             </div>
           </section>
@@ -134,7 +134,7 @@ export default function AboutPage() {
                 Bridging the Gap to Quantitative Precision
               </h2>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                Active Futures & Options traders in India are often limited by information overload, visual fatigue, and fragmented tools. Traditional platforms flood users with complex, disjointed columns of raw numbers without providing synthesis. Strat was created by a dedicated team of quantitative designers, traders, and software developers to clear the noise and restore deep analytical focus.
+                Active Futures & Options traders in India and momentum-driven global Crypto traders are often limited by information overload, visual fatigue, and fragmented tools. Traditional platforms flood users with complex, disjointed columns of raw numbers without providing synthesis. Strat Ai was created by a dedicated team of quantitative designers, traders, and software developers to clear the noise and restore deep analytical focus.
               </p>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
                 By combining a high-performance local-first architecture, beautiful direct-to-canvas rendering, and autonomous analytical swarms into a single elegant interface, we treat trading like the craft it is—giving retail traders the precise visual edge they deserve.
@@ -157,7 +157,7 @@ export default function AboutPage() {
               </div>
               
               <p className="text-xs text-[var(--text-muted)] leading-relaxed">
-                Strat parses incoming market feeds, synchronizes multi-source indicator confluences, computes momentum regimes, and paints high-fidelity charts in milliseconds—keeping your visual terminal perfectly aligned with live price movements.
+                Strat Ai parses incoming market feeds, synchronizes multi-source indicator confluences, computes momentum regimes, and paints high-fidelity charts in milliseconds—keeping your visual terminal perfectly aligned with live price movements.
               </p>
             </div>
           </section>
@@ -215,7 +215,7 @@ export default function AboutPage() {
                 Want to Build the Future of Trading Workspaces?
               </h2>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                We are actively growing our team of quantitative designers, product visionaries, and systems developers at our Noida-based workspace. Let's create beautiful things together.
+                We are actively growing the Strat Ai team of quantitative designers, product visionaries, and systems developers. Let's create beautiful things together.
               </p>
             </div>
 

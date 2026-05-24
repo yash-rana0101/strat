@@ -74,7 +74,7 @@ export default function DocsPage() {
             className="backdrop-filter-[12px] inline-flex h-8 items-center justify-between rounded-full border border-white/5 bg-white/10 px-4 text-xs text-white transition-all ease-in hover:cursor-pointer hover:bg-white/20 group gap-2 mb-8 cursor-pointer select-none"
           >
             <ShinyText
-              text="📖 STRAT CORE SPECIFICATIONS & BLUEPRINTS"
+              text="📖 STRAT AI CORE SPECIFICATIONS & BLUEPRINTS"
               className="inline-flex items-center justify-center text-[10px] font-mono tracking-widest font-bold text-[var(--accent-primary)] uppercase"
             />
             <ArrowRight className="h-3 w-3 text-[var(--accent-primary)] transition-transform duration-300 group-hover:translate-x-0.5" />
@@ -177,7 +177,7 @@ export default function DocsPage() {
                   1. Ingestion Pipeline & Time-Series DB
                 </h2>
                 <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                  Strat binds directly to the active <strong>Zerodha Kite Connect WebSocket</strong> gateway. The local <code>/ingestion</code> client is compiled in native Rust utilizing Tokio async loops to parse and handle active binary frames under 5µs.
+                  Strat Ai binds directly to the active <strong>Zerodha Kite Connect WebSocket</strong> gateway and direct Crypto exchange feeds. The local <code>/ingestion</code> client is compiled in native Rust utilizing Tokio async loops to parse and handle active binary frames under 5µs.
                 </p>
 
                 {/* Pipeline Table */}
@@ -192,8 +192,12 @@ export default function DocsPage() {
                       </thead>
                       <tbody className="divide-y divide-[var(--border-subtle)] text-[var(--text-secondary)]">
                         <tr>
-                          <td className="p-4 font-bold text-[var(--text-primary)]">Binary Framing Ingest</td>
+                          <td className="p-4 font-bold text-[var(--text-primary)]">Equity Binary Framing Ingest</td>
                           <td className="p-4 text-right text-[var(--accent-primary)] font-bold">wss://ws.kite.trade (184-byte frames)</td>
+                        </tr>
+                        <tr>
+                          <td className="p-4 font-bold text-[var(--text-primary)]">Crypto Ingest Gateway</td>
+                          <td className="p-4 text-right text-[var(--accent-primary)] font-bold">Direct WebSockets (Binance, Coinbase, OKX)</td>
                         </tr>
                         <tr>
                           <td className="p-4 font-bold text-[var(--text-primary)]">Queue Streaming Bus</td>
@@ -294,7 +298,7 @@ export default function DocsPage() {
                       Tauri Stronghold Vault Compliance
                     </h4>
                     <p className="text-[11px] text-[var(--text-secondary)] leading-relaxed">
-                      All brokerage session files and API secrets are derivative configurations stored locally inside encrypted Tauri Stronghold keys. Secrets never traverse a cloud interface.
+                      All brokerage session files, API secrets, and Crypto keys are derivative configurations stored locally inside encrypted Tauri Stronghold keys. Secrets never traverse a cloud interface.
                     </p>
                   </div>
                 </div>

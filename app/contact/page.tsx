@@ -146,7 +146,7 @@ export default function ContactPage() {
             transition={{ delay: 0.2, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className="mb-10 text-xs sm:text-sm md:text-base text-[var(--text-secondary)] leading-relaxed max-w-2xl text-balance"
           >
-            Have questions about Strat's visual interface, custom workspace setups, or licensing options? Our team in Noida and Bengaluru is ready to assist you.
+            Have questions about Strat Ai's visual interface, custom workspace setups, or licensing options? Our team in Noida and Bengaluru is ready to assist you.
           </motion.p>
 
           <motion.div
@@ -399,7 +399,7 @@ export default function ContactPage() {
             
             <MapPin className="h-8 w-8 mx-auto mb-4 text-[var(--accent-primary)] animate-[pulse_2s_infinite]" />
             <h3 className="text-base font-bold font-heading text-[var(--text-primary)] mb-3">
-              Strat Labs Private Limited
+              Strat Ai Labs Private Limited
             </h3>
             
             <p className="text-xs text-[var(--text-secondary)] max-w-sm mx-auto mb-4 leading-relaxed font-sans font-medium">

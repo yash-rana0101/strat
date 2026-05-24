@@ -34,7 +34,7 @@ const blogPosts: BlogPost[] = [
   {
     title: "WASM-Based Strategy Compilation in Tauri: A Complete Guide",
     excerpt: "Learn how we precompile Rust quantitative strategies into sandboxed WebAssembly execution blocks for safe, zero-latency desktop evaluations.",
-    author: "Strat Team",
+    author: "Strat Ai Team",
     date: "May 12, 2026",
     readTime: "10 min read",
     category: "Security & Sandbox",
@@ -61,7 +61,7 @@ const blogPosts: BlogPost[] = [
   {
     title: "QuestDB Schema Tuning for 10M Candlestick Sinks",
     excerpt: "Tuning QuestDB Influx Line Protocol TCP port 9009 and Postgres port 8812 to handle massive timeseries tables without index corruption.",
-    author: "Strat Team",
+    author: "Strat Ai Team",
     date: "May 1, 2026",
     readTime: "9 min read",
     category: "Timeseries DB",
