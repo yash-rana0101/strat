@@ -60,20 +60,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-7 h-7 rounded-md bg-gradient-to-br from-[var(--accent-primary)] to-[#6EE7B7] flex items-center justify-center">
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="white"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z" />
-                  <path d="M13 13l6 6" />
-                </svg>
+              <div className="w-7 h-7 flex items-center justify-center">
+                <img
+                  src="/strat.svg"
+                  alt="Strat Logo"
+                  className="w-6 h-6 object-contain"
+                  draggable={false}
+                />
               </div>
               <span className="text-sm font-bold text-[var(--text-primary)] font-heading">
                 Strat

@@ -428,20 +428,13 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
             />
           ) : (
             <a href="/" className="flex items-center gap-3 group cursor-pointer">
-              <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[var(--accent-primary)] to-[#6EE7B7] flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="white"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z" />
-                  <path d="M13 13l6 6" />
-                </svg>
+              <div className="w-9 h-9 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+                <img
+                  src="/strat.svg"
+                  alt="Strat Logo"
+                  className="w-8 h-8 object-contain"
+                  draggable={false}
+                />
               </div>
               <div className="flex flex-col text-left">
                 <span className="text-lg font-bold tracking-tight text-[var(--text-primary)] font-heading leading-none">
