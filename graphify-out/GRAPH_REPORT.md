@@ -1,16 +1,16 @@
 # Graph Report - strat  (2026-05-26)
 
 ## Corpus Check
-- 51 files · ~42,694 words
+- 52 files · ~67,194 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 519 nodes · 745 edges · 40 communities (31 shown, 9 thin omitted)
+- 523 nodes · 752 edges · 38 communities (29 shown, 9 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5aa560d5`
+- Built from commit: `1cb15b34`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -23,7 +23,6 @@
 - [[_COMMUNITY_Community 5|Community 5]]
 - [[_COMMUNITY_Community 6|Community 6]]
 - [[_COMMUNITY_Community 7|Community 7]]
-- [[_COMMUNITY_Community 8|Community 8]]
 - [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Community 10|Community 10]]
 - [[_COMMUNITY_Community 11|Community 11]]
@@ -42,7 +41,6 @@
 - [[_COMMUNITY_Community 26|Community 26]]
 - [[_COMMUNITY_Community 27|Community 27]]
 - [[_COMMUNITY_Community 28|Community 28]]
-- [[_COMMUNITY_Community 29|Community 29]]
 - [[_COMMUNITY_Community 30|Community 30]]
 - [[_COMMUNITY_Community 31|Community 31]]
 - [[_COMMUNITY_Community 32|Community 32]]
@@ -67,11 +65,11 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (40 total, 9 thin omitted)
+## Communities (38 total, 9 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.07
-Nodes (14): Home(), AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer (+6 more)
+Cohesion: 0.08
+Nodes (15): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+7 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.14
@@ -101,13 +99,9 @@ Nodes (12): 5.1 Indicator Inventory, 5.2 TechSignal Score Logic (Technical Agent
 Cohesion: 0.42
 Nodes (9): BentoCardGrid(), BentoProps, calculateSpotlightValues(), createParticleElement(), GlobalSpotlight(), MagicBento(), ParticleCard(), updateCardGlowProperties() (+1 more)
 
-### Community 8 - "Community 8"
-Cohesion: 0.20
-Nodes (4): BentoCardProps, BentoProps, MagicBento(), useMobileDetection()
-
 ### Community 9 - "Community 9"
 Cohesion: 0.07
-Nodes (26): AboutPage(), ApiReferencePage(), benefits, CareersPage(), openPositions, Position, values, ChangelogPage() (+18 more)
+Nodes (28): AboutPage(), ApiReferencePage(), benefits, CareersPage(), openPositions, Position, values, ChangelogPage() (+20 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.48
@@ -138,8 +132,8 @@ Cohesion: 0.11
 Nodes (15): BlogPage(), BlogPost, blogPosts, categories, featuredArticle, popularTags, BlogGrid(), BlogGridProps (+7 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.12
-Nodes (18): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, ParallaxSection(), scaleIn, staggerContainer (+10 more)
+Cohesion: 0.07
+Nodes (28): Home(), DarkVeilProps, AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, ParallaxSection() (+20 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.57
@@ -156,10 +150,6 @@ Nodes (8): 1. Vulnerability Reporting, 2.1 API Credentials Security (Tauri Stron
 ### Community 28 - "Community 28"
 Cohesion: 0.22
 Nodes (7): Confidentiality & IP Safeguards, Contributor Covenant Code of Conduct, Enforcement, Enforcement Responsibilities, Our Pledge, Our Standards, Scope
-
-### Community 29 - "Community 29"
-Cohesion: 0.47
-Nodes (7): HowItWorks(), Mockup1(), Mockup2(), Mockup3(), Mockup4(), Mockup5(), steps
 
 ### Community 30 - "Community 30"
 Cohesion: 0.20
@@ -178,7 +168,7 @@ Cohesion: 0.33
 Nodes (6): Before writing any code:, Output format expectations:, SECTION 14 — AGENT INSTRUCTIONS, When building the landing page:, When writing Rust (agents, Tauri):, When writing TypeScript (frontend hooks, components):
 
 ## Knowledge Gaps
-- **167 isolated node(s):** `name`, `version`, `private`, `dev`, `build` (+162 more)
+- **169 isolated node(s):** `name`, `version`, `private`, `dev`, `build` (+164 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -187,15 +177,15 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `AGENT_CONTEXT.md — Strat` connect `Community 1` to `Community 32`, `Community 33`, `Community 34`, `Community 35`, `Community 4`, `Community 36`, `Community 6`, `Community 37`, `Community 30`, `Community 31`?**
   _High betweenness centrality (0.021) - this node is a cross-community bridge._
-- **Why does `AnimateOnScroll()` connect `Community 24` to `Community 29`?**
-  _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **What connects `name`, `version`, `private` to the rest of the system?**
-  _167 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _169 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.07435897435897436 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07507507507507508 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.10476190476190476 - nodes in this community are weakly interconnected._
+- **Should `Community 4` be split into smaller, more focused modules?**
+  _Cohesion score 0.1323529411764706 - nodes in this community are weakly interconnected._

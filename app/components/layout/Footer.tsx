@@ -14,6 +14,7 @@ export default function Footer() {
         { label: "How It Works", href: "/#how-it-works", isInternal: true },
         { label: "Pricing", href: "/#pricing", isInternal: true },
         { label: "Changelog", href: "/changelog", isInternal: true },
+        { label: "Download App", href: "/download", isInternal: true },
       ],
     },
     {

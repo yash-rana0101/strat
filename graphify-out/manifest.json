@@ -95,13 +95,13 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\components\\layout\\Footer.tsx": {
-    "mtime": 1779629643.2928104,
-    "ast_hash": "16db4d7c66e413e2b8273f56b143a1d4",
+    "mtime": 1779789947.0373156,
+    "ast_hash": "f719d763b91ff399776f09ba7c005e82",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\components\\layout\\Navbar.tsx": {
-    "mtime": 1779630420.6589632,
-    "ast_hash": "145ac5d04b26b5e5514cf8fcfe4dae32",
+    "mtime": 1779789942.3163986,
+    "ast_hash": "169a77ee8b48ae83e520031e37998033",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\components\\layout\\StaggeredMenu.tsx": {
@@ -267,6 +267,16 @@
   "D:\\projects\\strat\\public\\hero\\hero.png": {
     "mtime": 1779377425.8214757,
     "ast_hash": "0436ac00f5dcd647e79f50a201d3d015",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\public\\desktop_mockup.png": {
+    "mtime": 1779789842.661854,
+    "ast_hash": "547257aef16cffe1a133ec4e507f9be5",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\download\\page.tsx": {
+    "mtime": 1779789969.5918105,
+    "ast_hash": "fc0bf4e30b8bfadc0f03a68fe623b710",
     "semantic_hash": ""
   }
 }

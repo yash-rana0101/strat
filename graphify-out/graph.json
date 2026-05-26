@@ -540,7 +540,7 @@
       "source_file": "D:/projects/aitrader-landing/app/page.tsx",
       "source_location": "L1",
       "id": "d_projects_aitrader_landing_app_page_tsx",
-      "community": 0,
+      "community": 24,
       "norm_label": "page.tsx"
     },
     {
@@ -549,7 +549,7 @@
       "source_file": "D:/projects/aitrader-landing/app/page.tsx",
       "source_location": "L13",
       "id": "app_page_home",
-      "community": 0,
+      "community": 24,
       "norm_label": "home()"
     },
     {
@@ -1233,7 +1233,7 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/hero/Hero.tsx",
       "source_location": "L1",
       "id": "d_projects_aitrader_landing_app_components_sections_hero_hero_tsx",
-      "community": 0,
+      "community": 24,
       "norm_label": "hero.tsx"
     },
     {
@@ -1242,7 +1242,7 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/hero/Hero.tsx",
       "source_location": "L6",
       "id": "hero_hero_hero",
-      "community": 0,
+      "community": 24,
       "norm_label": "hero()"
     },
     {
@@ -1251,7 +1251,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L1",
       "id": "app_components_sections_how_it_works_howitworks_tsx",
-      "community": 29,
+      "community": 24,
       "norm_label": "howitworks.tsx"
     },
     {
@@ -1260,7 +1260,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L7",
       "id": "how_it_works_howitworks_steps",
-      "community": 29,
+      "community": 24,
       "norm_label": "steps"
     },
     {
@@ -1269,7 +1269,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L40",
       "id": "how_it_works_howitworks_mockup1",
-      "community": 29,
+      "community": 24,
       "norm_label": "mockup1()"
     },
     {
@@ -1278,7 +1278,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L98",
       "id": "how_it_works_howitworks_mockup2",
-      "community": 29,
+      "community": 24,
       "norm_label": "mockup2()"
     },
     {
@@ -1287,7 +1287,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L130",
       "id": "how_it_works_howitworks_mockup3",
-      "community": 29,
+      "community": 24,
       "norm_label": "mockup3()"
     },
     {
@@ -1296,7 +1296,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L168",
       "id": "how_it_works_howitworks_mockup4",
-      "community": 29,
+      "community": 24,
       "norm_label": "mockup4()"
     },
     {
@@ -1305,7 +1305,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L208",
       "id": "how_it_works_howitworks_mockup5",
-      "community": 29,
+      "community": 24,
       "norm_label": "mockup5()"
     },
     {
@@ -1314,7 +1314,7 @@
       "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L254",
       "id": "how_it_works_howitworks_howitworks",
-      "community": 29,
+      "community": 24,
       "norm_label": "howitworks()"
     },
     {
@@ -1460,6 +1460,42 @@
       "id": "docs_page_docspage",
       "community": 9,
       "norm_label": "docspage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L1",
+      "id": "app_download_page_tsx",
+      "community": 9,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "OS",
+      "file_type": "code",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L29",
+      "id": "download_page_os",
+      "community": 9,
+      "norm_label": "os"
+    },
+    {
+      "label": "GuideTab",
+      "file_type": "code",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L30",
+      "id": "download_page_guidetab",
+      "community": 9,
+      "norm_label": "guidetab"
+    },
+    {
+      "label": "DownloadPage()",
+      "file_type": "code",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L32",
+      "id": "download_page_downloadpage",
+      "community": 9,
+      "norm_label": "downloadpage()"
     },
     {
       "label": "page.tsx",
@@ -2591,7 +2627,7 @@
       "file_type": "code",
       "source_file": "components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L1",
-      "community": 29,
+      "community": 24,
       "norm_label": "howitworks.tsx",
       "id": "components_sections_how_it_works_howitworks_tsx"
     },
@@ -3320,7 +3356,7 @@
       "file_type": "code",
       "source_file": "app/page.tsx",
       "source_location": "L1",
-      "community": 0,
+      "community": 24,
       "norm_label": "page.tsx",
       "id": "app_page_tsx"
     },
@@ -3662,7 +3698,7 @@
       "file_type": "code",
       "source_file": "app/components/sections/hero/Hero.tsx",
       "source_location": "L1",
-      "community": 0,
+      "community": 24,
       "norm_label": "hero.tsx",
       "id": "app_components_sections_hero_hero_tsx"
     },
@@ -3977,7 +4013,7 @@
       "file_type": "code",
       "source_file": "page.tsx",
       "source_location": "L1",
-      "community": 0,
+      "community": 24,
       "norm_label": "page.tsx",
       "id": "page_tsx"
     },
@@ -4013,7 +4049,7 @@
       "file_type": "code",
       "source_file": "HowItWorks.tsx",
       "source_location": "L1",
-      "community": 29,
+      "community": 24,
       "norm_label": "howitworks.tsx",
       "id": "howitworks_tsx"
     },
@@ -4121,7 +4157,7 @@
       "file_type": "code",
       "source_file": "app/components/Ticker.tsx",
       "source_location": "L1",
-      "community": 0,
+      "community": 24,
       "norm_label": "ticker.tsx",
       "id": "app_components_ticker_tsx"
     },
@@ -4130,7 +4166,7 @@
       "file_type": "code",
       "source_file": "app/components/Ticker.tsx",
       "source_location": "L3",
-      "community": 0,
+      "community": 24,
       "norm_label": "ticker()",
       "id": "components_ticker_ticker"
     },
@@ -4265,7 +4301,7 @@
       "file_type": "code",
       "source_file": "app/components/DarkVeil.tsx",
       "source_location": "L1",
-      "community": 0,
+      "community": 24,
       "norm_label": "darkveil.tsx",
       "id": "app_components_darkveil_tsx"
     },
@@ -4274,7 +4310,7 @@
       "file_type": "code",
       "source_file": "app/components/DarkVeil.tsx",
       "source_location": "L78",
-      "community": 0,
+      "community": 24,
       "norm_label": "darkveilprops",
       "id": "components_darkveil_darkveilprops"
     },
@@ -4283,7 +4319,7 @@
       "file_type": "code",
       "source_file": "app/components/DarkVeil.tsx",
       "source_location": "L88",
-      "community": 0,
+      "community": 24,
       "norm_label": "darkveil()",
       "id": "components_darkveil_darkveil"
     },
@@ -4355,7 +4391,7 @@
       "file_type": "code",
       "source_file": "app/components/Footer.tsx",
       "source_location": "L1",
-      "community": 0,
+      "community": 24,
       "norm_label": "footer.tsx",
       "id": "app_components_footer_tsx"
     },
@@ -4364,7 +4400,7 @@
       "file_type": "code",
       "source_file": "app/components/Footer.tsx",
       "source_location": "L5",
-      "community": 0,
+      "community": 24,
       "norm_label": "footer()",
       "id": "components_footer_footer"
     },
@@ -4409,7 +4445,7 @@
       "file_type": "code",
       "source_file": "app/components/MagicBento.tsx",
       "source_location": "L1",
-      "community": 8,
+      "community": 0,
       "norm_label": "magicbento.tsx",
       "id": "app_components_magicbento_tsx"
     },
@@ -4418,7 +4454,7 @@
       "file_type": "code",
       "source_file": "app/components/MagicBento.tsx",
       "source_location": "L7",
-      "community": 8,
+      "community": 0,
       "norm_label": "bentocardprops",
       "id": "components_magicbento_bentocardprops"
     },
@@ -4427,7 +4463,7 @@
       "file_type": "code",
       "source_file": "app/components/MagicBento.tsx",
       "source_location": "L19",
-      "community": 8,
+      "community": 0,
       "norm_label": "bentoprops",
       "id": "components_magicbento_bentoprops"
     },
@@ -4436,7 +4472,7 @@
       "file_type": "code",
       "source_file": "app/components/MagicBento.tsx",
       "source_location": "L39",
-      "community": 8,
+      "community": 0,
       "norm_label": "createparticleelement()",
       "id": "components_magicbento_createparticleelement"
     },
@@ -4445,7 +4481,7 @@
       "file_type": "code",
       "source_file": "app/components/MagicBento.tsx",
       "source_location": "L57",
-      "community": 8,
+      "community": 0,
       "norm_label": "calculatespotlightvalues()",
       "id": "components_magicbento_calculatespotlightvalues"
     },
@@ -4454,7 +4490,7 @@
       "file_type": "code",
       "source_file": "app/components/MagicBento.tsx",
       "source_location": "L62",
-      "community": 8,
+      "community": 0,
       "norm_label": "updatecardglowproperties()",
       "id": "components_magicbento_updatecardglowproperties"
     },
@@ -4463,7 +4499,7 @@
       "file_type": "code",
       "source_file": "app/components/MagicBento.tsx",
       "source_location": "L73",
-      "community": 8,
+      "community": 0,
       "norm_label": "particlecard()",
       "id": "components_magicbento_particlecard"
     },
@@ -4472,7 +4508,7 @@
       "file_type": "code",
       "source_file": "app/components/MagicBento.tsx",
       "source_location": "L320",
-      "community": 8,
+      "community": 0,
       "norm_label": "globalspotlight()",
       "id": "components_magicbento_globalspotlight"
     },
@@ -4481,7 +4517,7 @@
       "file_type": "code",
       "source_file": "app/components/MagicBento.tsx",
       "source_location": "L458",
-      "community": 8,
+      "community": 0,
       "norm_label": "bentocardgrid()",
       "id": "components_magicbento_bentocardgrid"
     },
@@ -4490,7 +4526,7 @@
       "file_type": "code",
       "source_file": "app/components/MagicBento.tsx",
       "source_location": "L468",
-      "community": 8,
+      "community": 0,
       "norm_label": "usemobiledetection()",
       "id": "components_magicbento_usemobiledetection"
     },
@@ -4499,7 +4535,7 @@
       "file_type": "code",
       "source_file": "app/components/MagicBento.tsx",
       "source_location": "L483",
-      "community": 8,
+      "community": 0,
       "norm_label": "magicbento()",
       "id": "components_magicbento_magicbento"
     },
@@ -4682,9 +4718,9 @@
       "source_file": "D:/projects/aitrader-landing/eslint.config.mjs",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_eslint_config_mjs",
-      "target": "aitrader_landing_eslint_config_eslintconfig",
-      "confidence_score": 1.0
+      "target": "aitrader_landing_eslint_config_eslintconfig"
     },
     {
       "relation": "contains",
@@ -4702,9 +4738,9 @@
       "source_file": "D:/projects/aitrader-landing/next.config.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_next_config_ts",
-      "target": "aitrader_landing_next_config_nextconfig",
-      "confidence_score": 1.0
+      "target": "aitrader_landing_next_config_nextconfig"
     },
     {
       "relation": "contains",
@@ -4722,9 +4758,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "strat_package_name",
-      "confidence_score": 1.0
+      "target": "strat_package_name"
     },
     {
       "relation": "contains",
@@ -4732,9 +4768,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "strat_package_version",
-      "confidence_score": 1.0
+      "target": "strat_package_version"
     },
     {
       "relation": "contains",
@@ -4742,9 +4778,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "strat_package_private",
-      "confidence_score": 1.0
+      "target": "strat_package_private"
     },
     {
       "relation": "contains",
@@ -4752,9 +4788,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "strat_package_scripts",
-      "confidence_score": 1.0
+      "target": "strat_package_scripts"
     },
     {
       "relation": "contains",
@@ -4762,9 +4798,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "strat_package_dependencies",
-      "confidence_score": 1.0
+      "target": "strat_package_dependencies"
     },
     {
       "relation": "contains",
@@ -4772,9 +4808,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "strat_package_devdependencies",
-      "confidence_score": 1.0
+      "target": "strat_package_devdependencies"
     },
     {
       "relation": "contains",
@@ -4842,9 +4878,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_scripts",
-      "target": "strat_package_scripts_dev",
-      "confidence_score": 1.0
+      "target": "strat_package_scripts_dev"
     },
     {
       "relation": "contains",
@@ -4852,9 +4888,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_scripts",
-      "target": "strat_package_scripts_build",
-      "confidence_score": 1.0
+      "target": "strat_package_scripts_build"
     },
     {
       "relation": "contains",
@@ -4862,9 +4898,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_scripts",
-      "target": "strat_package_scripts_start",
-      "confidence_score": 1.0
+      "target": "strat_package_scripts_start"
     },
     {
       "relation": "contains",
@@ -4872,9 +4908,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_scripts",
-      "target": "strat_package_scripts_lint",
-      "confidence_score": 1.0
+      "target": "strat_package_scripts_lint"
     },
     {
       "relation": "contains",
@@ -4882,9 +4918,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_dependencies",
-      "target": "strat_package_dependencies_framer_motion",
-      "confidence_score": 1.0
+      "target": "strat_package_dependencies_framer_motion"
     },
     {
       "relation": "contains",
@@ -4892,9 +4928,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_dependencies",
-      "target": "strat_package_dependencies_gsap",
-      "confidence_score": 1.0
+      "target": "strat_package_dependencies_gsap"
     },
     {
       "relation": "contains",
@@ -4902,9 +4938,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_dependencies",
-      "target": "strat_package_dependencies_lucide_react",
-      "confidence_score": 1.0
+      "target": "strat_package_dependencies_lucide_react"
     },
     {
       "relation": "contains",
@@ -4912,9 +4948,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_dependencies",
-      "target": "strat_package_dependencies_next",
-      "confidence_score": 1.0
+      "target": "strat_package_dependencies_next"
     },
     {
       "relation": "contains",
@@ -4922,9 +4958,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_dependencies",
-      "target": "strat_package_dependencies_ogl",
-      "confidence_score": 1.0
+      "target": "strat_package_dependencies_ogl"
     },
     {
       "relation": "contains",
@@ -4932,9 +4968,9 @@
       "source_file": "package.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_dependencies",
-      "target": "strat_package_dependencies_react",
-      "confidence_score": 1.0
+      "target": "strat_package_dependencies_react"
     },
     {
       "relation": "contains",
@@ -4942,9 +4978,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_dependencies",
-      "target": "strat_package_dependencies_react_dom",
-      "confidence_score": 1.0
+      "target": "strat_package_dependencies_react_dom"
     },
     {
       "relation": "contains",
@@ -4952,9 +4988,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_devdependencies",
-      "target": "strat_package_devdependencies_tailwindcss_postcss",
-      "confidence_score": 1.0
+      "target": "strat_package_devdependencies_tailwindcss_postcss"
     },
     {
       "relation": "contains",
@@ -4962,9 +4998,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_devdependencies",
-      "target": "strat_package_devdependencies_types_node",
-      "confidence_score": 1.0
+      "target": "strat_package_devdependencies_types_node"
     },
     {
       "relation": "contains",
@@ -4972,9 +5008,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_devdependencies",
-      "target": "strat_package_devdependencies_types_react",
-      "confidence_score": 1.0
+      "target": "strat_package_devdependencies_types_react"
     },
     {
       "relation": "contains",
@@ -4982,9 +5018,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_devdependencies",
-      "target": "strat_package_devdependencies_types_react_dom",
-      "confidence_score": 1.0
+      "target": "strat_package_devdependencies_types_react_dom"
     },
     {
       "relation": "contains",
@@ -4992,9 +5028,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_devdependencies",
-      "target": "strat_package_devdependencies_eslint",
-      "confidence_score": 1.0
+      "target": "strat_package_devdependencies_eslint"
     },
     {
       "relation": "contains",
@@ -5002,9 +5038,9 @@
       "source_file": "package.json",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_devdependencies",
-      "target": "strat_package_devdependencies_eslint_config_next",
-      "confidence_score": 1.0
+      "target": "strat_package_devdependencies_eslint_config_next"
     },
     {
       "relation": "contains",
@@ -5012,9 +5048,9 @@
       "source_file": "package.json",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_devdependencies",
-      "target": "strat_package_devdependencies_tailwindcss",
-      "confidence_score": 1.0
+      "target": "strat_package_devdependencies_tailwindcss"
     },
     {
       "relation": "contains",
@@ -5022,9 +5058,9 @@
       "source_file": "package.json",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_package_devdependencies",
-      "target": "strat_package_devdependencies_typescript",
-      "confidence_score": 1.0
+      "target": "strat_package_devdependencies_typescript"
     },
     {
       "relation": "contains",
@@ -5032,9 +5068,9 @@
       "source_file": "D:/projects/aitrader-landing/postcss.config.mjs",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_postcss_config_mjs",
-      "target": "aitrader_landing_postcss_config_config",
-      "confidence_score": 1.0
+      "target": "aitrader_landing_postcss_config_config"
     },
     {
       "relation": "contains",
@@ -5052,9 +5088,9 @@
       "source_file": "D:/projects/aitrader-landing/tsconfig.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_tsconfig_json",
-      "target": "aitrader_landing_tsconfig_compileroptions",
-      "confidence_score": 1.0
+      "target": "aitrader_landing_tsconfig_compileroptions"
     },
     {
       "relation": "contains",
@@ -5062,9 +5098,9 @@
       "source_file": "D:/projects/aitrader-landing/tsconfig.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_tsconfig_json",
-      "target": "aitrader_landing_tsconfig_include",
-      "confidence_score": 1.0
+      "target": "aitrader_landing_tsconfig_include"
     },
     {
       "relation": "contains",
@@ -5072,9 +5108,9 @@
       "source_file": "D:/projects/aitrader-landing/tsconfig.json",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_tsconfig_json",
-      "target": "aitrader_landing_tsconfig_exclude",
-      "confidence_score": 1.0
+      "target": "aitrader_landing_tsconfig_exclude"
     },
     {
       "relation": "contains",
@@ -5373,9 +5409,9 @@
       "source_file": "D:/projects/aitrader-landing/app/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_page_tsx",
-      "target": "d_projects_aitrader_landing_app_components_sections_hero_hero_tsx",
-      "confidence_score": 1.0
+      "target": "d_projects_aitrader_landing_app_components_sections_hero_hero_tsx"
     },
     {
       "relation": "imports_from",
@@ -5384,9 +5420,9 @@
       "source_file": "D:/projects/aitrader-landing/app/page.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_page_tsx",
-      "target": "d_projects_aitrader_landing_app_components_sections_stats_stats_tsx",
-      "confidence_score": 1.0
+      "target": "d_projects_aitrader_landing_app_components_sections_stats_stats_tsx"
     },
     {
       "relation": "imports_from",
@@ -5395,9 +5431,9 @@
       "source_file": "D:/projects/aitrader-landing/app/page.tsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_page_tsx",
-      "target": "d_projects_aitrader_landing_app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "d_projects_aitrader_landing_app_components_effects_darkveil_tsx"
     },
     {
       "relation": "contains",
@@ -5405,9 +5441,9 @@
       "source_file": "D:/projects/aitrader-landing/app/page.tsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_page_tsx",
-      "target": "app_page_home",
-      "confidence_score": 1.0
+      "target": "app_page_home"
     },
     {
       "relation": "contains",
@@ -5447,9 +5483,9 @@
       "source_file": "app/about/page.tsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_about_page_tsx",
-      "target": "app_components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -5458,9 +5494,9 @@
       "source_file": "app/about/page.tsx",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_about_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -5469,9 +5505,9 @@
       "source_file": "app/about/page.tsx",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_about_page_tsx",
-      "target": "components_ui_shinytext_tsx",
-      "confidence_score": 1.0
+      "target": "components_ui_shinytext_tsx"
     },
     {
       "relation": "contains",
@@ -5553,9 +5589,9 @@
       "source_file": "app/blog/page.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_blog_page_tsx",
-      "target": "app_components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -5564,9 +5600,9 @@
       "source_file": "app/blog/page.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_blog_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -5749,9 +5785,9 @@
       "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogGrid.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_blog_components_bloggrid_tsx",
-      "target": "components_bloggrid_blogpost",
-      "confidence_score": 1.0
+      "target": "components_bloggrid_blogpost"
     },
     {
       "relation": "contains",
@@ -5759,9 +5795,9 @@
       "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogGrid.tsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_blog_components_bloggrid_tsx",
-      "target": "components_bloggrid_bloggridprops",
-      "confidence_score": 1.0
+      "target": "components_bloggrid_bloggridprops"
     },
     {
       "relation": "contains",
@@ -5769,9 +5805,9 @@
       "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogGrid.tsx",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_blog_components_bloggrid_tsx",
-      "target": "components_bloggrid_bloggrid",
-      "confidence_score": 1.0
+      "target": "components_bloggrid_bloggrid"
     },
     {
       "relation": "contains",
@@ -5810,9 +5846,9 @@
       "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogHero.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_blog_components_bloghero_tsx",
-      "target": "d_projects_aitrader_landing_components_ui_shinytext_tsx",
-      "confidence_score": 1.0
+      "target": "d_projects_aitrader_landing_components_ui_shinytext_tsx"
     },
     {
       "relation": "contains",
@@ -5820,9 +5856,9 @@
       "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogHero.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_blog_components_bloghero_tsx",
-      "target": "components_bloghero_blogheroprops",
-      "confidence_score": 1.0
+      "target": "components_bloghero_blogheroprops"
     },
     {
       "relation": "contains",
@@ -5830,9 +5866,9 @@
       "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogHero.tsx",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_blog_components_bloghero_tsx",
-      "target": "components_bloghero_bloghero",
-      "confidence_score": 1.0
+      "target": "components_bloghero_bloghero"
     },
     {
       "relation": "contains",
@@ -5860,9 +5896,9 @@
       "source_file": "D:/projects/aitrader-landing/app/blog/components/CategoryFilter.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_blog_components_categoryfilter_tsx",
-      "target": "components_categoryfilter_categoryfilterprops",
-      "confidence_score": 1.0
+      "target": "components_categoryfilter_categoryfilterprops"
     },
     {
       "relation": "contains",
@@ -5870,9 +5906,9 @@
       "source_file": "D:/projects/aitrader-landing/app/blog/components/CategoryFilter.tsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_blog_components_categoryfilter_tsx",
-      "target": "components_categoryfilter_categoryfilter",
-      "confidence_score": 1.0
+      "target": "components_categoryfilter_categoryfilter"
     },
     {
       "relation": "contains",
@@ -5900,9 +5936,9 @@
       "source_file": "D:/projects/aitrader-landing/app/blog/components/FeaturedPost.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_blog_components_featuredpost_tsx",
-      "target": "components_featuredpost_featuredpostprops",
-      "confidence_score": 1.0
+      "target": "components_featuredpost_featuredpostprops"
     },
     {
       "relation": "contains",
@@ -5910,9 +5946,9 @@
       "source_file": "D:/projects/aitrader-landing/app/blog/components/FeaturedPost.tsx",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_blog_components_featuredpost_tsx",
-      "target": "components_featuredpost_featuredpost",
-      "confidence_score": 1.0
+      "target": "components_featuredpost_featuredpost"
     },
     {
       "relation": "contains",
@@ -5952,9 +5988,9 @@
       "source_file": "app/careers/page.tsx",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_careers_page_tsx",
-      "target": "app_components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -5963,9 +5999,9 @@
       "source_file": "app/careers/page.tsx",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_careers_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -5974,9 +6010,9 @@
       "source_file": "app/careers/page.tsx",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_careers_page_tsx",
-      "target": "components_ui_shinytext_tsx",
-      "confidence_score": 1.0
+      "target": "components_ui_shinytext_tsx"
     },
     {
       "relation": "contains",
@@ -6096,9 +6132,9 @@
       "source_file": "app/changelog/page.tsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_changelog_page_tsx",
-      "target": "app_components_layout_navbar_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_navbar_tsx"
     },
     {
       "relation": "imports_from",
@@ -6107,9 +6143,9 @@
       "source_file": "app/changelog/page.tsx",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_changelog_page_tsx",
-      "target": "app_components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -6118,9 +6154,9 @@
       "source_file": "app/changelog/page.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_changelog_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -6129,9 +6165,9 @@
       "source_file": "app/changelog/page.tsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_changelog_page_tsx",
-      "target": "components_ui_shinytext_tsx",
-      "confidence_score": 1.0
+      "target": "components_ui_shinytext_tsx"
     },
     {
       "relation": "contains",
@@ -6170,9 +6206,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx",
-      "target": "effects_animateonscroll_fadeup",
-      "confidence_score": 1.0
+      "target": "effects_animateonscroll_fadeup"
     },
     {
       "relation": "contains",
@@ -6180,9 +6216,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx",
-      "target": "effects_animateonscroll_fadedown",
-      "confidence_score": 1.0
+      "target": "effects_animateonscroll_fadedown"
     },
     {
       "relation": "contains",
@@ -6190,9 +6226,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx",
-      "target": "effects_animateonscroll_fadeleft",
-      "confidence_score": 1.0
+      "target": "effects_animateonscroll_fadeleft"
     },
     {
       "relation": "contains",
@@ -6200,9 +6236,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx",
-      "target": "effects_animateonscroll_faderight",
-      "confidence_score": 1.0
+      "target": "effects_animateonscroll_faderight"
     },
     {
       "relation": "contains",
@@ -6210,9 +6246,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx",
-      "target": "effects_animateonscroll_scalein",
-      "confidence_score": 1.0
+      "target": "effects_animateonscroll_scalein"
     },
     {
       "relation": "contains",
@@ -6220,9 +6256,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx",
-      "target": "effects_animateonscroll_staggercontainer",
-      "confidence_score": 1.0
+      "target": "effects_animateonscroll_staggercontainer"
     },
     {
       "relation": "contains",
@@ -6230,9 +6266,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx",
-      "target": "effects_animateonscroll_staggeritem",
-      "confidence_score": 1.0
+      "target": "effects_animateonscroll_staggeritem"
     },
     {
       "relation": "contains",
@@ -6240,9 +6276,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx",
-      "target": "effects_animateonscroll_animateonscroll",
-      "confidence_score": 1.0
+      "target": "effects_animateonscroll_animateonscroll"
     },
     {
       "relation": "contains",
@@ -6250,9 +6286,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx",
-      "target": "effects_animateonscroll_parallaxsection",
-      "confidence_score": 1.0
+      "target": "effects_animateonscroll_parallaxsection"
     },
     {
       "relation": "imports_from",
@@ -6261,9 +6297,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/stats/Stats.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_stats_stats_tsx",
-      "target": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx",
-      "confidence_score": 1.0
+      "target": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx"
     },
     {
       "relation": "contains",
@@ -6430,9 +6466,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/stats/Stats.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_stats_stats_tsx",
-      "target": "effects_animateonscroll_animateonscroll",
-      "confidence_score": 1.0
+      "target": "effects_animateonscroll_animateonscroll"
     },
     {
       "relation": "imports",
@@ -6537,9 +6573,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/effects/DarkVeil.tsx",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_effects_darkveil_tsx",
-      "target": "effects_darkveil_darkveilprops",
-      "confidence_score": 1.0
+      "target": "effects_darkveil_darkveilprops"
     },
     {
       "relation": "contains",
@@ -6547,9 +6583,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/effects/DarkVeil.tsx",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_effects_darkveil_tsx",
-      "target": "effects_darkveil_darkveil",
-      "confidence_score": 1.0
+      "target": "effects_darkveil_darkveil"
     },
     {
       "relation": "imports_from",
@@ -6558,9 +6594,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/layout/SubpageLayout.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_layout_subpagelayout_tsx",
-      "target": "d_projects_aitrader_landing_app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "d_projects_aitrader_landing_app_components_effects_darkveil_tsx"
     },
     {
       "relation": "contains",
@@ -6641,9 +6677,9 @@
       "source_file": "app/contact/page.tsx",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_contact_page_tsx",
-      "target": "app_components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -6652,9 +6688,9 @@
       "source_file": "app/disclaimer/page.tsx",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_disclaimer_page_tsx",
-      "target": "app_components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -6663,7 +6699,18 @@
       "source_file": "app/docs/page.tsx",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_docs_page_tsx",
+      "target": "app_components_layout_footer_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "app_download_page_tsx",
       "target": "app_components_layout_footer_tsx",
       "confidence_score": 1.0
     },
@@ -6674,9 +6721,9 @@
       "source_file": "app/privacy/page.tsx",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_privacy_page_tsx",
-      "target": "app_components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -6685,9 +6732,9 @@
       "source_file": "app/refund/page.tsx",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_refund_page_tsx",
-      "target": "app_components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -6696,9 +6743,9 @@
       "source_file": "app/status/page.tsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_status_page_tsx",
-      "target": "app_components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -6707,9 +6754,9 @@
       "source_file": "app/terms/page.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_terms_page_tsx",
-      "target": "app_components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -6792,9 +6839,9 @@
       "source_file": "app/disclaimer/page.tsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_disclaimer_page_tsx",
-      "target": "app_components_layout_navbar_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_navbar_tsx"
     },
     {
       "relation": "imports_from",
@@ -6803,7 +6850,18 @@
       "source_file": "app/docs/page.tsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_docs_page_tsx",
+      "target": "app_components_layout_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "app_download_page_tsx",
       "target": "app_components_layout_navbar_tsx",
       "confidence_score": 1.0
     },
@@ -6814,9 +6872,9 @@
       "source_file": "app/privacy/page.tsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_privacy_page_tsx",
-      "target": "app_components_layout_navbar_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_navbar_tsx"
     },
     {
       "relation": "imports_from",
@@ -6825,9 +6883,9 @@
       "source_file": "app/refund/page.tsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_refund_page_tsx",
-      "target": "app_components_layout_navbar_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_navbar_tsx"
     },
     {
       "relation": "imports_from",
@@ -6836,9 +6894,9 @@
       "source_file": "app/status/page.tsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_status_page_tsx",
-      "target": "app_components_layout_navbar_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_navbar_tsx"
     },
     {
       "relation": "imports_from",
@@ -6847,9 +6905,9 @@
       "source_file": "app/terms/page.tsx",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_terms_page_tsx",
-      "target": "app_components_layout_navbar_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_navbar_tsx"
     },
     {
       "relation": "imports_from",
@@ -7009,9 +7067,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/layout/SubpageLayout.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_layout_subpagelayout_tsx",
-      "target": "layout_subpagelayout_subpagelayoutprops",
-      "confidence_score": 1.0
+      "target": "layout_subpagelayout_subpagelayoutprops"
     },
     {
       "relation": "contains",
@@ -7019,9 +7077,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/layout/SubpageLayout.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_layout_subpagelayout_tsx",
-      "target": "layout_subpagelayout_subpagelayout",
-      "confidence_score": 1.0
+      "target": "layout_subpagelayout_subpagelayout"
     },
     {
       "relation": "contains",
@@ -7217,9 +7275,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx",
-      "target": "features_magicbento_bentocardprops",
-      "confidence_score": 1.0
+      "target": "features_magicbento_bentocardprops"
     },
     {
       "relation": "contains",
@@ -7227,9 +7285,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx",
-      "target": "features_magicbento_bentoprops",
-      "confidence_score": 1.0
+      "target": "features_magicbento_bentoprops"
     },
     {
       "relation": "contains",
@@ -7237,9 +7295,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx",
-      "target": "features_magicbento_createparticleelement",
-      "confidence_score": 1.0
+      "target": "features_magicbento_createparticleelement"
     },
     {
       "relation": "contains",
@@ -7247,9 +7305,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx",
-      "target": "features_magicbento_calculatespotlightvalues",
-      "confidence_score": 1.0
+      "target": "features_magicbento_calculatespotlightvalues"
     },
     {
       "relation": "contains",
@@ -7257,9 +7315,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx",
-      "target": "features_magicbento_updatecardglowproperties",
-      "confidence_score": 1.0
+      "target": "features_magicbento_updatecardglowproperties"
     },
     {
       "relation": "contains",
@@ -7267,9 +7325,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx",
-      "target": "features_magicbento_particlecard",
-      "confidence_score": 1.0
+      "target": "features_magicbento_particlecard"
     },
     {
       "relation": "contains",
@@ -7277,9 +7335,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
       "source_location": "L320",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx",
-      "target": "features_magicbento_globalspotlight",
-      "confidence_score": 1.0
+      "target": "features_magicbento_globalspotlight"
     },
     {
       "relation": "contains",
@@ -7287,9 +7345,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
       "source_location": "L396",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx",
-      "target": "features_magicbento_bentocardgrid",
-      "confidence_score": 1.0
+      "target": "features_magicbento_bentocardgrid"
     },
     {
       "relation": "contains",
@@ -7297,9 +7355,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
       "source_location": "L406",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx",
-      "target": "features_magicbento_usemobiledetection",
-      "confidence_score": 1.0
+      "target": "features_magicbento_usemobiledetection"
     },
     {
       "relation": "contains",
@@ -7307,9 +7365,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
       "source_location": "L421",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx",
-      "target": "features_magicbento_magicbento",
-      "confidence_score": 1.0
+      "target": "features_magicbento_magicbento"
     },
     {
       "relation": "imports",
@@ -7550,9 +7608,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/hero/Hero.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_hero_hero_tsx",
-      "target": "hero_hero_hero",
-      "confidence_score": 1.0
+      "target": "hero_hero_hero"
     },
     {
       "relation": "contains",
@@ -7976,9 +8034,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/stats/Stats.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_stats_stats_tsx",
-      "target": "stats_stats_usecountup",
-      "confidence_score": 1.0
+      "target": "stats_stats_usecountup"
     },
     {
       "relation": "contains",
@@ -7986,9 +8044,9 @@
       "source_file": "D:/projects/aitrader-landing/app/components/sections/stats/Stats.tsx",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_app_components_sections_stats_stats_tsx",
-      "target": "stats_stats_stats",
-      "confidence_score": 1.0
+      "target": "stats_stats_stats"
     },
     {
       "relation": "calls",
@@ -8028,9 +8086,9 @@
       "source_file": "app/contact/page.tsx",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_contact_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -8039,9 +8097,9 @@
       "source_file": "app/contact/page.tsx",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_contact_page_tsx",
-      "target": "components_ui_shinytext_tsx",
-      "confidence_score": 1.0
+      "target": "components_ui_shinytext_tsx"
     },
     {
       "relation": "contains",
@@ -8081,9 +8139,9 @@
       "source_file": "app/disclaimer/page.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_disclaimer_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -8092,9 +8150,9 @@
       "source_file": "app/disclaimer/page.tsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_disclaimer_page_tsx",
-      "target": "components_ui_shinytext_tsx",
-      "confidence_score": 1.0
+      "target": "components_ui_shinytext_tsx"
     },
     {
       "relation": "contains",
@@ -8134,9 +8192,9 @@
       "source_file": "app/docs/page.tsx",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_docs_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -8145,9 +8203,9 @@
       "source_file": "app/docs/page.tsx",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_docs_page_tsx",
-      "target": "components_ui_shinytext_tsx",
-      "confidence_score": 1.0
+      "target": "components_ui_shinytext_tsx"
     },
     {
       "relation": "contains",
@@ -8184,12 +8242,64 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "app_download_page_tsx",
+      "target": "app_components_effects_darkveil_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "app_download_page_tsx",
+      "target": "components_ui_shinytext_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "app_download_page_tsx",
+      "target": "download_page_os",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "app_download_page_tsx",
+      "target": "download_page_guidetab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "app_download_page_tsx",
+      "target": "download_page_downloadpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "app/privacy/page.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_privacy_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -8198,9 +8308,9 @@
       "source_file": "app/privacy/page.tsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_privacy_page_tsx",
-      "target": "components_ui_shinytext_tsx",
-      "confidence_score": 1.0
+      "target": "components_ui_shinytext_tsx"
     },
     {
       "relation": "contains",
@@ -8240,9 +8350,9 @@
       "source_file": "app/refund/page.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_refund_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -8251,9 +8361,9 @@
       "source_file": "app/refund/page.tsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_refund_page_tsx",
-      "target": "components_ui_shinytext_tsx",
-      "confidence_score": 1.0
+      "target": "components_ui_shinytext_tsx"
     },
     {
       "relation": "contains",
@@ -8293,9 +8403,9 @@
       "source_file": "app/status/page.tsx",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_status_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -8304,9 +8414,9 @@
       "source_file": "app/status/page.tsx",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_status_page_tsx",
-      "target": "components_ui_shinytext_tsx",
-      "confidence_score": 1.0
+      "target": "components_ui_shinytext_tsx"
     },
     {
       "relation": "contains",
@@ -8346,9 +8456,9 @@
       "source_file": "app/terms/page.tsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_terms_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -8357,9 +8467,9 @@
       "source_file": "app/terms/page.tsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_terms_page_tsx",
-      "target": "components_ui_shinytext_tsx",
-      "confidence_score": 1.0
+      "target": "components_ui_shinytext_tsx"
     },
     {
       "relation": "contains",
@@ -8399,9 +8509,9 @@
       "source_file": "D:/projects/aitrader-landing/components/text-hover-effect-demo.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_components_text_hover_effect_demo_tsx",
-      "target": "d_projects_aitrader_landing_components_ui_text_hover_effect_tsx",
-      "confidence_score": 1.0
+      "target": "d_projects_aitrader_landing_components_ui_text_hover_effect_tsx"
     },
     {
       "relation": "imports",
@@ -8410,9 +8520,9 @@
       "source_file": "D:/projects/aitrader-landing/components/text-hover-effect-demo.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_components_text_hover_effect_demo_tsx",
-      "target": "ui_text_hover_effect_texthovereffect",
-      "confidence_score": 1.0
+      "target": "ui_text_hover_effect_texthovereffect"
     },
     {
       "relation": "contains",
@@ -8420,9 +8530,9 @@
       "source_file": "D:/projects/aitrader-landing/components/text-hover-effect-demo.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_components_text_hover_effect_demo_tsx",
-      "target": "components_text_hover_effect_demo_texthovereffectdemo",
-      "confidence_score": 1.0
+      "target": "components_text_hover_effect_demo_texthovereffectdemo"
     },
     {
       "relation": "contains",
@@ -8939,9 +9049,9 @@
       "source_file": "D:/projects/aitrader-landing/components/ui/RotatingText.tsx",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_components_ui_rotatingtext_tsx",
-      "target": "ui_rotatingtext_cn",
-      "confidence_score": 1.0
+      "target": "ui_rotatingtext_cn"
     },
     {
       "relation": "contains",
@@ -8949,9 +9059,9 @@
       "source_file": "D:/projects/aitrader-landing/components/ui/RotatingText.tsx",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_components_ui_rotatingtext_tsx",
-      "target": "ui_rotatingtext_rotatingtextref",
-      "confidence_score": 1.0
+      "target": "ui_rotatingtext_rotatingtextref"
     },
     {
       "relation": "contains",
@@ -8959,9 +9069,9 @@
       "source_file": "D:/projects/aitrader-landing/components/ui/RotatingText.tsx",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_components_ui_rotatingtext_tsx",
-      "target": "ui_rotatingtext_rotatingtextprops",
-      "confidence_score": 1.0
+      "target": "ui_rotatingtext_rotatingtextprops"
     },
     {
       "relation": "contains",
@@ -8969,9 +9079,9 @@
       "source_file": "D:/projects/aitrader-landing/components/ui/RotatingText.tsx",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_components_ui_rotatingtext_tsx",
-      "target": "ui_rotatingtext_rotatingtext",
-      "confidence_score": 1.0
+      "target": "ui_rotatingtext_rotatingtext"
     },
     {
       "relation": "contains",
@@ -9030,9 +9140,9 @@
       "source_file": "D:/projects/aitrader-landing/components/ui/ShinyText.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_components_ui_shinytext_tsx",
-      "target": "ui_shinytext_cn",
-      "confidence_score": 1.0
+      "target": "ui_shinytext_cn"
     },
     {
       "relation": "contains",
@@ -9040,9 +9150,9 @@
       "source_file": "D:/projects/aitrader-landing/components/ui/ShinyText.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_components_ui_shinytext_tsx",
-      "target": "ui_shinytext_shinytextprops",
-      "confidence_score": 1.0
+      "target": "ui_shinytext_shinytextprops"
     },
     {
       "relation": "contains",
@@ -9050,9 +9160,9 @@
       "source_file": "D:/projects/aitrader-landing/components/ui/ShinyText.tsx",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_components_ui_shinytext_tsx",
-      "target": "ui_shinytext_shinytext",
-      "confidence_score": 1.0
+      "target": "ui_shinytext_shinytext"
     },
     {
       "relation": "calls",
@@ -9112,9 +9222,9 @@
       "source_file": "D:/projects/aitrader-landing/components/ui/text-hover-effect.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_components_ui_text_hover_effect_tsx",
-      "target": "ui_text_hover_effect_texthovereffect",
-      "confidence_score": 1.0
+      "target": "ui_text_hover_effect_texthovereffect"
     },
     {
       "relation": "imports",
@@ -9165,9 +9275,9 @@
       "source_file": "D:/projects/aitrader-landing/AGENTS.md",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_agents_md",
-      "target": "aitrader_landing_agents_this_is_not_the_next_js_you_know",
-      "confidence_score": 1.0
+      "target": "aitrader_landing_agents_this_is_not_the_next_js_you_know"
     },
     {
       "relation": "contains",
@@ -9185,9 +9295,9 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_context_md",
-      "target": "strat_agent_context_strat_ai_the_intelligent_trading_terminal",
-      "confidence_score": 1.0
+      "target": "strat_agent_context_strat_ai_the_intelligent_trading_terminal"
     },
     {
       "relation": "contains",
@@ -9205,9 +9315,9 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_agent_context_strat_ai_the_intelligent_trading_terminal",
-      "target": "strat_agent_context_the_philosophy_the_information_war",
-      "confidence_score": 1.0
+      "target": "strat_agent_context_the_philosophy_the_information_war"
     },
     {
       "relation": "contains",
@@ -9215,9 +9325,9 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_agent_context_strat_ai_the_intelligent_trading_terminal",
-      "target": "strat_agent_context_the_anatomy_of_intelligence_what_strat_ai_delivers",
-      "confidence_score": 1.0
+      "target": "strat_agent_context_the_anatomy_of_intelligence_what_strat_ai_delivers"
     },
     {
       "relation": "contains",
@@ -9225,9 +9335,9 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_agent_context_strat_ai_the_intelligent_trading_terminal",
-      "target": "strat_agent_context_the_ultimate_outcome_unshakeable_psychological_control",
-      "confidence_score": 1.0
+      "target": "strat_agent_context_the_ultimate_outcome_unshakeable_psychological_control"
     },
     {
       "relation": "contains",
@@ -9235,9 +9345,9 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_agent_context_the_anatomy_of_intelligence_what_strat_ai_delivers",
-      "target": "strat_agent_context_1_the_multi_dimensional_options_f_o_decoder",
-      "confidence_score": 1.0
+      "target": "strat_agent_context_1_the_multi_dimensional_options_f_o_decoder"
     },
     {
       "relation": "contains",
@@ -9245,9 +9355,9 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_agent_context_the_anatomy_of_intelligence_what_strat_ai_delivers",
-      "target": "strat_agent_context_2_the_360_degree_trade_validator",
-      "confidence_score": 1.0
+      "target": "strat_agent_context_2_the_360_degree_trade_validator"
     },
     {
       "relation": "contains",
@@ -9255,9 +9365,9 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_agent_context_the_anatomy_of_intelligence_what_strat_ai_delivers",
-      "target": "strat_agent_context_3_market_surveillance_and_anomaly_translation",
-      "confidence_score": 1.0
+      "target": "strat_agent_context_3_market_surveillance_and_anomaly_translation"
     },
     {
       "relation": "contains",
@@ -9265,9 +9375,9 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_agent_context_the_anatomy_of_intelligence_what_strat_ai_delivers",
-      "target": "strat_agent_context_4_the_global_macro_narrative_engine",
-      "confidence_score": 1.0
+      "target": "strat_agent_context_4_the_global_macro_narrative_engine"
     },
     {
       "relation": "contains",
@@ -9275,9 +9385,9 @@
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "strat_agent_context_the_anatomy_of_intelligence_what_strat_ai_delivers",
-      "target": "strat_agent_context_5_adaptive_market_mindsets_from_nse_to_crypto",
-      "confidence_score": 1.0
+      "target": "strat_agent_context_5_adaptive_market_mindsets_from_nse_to_crypto"
     },
     {
       "relation": "contains",
@@ -9285,9 +9395,9 @@
       "source_file": "D:/projects/aitrader-landing/CODE_OF_CONDUCT.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_code_of_conduct_md",
-      "target": "aitrader_landing_code_of_conduct_contributor_covenant_code_of_conduct",
-      "confidence_score": 1.0
+      "target": "aitrader_landing_code_of_conduct_contributor_covenant_code_of_conduct"
     },
     {
       "relation": "contains",
@@ -9365,9 +9475,9 @@
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_contributing_md",
-      "target": "aitrader_landing_contributing_contributing_to_strat",
-      "confidence_score": 1.0
+      "target": "aitrader_landing_contributing_contributing_to_strat"
     },
     {
       "relation": "contains",
@@ -9515,9 +9625,9 @@
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_readme_md",
-      "target": "aitrader_landing_readme_strat",
-      "confidence_score": 1.0
+      "target": "aitrader_landing_readme_strat"
     },
     {
       "relation": "contains",
@@ -9745,9 +9855,9 @@
       "source_file": "D:/projects/aitrader-landing/SECURITY.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "d_projects_aitrader_landing_security_md",
-      "target": "aitrader_landing_security_security_policy_strictly_private",
-      "confidence_score": 1.0
+      "target": "aitrader_landing_security_security_policy_strictly_private"
     },
     {
       "relation": "contains",
@@ -12328,5 +12438,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5aa560d5d3b691ad2eb7a0feffee9b6c3262bf94"
+  "built_at_commit": "1cb15b34293f83e498a62df2607b66165b7b841f"
 }

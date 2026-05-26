@@ -6,6 +6,7 @@ export default function Navbar() {
   const menuItems = [
     { label: "HOME", ariaLabel: "Go to home page", link: "/" },
     { label: "ABOUT", ariaLabel: "Learn more about Strat Ai", link: "/about" },
+    { label: "DOWNLOAD", ariaLabel: "Download Strat Ai desktop client", link: "/download" },
     { label: "CAREERS", ariaLabel: "Explore career opportunities at Strat Ai", link: "/careers" },
     { label: "BLOG", ariaLabel: "Read Strat Ai engineering and quant blogs", link: "/blog" },
     { label: "PRICING", ariaLabel: "Platform pricing plans", link: "/#pricing" },
