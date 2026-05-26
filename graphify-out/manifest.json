@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\package.json": {
-    "mtime": 1779374750.34615,
-    "ast_hash": "11a44e761501a9d8b09084cc41e12ec0",
+    "mtime": 1779636537.9309046,
+    "ast_hash": "8d7b7786a2021c8c1cf00aadc04c5d16",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\postcss.config.mjs": {
@@ -25,7 +25,7 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\.vscode\\settings.json": {
-    "mtime": 1779357477.028698,
+    "mtime": 1779635506.4631114,
     "ast_hash": "73792b9af3fc811b105441cc773526b1",
     "semantic_hash": ""
   },
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\blog\\page.tsx": {
-    "mtime": 1779630415.6135635,
-    "ast_hash": "ce4a4ae6e2937ba0b625c9841b018609",
+    "mtime": 1779636537.8948948,
+    "ast_hash": "ac40bb75cd9267beef87ea083c42a239",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\blog\\components\\BlogGrid.tsx": {
@@ -75,13 +75,13 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\careers\\page.tsx": {
-    "mtime": 1779630337.0570602,
-    "ast_hash": "1e503909052b96bd2e9da1c3e0d93fbb",
+    "mtime": 1779636537.898895,
+    "ast_hash": "1f17eaefdb46881c54d76d17721771c5",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\changelog\\page.tsx": {
-    "mtime": 1779630406.8897715,
-    "ast_hash": "d1a6f274caa83f081b2595239ac2bbc2",
+    "mtime": 1779636537.9008937,
+    "ast_hash": "9eb14d2b63aceebb40ce6f0c6365b2e5",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\components\\effects\\AnimateOnScroll.tsx": {
@@ -115,13 +115,13 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\components\\sections\\cta\\FinalCTA.tsx": {
-    "mtime": 1779629626.3001702,
-    "ast_hash": "c32b5f0bc9d7c3ace932a390178f97e0",
+    "mtime": 1779636537.9028957,
+    "ast_hash": "27d5d23119cc4337aa014fddfc11591d",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\components\\sections\\faq\\FAQ.tsx": {
-    "mtime": 1779629634.4701455,
-    "ast_hash": "89cabe56a73a1280723969b5b63019bc",
+    "mtime": 1779636537.9048965,
+    "ast_hash": "612822643abf6eebb4cef003f4f87038",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\components\\sections\\features\\FeatureBento.tsx": {
@@ -145,8 +145,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\components\\sections\\pricing\\Pricing.tsx": {
-    "mtime": 1779381380.3092885,
-    "ast_hash": "0eeb14688725355975c6f61086f4567a",
+    "mtime": 1779636537.9068944,
+    "ast_hash": "62621c6d897e564637a247e9e4773df0",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\components\\sections\\problem\\ProblemSection.tsx": {
@@ -160,13 +160,13 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\contact\\page.tsx": {
-    "mtime": 1779630389.539498,
-    "ast_hash": "0c6fa6beb6a1e92a5bc48744627e3e21",
+    "mtime": 1779636537.9088957,
+    "ast_hash": "314fe45098d599160748146416f6358d",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\disclaimer\\page.tsx": {
-    "mtime": 1779553843.6814058,
-    "ast_hash": "4dd804037831263e117608cd116603cc",
+    "mtime": 1779636537.9118936,
+    "ast_hash": "966736974f059115bbce5eff62cde596",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\docs\\page.tsx": {
@@ -175,23 +175,23 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\privacy\\page.tsx": {
-    "mtime": 1779630362.461238,
-    "ast_hash": "902344aa03184c8b4c71b2d55f6cdda0",
+    "mtime": 1779636537.9138937,
+    "ast_hash": "1f0ed6426c6d9421b1b6d540da399ead",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\refund\\page.tsx": {
-    "mtime": 1779630372.142149,
-    "ast_hash": "5586e17ddaed6ff5f3d51b6410e1ec3a",
+    "mtime": 1779636537.9178967,
+    "ast_hash": "5aac7a4d0020bd3498c180037e4e5439",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\status\\page.tsx": {
-    "mtime": 1779553860.9464302,
-    "ast_hash": "f924690fad2bda46456e8bcef480df07",
+    "mtime": 1779636537.9198973,
+    "ast_hash": "89b7efad98adac056e48755fd54a4d30",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\terms\\page.tsx": {
-    "mtime": 1779630381.4725506,
-    "ast_hash": "c1ccc7ff59853933520f723e6eba50f6",
+    "mtime": 1779636537.9229026,
+    "ast_hash": "d5ba154867961b984e3fc63470ff27f2",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\components\\text-hover-effect-demo.tsx": {
@@ -200,8 +200,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\components\\ui\\hero-section-nexus.tsx": {
-    "mtime": 1779629857.5144932,
-    "ast_hash": "f5e6f275119a01d009c53e594d288a6b",
+    "mtime": 1779636537.924904,
+    "ast_hash": "4c743090539dc9400aefa4299539f7f8",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\components\\ui\\RotatingText.tsx": {
