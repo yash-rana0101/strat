@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Privacy Policy & Zero-Custody Protection | Strat Ai",
     description:
       "Your trading strategies and credentials are yours alone. Strat Ai utilizes military-grade local encryption to safeguard your data. No cloud sync, no tracking.",
-    url: "https://stratai.live//privacy",
+    url: "https://stratai.live/privacy",
     images: [
       {
         url: "/og-image.png",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
       "Encryption keys and brokerage access secrets stay encrypted on your own device. Read our local-first security architecture policy.",
   },
   alternates: {
-    canonical: "https://stratai.live//privacy",
+    canonical: "https://stratai.live/privacy",
   },
 };
 

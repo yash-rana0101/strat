@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Careers at Strat Ai — Join Our Quantitative Engineering Team",
     description:
       "Open positions in Rust systems engineering, AI/ML, desktop UI, and quantitative research. Build high-performance trading terminals at Strat Ai.",
-    url: "https://stratai.live//careers",
+    url: "https://stratai.live/careers",
   },
   twitter: {
     card: "summary",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Join our team building AI-powered trading terminals. Rust, AI/ML, and quant research roles available.",
   },
   alternates: {
-    canonical: "https://stratai.live//careers",
+    canonical: "https://stratai.live/careers",
   },
 };
 

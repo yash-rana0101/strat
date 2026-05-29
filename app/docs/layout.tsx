@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Strat Ai Technical Blueprints & Documentation",
     description:
       "Deep dive into our sub-50ms local tick ingestion architecture, Tauri security, and our five specialized machine learning agent consensus systems.",
-    url: "https://stratai.live//docs",
+    url: "https://stratai.live/docs",
     images: [
       {
         url: "/og-image.png",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
       "Architecture guides for local ingestion, database storage, and trading agent configuration.",
   },
   alternates: {
-    canonical: "https://stratai.live//docs",
+    canonical: "https://stratai.live/docs",
   },
 };
 

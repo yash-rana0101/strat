@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Terms of Service & Desktop Licensing | Strat Ai",
     description:
       "Understand the usage rights, platform licensing, and risk compliance standards for the Strat Ai desktop trading terminal.",
-    url: "https://stratai.live//terms",
+    url: "https://stratai.live/terms",
     images: [
       {
         url: "/og-image.png",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
       "Review license rules, local time-series database rights, and compliance procedures for Strat Ai.",
   },
   alternates: {
-    canonical: "https://stratai.live//terms",
+    canonical: "https://stratai.live/terms",
   },
 };
 

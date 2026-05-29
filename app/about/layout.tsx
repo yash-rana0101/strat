@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "About Strat Ai — AI Trading Intelligence for Indian F&O & Crypto",
     description:
       "Strat Ai is a high-fidelity visual workspace and market intelligence terminal for Indian F&O traders and global Crypto traders who value analytical privacy, real-time speed, and trading conviction.",
-    url: "https://stratai.live//about",
+    url: "https://stratai.live/about",
     images: [
       {
         url: "/og-image.png",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       "Direct-to-canvas charting. Zero-custody privacy. 5 autonomous AI agents. Learn about the trading terminal engineered for precision.",
   },
   alternates: {
-    canonical: "https://stratai.live//about",
+    canonical: "https://stratai.live/about",
   },
 };
 

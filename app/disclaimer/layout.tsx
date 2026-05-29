@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Financial Risk & Regulatory Disclaimer | Strat Ai",
     description:
       "Important regulatory information and risk disclosures for Indian derivatives trading (Nifty/Bank Nifty) and global Crypto trading. Learn about our operational scope.",
-    url: "https://stratai.live//disclaimer",
+    url: "https://stratai.live/disclaimer",
     images: [
       {
         url: "/og-image.png",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
       "Important advisory regarding Nifty options and F&O risk parameters. Understand that Strat Ai is an analytics tool and not a financial advisor.",
   },
   alternates: {
-    canonical: "https://stratai.live//disclaimer",
+    canonical: "https://stratai.live/disclaimer",
   },
 };
 

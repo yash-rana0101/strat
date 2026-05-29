@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "System Status & Ingest Latencies — Strat Ai",
     description:
       "Check live service statuses, Nifty feed latency records, and crypto WebSocket ingest uptimes for our high-frequency terminal.",
-    url: "https://stratai.live//status",
+    url: "https://stratai.live/status",
     images: [
       {
         url: "/og-image.png",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
       "Uptime status for Nifty & Bank Nifty feed connections and Crypto WebSockets ingest pipelines.",
   },
   alternates: {
-    canonical: "https://stratai.live//status",
+    canonical: "https://stratai.live/status",
   },
 };
 

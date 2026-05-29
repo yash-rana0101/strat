@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Strat Ai Release Logs & Changelog",
     description:
       "Stay updated with new indicators, performance fixes, and broker integration releases on the Strat Ai desktop client.",
-    url: "https://stratai.live//changelog",
+    url: "https://stratai.live/changelog",
     images: [
       {
         url: "/og-image.png",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
       "Read about our latest sub-50ms tick ingestion improvements, new options indicators, and desktop terminal updates.",
   },
   alternates: {
-    canonical: "https://stratai.live//changelog",
+    canonical: "https://stratai.live/changelog",
   },
 };
 

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
       "Strat Ai Blog — Trading Technology, Market Analysis & Quant Engineering",
     description:
       "Engineering deep-dives on AI agent architecture, Rust-based trading systems, OLS regression models, and quantitative trading insights from the Strat Ai team.",
-    url: "https://stratai.live//blog",
+    url: "https://stratai.live/blog",
     images: [
       {
         url: "/og-image.png",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       "Deep-dives on AI agents, Rust trading systems, options analytics, and crypto strategies from the Strat Ai engineering team.",
   },
   alternates: {
-    canonical: "https://stratai.live//blog",
+    canonical: "https://stratai.live/blog",
   },
 };
 

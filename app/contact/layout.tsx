@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Contact Strat Ai — Support, Sales & Partnership Inquiries",
     description:
       "Get help with trading terminal setup, API configuration, licensing, or technical support. Our team is based in Noida and Bengaluru, India.",
-    url: "https://stratai.live//contact",
+    url: "https://stratai.live/contact",
   },
   twitter: {
     card: "summary",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       "Reach our team for setup help, licensing, or trading terminal support.",
   },
   alternates: {
-    canonical: "https://stratai.live//contact",
+    canonical: "https://stratai.live/contact",
   },
 };
 

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
       "Download Strat Ai — Desktop Trading Terminal for Windows & macOS",
     description:
       "GPU-accelerated charting, sub-50ms latency, zero-custody security. Download the native trading terminal for Windows 10/11 and macOS 12+.",
-    url: "https://stratai.live//download",
+    url: "https://stratai.live/download",
     images: [
       {
         url: "/desktop_mockup.png",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
       "Native desktop trading terminal with GPU-accelerated charts, 5 AI agents, and Zerodha Kite API integration. Download for Windows & macOS.",
   },
   alternates: {
-    canonical: "https://stratai.live//download",
+    canonical: "https://stratai.live/download",
   },
 };
 

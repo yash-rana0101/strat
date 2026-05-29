@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "Refund & Subscription Cancellation Policy | Strat Ai",
     description:
       "Understand the subscription billing cycles, trial access terms, and license refund guidelines for Strat Ai.",
-    url: "https://stratai.live//refund",
+    url: "https://stratai.live/refund",
     images: [
       {
         url: "/og-image.png",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
       "Transparent subscription licensing terms and cancellation guidelines for the Strat Ai desktop terminal.",
   },
   alternates: {
-    canonical: "https://stratai.live//refund",
+    canonical: "https://stratai.live/refund",
   },
 };
 

@@ -105,13 +105,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://stratai.live//#organization",
+      "@id": "https://stratai.live/#organization",
       name: "Strat Ai",
       legalName: "Strat Ai Labs Private Limited",
-      url: "https://stratai.live/",
+      url: "https://stratai.live",
       logo: {
         "@type": "ImageObject",
-        url: "https://stratai.live//strat.svg",
+        url: "https://stratai.live/strat.svg",
         width: 512,
         height: 512,
       },
@@ -129,7 +129,7 @@ const jsonLd = {
         "@type": "ContactPoint",
         telephone: "+91-7060603346",
         contactType: "customer support",
-        email: "support@strat.io",
+        email: "support@stratai.live",
         availableLanguage: "English",
       },
       sameAs: [
@@ -147,7 +147,7 @@ const jsonLd = {
     },
     {
       "@type": "SoftwareApplication",
-      "@id": "https://stratai.live//#software",
+      "@id": "https://stratai.live/#software",
       name: "Strat Ai",
       applicationCategory: "FinanceApplication",
       applicationSubCategory: "Trading Terminal",
@@ -174,23 +174,23 @@ const jsonLd = {
       ],
       screenshot: {
         "@type": "ImageObject",
-        url: "https://stratai.live//desktop_mockup.png",
+        url: "https://stratai.live/desktop_mockup.png",
       },
-      downloadUrl: "https://stratai.live//download",
+      downloadUrl: "https://stratai.live/download",
       softwareVersion: "2.4.0",
       author: {
-        "@id": "https://stratai.live//#organization",
+        "@id": "https://stratai.live/#organization",
       },
     },
     {
       "@type": "WebSite",
-      "@id": "https://stratai.live//#website",
-      url: "https://stratai.live/",
+      "@id": "https://stratai.live/#website",
+      url: "https://stratai.live",
       name: "Strat Ai",
       description:
         "AI-powered trading terminal for Indian stock market F&O traders and global Crypto traders",
       publisher: {
-        "@id": "https://stratai.live//#organization",
+        "@id": "https://stratai.live/#organization",
       },
       inLanguage: "en-IN",
     },

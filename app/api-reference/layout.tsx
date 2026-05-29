@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Systems API & Local WebSocket Reference | Strat Ai",
     description:
       "Full schema documentation for integrating custom quant scripts directly into the Strat Ai local engine. Read options chain matrices and indicators in real time.",
-    url: "https://stratai.live//api-reference",
+    url: "https://stratai.live/api-reference",
     images: [
       {
         url: "/og-image.png",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
       "Integrate custom code with our local engine. WebSocket schemas and REST endpoint specs for high-speed options analysis.",
   },
   alternates: {
-    canonical: "https://stratai.live//api-reference",
+    canonical: "https://stratai.live/api-reference",
   },
 };
 
