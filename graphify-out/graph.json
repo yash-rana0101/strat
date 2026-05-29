@@ -4,454 +4,508 @@
   "graph": {},
   "nodes": [
     {
+      "label": "DarkVeil.tsx",
+      "file_type": "code",
+      "source_file": "DarkVeil.tsx",
+      "source_location": "L1",
+      "id": "darkveil_tsx",
+      "community": 9,
+      "norm_label": "darkveil.tsx"
+    },
+    {
+      "label": "DarkVeilInner",
+      "file_type": "code",
+      "source_file": "DarkVeil.tsx",
+      "source_location": "L6",
+      "id": "effects_darkveil_darkveilinner",
+      "community": 9,
+      "norm_label": "darkveilinner"
+    },
+    {
+      "label": "DarkVeil()",
+      "file_type": "code",
+      "source_file": "DarkVeil.tsx",
+      "source_location": "L11",
+      "id": "effects_darkveil_darkveil",
+      "community": 9,
+      "norm_label": "darkveil()"
+    },
+    {
+      "label": "DarkVeilInner.tsx",
+      "file_type": "code",
+      "source_file": "DarkVeilInner.tsx",
+      "source_location": "L1",
+      "id": "darkveilinner_tsx",
+      "community": 9,
+      "norm_label": "darkveilinner.tsx"
+    },
+    {
+      "label": "DarkVeilProps",
+      "file_type": "code",
+      "source_file": "DarkVeilInner.tsx",
+      "source_location": "L84",
+      "id": "effects_darkveilinner_darkveilprops",
+      "community": 9,
+      "norm_label": "darkveilprops"
+    },
+    {
+      "label": "DarkVeil()",
+      "file_type": "code",
+      "source_file": "DarkVeilInner.tsx",
+      "source_location": "L94",
+      "id": "effects_darkveilinner_darkveil",
+      "community": 9,
+      "norm_label": "darkveil()"
+    },
+    {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "about/layout.tsx",
       "source_location": "L1",
-      "id": "about_layout_tsx",
       "community": 8,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "about_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "about/layout.tsx",
       "source_location": "L3",
-      "id": "about_layout_metadata",
       "community": 8,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "about_layout_metadata"
     },
     {
       "label": "AboutLayout()",
       "file_type": "code",
       "source_file": "about/layout.tsx",
       "source_location": "L42",
-      "id": "about_layout_aboutlayout",
       "community": 8,
-      "norm_label": "aboutlayout()"
+      "norm_label": "aboutlayout()",
+      "id": "about_layout_aboutlayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "api-reference/layout.tsx",
       "source_location": "L1",
-      "id": "api_reference_layout_tsx",
       "community": 29,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "api_reference_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "api-reference/layout.tsx",
       "source_location": "L3",
-      "id": "api_reference_layout_metadata",
       "community": 29,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "api_reference_layout_metadata"
     },
     {
       "label": "ApiReferenceLayout()",
       "file_type": "code",
       "source_file": "api-reference/layout.tsx",
       "source_location": "L39",
-      "id": "api_reference_layout_apireferencelayout",
       "community": 29,
-      "norm_label": "apireferencelayout()"
+      "norm_label": "apireferencelayout()",
+      "id": "api_reference_layout_apireferencelayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "blog/layout.tsx",
       "source_location": "L1",
-      "id": "blog_layout_tsx",
       "community": 31,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "blog_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "blog/layout.tsx",
       "source_location": "L3",
-      "id": "blog_layout_metadata",
       "community": 31,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "blog_layout_metadata"
     },
     {
       "label": "BlogLayout()",
       "file_type": "code",
       "source_file": "blog/layout.tsx",
       "source_location": "L48",
-      "id": "blog_layout_bloglayout",
       "community": 31,
-      "norm_label": "bloglayout()"
+      "norm_label": "bloglayout()",
+      "id": "blog_layout_bloglayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "careers/layout.tsx",
       "source_location": "L1",
-      "id": "careers_layout_tsx",
       "community": 32,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "careers_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "careers/layout.tsx",
       "source_location": "L3",
-      "id": "careers_layout_metadata",
       "community": 32,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "careers_layout_metadata"
     },
     {
       "label": "CareersLayout()",
       "file_type": "code",
       "source_file": "careers/layout.tsx",
       "source_location": "L37",
-      "id": "careers_layout_careerslayout",
       "community": 32,
-      "norm_label": "careerslayout()"
+      "norm_label": "careerslayout()",
+      "id": "careers_layout_careerslayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "changelog/layout.tsx",
       "source_location": "L1",
-      "id": "changelog_layout_tsx",
       "community": 33,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "changelog_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "changelog/layout.tsx",
       "source_location": "L3",
-      "id": "changelog_layout_metadata",
       "community": 33,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "changelog_layout_metadata"
     },
     {
       "label": "ChangelogLayout()",
       "file_type": "code",
       "source_file": "changelog/layout.tsx",
       "source_location": "L39",
-      "id": "changelog_layout_changeloglayout",
       "community": 33,
-      "norm_label": "changeloglayout()"
+      "norm_label": "changeloglayout()",
+      "id": "changelog_layout_changeloglayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "contact/layout.tsx",
       "source_location": "L1",
-      "id": "contact_layout_tsx",
       "community": 34,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "contact_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "contact/layout.tsx",
       "source_location": "L3",
-      "id": "contact_layout_metadata",
       "community": 34,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "contact_layout_metadata"
     },
     {
       "label": "ContactLayout()",
       "file_type": "code",
       "source_file": "contact/layout.tsx",
       "source_location": "L32",
-      "id": "contact_layout_contactlayout",
       "community": 34,
-      "norm_label": "contactlayout()"
+      "norm_label": "contactlayout()",
+      "id": "contact_layout_contactlayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "disclaimer/layout.tsx",
       "source_location": "L1",
-      "id": "disclaimer_layout_tsx",
       "community": 35,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "disclaimer_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "disclaimer/layout.tsx",
       "source_location": "L3",
-      "id": "disclaimer_layout_metadata",
       "community": 35,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "disclaimer_layout_metadata"
     },
     {
       "label": "DisclaimerLayout()",
       "file_type": "code",
       "source_file": "disclaimer/layout.tsx",
       "source_location": "L40",
-      "id": "disclaimer_layout_disclaimerlayout",
       "community": 35,
-      "norm_label": "disclaimerlayout()"
+      "norm_label": "disclaimerlayout()",
+      "id": "disclaimer_layout_disclaimerlayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "docs/layout.tsx",
       "source_location": "L1",
-      "id": "docs_layout_tsx",
       "community": 36,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "docs_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "docs/layout.tsx",
       "source_location": "L3",
-      "id": "docs_layout_metadata",
       "community": 36,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "docs_layout_metadata"
     },
     {
       "label": "DocsLayout()",
       "file_type": "code",
       "source_file": "docs/layout.tsx",
       "source_location": "L40",
-      "id": "docs_layout_docslayout",
       "community": 36,
-      "norm_label": "docslayout()"
+      "norm_label": "docslayout()",
+      "id": "docs_layout_docslayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "download/layout.tsx",
       "source_location": "L1",
-      "id": "download_layout_tsx",
       "community": 37,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "download_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "download/layout.tsx",
       "source_location": "L3",
-      "id": "download_layout_metadata",
       "community": 37,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "download_layout_metadata"
     },
     {
       "label": "DownloadLayout()",
       "file_type": "code",
       "source_file": "download/layout.tsx",
       "source_location": "L46",
-      "id": "download_layout_downloadlayout",
       "community": 37,
-      "norm_label": "downloadlayout()"
+      "norm_label": "downloadlayout()",
+      "id": "download_layout_downloadlayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "layout.tsx",
       "source_location": "L1",
-      "id": "layout_tsx",
       "community": 10,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "layout_tsx"
     },
     {
       "label": "inter",
       "file_type": "code",
       "source_file": "layout.tsx",
       "source_location": "L5",
-      "id": "app_layout_inter",
       "community": 10,
-      "norm_label": "inter"
+      "norm_label": "inter",
+      "id": "app_layout_inter"
     },
     {
       "label": "outfit",
       "file_type": "code",
       "source_file": "layout.tsx",
       "source_location": "L11",
-      "id": "app_layout_outfit",
       "community": 10,
-      "norm_label": "outfit"
+      "norm_label": "outfit",
+      "id": "app_layout_outfit"
     },
     {
       "label": "jetbrainsMono",
       "file_type": "code",
       "source_file": "layout.tsx",
       "source_location": "L17",
-      "id": "app_layout_jetbrainsmono",
       "community": 10,
-      "norm_label": "jetbrainsmono"
+      "norm_label": "jetbrainsmono",
+      "id": "app_layout_jetbrainsmono"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "layout.tsx",
       "source_location": "L23",
-      "id": "app_layout_metadata",
       "community": 10,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "app_layout_metadata"
     },
     {
       "label": "jsonLd",
       "file_type": "code",
       "source_file": "layout.tsx",
       "source_location": "L103",
-      "id": "app_layout_jsonld",
       "community": 10,
-      "norm_label": "jsonld"
+      "norm_label": "jsonld",
+      "id": "app_layout_jsonld"
     },
     {
       "label": "RootLayout()",
       "file_type": "code",
       "source_file": "layout.tsx",
       "source_location": "L200",
-      "id": "app_layout_rootlayout",
       "community": 10,
-      "norm_label": "rootlayout()"
+      "norm_label": "rootlayout()",
+      "id": "app_layout_rootlayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "privacy/layout.tsx",
       "source_location": "L1",
-      "id": "privacy_layout_tsx",
       "community": 40,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "privacy_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "privacy/layout.tsx",
       "source_location": "L3",
-      "id": "privacy_layout_metadata",
       "community": 40,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "privacy_layout_metadata"
     },
     {
       "label": "PrivacyLayout()",
       "file_type": "code",
       "source_file": "privacy/layout.tsx",
       "source_location": "L41",
-      "id": "privacy_layout_privacylayout",
       "community": 40,
-      "norm_label": "privacylayout()"
+      "norm_label": "privacylayout()",
+      "id": "privacy_layout_privacylayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "refund/layout.tsx",
       "source_location": "L1",
-      "id": "refund_layout_tsx",
       "community": 41,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "refund_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "refund/layout.tsx",
       "source_location": "L3",
-      "id": "refund_layout_metadata",
       "community": 41,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "refund_layout_metadata"
     },
     {
       "label": "RefundLayout()",
       "file_type": "code",
       "source_file": "refund/layout.tsx",
       "source_location": "L38",
-      "id": "refund_layout_refundlayout",
       "community": 41,
-      "norm_label": "refundlayout()"
+      "norm_label": "refundlayout()",
+      "id": "refund_layout_refundlayout"
     },
     {
       "label": "robots.ts",
       "file_type": "code",
       "source_file": "robots.ts",
       "source_location": "L1",
-      "id": "robots_ts",
       "community": 44,
-      "norm_label": "robots.ts"
+      "norm_label": "robots.ts",
+      "id": "robots_ts"
     },
     {
       "label": "robots()",
       "file_type": "code",
       "source_file": "robots.ts",
       "source_location": "L3",
-      "id": "app_robots_robots",
       "community": 44,
-      "norm_label": "robots()"
+      "norm_label": "robots()",
+      "id": "app_robots_robots"
     },
     {
       "label": "sitemap.ts",
       "file_type": "code",
       "source_file": "sitemap.ts",
       "source_location": "L1",
-      "id": "sitemap_ts",
       "community": 45,
-      "norm_label": "sitemap.ts"
+      "norm_label": "sitemap.ts",
+      "id": "sitemap_ts"
     },
     {
       "label": "sitemap()",
       "file_type": "code",
       "source_file": "sitemap.ts",
       "source_location": "L3",
-      "id": "app_sitemap_sitemap",
       "community": 45,
-      "norm_label": "sitemap()"
+      "norm_label": "sitemap()",
+      "id": "app_sitemap_sitemap"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "status/layout.tsx",
       "source_location": "L1",
-      "id": "status_layout_tsx",
       "community": 42,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "status_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "status/layout.tsx",
       "source_location": "L3",
-      "id": "status_layout_metadata",
       "community": 42,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "status_layout_metadata"
     },
     {
       "label": "StatusLayout()",
       "file_type": "code",
       "source_file": "status/layout.tsx",
       "source_location": "L39",
-      "id": "status_layout_statuslayout",
       "community": 42,
-      "norm_label": "statuslayout()"
+      "norm_label": "statuslayout()",
+      "id": "status_layout_statuslayout"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "terms/layout.tsx",
       "source_location": "L1",
-      "id": "terms_layout_tsx",
       "community": 43,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "terms_layout_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "terms/layout.tsx",
       "source_location": "L3",
-      "id": "terms_layout_metadata",
       "community": 43,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "terms_layout_metadata"
     },
     {
       "label": "TermsLayout()",
       "file_type": "code",
       "source_file": "terms/layout.tsx",
       "source_location": "L39",
-      "id": "terms_layout_termslayout",
       "community": 43,
-      "norm_label": "termslayout()"
+      "norm_label": "termslayout()",
+      "id": "terms_layout_termslayout"
     },
     {
       "label": "layout.tsx",
@@ -1867,15 +1921,6 @@
       "id": "effects_darkveil_darkveilprops"
     },
     {
-      "label": "DarkVeil()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/DarkVeil.tsx",
-      "source_location": "L94",
-      "community": 9,
-      "norm_label": "darkveil()",
-      "id": "effects_darkveil_darkveil"
-    },
-    {
       "label": "SubpageLayout.tsx",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/app/components/layout/SubpageLayout.tsx",
@@ -3248,7 +3293,7 @@
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L45",
-      "community": 1,
+      "community": 49,
       "norm_label": "section 2 \u2014 complete technology stack",
       "id": "aitrader_landing_agent_context_section_2_complete_technology_stack"
     },
@@ -3257,7 +3302,7 @@
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L47",
-      "community": 1,
+      "community": 49,
       "norm_label": "code:block1 (layer               technology                  notes)",
       "id": "aitrader_landing_agent_context_codeblock_1"
     },
@@ -3716,7 +3761,7 @@
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L542",
-      "community": 1,
+      "community": 50,
       "norm_label": "section 11 \u2014 key architectural constraints",
       "id": "aitrader_landing_agent_context_section_11_key_architectural_constraints"
     },
@@ -3725,7 +3770,7 @@
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L546",
-      "community": 1,
+      "community": 50,
       "norm_label": "code:block23 (1. ghost line is only visible on 10m timeframe.)",
       "id": "aitrader_landing_agent_context_codeblock_23"
     },
@@ -3734,7 +3779,7 @@
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L588",
-      "community": 1,
+      "community": 51,
       "norm_label": "section 12 \u2014 design system summary (quick reference)",
       "id": "aitrader_landing_agent_context_section_12_design_system_summary_quick_reference"
     },
@@ -3743,7 +3788,7 @@
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L592",
-      "community": 1,
+      "community": 51,
       "norm_label": "code:block24 (theme:        dark (--bg-base: #080c14 always))",
       "id": "aitrader_landing_agent_context_codeblock_24"
     },
@@ -3752,7 +3797,7 @@
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L619",
-      "community": 1,
+      "community": 52,
       "norm_label": "section 13 \u2014 auth system (complete \u2014 do not rebuild)",
       "id": "aitrader_landing_agent_context_section_13_auth_system_complete_do_not_rebuild"
     },
@@ -3761,7 +3806,7 @@
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L623",
-      "community": 1,
+      "community": 52,
       "norm_label": "code:block25 (\u2705 registration + login (email/password, argon2 hashing))",
       "id": "aitrader_landing_agent_context_codeblock_25"
     },
@@ -3842,7 +3887,7 @@
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L703",
-      "community": 49,
+      "community": 1,
       "norm_label": "section 16 \u2014 infrastructure (docker compose)",
       "id": "aitrader_landing_agent_context_section_16_infrastructure_docker_compose"
     },
@@ -3851,7 +3896,7 @@
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L707",
-      "community": 49,
+      "community": 1,
       "norm_label": "code:yaml (services:)",
       "id": "aitrader_landing_agent_context_codeblock_27"
     },
@@ -3860,7 +3905,7 @@
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L730",
-      "community": 49,
+      "community": 1,
       "norm_label": "code:block28 (1. docker-compose up (starts questdb, redpanda, postgresql, )",
       "id": "aitrader_landing_agent_context_codeblock_28"
     },
@@ -4603,15 +4648,6 @@
       "id": "howitworks_tsx"
     },
     {
-      "label": "DarkVeil.tsx",
-      "file_type": "code",
-      "source_file": "DarkVeil.tsx",
-      "source_location": "L1",
-      "community": 9,
-      "norm_label": "darkveil.tsx",
-      "id": "darkveil_tsx"
-    },
-    {
       "label": "RotatingTextRef",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
@@ -5262,14 +5298,106 @@
   ],
   "links": [
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DarkVeil.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "darkveil_tsx",
+      "target": "darkveilinner_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "DarkVeil.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "darkveil_tsx",
+      "target": "effects_darkveilinner_darkveilprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DarkVeil.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "darkveil_tsx",
+      "target": "effects_darkveil_darkveilinner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DarkVeil.tsx",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "darkveil_tsx",
+      "target": "effects_darkveil_darkveil"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DarkVeil.tsx",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "darkveil_tsx",
+      "target": "effects_darkveil_darkveilprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/DarkVeil.tsx",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "d_projects_aitrader_landing_app_components_effects_darkveil_tsx",
+      "target": "effects_darkveil_darkveil"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/effects/DarkVeil.tsx",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_effects_darkveil_tsx",
+      "target": "effects_darkveil_darkveil"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DarkVeilInner.tsx",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "darkveilinner_tsx",
+      "target": "effects_darkveilinner_darkveilprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DarkVeilInner.tsx",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "darkveilinner_tsx",
+      "target": "effects_darkveilinner_darkveil",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "about/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "about_layout_tsx",
-      "target": "about_layout_metadata",
-      "confidence_score": 1.0
+      "target": "about_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5277,9 +5405,9 @@
       "source_file": "about/layout.tsx",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "about_layout_tsx",
-      "target": "about_layout_aboutlayout",
-      "confidence_score": 1.0
+      "target": "about_layout_aboutlayout"
     },
     {
       "relation": "contains",
@@ -5307,9 +5435,9 @@
       "source_file": "api-reference/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_reference_layout_tsx",
-      "target": "api_reference_layout_metadata",
-      "confidence_score": 1.0
+      "target": "api_reference_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5317,9 +5445,9 @@
       "source_file": "api-reference/layout.tsx",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_reference_layout_tsx",
-      "target": "api_reference_layout_apireferencelayout",
-      "confidence_score": 1.0
+      "target": "api_reference_layout_apireferencelayout"
     },
     {
       "relation": "contains",
@@ -5347,9 +5475,9 @@
       "source_file": "blog/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blog_layout_tsx",
-      "target": "blog_layout_metadata",
-      "confidence_score": 1.0
+      "target": "blog_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5357,9 +5485,9 @@
       "source_file": "blog/layout.tsx",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blog_layout_tsx",
-      "target": "blog_layout_bloglayout",
-      "confidence_score": 1.0
+      "target": "blog_layout_bloglayout"
     },
     {
       "relation": "contains",
@@ -5387,9 +5515,9 @@
       "source_file": "careers/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "careers_layout_tsx",
-      "target": "careers_layout_metadata",
-      "confidence_score": 1.0
+      "target": "careers_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5397,9 +5525,9 @@
       "source_file": "careers/layout.tsx",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "careers_layout_tsx",
-      "target": "careers_layout_careerslayout",
-      "confidence_score": 1.0
+      "target": "careers_layout_careerslayout"
     },
     {
       "relation": "contains",
@@ -5427,9 +5555,9 @@
       "source_file": "changelog/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "changelog_layout_tsx",
-      "target": "changelog_layout_metadata",
-      "confidence_score": 1.0
+      "target": "changelog_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5437,9 +5565,9 @@
       "source_file": "changelog/layout.tsx",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "changelog_layout_tsx",
-      "target": "changelog_layout_changeloglayout",
-      "confidence_score": 1.0
+      "target": "changelog_layout_changeloglayout"
     },
     {
       "relation": "contains",
@@ -5467,9 +5595,9 @@
       "source_file": "contact/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "contact_layout_tsx",
-      "target": "contact_layout_metadata",
-      "confidence_score": 1.0
+      "target": "contact_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5477,9 +5605,9 @@
       "source_file": "contact/layout.tsx",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "contact_layout_tsx",
-      "target": "contact_layout_contactlayout",
-      "confidence_score": 1.0
+      "target": "contact_layout_contactlayout"
     },
     {
       "relation": "contains",
@@ -5507,9 +5635,9 @@
       "source_file": "disclaimer/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "disclaimer_layout_tsx",
-      "target": "disclaimer_layout_metadata",
-      "confidence_score": 1.0
+      "target": "disclaimer_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5517,9 +5645,9 @@
       "source_file": "disclaimer/layout.tsx",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "disclaimer_layout_tsx",
-      "target": "disclaimer_layout_disclaimerlayout",
-      "confidence_score": 1.0
+      "target": "disclaimer_layout_disclaimerlayout"
     },
     {
       "relation": "contains",
@@ -5547,9 +5675,9 @@
       "source_file": "docs/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_layout_tsx",
-      "target": "docs_layout_metadata",
-      "confidence_score": 1.0
+      "target": "docs_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5557,9 +5685,9 @@
       "source_file": "docs/layout.tsx",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_layout_tsx",
-      "target": "docs_layout_docslayout",
-      "confidence_score": 1.0
+      "target": "docs_layout_docslayout"
     },
     {
       "relation": "contains",
@@ -5587,9 +5715,9 @@
       "source_file": "download/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "download_layout_tsx",
-      "target": "download_layout_metadata",
-      "confidence_score": 1.0
+      "target": "download_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5597,9 +5725,9 @@
       "source_file": "download/layout.tsx",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "download_layout_tsx",
-      "target": "download_layout_downloadlayout",
-      "confidence_score": 1.0
+      "target": "download_layout_downloadlayout"
     },
     {
       "relation": "contains",
@@ -5667,9 +5795,9 @@
       "source_file": "layout.tsx",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "layout_tsx",
-      "target": "app_layout_jsonld",
-      "confidence_score": 1.0
+      "target": "app_layout_jsonld"
     },
     {
       "relation": "contains",
@@ -5747,9 +5875,9 @@
       "source_file": "privacy/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "privacy_layout_tsx",
-      "target": "privacy_layout_metadata",
-      "confidence_score": 1.0
+      "target": "privacy_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5757,9 +5885,9 @@
       "source_file": "privacy/layout.tsx",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "privacy_layout_tsx",
-      "target": "privacy_layout_privacylayout",
-      "confidence_score": 1.0
+      "target": "privacy_layout_privacylayout"
     },
     {
       "relation": "contains",
@@ -5787,9 +5915,9 @@
       "source_file": "refund/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "refund_layout_tsx",
-      "target": "refund_layout_metadata",
-      "confidence_score": 1.0
+      "target": "refund_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5797,9 +5925,9 @@
       "source_file": "refund/layout.tsx",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "refund_layout_tsx",
-      "target": "refund_layout_refundlayout",
-      "confidence_score": 1.0
+      "target": "refund_layout_refundlayout"
     },
     {
       "relation": "contains",
@@ -5827,9 +5955,9 @@
       "source_file": "robots.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "robots_ts",
-      "target": "app_robots_robots",
-      "confidence_score": 1.0
+      "target": "app_robots_robots"
     },
     {
       "relation": "contains",
@@ -5847,9 +5975,9 @@
       "source_file": "sitemap.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sitemap_ts",
-      "target": "app_sitemap_sitemap",
-      "confidence_score": 1.0
+      "target": "app_sitemap_sitemap"
     },
     {
       "relation": "contains",
@@ -5867,9 +5995,9 @@
       "source_file": "status/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "status_layout_tsx",
-      "target": "status_layout_metadata",
-      "confidence_score": 1.0
+      "target": "status_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5877,9 +6005,9 @@
       "source_file": "status/layout.tsx",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "status_layout_tsx",
-      "target": "status_layout_statuslayout",
-      "confidence_score": 1.0
+      "target": "status_layout_statuslayout"
     },
     {
       "relation": "contains",
@@ -5907,9 +6035,9 @@
       "source_file": "terms/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "terms_layout_tsx",
-      "target": "terms_layout_metadata",
-      "confidence_score": 1.0
+      "target": "terms_layout_metadata"
     },
     {
       "relation": "contains",
@@ -5917,9 +6045,9 @@
       "source_file": "terms/layout.tsx",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "terms_layout_tsx",
-      "target": "terms_layout_termslayout",
-      "confidence_score": 1.0
+      "target": "terms_layout_termslayout"
     },
     {
       "relation": "contains",
@@ -9090,16 +9218,6 @@
       "target": "effects_darkveil_darkveilprops"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/DarkVeil.tsx",
-      "source_location": "L94",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "d_projects_aitrader_landing_app_components_effects_darkveil_tsx",
-      "target": "effects_darkveil_darkveil"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -9119,36 +9237,6 @@
       "confidence_score": 1.0,
       "source": "app_components_effects_darkveil_tsx",
       "target": "effects_darkveil_darkveilprops"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "DarkVeil.tsx",
-      "source_location": "L84",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "darkveil_tsx",
-      "target": "effects_darkveil_darkveilprops"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/effects/DarkVeil.tsx",
-      "source_location": "L88",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_effects_darkveil_tsx",
-      "target": "effects_darkveil_darkveil"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "DarkVeil.tsx",
-      "source_location": "L94",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "darkveil_tsx",
-      "target": "effects_darkveil_darkveil"
     },
     {
       "relation": "contains",
@@ -13629,5 +13717,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2049210ab92b4ac9bd33540f95d6cff2ff7bdcb3"
+  "built_at_commit": "ae9f356fd57c8061821fbe222d81d60d036e589b"
 }

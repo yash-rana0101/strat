@@ -1,16 +1,16 @@
 # Graph Report - strat  (2026-05-29)
 
 ## Corpus Check
-- 67 files · ~70,359 words
+- 68 files · ~70,401 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 584 nodes · 816 edges · 50 communities (30 shown, 20 thin omitted)
+- 588 nodes · 821 edges · 53 communities (29 shown, 24 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2049210a`
+- Built from commit: `ae9f356f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -61,6 +61,9 @@
 - [[_COMMUNITY_Community 47|Community 47]]
 - [[_COMMUNITY_Community 48|Community 48]]
 - [[_COMMUNITY_Community 49|Community 49]]
+- [[_COMMUNITY_Community 50|Community 50]]
+- [[_COMMUNITY_Community 51|Community 51]]
+- [[_COMMUNITY_Community 52|Community 52]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
@@ -77,15 +80,15 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (50 total, 20 thin omitted)
+## Communities (53 total, 24 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
 Nodes (18): Home(), AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer (+10 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.11
-Nodes (19): AGENT_CONTEXT.md — Strat, code:block1 (LAYER               TECHNOLOGY                  NOTES), code:block2 (/alpha-suite (monorepo root)), code:block21 (8080   — Aggregator Engine          WebSocket  (BUY/SELL/HOL), code:block22 (market.ticks           Ingestion service → raw Zerodha ticks), code:block23 (1. Ghost Line is ONLY visible on 10m timeframe.), code:block24 (THEME:        Dark (--bg-base: #080C14 always)), code:block25 (✅ Registration + Login (email/password, Argon2 hashing)) (+11 more)
+Cohesion: 0.14
+Nodes (14): AGENT_CONTEXT.md — Strat, code:block2 (/alpha-suite (monorepo root)), code:block21 (8080   — Aggregator Engine          WebSocket  (BUY/SELL/HOL), code:block22 (market.ticks           Ingestion service → raw Zerodha ticks), code:block26 (VOICE:    Authoritative. Precise. Earned confidence. Enginee), code:yaml (Services:), code:block28 (1. docker-compose up (starts QuestDB, Redpanda, PostgreSQL, ), SECTION 10 — KAFKA TOPICS (AUTHORITATIVE) (+6 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.05
@@ -112,8 +115,8 @@ Cohesion: 0.42
 Nodes (9): BentoCardGrid(), BentoProps, calculateSpotlightValues(), createParticleElement(), GlobalSpotlight(), MagicBento(), ParticleCard(), updateCardGlowProperties() (+1 more)
 
 ### Community 9 - "Community 9"
-Cohesion: 0.07
-Nodes (29): AboutPage(), ApiReferencePage(), benefits, CareersPage(), openPositions, Position, values, ChangelogPage() (+21 more)
+Cohesion: 0.06
+Nodes (31): AboutPage(), ApiReferencePage(), benefits, CareersPage(), openPositions, Position, values, ChangelogPage() (+23 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.43
@@ -179,26 +182,22 @@ Nodes (6): 8.1 useTradeStore.ts (Zustand — central state), 8.2 useChartUIStore
 Cohesion: 0.33
 Nodes (6): Before writing any code:, Output format expectations:, SECTION 14 — AGENT INSTRUCTIONS, When building the landing page:, When writing Rust (agents, Tauri):, When writing TypeScript (frontend hooks, components):
 
-### Community 49 - "Community 49"
-Cohesion: 0.67
-Nodes (3): code:yaml (Services:), code:block28 (1. docker-compose up (starts QuestDB, Redpanda, PostgreSQL, ), SECTION 16 — INFRASTRUCTURE (DOCKER COMPOSE)
-
 ## Knowledge Gaps
-- **168 isolated node(s):** `nextConfig`, `name`, `version`, `private`, `dev` (+163 more)
+- **169 isolated node(s):** `DarkVeilInner`, `nextConfig`, `name`, `version`, `private` (+164 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **20 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **24 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `AGENT_CONTEXT.md — Strat` connect `Community 1` to `Community 4`, `Community 6`, `Community 46`, `Community 47`, `Community 48`, `Community 49`, `Community 30`?**
+- **Why does `AGENT_CONTEXT.md — Strat` connect `Community 1` to `Community 4`, `Community 6`, `Community 46`, `Community 47`, `Community 48`, `Community 49`, `Community 50`, `Community 51`, `Community 52`, `Community 30`?**
   _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **What connects `nextConfig`, `name`, `version` to the rest of the system?**
-  _168 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `DarkVeilInner`, `nextConfig`, `name` to the rest of the system?**
+  _169 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.05568627450980392 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**

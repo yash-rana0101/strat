@@ -90,8 +90,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\components\\effects\\DarkVeil.tsx": {
-    "mtime": 1779379819.263502,
-    "ast_hash": "8d55f5034dcae1c340864ce43ffefadd",
+    "mtime": 1780078045.8441975,
+    "ast_hash": "da8b116811a021cc8cc0db3968fd3d84",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\components\\layout\\Footer.tsx": {
@@ -352,6 +352,11 @@
   "D:\\projects\\strat\\app\\terms\\layout.tsx": {
     "mtime": 1780077185.4851778,
     "ast_hash": "d12f44bf9b78c906c7b0bea897652bb7",
+    "semantic_hash": ""
+  },
+  "D:\\projects\\strat\\app\\components\\effects\\DarkVeilInner.tsx": {
+    "mtime": 1780078037.1261091,
+    "ast_hash": "9ebf57326a1f4f1dc9cc08d2abd2aa8a",
     "semantic_hash": ""
   }
 }

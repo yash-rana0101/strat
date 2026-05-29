@@ -39,7 +39,7 @@ const steps = [
 
 function Mockup1() {
   return (
-    <div className="glass-strong rounded-xl p-6 border border-[var(--border-default)] h-full flex flex-col justify-between select-none">
+    <div className="glass-strong rounded-xl p-5 sm:p-6 border border-[var(--border-default)] h-auto md:h-full flex flex-col justify-between select-none">
       <div>
         <div className="flex items-center justify-between mb-4 border-b border-[var(--border-subtle)] pb-3">
           <span className="font-mono text-xs text-[var(--text-secondary)]">PREDICTIVE_TREND_MODEL</span>
@@ -97,7 +97,7 @@ function Mockup1() {
 
 function Mockup2() {
   return (
-    <div className="glass-strong rounded-xl p-6 border border-[var(--border-default)] h-full flex flex-col justify-between select-none">
+    <div className="glass-strong rounded-xl p-5 sm:p-6 border border-[var(--border-default)] h-auto md:h-full flex flex-col justify-between select-none">
       <div>
         <div className="flex items-center justify-between mb-4 border-b border-[var(--border-subtle)] pb-3">
           <span className="font-mono text-xs text-[var(--text-secondary)]">REALTIME_TELEMETRY_STREAM</span>
@@ -137,7 +137,7 @@ function Mockup3() {
   ];
 
   return (
-    <div className="glass-strong rounded-xl p-6 border border-[var(--border-default)] h-full flex flex-col justify-between select-none">
+    <div className="glass-strong rounded-xl p-5 sm:p-6 border border-[var(--border-default)] h-auto md:h-full flex flex-col justify-between select-none">
       <div>
         <div className="flex items-center justify-between mb-4 border-b border-[var(--border-subtle)] pb-3">
           <span className="font-mono text-xs text-[var(--text-secondary)]">ANALYTICS_SWARM_STATUS</span>
@@ -167,7 +167,7 @@ function Mockup3() {
 
 function Mockup4() {
   return (
-    <div className="glass-strong rounded-xl p-6 border border-[var(--border-default)] h-full flex flex-col justify-between select-none relative overflow-hidden">
+    <div className="glass-strong rounded-xl p-5 sm:p-6 border border-[var(--border-default)] h-auto md:h-full flex flex-col justify-between select-none relative overflow-hidden">
       <div className="absolute -right-20 -top-20 w-44 h-44 rounded-full bg-[radial-gradient(circle,rgba(16,185,129,0.12)_0%,transparent_70%)] pointer-events-none" />
       <div>
         <div className="flex items-center justify-between mb-6 border-b border-[var(--border-subtle)] pb-3">
@@ -207,7 +207,7 @@ function Mockup4() {
 
 function Mockup5() {
   return (
-    <div className="glass-strong rounded-xl p-6 border border-[var(--border-default)] h-full flex flex-col justify-between select-none">
+    <div className="glass-strong rounded-xl p-5 sm:p-6 border border-[var(--border-default)] h-auto md:h-full flex flex-col justify-between select-none">
       <div>
         <div className="flex items-center justify-between mb-4 border-b border-[var(--border-subtle)] pb-3">
           <span className="font-mono text-xs text-[var(--text-secondary)]">INTEGRATED_ORDER_TICKET</span>
@@ -354,7 +354,7 @@ export default function HowItWorks() {
                 </p>
 
                 {/* Inline Mockup for mobile/tablet */}
-                <div className="mt-8 block md:hidden max-w-md mx-auto aspect-[4/3]">
+                <div className="mt-8 block md:hidden max-w-md mx-auto h-auto w-full">
                   {renderMockup(index)}
                 </div>
               </div>
