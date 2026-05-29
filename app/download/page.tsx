@@ -25,6 +25,7 @@ import Navbar from "@/app/components/layout/Navbar";
 import Footer from "@/app/components/layout/Footer";
 import DarkVeil from "@/app/components/effects/DarkVeil";
 import ShinyText from "@/components/ui/ShinyText";
+import Image from "next/image";
 
 type OS = "windows" | "macos" | "linux" | "unknown";
 type GuideTab = "windows" | "macos";
@@ -521,11 +522,14 @@ export default function DownloadPage() {
             </div>
 
             <div className="relative aspect-[16/9] w-full overflow-hidden rounded-b-xl bg-[#06080F]">
-              <img
+              <Image
                 src="/desktop_mockup.png"
                 alt="Strat AI High-Performance Desktop Terminal Dashboard Preview"
                 className="w-full h-full object-cover object-center scale-[1.01] hover:scale-105 transition-transform duration-700"
                 draggable={false}
+                fill={true}
+                sizes="(max-w-7xl) 100vw, 1200px"
+                priority={true}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#06080F]/50 via-transparent to-transparent pointer-events-none" />
             </div>
@@ -679,7 +683,7 @@ export default function DownloadPage() {
                       </div>
                       <h4 className="text-xs font-bold text-[var(--text-primary)]">Drag to Applications</h4>
                       <p className="text-[10px] text-[var(--text-muted)] leading-relaxed">
-                        Drag the **Strat AI** logo directly into your system `/Applications` folder directory.
+                        Drag the <strong>Strat AI</strong> logo directly into your system <code>/Applications</code> folder directory.
                       </p>
                     </div>
 

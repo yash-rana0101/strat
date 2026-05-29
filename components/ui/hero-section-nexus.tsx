@@ -32,6 +32,7 @@ function cn(...classes: (string | undefined | null | boolean)[]): string {
 
 import { RotatingText } from './RotatingText';
 import { ShinyText } from './ShinyText';
+import Image from "next/image";
 
 const ChevronDownIcon: React.FC<SVGProps<SVGSVGElement>> = (props) => (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3 h-3 ml-1 inline-block transition-transform duration-200 group-hover:rotate-180" {...props}>
@@ -677,24 +678,29 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                         variants={headlineVariants}
                         initial="hidden"
                         animate="visible"
-                        className="text-4xl sm:text-5xl lg:text-[64px] font-bold text-white leading-[1.05] font-heading tracking-[-0.02em] max-w-4xl mb-4"
+                        className="text-4xl sm:text-5xl lg:text-[64px] font-bold text-white leading-[1.05] font-heading tracking-[-0.02em] max-w-4xl mb-4 flex flex-col items-center"
                     >
-                        Trade with unshakeable<br />{' '}
-                        <span className="inline-block h-[1.2em] sm:h-[1.2em] lg:h-[1.2em] overflow-hidden align-bottom">
-                            <RotatingText
-                                texts={['Clarity', 'Confidence', 'Intelligence', 'Conviction', 'Precision']}
-                                mainClassName="text-[#0CF2A0] mx-1"
-                                staggerFrom={"last"}
-                                initial={{ y: "-100%", opacity: 0 }}
-                                animate={{ y: 0, opacity: 1 }}
-                                exit={{ y: "110%", opacity: 0 }}
-                                staggerDuration={0.01}
-                                transition={{ type: "spring", damping: 18, stiffness: 250 }}
-                                rotationInterval={2200}
-                                splitBy="characters"
-                                auto={true}
-                                loop={true}
-                            />
+                        <span className="block text-xs sm:text-sm uppercase tracking-[0.2em] text-[#0CF2A0] font-mono mb-3 font-semibold">
+                            AI-Powered Trading Terminal for Indian Trader
+                        </span>
+                        <span>
+                            Trade with unshakeable<br />{' '}
+                            <span className="inline-block h-[1.2em] sm:h-[1.2em] lg:h-[1.2em] overflow-hidden align-bottom">
+                                <RotatingText
+                                    texts={['Clarity', 'Confidence', 'Intelligence', 'Conviction', 'Precision']}
+                                    mainClassName="text-[#0CF2A0] mx-1"
+                                    staggerFrom={"last"}
+                                    initial={{ y: "-100%", opacity: 0 }}
+                                    animate={{ y: 0, opacity: 1 }}
+                                    exit={{ y: "110%", opacity: 0 }}
+                                    staggerDuration={0.01}
+                                    transition={{ type: "spring", damping: 18, stiffness: 250 }}
+                                    rotationInterval={2200}
+                                    splitBy="characters"
+                                    auto={true}
+                                    loop={true}
+                                />
+                            </span>
                         </span>
                     </motion.h1>
 
@@ -784,13 +790,13 @@ const InteractiveHero: React.FC<InteractiveHeroProps> = ({ hideHeader = false })
                         }}
                         className="w-full"
                     >
-                        <img
+                        <Image
                             src="/hero/hero.png"
                             alt="Strat desktop charting terminal mockup"
                             width={1024}
                             height={640}
                             className="w-full h-auto object-contain rounded-lg shadow-xl border border-gray-700/50"
-                            loading="lazy"
+                            priority={true}
                         />
                     </motion.div>
                 </motion.div>

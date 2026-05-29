@@ -4,972 +4,18 @@
   "graph": {},
   "nodes": [
     {
-      "label": "eslint.config.mjs",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/eslint.config.mjs",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_eslint_config_mjs",
-      "community": 21,
-      "norm_label": "eslint.config.mjs"
-    },
-    {
-      "label": "eslintConfig",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/eslint.config.mjs",
-      "source_location": "L5",
-      "id": "aitrader_landing_eslint_config_eslintconfig",
-      "community": 21,
-      "norm_label": "eslintconfig"
-    },
-    {
-      "label": "next.config.ts",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/next.config.ts",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_next_config_ts",
-      "community": 16,
-      "norm_label": "next.config.ts"
-    },
-    {
-      "label": "nextConfig",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/next.config.ts",
-      "source_location": "L3",
-      "id": "aitrader_landing_next_config_nextconfig",
-      "community": 16,
-      "norm_label": "nextconfig"
-    },
-    {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L1",
-      "id": "package_json",
-      "community": 2,
-      "norm_label": "package.json"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "id": "strat_package_name",
-      "community": 2,
-      "norm_label": "name"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "id": "strat_package_version",
-      "community": 2,
-      "norm_label": "version"
-    },
-    {
-      "label": "private",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "id": "strat_package_private",
-      "community": 2,
-      "norm_label": "private"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "id": "strat_package_scripts",
-      "community": 2,
-      "norm_label": "scripts"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "id": "strat_package_scripts_dev",
-      "community": 2,
-      "norm_label": "dev"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "id": "strat_package_scripts_build",
-      "community": 2,
-      "norm_label": "build"
-    },
-    {
-      "label": "start",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "id": "strat_package_scripts_start",
-      "community": 2,
-      "norm_label": "start"
-    },
-    {
-      "label": "lint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "id": "strat_package_scripts_lint",
-      "community": 2,
-      "norm_label": "lint"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "id": "strat_package_dependencies",
-      "community": 2,
-      "norm_label": "dependencies"
-    },
-    {
-      "label": "framer-motion",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "id": "strat_package_dependencies_framer_motion",
-      "community": 2,
-      "norm_label": "framer-motion"
-    },
-    {
-      "label": "gsap",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "id": "strat_package_dependencies_gsap",
-      "community": 2,
-      "norm_label": "gsap"
-    },
-    {
-      "label": "lucide-react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "id": "strat_package_dependencies_lucide_react",
-      "community": 2,
-      "norm_label": "lucide-react"
-    },
-    {
-      "label": "next",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "id": "strat_package_dependencies_next",
-      "community": 2,
-      "norm_label": "next"
-    },
-    {
-      "label": "ogl",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "id": "strat_package_dependencies_ogl",
-      "community": 2,
-      "norm_label": "ogl"
-    },
-    {
-      "label": "react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "id": "strat_package_dependencies_react",
-      "community": 2,
-      "norm_label": "react"
-    },
-    {
-      "label": "react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "id": "strat_package_dependencies_react_dom",
-      "community": 2,
-      "norm_label": "react-dom"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "id": "strat_package_devdependencies",
-      "community": 2,
-      "norm_label": "devdependencies"
-    },
-    {
-      "label": "@tailwindcss/postcss",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "id": "strat_package_devdependencies_tailwindcss_postcss",
-      "community": 2,
-      "norm_label": "@tailwindcss/postcss"
-    },
-    {
-      "label": "@types/node",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "id": "strat_package_devdependencies_types_node",
-      "community": 2,
-      "norm_label": "@types/node"
-    },
-    {
-      "label": "@types/react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "id": "strat_package_devdependencies_types_react",
-      "community": 2,
-      "norm_label": "@types/react"
-    },
-    {
-      "label": "@types/react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "id": "strat_package_devdependencies_types_react_dom",
-      "community": 2,
-      "norm_label": "@types/react-dom"
-    },
-    {
-      "label": "eslint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "id": "strat_package_devdependencies_eslint",
-      "community": 2,
-      "norm_label": "eslint"
-    },
-    {
-      "label": "eslint-config-next",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "id": "strat_package_devdependencies_eslint_config_next",
-      "community": 2,
-      "norm_label": "eslint-config-next"
-    },
-    {
-      "label": "tailwindcss",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L27",
-      "id": "strat_package_devdependencies_tailwindcss",
-      "community": 2,
-      "norm_label": "tailwindcss"
-    },
-    {
-      "label": "typescript",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L28",
-      "id": "strat_package_devdependencies_typescript",
-      "community": 2,
-      "norm_label": "typescript"
-    },
-    {
-      "label": "postcss.config.mjs",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/postcss.config.mjs",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_postcss_config_mjs",
-      "community": 13,
-      "norm_label": "postcss.config.mjs"
-    },
-    {
-      "label": "config",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/postcss.config.mjs",
-      "source_location": "L1",
-      "id": "aitrader_landing_postcss_config_config",
-      "community": 13,
-      "norm_label": "config"
-    },
-    {
-      "label": "tsconfig.json",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_tsconfig_json",
-      "community": 3,
-      "norm_label": "tsconfig.json"
-    },
-    {
-      "label": "compilerOptions",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L2",
-      "id": "aitrader_landing_tsconfig_compileroptions",
-      "community": 3,
-      "norm_label": "compileroptions"
-    },
-    {
-      "label": "target",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L3",
-      "id": "aitrader_landing_tsconfig_compileroptions_target",
-      "community": 3,
-      "norm_label": "target"
-    },
-    {
-      "label": "lib",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L4",
-      "id": "aitrader_landing_tsconfig_compileroptions_lib",
-      "community": 3,
-      "norm_label": "lib"
-    },
-    {
-      "label": "allowJs",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L5",
-      "id": "aitrader_landing_tsconfig_compileroptions_allowjs",
-      "community": 3,
-      "norm_label": "allowjs"
-    },
-    {
-      "label": "skipLibCheck",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L6",
-      "id": "aitrader_landing_tsconfig_compileroptions_skiplibcheck",
-      "community": 3,
-      "norm_label": "skiplibcheck"
-    },
-    {
-      "label": "strict",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L7",
-      "id": "aitrader_landing_tsconfig_compileroptions_strict",
-      "community": 3,
-      "norm_label": "strict"
-    },
-    {
-      "label": "noEmit",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L8",
-      "id": "aitrader_landing_tsconfig_compileroptions_noemit",
-      "community": 3,
-      "norm_label": "noemit"
-    },
-    {
-      "label": "esModuleInterop",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L9",
-      "id": "aitrader_landing_tsconfig_compileroptions_esmoduleinterop",
-      "community": 3,
-      "norm_label": "esmoduleinterop"
-    },
-    {
-      "label": "module",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L10",
-      "id": "aitrader_landing_tsconfig_compileroptions_module",
-      "community": 3,
-      "norm_label": "module"
-    },
-    {
-      "label": "moduleResolution",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L11",
-      "id": "aitrader_landing_tsconfig_compileroptions_moduleresolution",
-      "community": 3,
-      "norm_label": "moduleresolution"
-    },
-    {
-      "label": "resolveJsonModule",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L12",
-      "id": "aitrader_landing_tsconfig_compileroptions_resolvejsonmodule",
-      "community": 3,
-      "norm_label": "resolvejsonmodule"
-    },
-    {
-      "label": "isolatedModules",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L13",
-      "id": "aitrader_landing_tsconfig_compileroptions_isolatedmodules",
-      "community": 3,
-      "norm_label": "isolatedmodules"
-    },
-    {
-      "label": "jsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L14",
-      "id": "aitrader_landing_tsconfig_compileroptions_jsx",
-      "community": 3,
-      "norm_label": "jsx"
-    },
-    {
-      "label": "incremental",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L15",
-      "id": "aitrader_landing_tsconfig_compileroptions_incremental",
-      "community": 3,
-      "norm_label": "incremental"
-    },
-    {
-      "label": "plugins",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L16",
-      "id": "aitrader_landing_tsconfig_compileroptions_plugins",
-      "community": 3,
-      "norm_label": "plugins"
-    },
-    {
-      "label": "paths",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L21",
-      "id": "aitrader_landing_tsconfig_compileroptions_paths",
-      "community": 3,
-      "norm_label": "paths"
-    },
-    {
-      "label": "@/*",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L22",
-      "id": "aitrader_landing_tsconfig_paths",
-      "community": 3,
-      "norm_label": "@/*"
-    },
-    {
-      "label": "include",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L25",
-      "id": "aitrader_landing_tsconfig_include",
-      "community": 3,
-      "norm_label": "include"
-    },
-    {
-      "label": "exclude",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
-      "source_location": "L33",
-      "id": "aitrader_landing_tsconfig_exclude",
-      "community": 3,
-      "norm_label": "exclude"
-    },
-    {
-      "label": "settings.json",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/.vscode/settings.json",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_vscode_settings_json",
-      "community": 39,
-      "norm_label": "settings.json"
-    },
-    {
-      "label": "layout.tsx",
-      "file_type": "code",
-      "source_file": "app/layout.tsx",
-      "source_location": "L1",
-      "id": "app_layout_tsx",
-      "community": 10,
-      "norm_label": "layout.tsx"
-    },
-    {
-      "label": "inter",
-      "file_type": "code",
-      "source_file": "app/layout.tsx",
-      "source_location": "L5",
-      "id": "app_layout_inter",
-      "community": 10,
-      "norm_label": "inter"
-    },
-    {
-      "label": "outfit",
-      "file_type": "code",
-      "source_file": "app/layout.tsx",
-      "source_location": "L11",
-      "id": "app_layout_outfit",
-      "community": 10,
-      "norm_label": "outfit"
-    },
-    {
-      "label": "jetbrainsMono",
-      "file_type": "code",
-      "source_file": "app/layout.tsx",
-      "source_location": "L17",
-      "id": "app_layout_jetbrainsmono",
-      "community": 10,
-      "norm_label": "jetbrainsmono"
-    },
-    {
-      "label": "metadata",
-      "file_type": "code",
-      "source_file": "app/layout.tsx",
-      "source_location": "L23",
-      "id": "app_layout_metadata",
-      "community": 10,
-      "norm_label": "metadata"
-    },
-    {
-      "label": "RootLayout()",
-      "file_type": "code",
-      "source_file": "app/layout.tsx",
-      "source_location": "L37",
-      "id": "app_layout_rootlayout",
-      "community": 10,
-      "norm_label": "rootlayout()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/page.tsx",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_app_page_tsx",
-      "community": 24,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "Home()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/page.tsx",
-      "source_location": "L13",
-      "id": "app_page_home",
-      "community": 24,
-      "norm_label": "home()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/about/page.tsx",
-      "source_location": "L1",
-      "id": "app_about_page_tsx",
-      "community": 9,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "AboutPage()",
-      "file_type": "code",
-      "source_file": "app/about/page.tsx",
-      "source_location": "L21",
-      "id": "about_page_aboutpage",
-      "community": 9,
-      "norm_label": "aboutpage()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/api-reference/page.tsx",
-      "source_location": "L1",
-      "id": "app_api_reference_page_tsx",
-      "community": 9,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "ApiReferencePage()",
-      "file_type": "code",
-      "source_file": "app/api-reference/page.tsx",
-      "source_location": "L4",
-      "id": "api_reference_page_apireferencepage",
-      "community": 9,
-      "norm_label": "apireferencepage()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/blog/page.tsx",
-      "source_location": "L1",
-      "id": "app_blog_page_tsx",
-      "community": 23,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "BlogPost",
-      "file_type": "code",
-      "source_file": "app/blog/page.tsx",
-      "source_location": "L14",
-      "id": "blog_page_blogpost",
-      "community": 23,
-      "norm_label": "blogpost"
-    },
-    {
-      "label": "featuredArticle",
-      "file_type": "code",
-      "source_file": "app/blog/page.tsx",
-      "source_location": "L24",
-      "id": "blog_page_featuredarticle",
-      "community": 23,
-      "norm_label": "featuredarticle"
-    },
-    {
-      "label": "blogPosts",
-      "file_type": "code",
-      "source_file": "app/blog/page.tsx",
-      "source_location": "L33",
-      "id": "blog_page_blogposts",
-      "community": 23,
-      "norm_label": "blogposts"
-    },
-    {
-      "label": "categories",
-      "file_type": "code",
-      "source_file": "app/blog/page.tsx",
-      "source_location": "L90",
-      "id": "blog_page_categories",
-      "community": 23,
-      "norm_label": "categories"
-    },
-    {
-      "label": "popularTags",
-      "file_type": "code",
-      "source_file": "app/blog/page.tsx",
-      "source_location": "L100",
-      "id": "blog_page_populartags",
-      "community": 23,
-      "norm_label": "populartags"
-    },
-    {
-      "label": "BlogPage()",
-      "file_type": "code",
-      "source_file": "app/blog/page.tsx",
-      "source_location": "L104",
-      "id": "blog_page_blogpage",
-      "community": 23,
-      "norm_label": "blogpage()"
-    },
-    {
-      "label": "BlogGrid.tsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogGrid.tsx",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_app_blog_components_bloggrid_tsx",
-      "community": 23,
-      "norm_label": "bloggrid.tsx"
-    },
-    {
-      "label": "BlogPost",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogGrid.tsx",
-      "source_location": "L7",
-      "id": "components_bloggrid_blogpost",
-      "community": 23,
-      "norm_label": "blogpost"
-    },
-    {
-      "label": "BlogGridProps",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogGrid.tsx",
-      "source_location": "L17",
-      "id": "components_bloggrid_bloggridprops",
-      "community": 23,
-      "norm_label": "bloggridprops"
-    },
-    {
-      "label": "BlogGrid()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogGrid.tsx",
-      "source_location": "L24",
-      "id": "components_bloggrid_bloggrid",
-      "community": 23,
-      "norm_label": "bloggrid()"
-    },
-    {
-      "label": "BlogHero.tsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogHero.tsx",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_app_blog_components_bloghero_tsx",
-      "community": 23,
-      "norm_label": "bloghero.tsx"
-    },
-    {
-      "label": "BlogHeroProps",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogHero.tsx",
-      "source_location": "L8",
-      "id": "components_bloghero_blogheroprops",
-      "community": 23,
-      "norm_label": "blogheroprops"
-    },
-    {
-      "label": "BlogHero()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogHero.tsx",
-      "source_location": "L14",
-      "id": "components_bloghero_bloghero",
-      "community": 23,
-      "norm_label": "bloghero()"
-    },
-    {
-      "label": "CategoryFilter.tsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/CategoryFilter.tsx",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_app_blog_components_categoryfilter_tsx",
-      "community": 23,
-      "norm_label": "categoryfilter.tsx"
-    },
-    {
-      "label": "CategoryFilterProps",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/CategoryFilter.tsx",
-      "source_location": "L5",
-      "id": "components_categoryfilter_categoryfilterprops",
-      "community": 23,
-      "norm_label": "categoryfilterprops"
-    },
-    {
-      "label": "CategoryFilter()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/CategoryFilter.tsx",
-      "source_location": "L11",
-      "id": "components_categoryfilter_categoryfilter",
-      "community": 23,
-      "norm_label": "categoryfilter()"
-    },
-    {
-      "label": "FeaturedPost.tsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/FeaturedPost.tsx",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_app_blog_components_featuredpost_tsx",
-      "community": 23,
-      "norm_label": "featuredpost.tsx"
-    },
-    {
-      "label": "FeaturedPostProps",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/FeaturedPost.tsx",
-      "source_location": "L7",
-      "id": "components_featuredpost_featuredpostprops",
-      "community": 23,
-      "norm_label": "featuredpostprops"
-    },
-    {
-      "label": "FeaturedPost()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/blog/components/FeaturedPost.tsx",
-      "source_location": "L18",
-      "id": "components_featuredpost_featuredpost",
-      "community": 23,
-      "norm_label": "featuredpost()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/careers/page.tsx",
-      "source_location": "L1",
-      "id": "app_careers_page_tsx",
-      "community": 9,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "Position",
-      "file_type": "code",
-      "source_file": "app/careers/page.tsx",
-      "source_location": "L22",
-      "id": "careers_page_position",
-      "community": 9,
-      "norm_label": "position"
-    },
-    {
-      "label": "openPositions",
-      "file_type": "code",
-      "source_file": "app/careers/page.tsx",
-      "source_location": "L33",
-      "id": "careers_page_openpositions",
-      "community": 9,
-      "norm_label": "openpositions"
-    },
-    {
-      "label": "benefits",
-      "file_type": "code",
-      "source_file": "app/careers/page.tsx",
-      "source_location": "L120",
-      "id": "careers_page_benefits",
-      "community": 9,
-      "norm_label": "benefits"
-    },
-    {
-      "label": "values",
-      "file_type": "code",
-      "source_file": "app/careers/page.tsx",
-      "source_location": "L143",
-      "id": "careers_page_values",
-      "community": 9,
-      "norm_label": "values"
-    },
-    {
-      "label": "CareersPage()",
-      "file_type": "code",
-      "source_file": "app/careers/page.tsx",
-      "source_location": "L166",
-      "id": "careers_page_careerspage",
-      "community": 9,
-      "norm_label": "careerspage()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/changelog/page.tsx",
-      "source_location": "L1",
-      "id": "app_changelog_page_tsx",
-      "community": 9,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "ChangelogPage()",
-      "file_type": "code",
-      "source_file": "app/changelog/page.tsx",
-      "source_location": "L18",
-      "id": "changelog_page_changelogpage",
-      "community": 9,
-      "norm_label": "changelogpage()"
-    },
-    {
-      "label": "AnimateOnScroll.tsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx",
-      "community": 24,
-      "norm_label": "animateonscroll.tsx"
-    },
-    {
-      "label": "fadeUp",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
-      "source_location": "L7",
-      "id": "effects_animateonscroll_fadeup",
-      "community": 24,
-      "norm_label": "fadeup"
-    },
-    {
-      "label": "fadeDown",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
-      "source_location": "L12",
-      "id": "effects_animateonscroll_fadedown",
-      "community": 24,
-      "norm_label": "fadedown"
-    },
-    {
-      "label": "fadeLeft",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
-      "source_location": "L17",
-      "id": "effects_animateonscroll_fadeleft",
-      "community": 24,
-      "norm_label": "fadeleft"
-    },
-    {
-      "label": "fadeRight",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
-      "source_location": "L22",
-      "id": "effects_animateonscroll_faderight",
-      "community": 24,
-      "norm_label": "faderight"
-    },
-    {
-      "label": "scaleIn",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
-      "source_location": "L27",
-      "id": "effects_animateonscroll_scalein",
-      "community": 24,
-      "norm_label": "scalein"
-    },
-    {
-      "label": "staggerContainer",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
-      "source_location": "L32",
-      "id": "effects_animateonscroll_staggercontainer",
-      "community": 24,
-      "norm_label": "staggercontainer"
-    },
-    {
-      "label": "staggerItem",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
-      "source_location": "L43",
-      "id": "effects_animateonscroll_staggeritem",
-      "community": 24,
-      "norm_label": "staggeritem"
-    },
-    {
-      "label": "AnimateOnScroll()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
-      "source_location": "L53",
-      "id": "effects_animateonscroll_animateonscroll",
-      "community": 24,
-      "norm_label": "animateonscroll()"
-    },
-    {
-      "label": "ParallaxSection()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
-      "source_location": "L122",
-      "id": "effects_animateonscroll_parallaxsection",
-      "community": 24,
-      "norm_label": "parallaxsection()"
-    },
-    {
-      "label": "DarkVeil.tsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/DarkVeil.tsx",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_app_components_effects_darkveil_tsx",
-      "community": 9,
-      "norm_label": "darkveil.tsx"
-    },
-    {
-      "label": "DarkVeilProps",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/DarkVeil.tsx",
-      "source_location": "L84",
-      "id": "effects_darkveil_darkveilprops",
-      "community": 9,
-      "norm_label": "darkveilprops"
-    },
-    {
-      "label": "DarkVeil()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/effects/DarkVeil.tsx",
-      "source_location": "L94",
-      "id": "effects_darkveil_darkveil",
-      "community": 9,
-      "norm_label": "darkveil()"
-    },
-    {
       "label": "Footer.tsx",
       "file_type": "code",
-      "source_file": "app/components/layout/Footer.tsx",
+      "source_file": "components/layout/Footer.tsx",
       "source_location": "L1",
-      "id": "app_components_layout_footer_tsx",
+      "id": "components_layout_footer_tsx",
       "community": 9,
       "norm_label": "footer.tsx"
     },
     {
       "label": "Footer()",
       "file_type": "code",
-      "source_file": "app/components/layout/Footer.tsx",
+      "source_file": "components/layout/Footer.tsx",
       "source_location": "L8",
       "id": "layout_footer_footer",
       "community": 9,
@@ -978,502 +24,34 @@
     {
       "label": "Navbar.tsx",
       "file_type": "code",
-      "source_file": "app/components/layout/Navbar.tsx",
+      "source_file": "components/layout/Navbar.tsx",
       "source_location": "L1",
-      "id": "app_components_layout_navbar_tsx",
+      "id": "components_layout_navbar_tsx",
       "community": 9,
       "norm_label": "navbar.tsx"
     },
     {
       "label": "Navbar()",
       "file_type": "code",
-      "source_file": "app/components/layout/Navbar.tsx",
+      "source_file": "components/layout/Navbar.tsx",
       "source_location": "L5",
       "id": "layout_navbar_navbar",
       "community": 9,
       "norm_label": "navbar()"
     },
     {
-      "label": "StaggeredMenu.tsx",
-      "file_type": "code",
-      "source_file": "app/components/layout/StaggeredMenu.tsx",
-      "source_location": "L1",
-      "id": "app_components_layout_staggeredmenu_tsx",
-      "community": 25,
-      "norm_label": "staggeredmenu.tsx"
-    },
-    {
-      "label": "StaggeredMenuItem",
-      "file_type": "code",
-      "source_file": "app/components/layout/StaggeredMenu.tsx",
-      "source_location": "L7",
-      "id": "layout_staggeredmenu_staggeredmenuitem",
-      "community": 25,
-      "norm_label": "staggeredmenuitem"
-    },
-    {
-      "label": "StaggeredMenuSocialItem",
-      "file_type": "code",
-      "source_file": "app/components/layout/StaggeredMenu.tsx",
-      "source_location": "L13",
-      "id": "layout_staggeredmenu_staggeredmenusocialitem",
-      "community": 25,
-      "norm_label": "staggeredmenusocialitem"
-    },
-    {
-      "label": "StaggeredMenuProps",
-      "file_type": "code",
-      "source_file": "app/components/layout/StaggeredMenu.tsx",
-      "source_location": "L18",
-      "id": "layout_staggeredmenu_staggeredmenuprops",
-      "community": 25,
-      "norm_label": "staggeredmenuprops"
-    },
-    {
-      "label": "StaggeredMenu()",
-      "file_type": "code",
-      "source_file": "app/components/layout/StaggeredMenu.tsx",
-      "source_location": "L38",
-      "id": "layout_staggeredmenu_staggeredmenu",
-      "community": 25,
-      "norm_label": "staggeredmenu()"
-    },
-    {
-      "label": "SubpageLayout.tsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/layout/SubpageLayout.tsx",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_app_components_layout_subpagelayout_tsx",
-      "community": 9,
-      "norm_label": "subpagelayout.tsx"
-    },
-    {
-      "label": "SubpageLayoutProps",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/layout/SubpageLayout.tsx",
-      "source_location": "L8",
-      "id": "layout_subpagelayout_subpagelayoutprops",
-      "community": 9,
-      "norm_label": "subpagelayoutprops"
-    },
-    {
-      "label": "SubpageLayout()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/layout/SubpageLayout.tsx",
-      "source_location": "L15",
-      "id": "layout_subpagelayout_subpagelayout",
-      "community": 9,
-      "norm_label": "subpagelayout()"
-    },
-    {
-      "label": "FinalCTA.tsx",
-      "file_type": "code",
-      "source_file": "app/components/sections/cta/FinalCTA.tsx",
-      "source_location": "L1",
-      "id": "app_components_sections_cta_finalcta_tsx",
-      "community": 24,
-      "norm_label": "finalcta.tsx"
-    },
-    {
-      "label": "FinalCTA()",
-      "file_type": "code",
-      "source_file": "app/components/sections/cta/FinalCTA.tsx",
-      "source_location": "L6",
-      "id": "cta_finalcta_finalcta",
-      "community": 24,
-      "norm_label": "finalcta()"
-    },
-    {
-      "label": "FAQ.tsx",
-      "file_type": "code",
-      "source_file": "app/components/sections/faq/FAQ.tsx",
-      "source_location": "L1",
-      "id": "app_components_sections_faq_faq_tsx",
-      "community": 24,
-      "norm_label": "faq.tsx"
-    },
-    {
-      "label": "faqs",
-      "file_type": "code",
-      "source_file": "app/components/sections/faq/FAQ.tsx",
-      "source_location": "L7",
-      "id": "faq_faq_faqs",
-      "community": 24,
-      "norm_label": "faqs"
-    },
-    {
-      "label": "FAQ()",
-      "file_type": "code",
-      "source_file": "app/components/sections/faq/FAQ.tsx",
-      "source_location": "L34",
-      "id": "faq_faq_faq",
-      "community": 24,
-      "norm_label": "faq()"
-    },
-    {
-      "label": "FeatureBento.tsx",
-      "file_type": "code",
-      "source_file": "app/components/sections/features/FeatureBento.tsx",
-      "source_location": "L1",
-      "id": "app_components_sections_features_featurebento_tsx",
-      "community": 24,
-      "norm_label": "featurebento.tsx"
-    },
-    {
-      "label": "FeatureBento()",
-      "file_type": "code",
-      "source_file": "app/components/sections/features/FeatureBento.tsx",
-      "source_location": "L6",
-      "id": "features_featurebento_featurebento",
-      "community": 24,
-      "norm_label": "featurebento()"
-    },
-    {
-      "label": "MagicBento.tsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx",
-      "community": 7,
-      "norm_label": "magicbento.tsx"
-    },
-    {
-      "label": "BentoCardProps",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
-      "source_location": "L7",
-      "id": "features_magicbento_bentocardprops",
-      "community": 24,
-      "norm_label": "bentocardprops"
-    },
-    {
-      "label": "BentoProps",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
-      "source_location": "L19",
-      "id": "features_magicbento_bentoprops",
-      "community": 7,
-      "norm_label": "bentoprops"
-    },
-    {
-      "label": "createParticleElement()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
-      "source_location": "L39",
-      "id": "features_magicbento_createparticleelement",
-      "community": 7,
-      "norm_label": "createparticleelement()"
-    },
-    {
-      "label": "calculateSpotlightValues()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
-      "source_location": "L57",
-      "id": "features_magicbento_calculatespotlightvalues",
-      "community": 7,
-      "norm_label": "calculatespotlightvalues()"
-    },
-    {
-      "label": "updateCardGlowProperties()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
-      "source_location": "L62",
-      "id": "features_magicbento_updatecardglowproperties",
-      "community": 7,
-      "norm_label": "updatecardglowproperties()"
-    },
-    {
-      "label": "ParticleCard()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
-      "source_location": "L73",
-      "id": "features_magicbento_particlecard",
-      "community": 7,
-      "norm_label": "particlecard()"
-    },
-    {
-      "label": "GlobalSpotlight()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
-      "source_location": "L320",
-      "id": "features_magicbento_globalspotlight",
-      "community": 7,
-      "norm_label": "globalspotlight()"
-    },
-    {
-      "label": "BentoCardGrid()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
-      "source_location": "L396",
-      "id": "features_magicbento_bentocardgrid",
-      "community": 7,
-      "norm_label": "bentocardgrid()"
-    },
-    {
-      "label": "useMobileDetection()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
-      "source_location": "L406",
-      "id": "features_magicbento_usemobiledetection",
-      "community": 7,
-      "norm_label": "usemobiledetection()"
-    },
-    {
-      "label": "MagicBento()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
-      "source_location": "L421",
-      "id": "features_magicbento_magicbento",
-      "community": 7,
-      "norm_label": "magicbento()"
-    },
-    {
-      "label": "Hero.tsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/hero/Hero.tsx",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_app_components_sections_hero_hero_tsx",
-      "community": 24,
-      "norm_label": "hero.tsx"
-    },
-    {
-      "label": "Hero()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/hero/Hero.tsx",
-      "source_location": "L6",
-      "id": "hero_hero_hero",
-      "community": 24,
-      "norm_label": "hero()"
-    },
-    {
-      "label": "HowItWorks.tsx",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L1",
-      "id": "app_components_sections_how_it_works_howitworks_tsx",
-      "community": 24,
-      "norm_label": "howitworks.tsx"
-    },
-    {
-      "label": "steps",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L7",
-      "id": "how_it_works_howitworks_steps",
-      "community": 24,
-      "norm_label": "steps"
-    },
-    {
-      "label": "Mockup1()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L40",
-      "id": "how_it_works_howitworks_mockup1",
-      "community": 24,
-      "norm_label": "mockup1()"
-    },
-    {
-      "label": "Mockup2()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L98",
-      "id": "how_it_works_howitworks_mockup2",
-      "community": 24,
-      "norm_label": "mockup2()"
-    },
-    {
-      "label": "Mockup3()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L130",
-      "id": "how_it_works_howitworks_mockup3",
-      "community": 24,
-      "norm_label": "mockup3()"
-    },
-    {
-      "label": "Mockup4()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L168",
-      "id": "how_it_works_howitworks_mockup4",
-      "community": 24,
-      "norm_label": "mockup4()"
-    },
-    {
-      "label": "Mockup5()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L208",
-      "id": "how_it_works_howitworks_mockup5",
-      "community": 24,
-      "norm_label": "mockup5()"
-    },
-    {
-      "label": "HowItWorks()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L254",
-      "id": "how_it_works_howitworks_howitworks",
-      "community": 24,
-      "norm_label": "howitworks()"
-    },
-    {
-      "label": "Pricing.tsx",
-      "file_type": "code",
-      "source_file": "app/components/sections/pricing/Pricing.tsx",
-      "source_location": "L1",
-      "id": "app_components_sections_pricing_pricing_tsx",
-      "community": 24,
-      "norm_label": "pricing.tsx"
-    },
-    {
-      "label": "Pricing()",
-      "file_type": "code",
-      "source_file": "app/components/sections/pricing/Pricing.tsx",
-      "source_location": "L6",
-      "id": "pricing_pricing_pricing",
-      "community": 24,
-      "norm_label": "pricing()"
-    },
-    {
-      "label": "ProblemSection.tsx",
-      "file_type": "code",
-      "source_file": "app/components/sections/problem/ProblemSection.tsx",
-      "source_location": "L1",
-      "id": "app_components_sections_problem_problemsection_tsx",
-      "community": 24,
-      "norm_label": "problemsection.tsx"
-    },
-    {
-      "label": "ScalperMockup()",
-      "file_type": "code",
-      "source_file": "app/components/sections/problem/ProblemSection.tsx",
-      "source_location": "L8",
-      "id": "problem_problemsection_scalpermockup",
-      "community": 24,
-      "norm_label": "scalpermockup()"
-    },
-    {
-      "label": "SwingMockup()",
-      "file_type": "code",
-      "source_file": "app/components/sections/problem/ProblemSection.tsx",
-      "source_location": "L62",
-      "id": "problem_problemsection_swingmockup",
-      "community": 24,
-      "norm_label": "swingmockup()"
-    },
-    {
-      "label": "QuantMockup()",
-      "file_type": "code",
-      "source_file": "app/components/sections/problem/ProblemSection.tsx",
-      "source_location": "L140",
-      "id": "problem_problemsection_quantmockup",
-      "community": 24,
-      "norm_label": "quantmockup()"
-    },
-    {
-      "label": "ProblemSection()",
-      "file_type": "code",
-      "source_file": "app/components/sections/problem/ProblemSection.tsx",
-      "source_location": "L174",
-      "id": "problem_problemsection_problemsection",
-      "community": 24,
-      "norm_label": "problemsection()"
-    },
-    {
-      "label": "Stats.tsx",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/stats/Stats.tsx",
-      "source_location": "L1",
-      "id": "d_projects_aitrader_landing_app_components_sections_stats_stats_tsx",
-      "community": 24,
-      "norm_label": "stats.tsx"
-    },
-    {
-      "label": "useCountUp()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/stats/Stats.tsx",
-      "source_location": "L6",
-      "id": "stats_stats_usecountup",
-      "community": 24,
-      "norm_label": "usecountup()"
-    },
-    {
-      "label": "Stats()",
-      "file_type": "code",
-      "source_file": "D:/projects/aitrader-landing/app/components/sections/stats/Stats.tsx",
-      "source_location": "L41",
-      "id": "stats_stats_stats",
-      "community": 24,
-      "norm_label": "stats()"
-    },
-    {
       "label": "page.tsx",
       "file_type": "code",
-      "source_file": "app/contact/page.tsx",
+      "source_file": "download/page.tsx",
       "source_location": "L1",
-      "id": "app_contact_page_tsx",
-      "community": 9,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "ContactPage()",
-      "file_type": "code",
-      "source_file": "app/contact/page.tsx",
-      "source_location": "L23",
-      "id": "contact_page_contactpage",
-      "community": 9,
-      "norm_label": "contactpage()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/disclaimer/page.tsx",
-      "source_location": "L1",
-      "id": "app_disclaimer_page_tsx",
-      "community": 9,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "DisclaimerPage()",
-      "file_type": "code",
-      "source_file": "app/disclaimer/page.tsx",
-      "source_location": "L18",
-      "id": "disclaimer_page_disclaimerpage",
-      "community": 9,
-      "norm_label": "disclaimerpage()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/docs/page.tsx",
-      "source_location": "L1",
-      "id": "app_docs_page_tsx",
-      "community": 9,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "DocsPage()",
-      "file_type": "code",
-      "source_file": "app/docs/page.tsx",
-      "source_location": "L22",
-      "id": "docs_page_docspage",
-      "community": 9,
-      "norm_label": "docspage()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "app/download/page.tsx",
-      "source_location": "L1",
-      "id": "app_download_page_tsx",
+      "id": "download_page_tsx",
       "community": 9,
       "norm_label": "page.tsx"
     },
     {
       "label": "OS",
       "file_type": "code",
-      "source_file": "app/download/page.tsx",
+      "source_file": "download/page.tsx",
       "source_location": "L29",
       "id": "download_page_os",
       "community": 9,
@@ -1482,7 +60,7 @@
     {
       "label": "GuideTab",
       "file_type": "code",
-      "source_file": "app/download/page.tsx",
+      "source_file": "download/page.tsx",
       "source_location": "L30",
       "id": "download_page_guidetab",
       "community": 9,
@@ -1491,983 +69,2432 @@
     {
       "label": "DownloadPage()",
       "file_type": "code",
-      "source_file": "app/download/page.tsx",
+      "source_file": "download/page.tsx",
       "source_location": "L32",
       "id": "download_page_downloadpage",
       "community": 9,
       "norm_label": "downloadpage()"
     },
     {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/eslint.config.mjs",
+      "source_location": "L1",
+      "community": 21,
+      "norm_label": "eslint.config.mjs",
+      "id": "d_projects_aitrader_landing_eslint_config_mjs"
+    },
+    {
+      "label": "eslintConfig",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/eslint.config.mjs",
+      "source_location": "L5",
+      "community": 21,
+      "norm_label": "eslintconfig",
+      "id": "aitrader_landing_eslint_config_eslintconfig"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/next.config.ts",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "next.config.ts",
+      "id": "d_projects_aitrader_landing_next_config_ts"
+    },
+    {
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/next.config.ts",
+      "source_location": "L3",
+      "community": 16,
+      "norm_label": "nextconfig",
+      "id": "aitrader_landing_next_config_nextconfig"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "package.json",
+      "id": "package_json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "community": 2,
+      "norm_label": "name",
+      "id": "strat_package_name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "community": 2,
+      "norm_label": "version",
+      "id": "strat_package_version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "community": 2,
+      "norm_label": "private",
+      "id": "strat_package_private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "community": 2,
+      "norm_label": "scripts",
+      "id": "strat_package_scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "community": 2,
+      "norm_label": "dev",
+      "id": "strat_package_scripts_dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "community": 2,
+      "norm_label": "build",
+      "id": "strat_package_scripts_build"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "community": 2,
+      "norm_label": "start",
+      "id": "strat_package_scripts_start"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "community": 2,
+      "norm_label": "lint",
+      "id": "strat_package_scripts_lint"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "community": 2,
+      "norm_label": "dependencies",
+      "id": "strat_package_dependencies"
+    },
+    {
+      "label": "framer-motion",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "community": 2,
+      "norm_label": "framer-motion",
+      "id": "strat_package_dependencies_framer_motion"
+    },
+    {
+      "label": "gsap",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "community": 2,
+      "norm_label": "gsap",
+      "id": "strat_package_dependencies_gsap"
+    },
+    {
+      "label": "lucide-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "community": 2,
+      "norm_label": "lucide-react",
+      "id": "strat_package_dependencies_lucide_react"
+    },
+    {
+      "label": "next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "community": 2,
+      "norm_label": "next",
+      "id": "strat_package_dependencies_next"
+    },
+    {
+      "label": "ogl",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "community": 2,
+      "norm_label": "ogl",
+      "id": "strat_package_dependencies_ogl"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "community": 2,
+      "norm_label": "react",
+      "id": "strat_package_dependencies_react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "community": 2,
+      "norm_label": "react-dom",
+      "id": "strat_package_dependencies_react_dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "community": 2,
+      "norm_label": "devdependencies",
+      "id": "strat_package_devdependencies"
+    },
+    {
+      "label": "@tailwindcss/postcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "community": 2,
+      "norm_label": "@tailwindcss/postcss",
+      "id": "strat_package_devdependencies_tailwindcss_postcss"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "community": 2,
+      "norm_label": "@types/node",
+      "id": "strat_package_devdependencies_types_node"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "community": 2,
+      "norm_label": "@types/react",
+      "id": "strat_package_devdependencies_types_react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "community": 2,
+      "norm_label": "@types/react-dom",
+      "id": "strat_package_devdependencies_types_react_dom"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "community": 2,
+      "norm_label": "eslint",
+      "id": "strat_package_devdependencies_eslint"
+    },
+    {
+      "label": "eslint-config-next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "community": 2,
+      "norm_label": "eslint-config-next",
+      "id": "strat_package_devdependencies_eslint_config_next"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "community": 2,
+      "norm_label": "tailwindcss",
+      "id": "strat_package_devdependencies_tailwindcss"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "community": 2,
+      "norm_label": "typescript",
+      "id": "strat_package_devdependencies_typescript"
+    },
+    {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/postcss.config.mjs",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "postcss.config.mjs",
+      "id": "d_projects_aitrader_landing_postcss_config_mjs"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/postcss.config.mjs",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "config",
+      "id": "aitrader_landing_postcss_config_config"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "tsconfig.json",
+      "id": "d_projects_aitrader_landing_tsconfig_json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L2",
+      "community": 3,
+      "norm_label": "compileroptions",
+      "id": "aitrader_landing_tsconfig_compileroptions"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L3",
+      "community": 3,
+      "norm_label": "target",
+      "id": "aitrader_landing_tsconfig_compileroptions_target"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L4",
+      "community": 3,
+      "norm_label": "lib",
+      "id": "aitrader_landing_tsconfig_compileroptions_lib"
+    },
+    {
+      "label": "allowJs",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L5",
+      "community": 3,
+      "norm_label": "allowjs",
+      "id": "aitrader_landing_tsconfig_compileroptions_allowjs"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L6",
+      "community": 3,
+      "norm_label": "skiplibcheck",
+      "id": "aitrader_landing_tsconfig_compileroptions_skiplibcheck"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L7",
+      "community": 3,
+      "norm_label": "strict",
+      "id": "aitrader_landing_tsconfig_compileroptions_strict"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L8",
+      "community": 3,
+      "norm_label": "noemit",
+      "id": "aitrader_landing_tsconfig_compileroptions_noemit"
+    },
+    {
+      "label": "esModuleInterop",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L9",
+      "community": 3,
+      "norm_label": "esmoduleinterop",
+      "id": "aitrader_landing_tsconfig_compileroptions_esmoduleinterop"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L10",
+      "community": 3,
+      "norm_label": "module",
+      "id": "aitrader_landing_tsconfig_compileroptions_module"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L11",
+      "community": 3,
+      "norm_label": "moduleresolution",
+      "id": "aitrader_landing_tsconfig_compileroptions_moduleresolution"
+    },
+    {
+      "label": "resolveJsonModule",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L12",
+      "community": 3,
+      "norm_label": "resolvejsonmodule",
+      "id": "aitrader_landing_tsconfig_compileroptions_resolvejsonmodule"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L13",
+      "community": 3,
+      "norm_label": "isolatedmodules",
+      "id": "aitrader_landing_tsconfig_compileroptions_isolatedmodules"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L14",
+      "community": 3,
+      "norm_label": "jsx",
+      "id": "aitrader_landing_tsconfig_compileroptions_jsx"
+    },
+    {
+      "label": "incremental",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L15",
+      "community": 3,
+      "norm_label": "incremental",
+      "id": "aitrader_landing_tsconfig_compileroptions_incremental"
+    },
+    {
+      "label": "plugins",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L16",
+      "community": 3,
+      "norm_label": "plugins",
+      "id": "aitrader_landing_tsconfig_compileroptions_plugins"
+    },
+    {
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L21",
+      "community": 3,
+      "norm_label": "paths",
+      "id": "aitrader_landing_tsconfig_compileroptions_paths"
+    },
+    {
+      "label": "@/*",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L22",
+      "community": 3,
+      "norm_label": "@/*",
+      "id": "aitrader_landing_tsconfig_paths"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L25",
+      "community": 3,
+      "norm_label": "include",
+      "id": "aitrader_landing_tsconfig_include"
+    },
+    {
+      "label": "exclude",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/tsconfig.json",
+      "source_location": "L33",
+      "community": 3,
+      "norm_label": "exclude",
+      "id": "aitrader_landing_tsconfig_exclude"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/.vscode/settings.json",
+      "source_location": "L1",
+      "community": 39,
+      "norm_label": "settings.json",
+      "id": "d_projects_aitrader_landing_vscode_settings_json"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L1",
+      "community": 10,
+      "norm_label": "layout.tsx",
+      "id": "app_layout_tsx"
+    },
+    {
+      "label": "inter",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L5",
+      "community": 10,
+      "norm_label": "inter",
+      "id": "app_layout_inter"
+    },
+    {
+      "label": "outfit",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L11",
+      "community": 10,
+      "norm_label": "outfit",
+      "id": "app_layout_outfit"
+    },
+    {
+      "label": "jetbrainsMono",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L17",
+      "community": 10,
+      "norm_label": "jetbrainsmono",
+      "id": "app_layout_jetbrainsmono"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L23",
+      "community": 10,
+      "norm_label": "metadata",
+      "id": "app_layout_metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L37",
+      "community": 10,
+      "norm_label": "rootlayout()",
+      "id": "app_layout_rootlayout"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/page.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "page.tsx",
+      "id": "d_projects_aitrader_landing_app_page_tsx"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/page.tsx",
+      "source_location": "L13",
+      "community": 0,
+      "norm_label": "home()",
+      "id": "app_page_home"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/about/page.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "page.tsx",
+      "id": "app_about_page_tsx"
+    },
+    {
+      "label": "AboutPage()",
+      "file_type": "code",
+      "source_file": "app/about/page.tsx",
+      "source_location": "L21",
+      "community": 9,
+      "norm_label": "aboutpage()",
+      "id": "about_page_aboutpage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/api-reference/page.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "page.tsx",
+      "id": "app_api_reference_page_tsx"
+    },
+    {
+      "label": "ApiReferencePage()",
+      "file_type": "code",
+      "source_file": "app/api-reference/page.tsx",
+      "source_location": "L4",
+      "community": 9,
+      "norm_label": "apireferencepage()",
+      "id": "api_reference_page_apireferencepage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/blog/page.tsx",
+      "source_location": "L1",
+      "community": 23,
+      "norm_label": "page.tsx",
+      "id": "app_blog_page_tsx"
+    },
+    {
+      "label": "BlogPost",
+      "file_type": "code",
+      "source_file": "app/blog/page.tsx",
+      "source_location": "L14",
+      "community": 23,
+      "norm_label": "blogpost",
+      "id": "blog_page_blogpost"
+    },
+    {
+      "label": "featuredArticle",
+      "file_type": "code",
+      "source_file": "app/blog/page.tsx",
+      "source_location": "L24",
+      "community": 23,
+      "norm_label": "featuredarticle",
+      "id": "blog_page_featuredarticle"
+    },
+    {
+      "label": "blogPosts",
+      "file_type": "code",
+      "source_file": "app/blog/page.tsx",
+      "source_location": "L33",
+      "community": 23,
+      "norm_label": "blogposts",
+      "id": "blog_page_blogposts"
+    },
+    {
+      "label": "categories",
+      "file_type": "code",
+      "source_file": "app/blog/page.tsx",
+      "source_location": "L90",
+      "community": 23,
+      "norm_label": "categories",
+      "id": "blog_page_categories"
+    },
+    {
+      "label": "popularTags",
+      "file_type": "code",
+      "source_file": "app/blog/page.tsx",
+      "source_location": "L100",
+      "community": 23,
+      "norm_label": "populartags",
+      "id": "blog_page_populartags"
+    },
+    {
+      "label": "BlogPage()",
+      "file_type": "code",
+      "source_file": "app/blog/page.tsx",
+      "source_location": "L104",
+      "community": 23,
+      "norm_label": "blogpage()",
+      "id": "blog_page_blogpage"
+    },
+    {
+      "label": "BlogGrid.tsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogGrid.tsx",
+      "source_location": "L1",
+      "community": 23,
+      "norm_label": "bloggrid.tsx",
+      "id": "d_projects_aitrader_landing_app_blog_components_bloggrid_tsx"
+    },
+    {
+      "label": "BlogPost",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogGrid.tsx",
+      "source_location": "L7",
+      "community": 23,
+      "norm_label": "blogpost",
+      "id": "components_bloggrid_blogpost"
+    },
+    {
+      "label": "BlogGridProps",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogGrid.tsx",
+      "source_location": "L17",
+      "community": 23,
+      "norm_label": "bloggridprops",
+      "id": "components_bloggrid_bloggridprops"
+    },
+    {
+      "label": "BlogGrid()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogGrid.tsx",
+      "source_location": "L24",
+      "community": 23,
+      "norm_label": "bloggrid()",
+      "id": "components_bloggrid_bloggrid"
+    },
+    {
+      "label": "BlogHero.tsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogHero.tsx",
+      "source_location": "L1",
+      "community": 23,
+      "norm_label": "bloghero.tsx",
+      "id": "d_projects_aitrader_landing_app_blog_components_bloghero_tsx"
+    },
+    {
+      "label": "BlogHeroProps",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogHero.tsx",
+      "source_location": "L8",
+      "community": 23,
+      "norm_label": "blogheroprops",
+      "id": "components_bloghero_blogheroprops"
+    },
+    {
+      "label": "BlogHero()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/BlogHero.tsx",
+      "source_location": "L14",
+      "community": 23,
+      "norm_label": "bloghero()",
+      "id": "components_bloghero_bloghero"
+    },
+    {
+      "label": "CategoryFilter.tsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/CategoryFilter.tsx",
+      "source_location": "L1",
+      "community": 23,
+      "norm_label": "categoryfilter.tsx",
+      "id": "d_projects_aitrader_landing_app_blog_components_categoryfilter_tsx"
+    },
+    {
+      "label": "CategoryFilterProps",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/CategoryFilter.tsx",
+      "source_location": "L5",
+      "community": 23,
+      "norm_label": "categoryfilterprops",
+      "id": "components_categoryfilter_categoryfilterprops"
+    },
+    {
+      "label": "CategoryFilter()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/CategoryFilter.tsx",
+      "source_location": "L11",
+      "community": 23,
+      "norm_label": "categoryfilter()",
+      "id": "components_categoryfilter_categoryfilter"
+    },
+    {
+      "label": "FeaturedPost.tsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/FeaturedPost.tsx",
+      "source_location": "L1",
+      "community": 23,
+      "norm_label": "featuredpost.tsx",
+      "id": "d_projects_aitrader_landing_app_blog_components_featuredpost_tsx"
+    },
+    {
+      "label": "FeaturedPostProps",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/FeaturedPost.tsx",
+      "source_location": "L7",
+      "community": 23,
+      "norm_label": "featuredpostprops",
+      "id": "components_featuredpost_featuredpostprops"
+    },
+    {
+      "label": "FeaturedPost()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/blog/components/FeaturedPost.tsx",
+      "source_location": "L18",
+      "community": 23,
+      "norm_label": "featuredpost()",
+      "id": "components_featuredpost_featuredpost"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/careers/page.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "page.tsx",
+      "id": "app_careers_page_tsx"
+    },
+    {
+      "label": "Position",
+      "file_type": "code",
+      "source_file": "app/careers/page.tsx",
+      "source_location": "L22",
+      "community": 9,
+      "norm_label": "position",
+      "id": "careers_page_position"
+    },
+    {
+      "label": "openPositions",
+      "file_type": "code",
+      "source_file": "app/careers/page.tsx",
+      "source_location": "L33",
+      "community": 9,
+      "norm_label": "openpositions",
+      "id": "careers_page_openpositions"
+    },
+    {
+      "label": "benefits",
+      "file_type": "code",
+      "source_file": "app/careers/page.tsx",
+      "source_location": "L120",
+      "community": 9,
+      "norm_label": "benefits",
+      "id": "careers_page_benefits"
+    },
+    {
+      "label": "values",
+      "file_type": "code",
+      "source_file": "app/careers/page.tsx",
+      "source_location": "L143",
+      "community": 9,
+      "norm_label": "values",
+      "id": "careers_page_values"
+    },
+    {
+      "label": "CareersPage()",
+      "file_type": "code",
+      "source_file": "app/careers/page.tsx",
+      "source_location": "L166",
+      "community": 9,
+      "norm_label": "careerspage()",
+      "id": "careers_page_careerspage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/changelog/page.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "page.tsx",
+      "id": "app_changelog_page_tsx"
+    },
+    {
+      "label": "ChangelogPage()",
+      "file_type": "code",
+      "source_file": "app/changelog/page.tsx",
+      "source_location": "L18",
+      "community": 9,
+      "norm_label": "changelogpage()",
+      "id": "changelog_page_changelogpage"
+    },
+    {
+      "label": "AnimateOnScroll.tsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "animateonscroll.tsx",
+      "id": "d_projects_aitrader_landing_app_components_effects_animateonscroll_tsx"
+    },
+    {
+      "label": "fadeUp",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
+      "source_location": "L7",
+      "community": 24,
+      "norm_label": "fadeup",
+      "id": "effects_animateonscroll_fadeup"
+    },
+    {
+      "label": "fadeDown",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
+      "source_location": "L12",
+      "community": 24,
+      "norm_label": "fadedown",
+      "id": "effects_animateonscroll_fadedown"
+    },
+    {
+      "label": "fadeLeft",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
+      "source_location": "L17",
+      "community": 24,
+      "norm_label": "fadeleft",
+      "id": "effects_animateonscroll_fadeleft"
+    },
+    {
+      "label": "fadeRight",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
+      "source_location": "L22",
+      "community": 24,
+      "norm_label": "faderight",
+      "id": "effects_animateonscroll_faderight"
+    },
+    {
+      "label": "scaleIn",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
+      "source_location": "L27",
+      "community": 24,
+      "norm_label": "scalein",
+      "id": "effects_animateonscroll_scalein"
+    },
+    {
+      "label": "staggerContainer",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
+      "source_location": "L32",
+      "community": 24,
+      "norm_label": "staggercontainer",
+      "id": "effects_animateonscroll_staggercontainer"
+    },
+    {
+      "label": "staggerItem",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
+      "source_location": "L43",
+      "community": 24,
+      "norm_label": "staggeritem",
+      "id": "effects_animateonscroll_staggeritem"
+    },
+    {
+      "label": "AnimateOnScroll()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
+      "source_location": "L53",
+      "community": 24,
+      "norm_label": "animateonscroll()",
+      "id": "effects_animateonscroll_animateonscroll"
+    },
+    {
+      "label": "ParallaxSection()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/AnimateOnScroll.tsx",
+      "source_location": "L122",
+      "community": 24,
+      "norm_label": "parallaxsection()",
+      "id": "effects_animateonscroll_parallaxsection"
+    },
+    {
+      "label": "DarkVeil.tsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/DarkVeil.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "darkveil.tsx",
+      "id": "d_projects_aitrader_landing_app_components_effects_darkveil_tsx"
+    },
+    {
+      "label": "DarkVeilProps",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/DarkVeil.tsx",
+      "source_location": "L84",
+      "community": 9,
+      "norm_label": "darkveilprops",
+      "id": "effects_darkveil_darkveilprops"
+    },
+    {
+      "label": "DarkVeil()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/effects/DarkVeil.tsx",
+      "source_location": "L94",
+      "community": 9,
+      "norm_label": "darkveil()",
+      "id": "effects_darkveil_darkveil"
+    },
+    {
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "app/components/layout/Footer.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "footer.tsx",
+      "id": "app_components_layout_footer_tsx"
+    },
+    {
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "app/components/layout/Navbar.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "navbar.tsx",
+      "id": "app_components_layout_navbar_tsx"
+    },
+    {
+      "label": "StaggeredMenu.tsx",
+      "file_type": "code",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
+      "source_location": "L1",
+      "community": 25,
+      "norm_label": "staggeredmenu.tsx",
+      "id": "app_components_layout_staggeredmenu_tsx"
+    },
+    {
+      "label": "StaggeredMenuItem",
+      "file_type": "code",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
+      "source_location": "L7",
+      "community": 25,
+      "norm_label": "staggeredmenuitem",
+      "id": "layout_staggeredmenu_staggeredmenuitem"
+    },
+    {
+      "label": "StaggeredMenuSocialItem",
+      "file_type": "code",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
+      "source_location": "L13",
+      "community": 25,
+      "norm_label": "staggeredmenusocialitem",
+      "id": "layout_staggeredmenu_staggeredmenusocialitem"
+    },
+    {
+      "label": "StaggeredMenuProps",
+      "file_type": "code",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
+      "source_location": "L18",
+      "community": 25,
+      "norm_label": "staggeredmenuprops",
+      "id": "layout_staggeredmenu_staggeredmenuprops"
+    },
+    {
+      "label": "StaggeredMenu()",
+      "file_type": "code",
+      "source_file": "app/components/layout/StaggeredMenu.tsx",
+      "source_location": "L38",
+      "community": 25,
+      "norm_label": "staggeredmenu()",
+      "id": "layout_staggeredmenu_staggeredmenu"
+    },
+    {
+      "label": "SubpageLayout.tsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/layout/SubpageLayout.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "subpagelayout.tsx",
+      "id": "d_projects_aitrader_landing_app_components_layout_subpagelayout_tsx"
+    },
+    {
+      "label": "SubpageLayoutProps",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/layout/SubpageLayout.tsx",
+      "source_location": "L8",
+      "community": 9,
+      "norm_label": "subpagelayoutprops",
+      "id": "layout_subpagelayout_subpagelayoutprops"
+    },
+    {
+      "label": "SubpageLayout()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/layout/SubpageLayout.tsx",
+      "source_location": "L15",
+      "community": 9,
+      "norm_label": "subpagelayout()",
+      "id": "layout_subpagelayout_subpagelayout"
+    },
+    {
+      "label": "FinalCTA.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/cta/FinalCTA.tsx",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "finalcta.tsx",
+      "id": "app_components_sections_cta_finalcta_tsx"
+    },
+    {
+      "label": "FinalCTA()",
+      "file_type": "code",
+      "source_file": "app/components/sections/cta/FinalCTA.tsx",
+      "source_location": "L6",
+      "community": 24,
+      "norm_label": "finalcta()",
+      "id": "cta_finalcta_finalcta"
+    },
+    {
+      "label": "FAQ.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/faq/FAQ.tsx",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "faq.tsx",
+      "id": "app_components_sections_faq_faq_tsx"
+    },
+    {
+      "label": "faqs",
+      "file_type": "code",
+      "source_file": "app/components/sections/faq/FAQ.tsx",
+      "source_location": "L7",
+      "community": 24,
+      "norm_label": "faqs",
+      "id": "faq_faq_faqs"
+    },
+    {
+      "label": "FAQ()",
+      "file_type": "code",
+      "source_file": "app/components/sections/faq/FAQ.tsx",
+      "source_location": "L34",
+      "community": 24,
+      "norm_label": "faq()",
+      "id": "faq_faq_faq"
+    },
+    {
+      "label": "FeatureBento.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/FeatureBento.tsx",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "featurebento.tsx",
+      "id": "app_components_sections_features_featurebento_tsx"
+    },
+    {
+      "label": "FeatureBento()",
+      "file_type": "code",
+      "source_file": "app/components/sections/features/FeatureBento.tsx",
+      "source_location": "L6",
+      "community": 24,
+      "norm_label": "featurebento()",
+      "id": "features_featurebento_featurebento"
+    },
+    {
+      "label": "MagicBento.tsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "magicbento.tsx",
+      "id": "d_projects_aitrader_landing_app_components_sections_features_magicbento_tsx"
+    },
+    {
+      "label": "BentoCardProps",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
+      "source_location": "L7",
+      "community": 24,
+      "norm_label": "bentocardprops",
+      "id": "features_magicbento_bentocardprops"
+    },
+    {
+      "label": "BentoProps",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
+      "source_location": "L19",
+      "community": 7,
+      "norm_label": "bentoprops",
+      "id": "features_magicbento_bentoprops"
+    },
+    {
+      "label": "createParticleElement()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
+      "source_location": "L39",
+      "community": 7,
+      "norm_label": "createparticleelement()",
+      "id": "features_magicbento_createparticleelement"
+    },
+    {
+      "label": "calculateSpotlightValues()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
+      "source_location": "L57",
+      "community": 7,
+      "norm_label": "calculatespotlightvalues()",
+      "id": "features_magicbento_calculatespotlightvalues"
+    },
+    {
+      "label": "updateCardGlowProperties()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
+      "source_location": "L62",
+      "community": 7,
+      "norm_label": "updatecardglowproperties()",
+      "id": "features_magicbento_updatecardglowproperties"
+    },
+    {
+      "label": "ParticleCard()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
+      "source_location": "L73",
+      "community": 7,
+      "norm_label": "particlecard()",
+      "id": "features_magicbento_particlecard"
+    },
+    {
+      "label": "GlobalSpotlight()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
+      "source_location": "L320",
+      "community": 7,
+      "norm_label": "globalspotlight()",
+      "id": "features_magicbento_globalspotlight"
+    },
+    {
+      "label": "BentoCardGrid()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
+      "source_location": "L396",
+      "community": 7,
+      "norm_label": "bentocardgrid()",
+      "id": "features_magicbento_bentocardgrid"
+    },
+    {
+      "label": "useMobileDetection()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
+      "source_location": "L406",
+      "community": 7,
+      "norm_label": "usemobiledetection()",
+      "id": "features_magicbento_usemobiledetection"
+    },
+    {
+      "label": "MagicBento()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/features/MagicBento.tsx",
+      "source_location": "L421",
+      "community": 7,
+      "norm_label": "magicbento()",
+      "id": "features_magicbento_magicbento"
+    },
+    {
+      "label": "Hero.tsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/hero/Hero.tsx",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "hero.tsx",
+      "id": "d_projects_aitrader_landing_app_components_sections_hero_hero_tsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/hero/Hero.tsx",
+      "source_location": "L6",
+      "community": 0,
+      "norm_label": "hero()",
+      "id": "hero_hero_hero"
+    },
+    {
+      "label": "HowItWorks.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "howitworks.tsx",
+      "id": "app_components_sections_how_it_works_howitworks_tsx"
+    },
+    {
+      "label": "steps",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L7",
+      "community": 8,
+      "norm_label": "steps",
+      "id": "how_it_works_howitworks_steps"
+    },
+    {
+      "label": "Mockup1()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L40",
+      "community": 8,
+      "norm_label": "mockup1()",
+      "id": "how_it_works_howitworks_mockup1"
+    },
+    {
+      "label": "Mockup2()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L98",
+      "community": 8,
+      "norm_label": "mockup2()",
+      "id": "how_it_works_howitworks_mockup2"
+    },
+    {
+      "label": "Mockup3()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L130",
+      "community": 8,
+      "norm_label": "mockup3()",
+      "id": "how_it_works_howitworks_mockup3"
+    },
+    {
+      "label": "Mockup4()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L168",
+      "community": 8,
+      "norm_label": "mockup4()",
+      "id": "how_it_works_howitworks_mockup4"
+    },
+    {
+      "label": "Mockup5()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L208",
+      "community": 8,
+      "norm_label": "mockup5()",
+      "id": "how_it_works_howitworks_mockup5"
+    },
+    {
+      "label": "HowItWorks()",
+      "file_type": "code",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L254",
+      "community": 8,
+      "norm_label": "howitworks()",
+      "id": "how_it_works_howitworks_howitworks"
+    },
+    {
+      "label": "Pricing.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/pricing/Pricing.tsx",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "pricing.tsx",
+      "id": "app_components_sections_pricing_pricing_tsx"
+    },
+    {
+      "label": "Pricing()",
+      "file_type": "code",
+      "source_file": "app/components/sections/pricing/Pricing.tsx",
+      "source_location": "L6",
+      "community": 24,
+      "norm_label": "pricing()",
+      "id": "pricing_pricing_pricing"
+    },
+    {
+      "label": "ProblemSection.tsx",
+      "file_type": "code",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "problemsection.tsx",
+      "id": "app_components_sections_problem_problemsection_tsx"
+    },
+    {
+      "label": "ScalperMockup()",
+      "file_type": "code",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L8",
+      "community": 24,
+      "norm_label": "scalpermockup()",
+      "id": "problem_problemsection_scalpermockup"
+    },
+    {
+      "label": "SwingMockup()",
+      "file_type": "code",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L62",
+      "community": 24,
+      "norm_label": "swingmockup()",
+      "id": "problem_problemsection_swingmockup"
+    },
+    {
+      "label": "QuantMockup()",
+      "file_type": "code",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L140",
+      "community": 24,
+      "norm_label": "quantmockup()",
+      "id": "problem_problemsection_quantmockup"
+    },
+    {
+      "label": "ProblemSection()",
+      "file_type": "code",
+      "source_file": "app/components/sections/problem/ProblemSection.tsx",
+      "source_location": "L174",
+      "community": 24,
+      "norm_label": "problemsection()",
+      "id": "problem_problemsection_problemsection"
+    },
+    {
+      "label": "Stats.tsx",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/stats/Stats.tsx",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "stats.tsx",
+      "id": "d_projects_aitrader_landing_app_components_sections_stats_stats_tsx"
+    },
+    {
+      "label": "useCountUp()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/stats/Stats.tsx",
+      "source_location": "L6",
+      "community": 24,
+      "norm_label": "usecountup()",
+      "id": "stats_stats_usecountup"
+    },
+    {
+      "label": "Stats()",
+      "file_type": "code",
+      "source_file": "D:/projects/aitrader-landing/app/components/sections/stats/Stats.tsx",
+      "source_location": "L41",
+      "community": 24,
+      "norm_label": "stats()",
+      "id": "stats_stats_stats"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/contact/page.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "page.tsx",
+      "id": "app_contact_page_tsx"
+    },
+    {
+      "label": "ContactPage()",
+      "file_type": "code",
+      "source_file": "app/contact/page.tsx",
+      "source_location": "L23",
+      "community": 9,
+      "norm_label": "contactpage()",
+      "id": "contact_page_contactpage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/disclaimer/page.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "page.tsx",
+      "id": "app_disclaimer_page_tsx"
+    },
+    {
+      "label": "DisclaimerPage()",
+      "file_type": "code",
+      "source_file": "app/disclaimer/page.tsx",
+      "source_location": "L18",
+      "community": 9,
+      "norm_label": "disclaimerpage()",
+      "id": "disclaimer_page_disclaimerpage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/docs/page.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "page.tsx",
+      "id": "app_docs_page_tsx"
+    },
+    {
+      "label": "DocsPage()",
+      "file_type": "code",
+      "source_file": "app/docs/page.tsx",
+      "source_location": "L22",
+      "community": 9,
+      "norm_label": "docspage()",
+      "id": "docs_page_docspage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "page.tsx",
+      "id": "app_download_page_tsx"
+    },
+    {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "app/privacy/page.tsx",
       "source_location": "L1",
-      "id": "app_privacy_page_tsx",
       "community": 9,
-      "norm_label": "page.tsx"
+      "norm_label": "page.tsx",
+      "id": "app_privacy_page_tsx"
     },
     {
       "label": "PrivacyPolicyPage()",
       "file_type": "code",
       "source_file": "app/privacy/page.tsx",
       "source_location": "L18",
-      "id": "privacy_page_privacypolicypage",
       "community": 9,
-      "norm_label": "privacypolicypage()"
+      "norm_label": "privacypolicypage()",
+      "id": "privacy_page_privacypolicypage"
     },
     {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "app/refund/page.tsx",
       "source_location": "L1",
-      "id": "app_refund_page_tsx",
       "community": 9,
-      "norm_label": "page.tsx"
+      "norm_label": "page.tsx",
+      "id": "app_refund_page_tsx"
     },
     {
       "label": "RefundPolicyPage()",
       "file_type": "code",
       "source_file": "app/refund/page.tsx",
       "source_location": "L18",
-      "id": "refund_page_refundpolicypage",
       "community": 9,
-      "norm_label": "refundpolicypage()"
+      "norm_label": "refundpolicypage()",
+      "id": "refund_page_refundpolicypage"
     },
     {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "app/status/page.tsx",
       "source_location": "L1",
-      "id": "app_status_page_tsx",
       "community": 9,
-      "norm_label": "page.tsx"
+      "norm_label": "page.tsx",
+      "id": "app_status_page_tsx"
     },
     {
       "label": "StatusPage()",
       "file_type": "code",
       "source_file": "app/status/page.tsx",
       "source_location": "L21",
-      "id": "status_page_statuspage",
       "community": 9,
-      "norm_label": "statuspage()"
+      "norm_label": "statuspage()",
+      "id": "status_page_statuspage"
     },
     {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "app/terms/page.tsx",
       "source_location": "L1",
-      "id": "app_terms_page_tsx",
       "community": 9,
-      "norm_label": "page.tsx"
+      "norm_label": "page.tsx",
+      "id": "app_terms_page_tsx"
     },
     {
       "label": "TermsOfServicePage()",
       "file_type": "code",
       "source_file": "app/terms/page.tsx",
       "source_location": "L19",
-      "id": "terms_page_termsofservicepage",
       "community": 9,
-      "norm_label": "termsofservicepage()"
+      "norm_label": "termsofservicepage()",
+      "id": "terms_page_termsofservicepage"
     },
     {
       "label": "text-hover-effect-demo.tsx",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/text-hover-effect-demo.tsx",
       "source_location": "L1",
-      "id": "d_projects_aitrader_landing_components_text_hover_effect_demo_tsx",
       "community": 9,
-      "norm_label": "text-hover-effect-demo.tsx"
+      "norm_label": "text-hover-effect-demo.tsx",
+      "id": "d_projects_aitrader_landing_components_text_hover_effect_demo_tsx"
     },
     {
       "label": "TextHoverEffectDemo()",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/text-hover-effect-demo.tsx",
       "source_location": "L4",
-      "id": "components_text_hover_effect_demo_texthovereffectdemo",
       "community": 9,
-      "norm_label": "texthovereffectdemo()"
+      "norm_label": "texthovereffectdemo()",
+      "id": "components_text_hover_effect_demo_texthovereffectdemo"
     },
     {
       "label": "hero-section-nexus.tsx",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L1",
-      "id": "components_ui_hero_section_nexus_tsx",
       "community": 20,
-      "norm_label": "hero-section-nexus.tsx"
+      "norm_label": "hero-section-nexus.tsx",
+      "id": "components_ui_hero_section_nexus_tsx"
     },
     {
       "label": "cn()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L29",
-      "id": "ui_hero_section_nexus_cn",
       "community": 20,
-      "norm_label": "cn()"
+      "norm_label": "cn()",
+      "id": "ui_hero_section_nexus_cn"
     },
     {
       "label": "ChevronDownIcon()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L36",
-      "id": "ui_hero_section_nexus_chevrondownicon",
       "community": 20,
-      "norm_label": "chevrondownicon()"
+      "norm_label": "chevrondownicon()",
+      "id": "ui_hero_section_nexus_chevrondownicon"
     },
     {
       "label": "MenuIcon()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L42",
-      "id": "ui_hero_section_nexus_menuicon",
       "community": 20,
-      "norm_label": "menuicon()"
+      "norm_label": "menuicon()",
+      "id": "ui_hero_section_nexus_menuicon"
     },
     {
       "label": "CloseIcon()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L48",
-      "id": "ui_hero_section_nexus_closeicon",
       "community": 20,
-      "norm_label": "closeicon()"
+      "norm_label": "closeicon()",
+      "id": "ui_hero_section_nexus_closeicon"
     },
     {
       "label": "ExternalLinkIcon()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L54",
-      "id": "ui_hero_section_nexus_externallinkicon",
       "community": 20,
-      "norm_label": "externallinkicon()"
+      "norm_label": "externallinkicon()",
+      "id": "ui_hero_section_nexus_externallinkicon"
     },
     {
       "label": "NiftyLogo()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L60",
-      "id": "ui_hero_section_nexus_niftylogo",
       "community": 20,
-      "norm_label": "niftylogo()"
+      "norm_label": "niftylogo()",
+      "id": "ui_hero_section_nexus_niftylogo"
     },
     {
       "label": "RelianceLogo()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L68",
-      "id": "ui_hero_section_nexus_reliancelogo",
       "community": 20,
-      "norm_label": "reliancelogo()"
+      "norm_label": "reliancelogo()",
+      "id": "ui_hero_section_nexus_reliancelogo"
     },
     {
       "label": "HdfcLogo()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L75",
-      "id": "ui_hero_section_nexus_hdfclogo",
       "community": 20,
-      "norm_label": "hdfclogo()"
+      "norm_label": "hdfclogo()",
+      "id": "ui_hero_section_nexus_hdfclogo"
     },
     {
       "label": "TcsLogo()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L87",
-      "id": "ui_hero_section_nexus_tcslogo",
       "community": 20,
-      "norm_label": "tcslogo()"
+      "norm_label": "tcslogo()",
+      "id": "ui_hero_section_nexus_tcslogo"
     },
     {
       "label": "NavLinkProps",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L95",
-      "id": "ui_hero_section_nexus_navlinkprops",
       "community": 20,
-      "norm_label": "navlinkprops"
+      "norm_label": "navlinkprops",
+      "id": "ui_hero_section_nexus_navlinkprops"
     },
     {
       "label": "NavLink()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L103",
-      "id": "ui_hero_section_nexus_navlink",
       "community": 20,
-      "norm_label": "navlink()"
+      "norm_label": "navlink()",
+      "id": "ui_hero_section_nexus_navlink"
     },
     {
       "label": "DropdownMenuProps",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L123",
-      "id": "ui_hero_section_nexus_dropdownmenuprops",
       "community": 20,
-      "norm_label": "dropdownmenuprops"
+      "norm_label": "dropdownmenuprops",
+      "id": "ui_hero_section_nexus_dropdownmenuprops"
     },
     {
       "label": "DropdownMenu()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L128",
-      "id": "ui_hero_section_nexus_dropdownmenu",
       "community": 20,
-      "norm_label": "dropdownmenu()"
+      "norm_label": "dropdownmenu()",
+      "id": "ui_hero_section_nexus_dropdownmenu"
     },
     {
       "label": "DropdownItemProps",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L146",
-      "id": "ui_hero_section_nexus_dropdownitemprops",
       "community": 20,
-      "norm_label": "dropdownitemprops"
+      "norm_label": "dropdownitemprops",
+      "id": "ui_hero_section_nexus_dropdownitemprops"
     },
     {
       "label": "DropdownItem()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L152",
-      "id": "ui_hero_section_nexus_dropdownitem",
       "community": 20,
-      "norm_label": "dropdownitem()"
+      "norm_label": "dropdownitem()",
+      "id": "ui_hero_section_nexus_dropdownitem"
     },
     {
       "label": "Dot",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L162",
-      "id": "ui_hero_section_nexus_dot",
       "community": 20,
-      "norm_label": "dot"
+      "norm_label": "dot",
+      "id": "ui_hero_section_nexus_dot"
     },
     {
       "label": "InteractiveHeroProps",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L173",
-      "id": "ui_hero_section_nexus_interactiveheroprops",
       "community": 20,
-      "norm_label": "interactiveheroprops"
+      "norm_label": "interactiveheroprops",
+      "id": "ui_hero_section_nexus_interactiveheroprops"
     },
     {
       "label": "InteractiveHero()",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
       "source_location": "L177",
-      "id": "ui_hero_section_nexus_interactivehero",
       "community": 20,
-      "norm_label": "interactivehero()"
+      "norm_label": "interactivehero()",
+      "id": "ui_hero_section_nexus_interactivehero"
     },
     {
       "label": "RotatingText.tsx",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/ui/RotatingText.tsx",
       "source_location": "L1",
-      "id": "d_projects_aitrader_landing_components_ui_rotatingtext_tsx",
       "community": 20,
-      "norm_label": "rotatingtext.tsx"
+      "norm_label": "rotatingtext.tsx",
+      "id": "d_projects_aitrader_landing_components_ui_rotatingtext_tsx"
     },
     {
       "label": "cn()",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/ui/RotatingText.tsx",
       "source_location": "L20",
-      "id": "ui_rotatingtext_cn",
       "community": 20,
-      "norm_label": "cn()"
+      "norm_label": "cn()",
+      "id": "ui_rotatingtext_cn"
     },
     {
       "label": "RotatingTextRef",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/ui/RotatingText.tsx",
       "source_location": "L24",
-      "id": "ui_rotatingtext_rotatingtextref",
       "community": 20,
-      "norm_label": "rotatingtextref"
+      "norm_label": "rotatingtextref",
+      "id": "ui_rotatingtext_rotatingtextref"
     },
     {
       "label": "RotatingTextProps",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/ui/RotatingText.tsx",
       "source_location": "L31",
-      "id": "ui_rotatingtext_rotatingtextprops",
       "community": 20,
-      "norm_label": "rotatingtextprops"
+      "norm_label": "rotatingtextprops",
+      "id": "ui_rotatingtext_rotatingtextprops"
     },
     {
       "label": "RotatingText",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/ui/RotatingText.tsx",
       "source_location": "L55",
-      "id": "ui_rotatingtext_rotatingtext",
       "community": 20,
-      "norm_label": "rotatingtext"
+      "norm_label": "rotatingtext",
+      "id": "ui_rotatingtext_rotatingtext"
     },
     {
       "label": "ShinyText.tsx",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/ui/ShinyText.tsx",
       "source_location": "L1",
-      "id": "d_projects_aitrader_landing_components_ui_shinytext_tsx",
       "community": 9,
-      "norm_label": "shinytext.tsx"
+      "norm_label": "shinytext.tsx",
+      "id": "d_projects_aitrader_landing_components_ui_shinytext_tsx"
     },
     {
       "label": "cn()",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/ui/ShinyText.tsx",
       "source_location": "L5",
-      "id": "ui_shinytext_cn",
       "community": 9,
-      "norm_label": "cn()"
+      "norm_label": "cn()",
+      "id": "ui_shinytext_cn"
     },
     {
       "label": "ShinyTextProps",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/ui/ShinyText.tsx",
       "source_location": "L9",
-      "id": "ui_shinytext_shinytextprops",
       "community": 9,
-      "norm_label": "shinytextprops"
+      "norm_label": "shinytextprops",
+      "id": "ui_shinytext_shinytextprops"
     },
     {
       "label": "ShinyText()",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/ui/ShinyText.tsx",
       "source_location": "L14",
-      "id": "ui_shinytext_shinytext",
       "community": 9,
-      "norm_label": "shinytext()"
+      "norm_label": "shinytext()",
+      "id": "ui_shinytext_shinytext"
     },
     {
       "label": "text-hover-effect.tsx",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/ui/text-hover-effect.tsx",
       "source_location": "L1",
-      "id": "d_projects_aitrader_landing_components_ui_text_hover_effect_tsx",
       "community": 9,
-      "norm_label": "text-hover-effect.tsx"
+      "norm_label": "text-hover-effect.tsx",
+      "id": "d_projects_aitrader_landing_components_ui_text_hover_effect_tsx"
     },
     {
       "label": "TextHoverEffect()",
       "file_type": "code",
       "source_file": "D:/projects/aitrader-landing/components/ui/text-hover-effect.tsx",
       "source_location": "L5",
-      "id": "ui_text_hover_effect_texthovereffect",
       "community": 9,
-      "norm_label": "texthovereffect()"
+      "norm_label": "texthovereffect()",
+      "id": "ui_text_hover_effect_texthovereffect"
     },
     {
       "label": "AGENTS.md",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/AGENTS.md",
       "source_location": "L1",
-      "id": "d_projects_aitrader_landing_agents_md",
       "community": 12,
-      "norm_label": "agents.md"
+      "norm_label": "agents.md",
+      "id": "d_projects_aitrader_landing_agents_md"
     },
     {
       "label": "This is NOT the Next.js you know",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/AGENTS.md",
       "source_location": "L2",
-      "id": "aitrader_landing_agents_this_is_not_the_next_js_you_know",
       "community": 12,
-      "norm_label": "this is not the next.js you know"
+      "norm_label": "this is not the next.js you know",
+      "id": "aitrader_landing_agents_this_is_not_the_next_js_you_know"
     },
     {
       "label": "AGENT_CONTEXT.md",
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L1",
-      "id": "agent_context_md",
       "community": 30,
-      "norm_label": "agent_context.md"
+      "norm_label": "agent_context.md",
+      "id": "agent_context_md"
     },
     {
       "label": "Strat Ai: The Intelligent Trading Terminal",
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L1",
-      "id": "strat_agent_context_strat_ai_the_intelligent_trading_terminal",
       "community": 30,
-      "norm_label": "strat ai: the intelligent trading terminal"
+      "norm_label": "strat ai: the intelligent trading terminal",
+      "id": "strat_agent_context_strat_ai_the_intelligent_trading_terminal"
     },
     {
       "label": "The Philosophy: The Information War",
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L8",
-      "id": "strat_agent_context_the_philosophy_the_information_war",
       "community": 30,
-      "norm_label": "the philosophy: the information war"
+      "norm_label": "the philosophy: the information war",
+      "id": "strat_agent_context_the_philosophy_the_information_war"
     },
     {
       "label": "The Anatomy of Intelligence: What Strat Ai Delivers",
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L22",
-      "id": "strat_agent_context_the_anatomy_of_intelligence_what_strat_ai_delivers",
       "community": 30,
-      "norm_label": "the anatomy of intelligence: what strat ai delivers"
+      "norm_label": "the anatomy of intelligence: what strat ai delivers",
+      "id": "strat_agent_context_the_anatomy_of_intelligence_what_strat_ai_delivers"
     },
     {
       "label": "1. The Multi-Dimensional Options (F&O) Decoder",
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L26",
-      "id": "strat_agent_context_1_the_multi_dimensional_options_f_o_decoder",
       "community": 30,
-      "norm_label": "1. the multi-dimensional options (f&o) decoder"
+      "norm_label": "1. the multi-dimensional options (f&o) decoder",
+      "id": "strat_agent_context_1_the_multi_dimensional_options_f_o_decoder"
     },
     {
       "label": "2. The 360-Degree Trade Validator",
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L31",
-      "id": "strat_agent_context_2_the_360_degree_trade_validator",
       "community": 30,
-      "norm_label": "2. the 360-degree trade validator"
+      "norm_label": "2. the 360-degree trade validator",
+      "id": "strat_agent_context_2_the_360_degree_trade_validator"
     },
     {
       "label": "3. Market Surveillance and Anomaly Translation",
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L36",
-      "id": "strat_agent_context_3_market_surveillance_and_anomaly_translation",
       "community": 30,
-      "norm_label": "3. market surveillance and anomaly translation"
+      "norm_label": "3. market surveillance and anomaly translation",
+      "id": "strat_agent_context_3_market_surveillance_and_anomaly_translation"
     },
     {
       "label": "4. The Global Macro Narrative Engine",
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L41",
-      "id": "strat_agent_context_4_the_global_macro_narrative_engine",
       "community": 30,
-      "norm_label": "4. the global macro narrative engine"
+      "norm_label": "4. the global macro narrative engine",
+      "id": "strat_agent_context_4_the_global_macro_narrative_engine"
     },
     {
       "label": "5. Adaptive Market Mindsets: From NSE to Crypto",
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L45",
-      "id": "strat_agent_context_5_adaptive_market_mindsets_from_nse_to_crypto",
       "community": 30,
-      "norm_label": "5. adaptive market mindsets: from nse to crypto"
+      "norm_label": "5. adaptive market mindsets: from nse to crypto",
+      "id": "strat_agent_context_5_adaptive_market_mindsets_from_nse_to_crypto"
     },
     {
       "label": "The Ultimate Outcome: Unshakeable Psychological Control",
       "file_type": "document",
       "source_file": "AGENT_CONTEXT.md",
       "source_location": "L51",
-      "id": "strat_agent_context_the_ultimate_outcome_unshakeable_psychological_control",
       "community": 30,
-      "norm_label": "the ultimate outcome: unshakeable psychological control"
+      "norm_label": "the ultimate outcome: unshakeable psychological control",
+      "id": "strat_agent_context_the_ultimate_outcome_unshakeable_psychological_control"
     },
     {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CLAUDE.md",
       "source_location": "L1",
-      "id": "d_projects_aitrader_landing_claude_md",
       "community": 38,
-      "norm_label": "claude.md"
+      "norm_label": "claude.md",
+      "id": "d_projects_aitrader_landing_claude_md"
     },
     {
       "label": "CODE_OF_CONDUCT.md",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CODE_OF_CONDUCT.md",
       "source_location": "L1",
-      "id": "d_projects_aitrader_landing_code_of_conduct_md",
       "community": 28,
-      "norm_label": "code_of_conduct.md"
+      "norm_label": "code_of_conduct.md",
+      "id": "d_projects_aitrader_landing_code_of_conduct_md"
     },
     {
       "label": "Contributor Covenant Code of Conduct",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CODE_OF_CONDUCT.md",
       "source_location": "L1",
-      "id": "aitrader_landing_code_of_conduct_contributor_covenant_code_of_conduct",
       "community": 28,
-      "norm_label": "contributor covenant code of conduct"
+      "norm_label": "contributor covenant code of conduct",
+      "id": "aitrader_landing_code_of_conduct_contributor_covenant_code_of_conduct"
     },
     {
       "label": "Our Pledge",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CODE_OF_CONDUCT.md",
       "source_location": "L3",
-      "id": "aitrader_landing_code_of_conduct_our_pledge",
       "community": 28,
-      "norm_label": "our pledge"
+      "norm_label": "our pledge",
+      "id": "aitrader_landing_code_of_conduct_our_pledge"
     },
     {
       "label": "Confidentiality & IP Safeguards",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CODE_OF_CONDUCT.md",
       "source_location": "L8",
-      "id": "aitrader_landing_code_of_conduct_confidentiality_ip_safeguards",
       "community": 28,
-      "norm_label": "confidentiality & ip safeguards"
+      "norm_label": "confidentiality & ip safeguards",
+      "id": "aitrader_landing_code_of_conduct_confidentiality_ip_safeguards"
     },
     {
       "label": "Our Standards",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CODE_OF_CONDUCT.md",
       "source_location": "L14",
-      "id": "aitrader_landing_code_of_conduct_our_standards",
       "community": 28,
-      "norm_label": "our standards"
+      "norm_label": "our standards",
+      "id": "aitrader_landing_code_of_conduct_our_standards"
     },
     {
       "label": "Enforcement Responsibilities",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CODE_OF_CONDUCT.md",
       "source_location": "L32",
-      "id": "aitrader_landing_code_of_conduct_enforcement_responsibilities",
       "community": 28,
-      "norm_label": "enforcement responsibilities"
+      "norm_label": "enforcement responsibilities",
+      "id": "aitrader_landing_code_of_conduct_enforcement_responsibilities"
     },
     {
       "label": "Scope",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CODE_OF_CONDUCT.md",
       "source_location": "L37",
-      "id": "aitrader_landing_code_of_conduct_scope",
       "community": 28,
-      "norm_label": "scope"
+      "norm_label": "scope",
+      "id": "aitrader_landing_code_of_conduct_scope"
     },
     {
       "label": "Enforcement",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CODE_OF_CONDUCT.md",
       "source_location": "L40",
-      "id": "aitrader_landing_code_of_conduct_enforcement",
       "community": 28,
-      "norm_label": "enforcement"
+      "norm_label": "enforcement",
+      "id": "aitrader_landing_code_of_conduct_enforcement"
     },
     {
       "label": "CONTRIBUTING.md",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L1",
-      "id": "d_projects_aitrader_landing_contributing_md",
       "community": 26,
-      "norm_label": "contributing.md"
+      "norm_label": "contributing.md",
+      "id": "d_projects_aitrader_landing_contributing_md"
     },
     {
       "label": "Contributing to Strat",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L1",
-      "id": "aitrader_landing_contributing_contributing_to_strat",
       "community": 26,
-      "norm_label": "contributing to strat"
+      "norm_label": "contributing to strat",
+      "id": "aitrader_landing_contributing_contributing_to_strat"
     },
     {
       "label": "1. Codebase Architecture",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L7",
-      "id": "aitrader_landing_contributing_1_codebase_architecture",
       "community": 26,
-      "norm_label": "1. codebase architecture"
+      "norm_label": "1. codebase architecture",
+      "id": "aitrader_landing_contributing_1_codebase_architecture"
     },
     {
       "label": "2. Development Workflow",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L22",
-      "id": "aitrader_landing_contributing_2_development_workflow",
       "community": 26,
-      "norm_label": "2. development workflow"
+      "norm_label": "2. development workflow",
+      "id": "aitrader_landing_contributing_2_development_workflow"
     },
     {
       "label": "Step 1: Clone and Infrastructure",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L24",
-      "id": "aitrader_landing_contributing_step_1_clone_and_infrastructure",
       "community": 26,
-      "norm_label": "step 1: clone and infrastructure"
+      "norm_label": "step 1: clone and infrastructure",
+      "id": "aitrader_landing_contributing_step_1_clone_and_infrastructure"
     },
     {
       "label": "code:bash (docker-compose up -d)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L26",
-      "id": "aitrader_landing_contributing_codeblock_1",
       "community": 26,
-      "norm_label": "code:bash (docker-compose up -d)"
+      "norm_label": "code:bash (docker-compose up -d)",
+      "id": "aitrader_landing_contributing_codeblock_1"
     },
     {
       "label": "Step 2: Running in Test Mode",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L31",
-      "id": "aitrader_landing_contributing_step_2_running_in_test_mode",
       "community": 26,
-      "norm_label": "step 2: running in test mode"
+      "norm_label": "step 2: running in test mode",
+      "id": "aitrader_landing_contributing_step_2_running_in_test_mode"
     },
     {
       "label": "code:bash (ALPHA_TEST_MODE=true)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L33",
-      "id": "aitrader_landing_contributing_codeblock_2",
       "community": 26,
-      "norm_label": "code:bash (alpha_test_mode=true)"
+      "norm_label": "code:bash (alpha_test_mode=true)",
+      "id": "aitrader_landing_contributing_codeblock_2"
     },
     {
       "label": "Step 3: Run Order",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L38",
-      "id": "aitrader_landing_contributing_step_3_run_order",
       "community": 26,
-      "norm_label": "step 3: run order"
+      "norm_label": "step 3: run order",
+      "id": "aitrader_landing_contributing_step_3_run_order"
     },
     {
       "label": "3. Git Rules & Branching",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L48",
-      "id": "aitrader_landing_contributing_3_git_rules_branching",
       "community": 26,
-      "norm_label": "3. git rules & branching"
+      "norm_label": "3. git rules & branching",
+      "id": "aitrader_landing_contributing_3_git_rules_branching"
     },
     {
       "label": "4. Code Quality & Standards",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L65",
-      "id": "aitrader_landing_contributing_4_code_quality_standards",
       "community": 26,
-      "norm_label": "4. code quality & standards"
+      "norm_label": "4. code quality & standards",
+      "id": "aitrader_landing_contributing_4_code_quality_standards"
     },
     {
       "label": "Secrets and API Keys",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L67",
-      "id": "aitrader_landing_contributing_secrets_and_api_keys",
       "community": 26,
-      "norm_label": "secrets and api keys"
+      "norm_label": "secrets and api keys",
+      "id": "aitrader_landing_contributing_secrets_and_api_keys"
     },
     {
       "label": "Rust Style",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L72",
-      "id": "aitrader_landing_contributing_rust_style",
       "community": 26,
-      "norm_label": "rust style"
+      "norm_label": "rust style",
+      "id": "aitrader_landing_contributing_rust_style"
     },
     {
       "label": "TypeScript / Next.js / CSS Style",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L77",
-      "id": "aitrader_landing_contributing_typescript_next_js_css_style",
       "community": 26,
-      "norm_label": "typescript / next.js / css style"
+      "norm_label": "typescript / next.js / css style",
+      "id": "aitrader_landing_contributing_typescript_next_js_css_style"
     },
     {
       "label": "5. Reporting Issues & Feedback",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/CONTRIBUTING.md",
       "source_location": "L86",
-      "id": "aitrader_landing_contributing_5_reporting_issues_feedback",
       "community": 26,
-      "norm_label": "5. reporting issues & feedback"
+      "norm_label": "5. reporting issues & feedback",
+      "id": "aitrader_landing_contributing_5_reporting_issues_feedback"
     },
     {
       "label": "README.md",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L1",
-      "id": "d_projects_aitrader_landing_readme_md",
       "community": 11,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "d_projects_aitrader_landing_readme_md"
     },
     {
       "label": "Strat",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L1",
-      "id": "aitrader_landing_readme_strat",
       "community": 11,
-      "norm_label": "strat"
+      "norm_label": "strat",
+      "id": "aitrader_landing_readme_strat"
     },
     {
       "label": "1. Executive Summary",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L23",
-      "id": "aitrader_landing_readme_1_executive_summary",
       "community": 11,
-      "norm_label": "1. executive summary"
+      "norm_label": "1. executive summary",
+      "id": "aitrader_landing_readme_1_executive_summary"
     },
     {
       "label": "Key Highlights:",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L27",
-      "id": "aitrader_landing_readme_key_highlights",
       "community": 11,
-      "norm_label": "key highlights:"
+      "norm_label": "key highlights:",
+      "id": "aitrader_landing_readme_key_highlights"
     },
     {
       "label": "2. Platform Architecture & Services",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L35",
-      "id": "aitrader_landing_readme_2_platform_architecture_services",
       "community": 11,
-      "norm_label": "2. platform architecture & services"
+      "norm_label": "2. platform architecture & services",
+      "id": "aitrader_landing_readme_2_platform_architecture_services"
     },
     {
       "label": "code:mermaid (graph TD)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L39",
-      "id": "aitrader_landing_readme_codeblock_1",
       "community": 11,
-      "norm_label": "code:mermaid (graph td)"
+      "norm_label": "code:mermaid (graph td)",
+      "id": "aitrader_landing_readme_codeblock_1"
     },
     {
       "label": "Monorepo Components Directory Map:",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L61",
-      "id": "aitrader_landing_readme_monorepo_components_directory_map",
       "community": 11,
-      "norm_label": "monorepo components directory map:"
+      "norm_label": "monorepo components directory map:",
+      "id": "aitrader_landing_readme_monorepo_components_directory_map"
     },
     {
       "label": "3. Technology Stack & Ports",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L75",
-      "id": "aitrader_landing_readme_3_technology_stack_ports",
       "community": 11,
-      "norm_label": "3. technology stack & ports"
+      "norm_label": "3. technology stack & ports",
+      "id": "aitrader_landing_readme_3_technology_stack_ports"
     },
     {
       "label": "4. Local Quick Start",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L90",
-      "id": "aitrader_landing_readme_4_local_quick_start",
       "community": 11,
-      "norm_label": "4. local quick start"
+      "norm_label": "4. local quick start",
+      "id": "aitrader_landing_readme_4_local_quick_start"
     },
     {
       "label": "Prerequisites",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L92",
-      "id": "aitrader_landing_readme_prerequisites",
       "community": 11,
-      "norm_label": "prerequisites"
+      "norm_label": "prerequisites",
+      "id": "aitrader_landing_readme_prerequisites"
     },
     {
       "label": "Step 1: Clone the repository",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L98",
-      "id": "aitrader_landing_readme_step_1_clone_the_repository",
       "community": 11,
-      "norm_label": "step 1: clone the repository"
+      "norm_label": "step 1: clone the repository",
+      "id": "aitrader_landing_readme_step_1_clone_the_repository"
     },
     {
       "label": "code:bash (git clone https://github.com/yash-rana0101/strat.git)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L100",
-      "id": "aitrader_landing_readme_codeblock_2",
       "community": 11,
-      "norm_label": "code:bash (git clone https://github.com/yash-rana0101/strat.git)"
+      "norm_label": "code:bash (git clone https://github.com/yash-rana0101/strat.git)",
+      "id": "aitrader_landing_readme_codeblock_2"
     },
     {
       "label": "Step 2: Initialize Infrastructure Services",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L105",
-      "id": "aitrader_landing_readme_step_2_initialize_infrastructure_services",
       "community": 11,
-      "norm_label": "step 2: initialize infrastructure services"
+      "norm_label": "step 2: initialize infrastructure services",
+      "id": "aitrader_landing_readme_step_2_initialize_infrastructure_services"
     },
     {
       "label": "code:bash (docker-compose up -d)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L107",
-      "id": "aitrader_landing_readme_codeblock_3",
       "community": 11,
-      "norm_label": "code:bash (docker-compose up -d)"
+      "norm_label": "code:bash (docker-compose up -d)",
+      "id": "aitrader_landing_readme_codeblock_3"
     },
     {
       "label": "Step 3: Run in Local Simulation Mode",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L114",
-      "id": "aitrader_landing_readme_step_3_run_in_local_simulation_mode",
       "community": 11,
-      "norm_label": "step 3: run in local simulation mode"
+      "norm_label": "step 3: run in local simulation mode",
+      "id": "aitrader_landing_readme_step_3_run_in_local_simulation_mode"
     },
     {
       "label": "code:bash (# Set environment flag to bypass live connections)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L116",
-      "id": "aitrader_landing_readme_codeblock_4",
       "community": 11,
-      "norm_label": "code:bash (# set environment flag to bypass live connections)"
+      "norm_label": "code:bash (# set environment flag to bypass live connections)",
+      "id": "aitrader_landing_readme_codeblock_4"
     },
     {
       "label": "code:bash (cargo run --bin load_tester)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L124",
-      "id": "aitrader_landing_readme_codeblock_5",
       "community": 11,
-      "norm_label": "code:bash (cargo run --bin load_tester)"
+      "norm_label": "code:bash (cargo run --bin load_tester)",
+      "id": "aitrader_landing_readme_codeblock_5"
     },
     {
       "label": "Step 4: Boot Backend Services",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L128",
-      "id": "aitrader_landing_readme_step_4_boot_backend_services",
       "community": 11,
-      "norm_label": "step 4: boot backend services"
+      "norm_label": "step 4: boot backend services",
+      "id": "aitrader_landing_readme_step_4_boot_backend_services"
     },
     {
       "label": "code:bash (# Ingestion Client)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L130",
-      "id": "aitrader_landing_readme_codeblock_6",
       "community": 11,
-      "norm_label": "code:bash (# ingestion client)"
+      "norm_label": "code:bash (# ingestion client)",
+      "id": "aitrader_landing_readme_codeblock_6"
     },
     {
       "label": "Step 5: Start Desktop Application",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L144",
-      "id": "aitrader_landing_readme_step_5_start_desktop_application",
       "community": 11,
-      "norm_label": "step 5: start desktop application"
+      "norm_label": "step 5: start desktop application",
+      "id": "aitrader_landing_readme_step_5_start_desktop_application"
     },
     {
       "label": "code:bash (cd frontend)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L145",
-      "id": "aitrader_landing_readme_codeblock_7",
       "community": 11,
-      "norm_label": "code:bash (cd frontend)"
+      "norm_label": "code:bash (cd frontend)",
+      "id": "aitrader_landing_readme_codeblock_7"
     },
     {
       "label": "5. UI Design Guidelines & Visual Tokens",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L153",
-      "id": "aitrader_landing_readme_5_ui_design_guidelines_visual_tokens",
       "community": 11,
-      "norm_label": "5. ui design guidelines & visual tokens"
+      "norm_label": "5. ui design guidelines & visual tokens",
+      "id": "aitrader_landing_readme_5_ui_design_guidelines_visual_tokens"
     },
     {
       "label": "6. Private Codebase Guidelines & Security",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/README.md",
       "source_location": "L167",
-      "id": "aitrader_landing_readme_6_private_codebase_guidelines_security",
       "community": 11,
-      "norm_label": "6. private codebase guidelines & security"
+      "norm_label": "6. private codebase guidelines & security",
+      "id": "aitrader_landing_readme_6_private_codebase_guidelines_security"
     },
     {
       "label": "SECURITY.md",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/SECURITY.md",
       "source_location": "L1",
-      "id": "d_projects_aitrader_landing_security_md",
       "community": 27,
-      "norm_label": "security.md"
+      "norm_label": "security.md",
+      "id": "d_projects_aitrader_landing_security_md"
     },
     {
       "label": "Security Policy (Strictly Private)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/SECURITY.md",
       "source_location": "L1",
-      "id": "aitrader_landing_security_security_policy_strictly_private",
       "community": 27,
-      "norm_label": "security policy (strictly private)"
+      "norm_label": "security policy (strictly private)",
+      "id": "aitrader_landing_security_security_policy_strictly_private"
     },
     {
       "label": "1. Vulnerability Reporting",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/SECURITY.md",
       "source_location": "L7",
-      "id": "aitrader_landing_security_1_vulnerability_reporting",
       "community": 27,
-      "norm_label": "1. vulnerability reporting"
+      "norm_label": "1. vulnerability reporting",
+      "id": "aitrader_landing_security_1_vulnerability_reporting"
     },
     {
       "label": "2. Core Security Guarantees & Constraints",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/SECURITY.md",
       "source_location": "L22",
-      "id": "aitrader_landing_security_2_core_security_guarantees_constraints",
       "community": 27,
-      "norm_label": "2. core security guarantees & constraints"
+      "norm_label": "2. core security guarantees & constraints",
+      "id": "aitrader_landing_security_2_core_security_guarantees_constraints"
     },
     {
       "label": "2.1 API Credentials Security (Tauri Stronghold Vault)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/SECURITY.md",
       "source_location": "L24",
-      "id": "aitrader_landing_security_2_1_api_credentials_security_tauri_stronghold_vault",
       "community": 27,
-      "norm_label": "2.1 api credentials security (tauri stronghold vault)"
+      "norm_label": "2.1 api credentials security (tauri stronghold vault)",
+      "id": "aitrader_landing_security_2_1_api_credentials_security_tauri_stronghold_vault"
     },
     {
       "label": "2.2 Docker & DB Infrastructure",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/SECURITY.md",
       "source_location": "L30",
-      "id": "aitrader_landing_security_2_2_docker_db_infrastructure",
       "community": 27,
-      "norm_label": "2.2 docker & db infrastructure"
+      "norm_label": "2.2 docker & db infrastructure",
+      "id": "aitrader_landing_security_2_2_docker_db_infrastructure"
     },
     {
       "label": "2.3 IPC Serializations (Bincode vs JSON)",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/SECURITY.md",
       "source_location": "L35",
-      "id": "aitrader_landing_security_2_3_ipc_serializations_bincode_vs_json",
       "community": 27,
-      "norm_label": "2.3 ipc serializations (bincode vs json)"
+      "norm_label": "2.3 ipc serializations (bincode vs json)",
+      "id": "aitrader_landing_security_2_3_ipc_serializations_bincode_vs_json"
     },
     {
       "label": "3. Threat Model",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/SECURITY.md",
       "source_location": "L42",
-      "id": "aitrader_landing_security_3_threat_model",
       "community": 27,
-      "norm_label": "3. threat model"
+      "norm_label": "3. threat model",
+      "id": "aitrader_landing_security_3_threat_model"
     },
     {
       "label": "4. Best Practices for Developers",
       "file_type": "document",
       "source_file": "D:/projects/aitrader-landing/SECURITY.md",
       "source_location": "L51",
-      "id": "aitrader_landing_security_4_best_practices_for_developers",
       "community": 27,
-      "norm_label": "4. best practices for developers"
+      "norm_label": "4. best practices for developers",
+      "id": "aitrader_landing_security_4_best_practices_for_developers"
     },
     {
       "label": "page.tsx",
@@ -2513,15 +2540,6 @@
       "community": 9,
       "norm_label": "page.tsx",
       "id": "changelog_page_tsx"
-    },
-    {
-      "label": "Navbar.tsx",
-      "file_type": "code",
-      "source_file": "components/layout/Navbar.tsx",
-      "source_location": "L1",
-      "community": 9,
-      "norm_label": "navbar.tsx",
-      "id": "components_layout_navbar_tsx"
     },
     {
       "label": "StaggeredMenu.tsx",
@@ -2605,15 +2623,6 @@
       "id": "staggeredmenu_tsx"
     },
     {
-      "label": "Footer.tsx",
-      "file_type": "code",
-      "source_file": "components/layout/Footer.tsx",
-      "source_location": "L1",
-      "community": 9,
-      "norm_label": "footer.tsx",
-      "id": "components_layout_footer_tsx"
-    },
-    {
       "label": "FeatureBento.tsx",
       "file_type": "code",
       "source_file": "components/sections/features/FeatureBento.tsx",
@@ -2627,7 +2636,7 @@
       "file_type": "code",
       "source_file": "components/sections/how-it-works/HowItWorks.tsx",
       "source_location": "L1",
-      "community": 24,
+      "community": 8,
       "norm_label": "howitworks.tsx",
       "id": "components_sections_how_it_works_howitworks_tsx"
     },
@@ -3356,7 +3365,7 @@
       "file_type": "code",
       "source_file": "app/page.tsx",
       "source_location": "L1",
-      "community": 24,
+      "community": 0,
       "norm_label": "page.tsx",
       "id": "app_page_tsx"
     },
@@ -3698,7 +3707,7 @@
       "file_type": "code",
       "source_file": "app/components/sections/hero/Hero.tsx",
       "source_location": "L1",
-      "community": 24,
+      "community": 0,
       "norm_label": "hero.tsx",
       "id": "app_components_sections_hero_hero_tsx"
     },
@@ -4013,7 +4022,7 @@
       "file_type": "code",
       "source_file": "page.tsx",
       "source_location": "L1",
-      "community": 24,
+      "community": 0,
       "norm_label": "page.tsx",
       "id": "page_tsx"
     },
@@ -4049,7 +4058,7 @@
       "file_type": "code",
       "source_file": "HowItWorks.tsx",
       "source_location": "L1",
-      "community": 24,
+      "community": 8,
       "norm_label": "howitworks.tsx",
       "id": "howitworks_tsx"
     },
@@ -4157,7 +4166,7 @@
       "file_type": "code",
       "source_file": "app/components/Ticker.tsx",
       "source_location": "L1",
-      "community": 24,
+      "community": 0,
       "norm_label": "ticker.tsx",
       "id": "app_components_ticker_tsx"
     },
@@ -4166,7 +4175,7 @@
       "file_type": "code",
       "source_file": "app/components/Ticker.tsx",
       "source_location": "L3",
-      "community": 24,
+      "community": 0,
       "norm_label": "ticker()",
       "id": "components_ticker_ticker"
     },
@@ -4301,7 +4310,7 @@
       "file_type": "code",
       "source_file": "app/components/DarkVeil.tsx",
       "source_location": "L1",
-      "community": 24,
+      "community": 0,
       "norm_label": "darkveil.tsx",
       "id": "app_components_darkveil_tsx"
     },
@@ -4310,7 +4319,7 @@
       "file_type": "code",
       "source_file": "app/components/DarkVeil.tsx",
       "source_location": "L78",
-      "community": 24,
+      "community": 0,
       "norm_label": "darkveilprops",
       "id": "components_darkveil_darkveilprops"
     },
@@ -4319,7 +4328,7 @@
       "file_type": "code",
       "source_file": "app/components/DarkVeil.tsx",
       "source_location": "L88",
-      "community": 24,
+      "community": 0,
       "norm_label": "darkveil()",
       "id": "components_darkveil_darkveil"
     },
@@ -4391,7 +4400,7 @@
       "file_type": "code",
       "source_file": "app/components/Footer.tsx",
       "source_location": "L1",
-      "community": 24,
+      "community": 0,
       "norm_label": "footer.tsx",
       "id": "app_components_footer_tsx"
     },
@@ -4400,7 +4409,7 @@
       "file_type": "code",
       "source_file": "app/components/Footer.tsx",
       "source_location": "L5",
-      "community": 24,
+      "community": 0,
       "norm_label": "footer()",
       "id": "components_footer_footer"
     },
@@ -4712,6 +4721,380 @@
     }
   ],
   "links": [
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Footer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_layout_footer_tsx",
+      "target": "ui_text_hover_effect_texthovereffect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Footer.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_layout_footer_tsx",
+      "target": "layout_footer_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "download/page.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "download_page_tsx",
+      "target": "components_layout_footer_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "about/page.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "about_page_tsx",
+      "target": "components_layout_footer_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "changelog/page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "changelog_page_tsx",
+      "target": "components_layout_footer_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "contact/page.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "contact_page_tsx",
+      "target": "components_layout_footer_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/page.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_page_tsx",
+      "target": "components_layout_footer_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "privacy/page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "privacy_page_tsx",
+      "target": "components_layout_footer_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "refund/page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "refund_page_tsx",
+      "target": "components_layout_footer_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "terms/page.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "terms_page_tsx",
+      "target": "components_layout_footer_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "disclaimer/page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "disclaimer_page_tsx",
+      "target": "components_layout_footer_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "status/page.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "status_page_tsx",
+      "target": "components_layout_footer_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/SubpageLayout.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_layout_subpagelayout_tsx",
+      "target": "components_layout_footer_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/layout/Footer.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_layout_footer_tsx",
+      "target": "layout_footer_footer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Footer.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "footer_tsx",
+      "target": "layout_footer_footer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Navbar.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_layout_navbar_tsx",
+      "target": "layout_navbar_navbar"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "download/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "download_page_tsx",
+      "target": "components_layout_navbar_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "about/page.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "about_page_tsx",
+      "target": "components_layout_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "blog/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "blog_page_tsx",
+      "target": "components_layout_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "careers/page.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "careers_page_tsx",
+      "target": "components_layout_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "changelog/page.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "changelog_page_tsx",
+      "target": "components_layout_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Navbar.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_layout_navbar_tsx",
+      "target": "components_layout_staggeredmenu_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "contact/page.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "contact_page_tsx",
+      "target": "components_layout_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/page.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_page_tsx",
+      "target": "components_layout_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "privacy/page.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "privacy_page_tsx",
+      "target": "components_layout_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "refund/page.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "refund_page_tsx",
+      "target": "components_layout_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "terms/page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "terms_page_tsx",
+      "target": "components_layout_navbar_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/SubpageLayout.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_layout_subpagelayout_tsx",
+      "target": "components_layout_navbar_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/layout/Navbar.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_layout_navbar_tsx",
+      "target": "layout_navbar_navbar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "download/page.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "download_page_tsx",
+      "target": "download_page_os",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "download/page.tsx",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "download_page_tsx",
+      "target": "download_page_guidetab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "download/page.tsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "download_page_tsx",
+      "target": "download_page_downloadpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_download_page_tsx",
+      "target": "download_page_os"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_download_page_tsx",
+      "target": "download_page_guidetab"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/download/page.tsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_download_page_tsx",
+      "target": "download_page_downloadpage"
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -6661,16 +7044,6 @@
       "target": "ui_text_hover_effect_texthovereffect"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/layout/Footer.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_layout_footer_tsx",
-      "target": "layout_footer_footer"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -6710,9 +7083,9 @@
       "source_file": "app/download/page.tsx",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_download_page_tsx",
-      "target": "app_components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -6781,26 +7154,6 @@
       "target": "app_components_layout_footer_tsx"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Footer.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "footer_tsx",
-      "target": "layout_footer_footer"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/layout/Footer.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_layout_footer_tsx",
-      "target": "layout_footer_footer"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -6810,16 +7163,6 @@
       "confidence_score": 1.0,
       "source": "app_components_layout_navbar_tsx",
       "target": "app_components_layout_staggeredmenu_tsx"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/layout/Navbar.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_layout_navbar_tsx",
-      "target": "layout_navbar_navbar"
     },
     {
       "relation": "imports_from",
@@ -6861,9 +7204,9 @@
       "source_file": "app/download/page.tsx",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_download_page_tsx",
-      "target": "app_components_layout_navbar_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_layout_navbar_tsx"
     },
     {
       "relation": "imports_from",
@@ -6930,16 +7273,6 @@
       "confidence_score": 1.0,
       "source": "app_components_layout_subpagelayout_tsx",
       "target": "app_components_layout_navbar_tsx"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/layout/Navbar.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_layout_navbar_tsx",
-      "target": "layout_navbar_navbar"
     },
     {
       "relation": "contains",
@@ -8245,9 +8578,9 @@
       "source_file": "app/download/page.tsx",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_download_page_tsx",
-      "target": "app_components_effects_darkveil_tsx",
-      "confidence_score": 1.0
+      "target": "app_components_effects_darkveil_tsx"
     },
     {
       "relation": "imports_from",
@@ -8256,39 +8589,9 @@
       "source_file": "app/download/page.tsx",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_download_page_tsx",
-      "target": "components_ui_shinytext_tsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/download/page.tsx",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "app_download_page_tsx",
-      "target": "download_page_os",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/download/page.tsx",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "app_download_page_tsx",
-      "target": "download_page_guidetab",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/download/page.tsx",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "app_download_page_tsx",
-      "target": "download_page_downloadpage",
-      "confidence_score": 1.0
+      "target": "components_ui_shinytext_tsx"
     },
     {
       "relation": "imports_from",
@@ -9241,17 +9544,6 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "components/layout/Footer.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_layout_footer_tsx",
-      "target": "ui_text_hover_effect_texthovereffect"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "components/text-hover-effect-demo.tsx",
       "source_location": "L2",
       "weight": 1.0,
@@ -9944,28 +10236,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "about/page.tsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "about_page_tsx",
-      "target": "components_layout_navbar_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "about/page.tsx",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "about_page_tsx",
-      "target": "components_layout_footer_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "about/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -9988,33 +10258,11 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "blog/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "blog_page_tsx",
-      "target": "components_layout_navbar_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "blog/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "blog_page_tsx",
       "target": "components_layout_subpagelayout_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "careers/page.tsx",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "careers_page_tsx",
-      "target": "components_layout_navbar_tsx"
     },
     {
       "relation": "imports_from",
@@ -10032,121 +10280,11 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "changelog/page.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "changelog_page_tsx",
-      "target": "components_layout_navbar_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "changelog/page.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "changelog_page_tsx",
-      "target": "components_layout_footer_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "changelog/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "changelog_page_tsx",
       "target": "components_layout_subpagelayout_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/layout/Navbar.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_layout_navbar_tsx",
-      "target": "components_layout_staggeredmenu_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "contact/page.tsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contact_page_tsx",
-      "target": "components_layout_navbar_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/page.tsx",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_page_tsx",
-      "target": "components_layout_navbar_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "privacy/page.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "privacy_page_tsx",
-      "target": "components_layout_navbar_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "refund/page.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "refund_page_tsx",
-      "target": "components_layout_navbar_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "terms/page.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "terms_page_tsx",
-      "target": "components_layout_navbar_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/layout/SubpageLayout.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_layout_subpagelayout_tsx",
-      "target": "components_layout_navbar_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "contact/page.tsx",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "contact_page_tsx",
-      "target": "components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -10164,33 +10302,11 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "docs/page.tsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_page_tsx",
-      "target": "components_layout_footer_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_page_tsx",
       "target": "components_layout_subpagelayout_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "privacy/page.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "privacy_page_tsx",
-      "target": "components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -10208,17 +10324,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "refund/page.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "refund_page_tsx",
-      "target": "components_layout_footer_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "refund/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -10230,55 +10335,11 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "terms/page.tsx",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "terms_page_tsx",
-      "target": "components_layout_footer_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "terms/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "terms_page_tsx",
       "target": "components_layout_subpagelayout_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "disclaimer/page.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "disclaimer_page_tsx",
-      "target": "components_layout_footer_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "status/page.tsx",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "status_page_tsx",
-      "target": "components_layout_footer_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/layout/SubpageLayout.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_layout_subpagelayout_tsx",
-      "target": "components_layout_footer_tsx"
     },
     {
       "relation": "imports_from",
@@ -12438,5 +12499,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "1cb15b34293f83e498a62df2607b66165b7b841f"
+  "built_at_commit": "93f1fa2cf4554bdb47c9cf0422fd012118139f2c"
 }

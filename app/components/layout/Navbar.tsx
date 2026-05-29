@@ -14,9 +14,9 @@ export default function Navbar() {
   ];
 
   const socialItems = [
-    { label: "Twitter", link: "https://twitter.com" },
-    { label: "GitHub", link: "https://github.com" },
-    { label: "LinkedIn", link: "https://linkedin.com" },
+    { label: "Twitter", link: "https://x.com/thestratai" },
+    { label: "GitHub", link: "https://github.com/thestratai" },
+    { label: "LinkedIn", link: "https://linkedin.com/company/strat-ai" },
   ];
 
   return (

@@ -119,7 +119,7 @@ export default function AboutPage() {
                 ▲ Platform Notice & Operating Boundaries
               </span>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                Strat Ai is an **intelligence and analytics terminal** only. We are **not a brokerage**, we do **not act as a trading platform**, and we **do not operate auto-execution bots**. Users must connect their own official Zerodha Kite API keys or Crypto exchange WebSocket feeds. All trade executions, strategy parameters, and risk allocations remain under the explicit, manual control of the user.
+                Strat Ai is an <strong>intelligence and analytics terminal</strong> only. We are <strong>not a brokerage</strong>, we do <strong>not act as a trading platform</strong>, and we <strong>do not operate auto-execution bots</strong>. Users must connect their own official Zerodha Kite API keys or Crypto exchange WebSocket feeds. All trade executions, strategy parameters, and risk allocations remain under the explicit, manual control of the user.
               </p>
             </div>
           </section>

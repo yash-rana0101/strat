@@ -3,6 +3,7 @@
 import React, { useCallback, useLayoutEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import './StaggeredMenu.css';
+import Image from 'next/image';
 
 export interface StaggeredMenuItem {
   label: string;
@@ -418,7 +419,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
           {logo ? (
             logo
           ) : logoUrl ? (
-            <img
+            <Image
               src={logoUrl}
               alt="Logo"
               className="sm-logo-img"
@@ -429,11 +430,13 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
           ) : (
             <a href="/" className="flex items-center gap-3 group cursor-pointer">
               <div className="w-9 h-9 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
-                <img
+                <Image
                   src="/strat.svg"
                   alt="Strat Ai Logo"
                   className="w-8 h-8 object-contain"
                   draggable={false}
+                  width={32}
+                  height={32}
                 />
               </div>
               <div className="flex flex-col text-left">

@@ -8,11 +8,16 @@ function useCountUp(
   duration: number = 2000,
   suffix: string = ""
 ) {
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(target); // Initialize with target for SSR indexability
   const ref = useRef<HTMLDivElement>(null);
   const hasAnimated = useRef(false);
 
   useEffect(() => {
+    // If it hasn't animated yet, set to 0 on mount so it counts up on intersection
+    if (!hasAnimated.current) {
+      setValue(0);
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting && !hasAnimated.current) {

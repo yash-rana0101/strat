@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 import Link from "next/link";
 import { MapPin } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   const columns = [
@@ -62,11 +63,13 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-7 h-7 flex items-center justify-center">
-                <img
+                <Image
                   src="/strat.svg"
                   alt="Strat Ai Logo"
                   className="w-6 h-6 object-contain"
                   draggable={false}
+                  width={24}
+                  height={24}
                 />
               </div>
               <span className="text-sm font-bold text-[var(--text-primary)] font-heading">
@@ -87,7 +90,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2.5 pt-1">
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/thestratai"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg bg-[var(--bg-muted)] hover:bg-[var(--accent-soft)] border border-[var(--border-subtle)] hover:border-[var(--accent-primary)] text-[var(--text-muted)] hover:text-[var(--accent-primary)] transition-all duration-200"
@@ -98,7 +101,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/thestratai"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg bg-[var(--bg-muted)] hover:bg-[var(--accent-soft)] border border-[var(--border-subtle)] hover:border-[var(--accent-primary)] text-[var(--text-muted)] hover:text-[var(--accent-primary)] transition-all duration-200"
@@ -109,7 +112,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/company/strat-ai"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg bg-[var(--bg-muted)] hover:bg-[var(--accent-soft)] border border-[var(--border-subtle)] hover:border-[var(--accent-primary)] text-[var(--text-muted)] hover:text-[var(--accent-primary)] transition-all duration-200"
