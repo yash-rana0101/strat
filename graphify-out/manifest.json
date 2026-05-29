@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\layout.tsx": {
-    "mtime": 1780076656.0287204,
-    "ast_hash": "19366601b615d66c3e95660b28375a0b",
+    "mtime": 1780077058.183646,
+    "ast_hash": "c3106196a1d23881ff59075203be8a2d",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\page.tsx": {
@@ -280,78 +280,78 @@
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\robots.ts": {
-    "mtime": 1780076004.8605745,
-    "ast_hash": "0495df569eae9f73efd2c8bb1c4ebb53",
+    "mtime": 1780077037.392353,
+    "ast_hash": "976ad9033dfa87452da76a1ea913d5b5",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\sitemap.ts": {
-    "mtime": 1780076004.7769127,
-    "ast_hash": "f932a65ea6a19e3883333d5d9ca4d66f",
+    "mtime": 1780077026.2481287,
+    "ast_hash": "6d06582cd52b4d8abe5d02ee58903e82",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\about\\layout.tsx": {
-    "mtime": 1780076004.8986974,
-    "ast_hash": "dfbaa3ad43f246ad0161e098a860bbeb",
+    "mtime": 1780077071.8196127,
+    "ast_hash": "77b7d37063e50c5a49a1d9ad2e36cf25",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\api-reference\\layout.tsx": {
-    "mtime": 1780076004.8762484,
-    "ast_hash": "af3cb57d1f7ce5a53ff79046ab25a24f",
+    "mtime": 1780077080.8869264,
+    "ast_hash": "ba30be6243144c61c9f3ab3737274cf4",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\blog\\layout.tsx": {
-    "mtime": 1780076004.8986974,
-    "ast_hash": "de4e024c1a68278a21e6960e86e76e03",
+    "mtime": 1780077089.0060806,
+    "ast_hash": "90513932d6d86d4127a1138f7286e01d",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\careers\\layout.tsx": {
-    "mtime": 1780076004.8986974,
-    "ast_hash": "752d691b2757979d2bf7fb411f818318",
+    "mtime": 1780077097.3496294,
+    "ast_hash": "44841dfabed836d501937a1e4d6e6559",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\changelog\\layout.tsx": {
-    "mtime": 1780076004.8762484,
-    "ast_hash": "9dd890e2c1c0032e98a56ce37a67360b",
+    "mtime": 1780077106.590612,
+    "ast_hash": "df3f5a7cf6892584df8173d1df75d7a9",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\contact\\layout.tsx": {
-    "mtime": 1780076004.8789275,
-    "ast_hash": "fe55040e39aeb49043e5d5fc7955bdd6",
+    "mtime": 1780077115.5413117,
+    "ast_hash": "46bdcb2bc4b596df43bc997095f9c354",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\disclaimer\\layout.tsx": {
-    "mtime": 1780076004.8684998,
-    "ast_hash": "5deb1f87fe16b32829f231190a8ae9c4",
+    "mtime": 1780077124.1178594,
+    "ast_hash": "3f738d34f65361492f72d165e1a4673f",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\docs\\layout.tsx": {
-    "mtime": 1780076004.8762484,
-    "ast_hash": "816697173bf21bf39df651f636e1b576",
+    "mtime": 1780077136.936302,
+    "ast_hash": "765444c1189111862335c1981774d7ea",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\download\\layout.tsx": {
-    "mtime": 1780076004.8789275,
-    "ast_hash": "6519a8f9c6146c6dc0146261471e9f46",
+    "mtime": 1780077149.1808927,
+    "ast_hash": "a409bd1a54dbd2e93a41249cdc80f7c7",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\privacy\\layout.tsx": {
-    "mtime": 1780076004.8605745,
-    "ast_hash": "f3b9f6dbbbff6b2defa2efcd69214161",
+    "mtime": 1780077161.0022042,
+    "ast_hash": "8b0cf31c59db700834b8a357da8a09cb",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\refund\\layout.tsx": {
-    "mtime": 1780076004.8737197,
-    "ast_hash": "3ad6e88834c8f27a5b0b097fe8c4b27f",
+    "mtime": 1780077169.2051234,
+    "ast_hash": "f3af78e7670496dfd56844f35a3daff1",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\status\\layout.tsx": {
-    "mtime": 1780076004.8762484,
-    "ast_hash": "85ab09b6bdbe3255c1ac2a35165384f4",
+    "mtime": 1780077178.1821046,
+    "ast_hash": "2867523c3778651c652a76ced729cc49",
     "semantic_hash": ""
   },
   "D:\\projects\\strat\\app\\terms\\layout.tsx": {
-    "mtime": 1780076004.861235,
-    "ast_hash": "0e4f6f9c130205fc73adf68fd87097d8",
+    "mtime": 1780077185.4851778,
+    "ast_hash": "d12f44bf9b78c906c7b0bea897652bb7",
     "semantic_hash": ""
   }
 }

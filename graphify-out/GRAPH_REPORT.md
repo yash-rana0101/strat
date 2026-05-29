@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 569 nodes · 787 edges · 46 communities (28 shown, 18 thin omitted)
+- 584 nodes · 816 edges · 50 communities (30 shown, 20 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1f41273c`
+- Built from commit: `2049210a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -55,6 +55,12 @@
 - [[_COMMUNITY_Community 41|Community 41]]
 - [[_COMMUNITY_Community 42|Community 42]]
 - [[_COMMUNITY_Community 43|Community 43]]
+- [[_COMMUNITY_Community 44|Community 44]]
+- [[_COMMUNITY_Community 45|Community 45]]
+- [[_COMMUNITY_Community 46|Community 46]]
+- [[_COMMUNITY_Community 47|Community 47]]
+- [[_COMMUNITY_Community 48|Community 48]]
+- [[_COMMUNITY_Community 49|Community 49]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
@@ -71,15 +77,15 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (46 total, 18 thin omitted)
+## Communities (50 total, 20 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.08
-Nodes (15): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer, staggerItem (+7 more)
+Cohesion: 0.06
+Nodes (18): Home(), AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, scaleIn, staggerContainer (+10 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.05
-Nodes (41): 7.1 LANDING PAGE (Priority: HIGH), 7.2 REMAINING INDICATORS (Priority: MEDIUM), 7.3 ORDER BOOK (Priority: LOW), 7.4 DEPLOYMENT PIPELINE (Priority: LOW), 8.1 useTradeStore.ts (Zustand — central state), 8.2 useChartUIStore.ts (Zustand — drawing state), 8.3 Cache Key Convention, AGENT_CONTEXT.md — Strat (+33 more)
+Cohesion: 0.11
+Nodes (19): AGENT_CONTEXT.md — Strat, code:block1 (LAYER               TECHNOLOGY                  NOTES), code:block2 (/alpha-suite (monorepo root)), code:block21 (8080   — Aggregator Engine          WebSocket  (BUY/SELL/HOL), code:block22 (market.ticks           Ingestion service → raw Zerodha ticks), code:block23 (1. Ghost Line is ONLY visible on 10m timeframe.), code:block24 (THEME:        Dark (--bg-base: #080C14 always)), code:block25 (✅ Registration + Login (email/password, Argon2 hashing)) (+11 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.05
@@ -102,15 +108,15 @@ Cohesion: 0.17
 Nodes (12): 5.1 Indicator Inventory, 5.2 TechSignal Score Logic (Technical Agent), 5.3 ConsensusReport Fields, 5.4 Candlestick Patterns (PatternEngine), 5.5 Institutional Strategies (StrategyEngine), 5.6 Predictive Agent (OLS Ghost Line), code:block11 (RSI < 30  AND  price > VWAP   →  Score 85  (Strong Bullish)), code:block12 (1. Trend Score (-100 to +100):) (+4 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.40
-Nodes (10): BentoCardGrid(), BentoCardProps, BentoProps, calculateSpotlightValues(), createParticleElement(), GlobalSpotlight(), MagicBento(), ParticleCard() (+2 more)
+Cohesion: 0.42
+Nodes (9): BentoCardGrid(), BentoProps, calculateSpotlightValues(), createParticleElement(), GlobalSpotlight(), MagicBento(), ParticleCard(), updateCardGlowProperties() (+1 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.07
 Nodes (29): AboutPage(), ApiReferencePage(), benefits, CareersPage(), openPositions, Position, values, ChangelogPage() (+21 more)
 
 ### Community 10 - "Community 10"
-Cohesion: 0.39
+Cohesion: 0.43
 Nodes (6): inter, jetbrainsMono, jsonLd, metadata, outfit, RootLayout()
 
 ### Community 11 - "Community 11"
@@ -138,8 +144,8 @@ Cohesion: 0.11
 Nodes (15): BlogPage(), BlogPost, blogPosts, categories, featuredArticle, popularTags, BlogGrid(), BlogGridProps (+7 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.07
-Nodes (27): Home(), DarkVeilProps, AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, ParallaxSection() (+19 more)
+Cohesion: 0.10
+Nodes (25): AnimateOnScroll(), fadeDown, fadeLeft, fadeRight, fadeUp, ParallaxSection(), scaleIn, staggerContainer (+17 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.57
@@ -161,22 +167,38 @@ Nodes (7): Confidentiality & IP Safeguards, Contributor Covenant Code of Conduct
 Cohesion: 0.20
 Nodes (9): 1. The Multi-Dimensional Options (F&O) Decoder, 2. The 360-Degree Trade Validator, 3. Market Surveillance and Anomaly Translation, 4. The Global Macro Narrative Engine, 5. Adaptive Market Mindsets: From NSE to Crypto, Strat Ai: The Intelligent Trading Terminal, The Anatomy of Intelligence: What Strat Ai Delivers, The Philosophy: The Information War (+1 more)
 
+### Community 46 - "Community 46"
+Cohesion: 0.29
+Nodes (7): 7.1 LANDING PAGE (Priority: HIGH), 7.2 REMAINING INDICATORS (Priority: MEDIUM), 7.3 ORDER BOOK (Priority: LOW), 7.4 DEPLOYMENT PIPELINE (Priority: LOW), code:block16 (1.  Navbar           — fixed, glassmorphism on scroll, logo ), code:block17 (MACD Histogram    — 12/26 EMA difference, then 9-period EMA ), SECTION 7 — WHAT STILL NEEDS TO BE BUILT
+
+### Community 47 - "Community 47"
+Cohesion: 0.29
+Nodes (6): 8.1 useTradeStore.ts (Zustand — central state), 8.2 useChartUIStore.ts (Zustand — drawing state), 8.3 Cache Key Convention, code:typescript (activeCursorMode:   'default' | 'crosshair' | 'drawing'), code:block20 (historicalCache key format: 'SYMBOL::kiteInterval'), SECTION 8 — STATE MANAGEMENT REFERENCE
+
+### Community 48 - "Community 48"
+Cohesion: 0.33
+Nodes (6): Before writing any code:, Output format expectations:, SECTION 14 — AGENT INSTRUCTIONS, When building the landing page:, When writing Rust (agents, Tauri):, When writing TypeScript (frontend hooks, components):
+
+### Community 49 - "Community 49"
+Cohesion: 0.67
+Nodes (3): code:yaml (Services:), code:block28 (1. docker-compose up (starts QuestDB, Redpanda, PostgreSQL, ), SECTION 16 — INFRASTRUCTURE (DOCKER COMPOSE)
+
 ## Knowledge Gaps
-- **182 isolated node(s):** `metadata`, `metadata`, `metadata`, `metadata`, `metadata` (+177 more)
+- **168 isolated node(s):** `nextConfig`, `name`, `version`, `private`, `dev` (+163 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **18 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **20 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `AGENT_CONTEXT.md — Strat` connect `Community 1` to `Community 4`, `Community 30`, `Community 6`?**
-  _High betweenness centrality (0.018) - this node is a cross-community bridge._
-- **What connects `metadata`, `metadata`, `metadata` to the rest of the system?**
-  _182 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `AGENT_CONTEXT.md — Strat` connect `Community 1` to `Community 4`, `Community 6`, `Community 46`, `Community 47`, `Community 48`, `Community 49`, `Community 30`?**
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
+- **What connects `nextConfig`, `name`, `version` to the rest of the system?**
+  _168 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.07507507507507508 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05568627450980392 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
