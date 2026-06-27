@@ -8,20 +8,33 @@ import Badge from '@/components/ui/Badge.astro';
 import Button from '@/components/ui/Button.astro';
 import Icon from '@/components/ui/Icon.astro';
 ---
-<PageLayout title="About Strat Ai" description="A research-first AI company building intelligent products for modern financial markets." badge="Company" badgeVariant="emerald" breadcrumbs={[{ label: 'About' }]}>
-  <!-- Vision & Mission -->
+<PageLayout title="About Strat Ai" description="A proprietary quantitative trading terminal developed by the Trading and Research Wing." badge="Company" badgeVariant="emerald" breadcrumbs={[{ label: 'About' }]}>
+  <!-- Creator Introduction -->
   <section class="py-16 md:py-20 bg-canvas transition-colors duration-300">
+    <Container>
+      <div class="max-w-[800px] mx-auto text-center mb-8">
+        <Badge variant="emerald" class="mb-4">Developed By</Badge>
+        <h2 class="type-display-lg leading-[1.1] tracking-tight text-ink">Trading & Research Wing</h2>
+        <p class="type-body-md text-muted mt-4 max-w-[650px] mx-auto leading-relaxed">
+          Strat Ai is built by the <a href="https://tradingrw.com" class="text-emerald hover:underline font-semibold" target="_blank" rel="noopener noreferrer">Trading and Research Wing</a>. We are dedicated to quantitative analysis, historical study, and disciplined indicator design for Indian stock and derivatives markets.
+        </p>
+      </div>
+    </Container>
+  </section>
+
+  <!-- Vision & Mission -->
+  <section class="py-12 md:py-16 bg-canvas transition-colors duration-300">
     <Container size="wide" class="!px-0">
       <div class="grid grid-cols-1 lg:grid-cols-2 border-y border-hairline divide-y lg:divide-y-0 lg:divide-x divide-hairline bg-surface-soft/5">
         <div class="flex flex-col gap-5 p-8 md:p-12 lg:p-14">
           <Badge variant="violet">Our Vision</Badge>
-          <h2 class="type-display-sm tracking-tight text-ink">To obliterate information asymmetry in financial markets</h2>
-          <p class="type-body-md text-muted leading-relaxed">We envision a future where every serious trader — regardless of capital size — has access to the same institutional-grade intelligence that hedge funds and prop desks use. AI, quantitative research, and engineering converge to level the playing field.</p>
+          <h2 class="type-display-sm tracking-tight text-ink">To level the playing field in financial markets</h2>
+          <p class="type-body-md text-muted leading-relaxed">We envision a future where serious traders have access to the same institutional-grade intelligence that prop desks use. Quantitative research, discipline, and technology converge to support consistent execution.</p>
         </div>
         <div class="flex flex-col gap-5 p-8 md:p-12 lg:p-14">
           <Badge variant="pink">Our Mission</Badge>
-          <h2 class="type-display-sm tracking-tight text-ink">Solving complex trading problems through AI innovation</h2>
-          <p class="type-body-md text-muted leading-relaxed">To develop intelligent products that empower traders with superior market intelligence — fusing multi-agent AI systems, real-time data pipelines, and quantitative models into a single conviction engine.</p>
+          <h2 class="type-display-sm tracking-tight text-ink">Providing disciplined market intelligence</h2>
+          <p class="type-body-md text-muted leading-relaxed">To develop intelligent tools that empower traders with superior market insights — fusing technical trends, sentiment, and trend projection into a single conviction engine.</p>
         </div>
       </div>
     </Container>
@@ -32,20 +45,20 @@ import Icon from '@/components/ui/Icon.astro';
     <Container>
       <div class="max-w-[800px] mx-auto text-center mb-12">
         <Badge variant="orange" class="mb-4">Our Philosophy</Badge>
-        <h2 class="type-display-lg leading-[1.1] tracking-tight text-ink">Research before product</h2>
-        <p class="type-body-md text-muted mt-4 max-w-[600px] mx-auto leading-relaxed">Every innovation at Strat Ai follows the same foundation. We never build without understanding first.</p>
+        <h2 class="type-display-lg leading-[1.1] tracking-tight text-ink">Research before execution</h2>
+        <p class="type-body-md text-muted mt-4 max-w-[600px] mx-auto leading-relaxed">Every feature in Strat Ai follows the same foundation. We never build without understanding first.</p>
       </div>
     </Container>
     <Container size="wide" class="!px-0">
       <div class="border-y border-hairline bg-surface-soft/5">
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 divide-y md:divide-y-0 divide-x divide-hairline">
           {[
-            { step: '01', label: 'Research', desc: 'Deep domain study' },
-            { step: '02', label: 'Data', desc: 'Market & financial data' },
+            { step: '01', label: 'Research', desc: 'Deep market study' },
+            { step: '02', label: 'Data Sync', desc: 'Market & derivative feeds' },
             { step: '03', label: 'Analysis', desc: 'Quantitative modeling' },
-            { step: '04', label: 'AI Modeling', desc: 'Machine learning' },
-            { step: '05', label: 'Engineering', desc: 'Scalable systems' },
-            { step: '06', label: 'Product', desc: 'User-facing delivery' },
+            { step: '04', label: 'Design', desc: 'Indicator development' },
+            { step: '05', label: 'Validation', desc: 'Robust backtesting' },
+            { step: '06', label: 'Product', desc: 'Terminal delivery' },
           ].map((item) => (
             <div class="flex flex-col gap-2 p-6 md:p-8 text-center">
               <span class="type-caption text-badge-emerald font-bold">{item.step}</span>
@@ -71,33 +84,15 @@ import Icon from '@/components/ui/Icon.astro';
         <div class="flex flex-col gap-4 p-8 md:p-10">
           <h3 class="type-title-lg text-ink flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-badge-orange"></span> Financial Markets</h3>
           <ul class="list-none grid grid-cols-2 gap-2">
-            {['Indian Stock Market', 'Futures & Options', 'Crypto Markets', 'Market Structure', 'Price Action', 'Order Flow', 'Volatility', 'Risk Management'].map(item => (
+            {['Indian Stock Market', 'Futures & Options', 'Market Structure', 'Price Action', 'Order Flow Analysis', 'Volatility Skews', 'Expiry Cycles', 'Capital Preservation'].map(item => (
               <li class="type-body-sm text-muted flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-muted-soft shrink-0"></span>{item}</li>
             ))}
           </ul>
         </div>
-        <div class="flex flex-col gap-4 p-8 md:p-10">
-          <h3 class="type-title-lg text-ink flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-badge-pink"></span> Artificial Intelligence</h3>
-          <ul class="list-none grid grid-cols-2 gap-2">
-            {['Financial AI', 'Machine Learning', 'Large Language Models', 'AI Agents', 'Predictive Analytics', 'NLP for Markets'].map(item => (
-              <li class="type-body-sm text-muted flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-muted-soft shrink-0"></span>{item}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 border-b border-hairline divide-y md:divide-y-0 md:divide-x divide-hairline bg-surface-soft/5">
         <div class="flex flex-col gap-4 p-8 md:p-10">
           <h3 class="type-title-lg text-ink flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-badge-violet"></span> Quantitative Research</h3>
           <ul class="list-none grid grid-cols-2 gap-2">
-            {['Statistical Modeling', 'Strategy Dev', 'Market Behavior', 'Probability Models', 'Performance Analysis', 'Risk Optimization'].map(item => (
-              <li class="type-body-sm text-muted flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-muted-soft shrink-0"></span>{item}</li>
-            ))}
-          </ul>
-        </div>
-        <div class="flex flex-col gap-4 p-8 md:p-10">
-          <h3 class="type-title-lg text-ink flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-badge-emerald"></span> Engineering</h3>
-          <ul class="list-none grid grid-cols-2 gap-2">
-            {['Scalable Systems', 'High-Performance Infra', 'Cloud Architecture', 'Data Engineering', 'APIs & Services', 'Automation'].map(item => (
+            {['Statistical Modeling', 'Strategy Design', 'Market Behavior', 'Probability Models', 'Performance Metrics', 'Risk Optimization', 'Consensus Algorithms', 'Sentiment Indicators'].map(item => (
               <li class="type-body-sm text-muted flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-muted-soft shrink-0"></span>{item}</li>
             ))}
           </ul>
@@ -117,10 +112,10 @@ import Icon from '@/components/ui/Icon.astro';
     <Container size="wide" class="!px-0">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-y border-hairline divide-y md:divide-y-0 divide-x divide-hairline bg-surface-soft/5">
         {[
-          { icon: 'search', title: 'Research Driven', desc: 'Every product begins with research, not assumptions. We study markets deeply before building.' },
-          { icon: 'brain', title: 'AI Powered', desc: 'Artificial intelligence is integrated into every layer of our products for superior insights.' },
-          { icon: 'layers', title: 'Built for Scale', desc: 'Engineered using modern cloud infrastructure and scalable technologies for global reach.' },
-          { icon: 'chart', title: 'Long-Term Vision', desc: 'We are building an ecosystem of intelligent financial technologies, one product at a time.' },
+          { icon: 'search', title: 'Research Driven', desc: 'Every feature begins with deep market research, not assumptions. We study market behavior to find patterns.' },
+          { icon: 'shield-check', title: 'Risk Focused', desc: 'We prioritize risk management and capital preservation above all. When indicators diverge, we stand aside.' },
+          { icon: 'layers', title: 'Execution Clarity', desc: 'We aim for clean, logical terminal displays that present options and price metrics without clutter.' },
+          { icon: 'chart', title: 'Long-Term Alignment', desc: 'We build tools aligned with the long-term needs of serious traders and quantitative participants.' },
         ].map((value) => (
           <div class="flex flex-col gap-4 p-8 md:p-10 hover:bg-surface-soft/10 transition-colors duration-300">
             <div class="w-10 h-10 rounded-lg bg-badge-emerald/10 flex items-center justify-center">
@@ -139,10 +134,10 @@ import Icon from '@/components/ui/Icon.astro';
     <Container size="wide" class="!px-0">
       <div class="border-y border-hairline bg-surface-soft/5 p-8 md:p-12 lg:p-16 text-center">
         <h2 class="type-display-md tracking-tight text-ink mb-4">Join our journey</h2>
-        <p class="type-body-md text-muted max-w-[500px] mx-auto mb-8 leading-relaxed">We're building the future of trading intelligence. Be among the first to experience AI-powered conviction.</p>
+        <p class="type-body-md text-muted max-w-[500px] mx-auto mb-8 leading-relaxed">Access quantitative conviction built by the Trading and Research Wing. Explore the Strat AI terminal.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <Button variant="primary" size="lg" href="/contact" class="!rounded-full px-8">Get in Touch</Button>
-          <Button variant="secondary" size="lg" href="/#features" class="!rounded-full px-8">Explore Strat AI</Button>
+          <Button variant="secondary" size="lg" href="/#features" class="!rounded-full px-8">Explore Features</Button>
         </div>
       </div>
     </Container>

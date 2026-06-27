@@ -5,9 +5,9 @@ export const NAV_ITEMS: NavigationItem[] = [
     label: 'Products',
     href: '/#features',
     dropdownItems: [
-      { label: 'Strat AI Terminal', desc: 'AI-powered F&O and Crypto trading intelligence', href: '/#features' },
-      { label: 'How It Works', desc: '5 ML agents fused into one conviction score', href: '/#how-it-works' },
-      { label: 'Download', desc: 'Get Strat Ai on Web, Android, and iOS', href: '/download' },
+      { label: 'Strat AI Terminal', desc: 'F&O trading intelligence and analysis', href: '/#features' },
+      { label: 'How It Works', desc: 'Advanced multi-variable conviction scoring', href: '/#how-it-works' },
+      { label: 'Download', desc: 'Get Strat Ai on Web and Desktop', href: '/download' },
     ],
   },
   {
@@ -18,18 +18,18 @@ export const NAV_ITEMS: NavigationItem[] = [
     label: 'Resources',
     href: '/docs',
     dropdownItems: [
-      { label: 'Documentation', desc: 'Guides, tutorials, and core concepts', href: '/docs' },
-      { label: 'API Reference', desc: 'REST and WebSocket API docs', href: '/api-reference' },
-      { label: 'Blog', desc: 'Research, engineering, and trading insights', href: '/blog' },
-      { label: 'Changelog', desc: 'Product updates and release history', href: '/changelog' },
+      { label: 'Documentation', desc: 'Guides, tutorials, and terminal concepts', href: '/docs' },
+      { label: 'API Reference', desc: 'Integration API documentation', href: '/api-reference' },
+      { label: 'Blog', desc: 'Market insights, strategies, and research', href: '/blog' },
+      { label: 'Changelog', desc: 'Product updates and feature history', href: '/changelog' },
     ],
   },
   {
     label: 'Company',
     href: '/about',
     dropdownItems: [
-      { label: 'About Strat Ai', desc: 'Our mission to obliterate information asymmetry', href: '/about' },
-      { label: 'Careers', desc: 'Join our team of engineers and quants', href: '/careers' },
+      { label: 'About Strat Ai', desc: 'Built by the Trading and Research Wing', href: '/about' },
+      { label: 'Careers', desc: 'Join our research and trading team', href: '/careers' },
       { label: 'Contact Us', desc: 'Get in touch for partnerships and access', href: '/contact' },
       { label: 'System Status', desc: 'Real-time service health monitoring', href: '/status' },
     ],
