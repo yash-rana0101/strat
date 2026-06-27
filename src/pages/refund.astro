@@ -1,0 +1,67 @@
+---
+/**
+ * Refund Policy — Refund and cancellation terms.
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Container from '@/components/ui/Container.astro';
+import Prose from '@/components/ui/Prose.astro';
+---
+<PageLayout title="Refund Policy" description="Refund and cancellation policy for Strat Ai subscription plans." badge="Legal" badgeVariant="default" breadcrumbs={[{ label: 'Refund Policy' }]}>
+  <section class="py-16 md:py-20 bg-canvas transition-colors duration-300">
+    <Container size="narrow">
+      <Prose>
+        <p class="text-muted-soft type-body-sm">Last updated: June 26, 2026</p>
+
+        <h2>Overview</h2>
+        <p>Strat Ai Labs Private Limited ("Strat Ai") is committed to ensuring customer satisfaction. This Refund Policy outlines the terms under which you may request a refund for our subscription services.</p>
+
+        <h2>Free Plan</h2>
+        <p>The Starter (free) plan does not require any payment and is not subject to refund considerations. You may use the Starter plan indefinitely without cost.</p>
+
+        <h2>Paid Subscriptions</h2>
+        <p>For paid plans (Pro and Institutional):</p>
+        <ul>
+          <li><strong>7-Day Cooling Period:</strong> You may request a full refund within 7 days of your initial subscription purchase, provided you have not exceeded 50 API requests or 20 AI analysis queries during that period.</li>
+          <li><strong>Monthly Plans:</strong> After the 7-day cooling period, monthly subscriptions are non-refundable. You may cancel at any time, and your access will continue until the end of the current billing cycle.</li>
+          <li><strong>Annual Plans:</strong> Annual subscriptions may be refunded on a pro-rata basis within the first 30 days. After 30 days, the subscription is non-refundable but may be cancelled — access continues until the end of the annual term.</li>
+        </ul>
+
+        <h2>How to Request a Refund</h2>
+        <p>To request a refund, please email <a href="mailto:billing@stratai.live">billing@stratai.live</a> with:</p>
+        <ul>
+          <li>Your registered email address</li>
+          <li>Subscription plan and purchase date</li>
+          <li>Reason for the refund request</li>
+        </ul>
+        <p>We aim to process all refund requests within 5-7 business days. Approved refunds will be credited to the original payment method.</p>
+
+        <h2>Exceptions</h2>
+        <p>Refunds will <strong>not</strong> be issued in the following cases:</p>
+        <ul>
+          <li>Violation of our Terms of Service</li>
+          <li>Account termination due to misuse or fraudulent activity</li>
+          <li>Requests made after the applicable refund period</li>
+          <li>Service outages covered by our SLA (credits may be issued instead)</li>
+        </ul>
+
+        <h2>Service Credits</h2>
+        <p>If Strat Ai fails to meet its 99.9% uptime SLA for Pro and Institutional plans, affected users may receive service credits proportional to the downtime. Credits are applied to future billing cycles and are not redeemable for cash.</p>
+
+        <h2>Cancellation</h2>
+        <p>You may cancel your subscription at any time from your account dashboard. Upon cancellation:</p>
+        <ul>
+          <li>Your access continues until the end of the current billing period</li>
+          <li>No further charges will be made</li>
+          <li>Your data will be retained for 30 days, after which it may be permanently deleted</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p>For billing and refund questions, please contact us:</p>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:billing@stratai.live">billing@stratai.live</a></li>
+          <li><strong>Website:</strong> <a href="https://www.stratai.live/contact">stratai.live/contact</a></li>
+        </ul>
+      </Prose>
+    </Container>
+  </section>
+</PageLayout>

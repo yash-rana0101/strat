@@ -1,0 +1,41 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import Container from '@/components/ui/Container.astro';
+import Prose from '@/components/ui/Prose.astro';
+---
+<PageLayout title="Terms of Service" description="Terms and conditions governing your use of Strat Ai services." badge="Legal" badgeVariant="default" breadcrumbs={[{ label: 'Terms of Service' }]}>
+  <section class="py-16 md:py-20 bg-canvas transition-colors duration-300">
+    <Container size="narrow">
+      <Prose>
+        <p class="text-muted-soft type-body-sm">Last updated: June 26, 2026</p>
+        <h2>1. Acceptance of Terms</h2>
+        <p>By accessing or using the website at <a href="https://www.stratai.live">stratai.live</a> or any services provided by Strat Ai Labs Private Limited ("Strat Ai", "we", "our", or "us"), including the Strat AI platform, you agree to be bound by these Terms of Service.</p>
+        <h2>2. Eligibility</h2>
+        <p>You must be at least 18 years of age to use our services. By using our services, you represent and warrant that you meet this requirement.</p>
+        <h2>3. Description of Services</h2>
+        <p>Strat Ai provides AI-powered market intelligence and quantitative analysis tools. Our services include:</p>
+        <ul><li>AI-driven market analysis and insights</li><li>Technical analysis and trade validation tools</li><li>Risk assessment and management features</li><li>Research publications and blog content</li><li>Waitlist registration for upcoming products</li></ul>
+        <h2>4. Account Registration</h2>
+        <p>Certain features may require you to register an account. You agree to provide accurate, current, and complete information and to maintain the confidentiality of your account credentials.</p>
+        <h2>5. Acceptable Use</h2>
+        <p>You agree not to:</p>
+        <ul><li>Use our services for any unlawful purpose</li><li>Attempt to gain unauthorized access to our systems</li><li>Interfere with or disrupt the integrity of our services</li><li>Reverse engineer, decompile, or disassemble any part of our software</li><li>Scrape, crawl, or harvest data without authorization</li><li>Redistribute or resell our services without written consent</li><li>Use AI-generated insights for market manipulation or fraud</li></ul>
+        <h2>6. Financial Disclaimers</h2>
+        <blockquote><strong>Important:</strong> Strat Ai is not a registered investment advisor, broker-dealer, or financial planner. Our services do not constitute financial advice.</blockquote>
+        <p>All information and analysis are for <strong>informational and educational purposes only</strong>. You acknowledge that:</p>
+        <ul><li>Trading involves substantial risk of loss</li><li>Past performance does not guarantee future results</li><li>AI-generated insights may contain errors</li><li>You are solely responsible for your own trading decisions</li><li>You should consult qualified financial professionals before making trading decisions</li></ul>
+        <h2>7. Intellectual Property</h2>
+        <p>All content, features, functionality, software, designs, text, graphics, logos, and trademarks on our website and platform are owned by Strat Ai or its licensors and are protected by copyright, trademark, and other intellectual property laws.</p>
+        <h2>8. Limitation of Liability</h2>
+        <p>To the maximum extent permitted by law, Strat Ai shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or financial losses resulting from trading decisions based on our platform's insights.</p>
+        <h2>9. Governing Law</h2>
+        <p>These Terms shall be governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in India.</p>
+        <h2>10. Changes to Terms</h2>
+        <p>We reserve the right to modify these Terms at any time. Continued use constitutes acceptance of the revised terms.</p>
+        <h2>11. Contact</h2>
+        <p>For questions about these Terms:</p>
+        <ul><li><strong>Email:</strong> <a href="mailto:legal@stratai.live">legal@stratai.live</a></li><li><strong>Website:</strong> <a href="https://www.stratai.live/contact">stratai.live/contact</a></li></ul>
+      </Prose>
+    </Container>
+  </section>
+</PageLayout>
