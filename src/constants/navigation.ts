@@ -12,7 +12,13 @@ export const NAV_ITEMS: NavigationItem[] = [
   },
   {
     label: 'Pricing',
-    href: '/#pricing',
+    href: '/pricing',
+    dropdownItems: [
+      { label: 'Plans & Credits', desc: 'Flexible credit-based plans', href: '/pricing' },
+      { label: 'Refund Policy', desc: 'Our 7-day refund policy details', href: '/refund' },
+      { label: 'Terms of Service', desc: 'Terms of service and usage rules', href: '/terms' },
+      { label: 'Disclaimer', desc: 'Legal and financial disclosures', href: '/disclaimer' },
+    ],
   },
   {
     label: 'Resources',
@@ -42,7 +48,7 @@ export const FOOTER_GROUPS: NavigationGroup[] = [
     items: [
       { label: 'Features', href: '/#features' },
       { label: 'How It Works', href: '/#how-it-works' },
-      { label: 'Pricing', href: '/#pricing' },
+      { label: 'Pricing', href: '/pricing' },
       { label: 'Download App', href: '/download' },
       { label: 'System Status', href: '/status' },
     ],

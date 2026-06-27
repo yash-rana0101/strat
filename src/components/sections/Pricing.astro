@@ -9,31 +9,51 @@ import Icon from '@/components/ui/Icon.astro';
 
 const plans = [
   {
+    name: 'Free Trial',
+    price: '$0',
+    period: '/3 days',
+    description: 'Explore full terminal capabilities before purchasing.',
+    features: ['3-day full access', '100 free credits total', 'Basic diagnostics & metrics', 'Standard data updates', 'Community support'],
+    cta: 'Start Trial',
+    href: '/#',
+    featured: false,
+  },
+  {
     name: 'Starter',
-    price: '₹0',
-    period: '/forever',
-    description: 'Perfect for exploring Strat Ai and learning the interface.',
-    features: ['1 active chart', 'Basic diagnostics/day', 'Basic technical indicators', 'Community support', 'Delayed market data'],
-    cta: 'Start Free',
+    price: '$20',
+    period: '/month',
+    description: 'Perfect for retail traders beginning in quantitative trading.',
+    features: ['1,000 monthly credits', 'Option chain analytics & projections', 'Trend exhaustion metrics', 'Standard support', 'Real-time data feeds'],
+    cta: 'Get Starter',
     href: '/#',
     featured: false,
   },
   {
     name: 'Pro',
-    price: '₹999',
+    price: '$50',
     period: '/month',
-    description: 'For serious traders who need institutional-grade intelligence.',
-    features: ['Unlimited charts', 'Unlimited diagnostics', '16+ technical indicators', 'Trend projection overlay', 'Unified consensus score', 'Real-time data streaming', 'Priority support'],
+    description: 'For active derivatives traders needing higher limits.',
+    features: ['3,000 monthly credits', 'Everything in Starter', 'Priority consensus calculations', 'Advanced strike analytics', 'Priority email support'],
     cta: 'Get Pro',
     href: '/#',
     featured: true,
   },
   {
-    name: 'Institutional',
+    name: 'Elite',
+    price: '$100',
+    period: '/month',
+    description: 'For high-frequency professional derivatives traders.',
+    features: ['7,500 monthly credits', 'Everything in Pro', 'Unlimited charts & overlays', 'Multi-monitor grid profiles', 'Dedicated chat support'],
+    cta: 'Get Elite',
+    href: '/#',
+    featured: false,
+  },
+  {
+    name: 'Custom',
     price: 'Custom',
     period: '',
-    description: 'For funds and prop desks needing dedicated setups.',
-    features: ['Everything in Pro', 'Custom API access', 'Custom data integration', 'Custom SLA & uptime', 'Dedicated support', 'Auditable records'],
+    description: 'For institutional funds and proprietary trading desks.',
+    features: ['Custom credit limits', 'Tailored API integration', 'Dedicated server instances', 'Uptime SLA guarantees', 'Dedicated account manager'],
     cta: 'Contact Sales',
     href: '/contact',
     featured: false,
@@ -42,20 +62,20 @@ const plans = [
 ---
 
 <section class="py-16 md:py-20 bg-canvas transition-colors duration-300" id="pricing" aria-labelledby="pricing-heading">
-  <Container>
+  <Container size="wide">
     <div class="max-w-[800px] mx-auto text-center mb-12 md:mb-16" data-reveal-group>
       <div data-reveal-item><Badge variant="emerald" class="mb-4">Pricing</Badge></div>
       <h2 id="pricing-heading" class="type-display-lg leading-[1.1] tracking-tight text-ink" data-reveal-item>
-        Simple, transparent pricing
+        Simple, credit-based pricing
       </h2>
       <p class="type-body-md text-muted mt-4" data-reveal-item>
-        Start free. Upgrade when you need institutional-grade conviction.
+        All plans are based on quantitative model calculations and diagnostic credits.
       </p>
     </div>
   </Container>
 
-  <Container>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6" data-reveal-group>
+  <Container size="wide">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6" data-reveal-group>
       {plans.map((plan) => (
         <div class:list={[
           'reveal-item rounded-lg p-8 flex flex-col gap-6 transition-all duration-300',
