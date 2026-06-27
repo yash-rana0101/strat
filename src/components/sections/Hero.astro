@@ -86,16 +86,23 @@ function getBaseColor(gx: number, gy: number) {
                 const topPoints = `${sx},${sy - cubeSize} ${sx + cubeSize * 0.866},${sy - cubeSize * 0.5} ${sx},${sy} ${sx - cubeSize * 0.866},${sy - cubeSize * 0.5}`;
                 const leftPoints = `${sx - cubeSize * 0.866},${sy - cubeSize * 0.5} ${sx},${sy} ${sx},${sy + cubeSize} ${sx - cubeSize * 0.866},${sy + cubeSize * 0.5}`;
                 const rightPoints = `${sx},${sy} ${sx + cubeSize * 0.866},${sy - cubeSize * 0.5} ${sx + cubeSize * 0.866},${sy + cubeSize * 0.5} ${sx},${sy + cubeSize}`;
+                const dx = gx - 2;
+                const dy = gy - 2;
+                const radius = Math.sqrt(dx * dx + dy * dy);
+                const delay = `${(radius * 0.35 + gz * 0.15).toFixed(2)}s`;
+
                 return (
-                  <g class="transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-                    <polygon points={topPoints} fill={color} />
-                    <polygon points={leftPoints} fill={color} />
-                    <polygon points={leftPoints} fill="#000000" fill-opacity="0.25" />
-                    <polygon points={rightPoints} fill={color} />
-                    <polygon points={rightPoints} fill="#000000" fill-opacity="0.1" />
-                    <polygon points={topPoints} fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.5" />
-                    <polygon points={leftPoints} fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.5" />
-                    <polygon points={rightPoints} fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.5" />
+                  <g class="animate-cube" style={`animation-delay: ${delay};`}>
+                    <g class="transition-all duration-500 hover:-translate-y-2.5 cursor-pointer">
+                      <polygon points={topPoints} fill={color} />
+                      <polygon points={leftPoints} fill={color} />
+                      <polygon points={leftPoints} fill="#000000" fill-opacity="0.25" />
+                      <polygon points={rightPoints} fill={color} />
+                      <polygon points={rightPoints} fill="#000000" fill-opacity="0.1" />
+                      <polygon points={topPoints} fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.5" />
+                      <polygon points={leftPoints} fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.5" />
+                      <polygon points={rightPoints} fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.5" />
+                    </g>
                   </g>
                 );
               });
@@ -106,3 +113,30 @@ function getBaseColor(gx: number, gy: number) {
     </div>
   </Container>
 </section>
+
+<style>
+  .animate-cube {
+    animation: rippleTwist 5s ease-in-out infinite;
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+  }
+
+  @keyframes rippleTwist {
+    0% {
+      transform: translateY(0) rotate(0deg) scale(1);
+      filter: brightness(1);
+    }
+    30% {
+      transform: translateY(-16px) rotate(180deg) scale(1.12);
+      filter: brightness(1.35);
+    }
+    60% {
+      transform: translateY(4px) rotate(360deg) scale(0.95);
+      filter: brightness(0.9);
+    }
+    85%, 100% {
+      transform: translateY(0) rotate(360deg) scale(1);
+      filter: brightness(1);
+    }
+  }
+</style>
