@@ -3,7 +3,7 @@ import Icon from '@/components/ui/Icon.astro';
 interface Props { icon: string; title: string; description: string; class?: string; }
 const { icon, title, description, class: className } = Astro.props;
 ---
-<div class:list={['bg-surface-card rounded-lg p-8 flex flex-col gap-3 transition-all duration-200 hover:-translate-y-0.5', className]}>
+<div class:list={['bg-surface-card rounded-lg p-8 flex flex-col gap-3 transition-all duration-200 hover:-translate-y-0.5 h-full', className]}>
   <div class="w-12 h-12 flex items-center justify-center bg-surface-soft rounded-md text-ink mb-2 shrink-0">
     <Icon name={icon} size={24} />
   </div>
