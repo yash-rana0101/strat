@@ -15,8 +15,6 @@ function initDynamicIsland() {
     isExpanded = !isExpanded;
     if (!isExpanded) {
       island.classList.remove('is-expanded');
-      island.classList.remove('rounded-3xl');
-      island.classList.add('rounded-full');
       island.style.maxHeight = '56px';
       toggle.setAttribute('aria-expanded', 'false');
       expanded.setAttribute('aria-hidden', 'true');
@@ -29,12 +27,10 @@ function initDynamicIsland() {
       menuIcon?.classList.remove('hidden');
     } else {
       island.classList.add('is-expanded');
-      island.classList.remove('rounded-full');
-      island.classList.add('rounded-3xl');
-      island.style.maxHeight = '550px';
+      island.style.maxHeight = '85vh';
       toggle.setAttribute('aria-expanded', 'true');
       expanded.setAttribute('aria-hidden', 'false');
-      expanded.style.maxHeight = '480px';
+      expanded.style.maxHeight = 'calc(85vh - 80px)';
       expanded.style.opacity = '1';
       expanded.classList.remove('border-transparent');
       expanded.classList.add('border-hairline');
@@ -50,8 +46,6 @@ function initDynamicIsland() {
     link.addEventListener('click', () => {
       isExpanded = false;
       island.classList.remove('is-expanded');
-      island.classList.remove('rounded-3xl');
-      island.classList.add('rounded-full');
       island.style.maxHeight = '56px';
       toggle.setAttribute('aria-expanded', 'false');
       expanded.setAttribute('aria-hidden', 'true');

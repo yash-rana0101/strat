@@ -10,12 +10,12 @@ const isHomepage = pathname === '/' || pathname === '';
 const logoHref = isHomepage ? '#hero' : '/';
 ---
 
-<div class="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full max-w-[800px] px-4 pointer-events-none flex justify-center">
+<div class="fixed top-6 md:top-4 left-1/2 -translate-x-1/2 z-50 w-full max-w-[800px] px-4 pointer-events-none flex justify-center">
   <div
     id="dynamic-island"
-    class="pointer-events-auto w-full bg-canvas/80 backdrop-blur-xl border border-hairline rounded-full shadow-2xl transition-all duration-400 [transition-timing-function:cubic-bezier(0.16,1,0.3,1)] md:overflow-visible overflow-hidden max-h-[56px] md:max-h-none animate-island-entry"
+    class="pointer-events-auto w-full bg-canvas/80 backdrop-blur-xl border border-hairline rounded-[28px] shadow-2xl transition-all duration-400 [transition-timing-function:cubic-bezier(0.16,1,0.3,1)] md:overflow-visible overflow-hidden max-h-[56px] md:max-h-none animate-island-entry"
   >
-    <div class="h-[54px] flex items-center justify-between pl-6 pr-2">
+    <div class="h-[54px] flex items-center justify-between pl-4 pr-3 md:pl-6 md:pr-2">
       <!-- Brand -->
       <a href={logoHref} class="flex items-center gap-3 no-underline text-ink font-semibold text-sm hover:opacity-80 transition-opacity animate-nav-item" style="animation-delay: 0.2s;" aria-label="Strat Ai">
         <Logo asSpan />
@@ -40,7 +40,7 @@ const logoHref = isHomepage ? '#hero' : '/';
                 {item.dropdownItems && (
                   <div class="absolute top-[80%] left-1/2 -translate-x-1/2 pt-[18px] w-[320px] opacity-0 pointer-events-none translate-y-2 group-hover:opacity-100 group-hover:pointer-events-auto group-hover:translate-y-0 transition-all duration-300 z-50">
                     <div class="bg-canvas/95 backdrop-blur-xl border border-hairline rounded-2xl shadow-2xl p-3 flex flex-col gap-1">
-                      {item.dropdownItems.map((subItem) => (
+                       {item.dropdownItems.map((subItem) => (
                         <a href={subItem.href} class="flex flex-col text-left p-2.5 rounded-xl hover:bg-surface-soft/60 transition-colors duration-200 no-underline group/item">
                           <span class="text-ink font-semibold text-[13px] group-hover/item:text-brand-accent transition-colors duration-200">{subItem.label}</span>
                           <span class="text-muted text-[11px] leading-normal mt-0.5 font-normal">{subItem.desc}</span>
@@ -61,11 +61,13 @@ const logoHref = isHomepage ? '#hero' : '/';
           <ThemeToggle class="!border-none !bg-transparent !w-8 !h-8 hover:!bg-surface-soft" />
         </div>
         <span class="hidden md:block w-[1px] h-4 bg-hairline"></span>
-        <Button variant="primary" href="/#pricing" class="island-cta !h-[38px] !py-0 !px-4 !rounded-full !text-xs flex items-center !gap-1.5 font-semibold">
-          <Icon name="sparkles" size={13} />
-          <span class="hidden sm:inline">Get Started</span>
-          <span class="sm:hidden">Start</span>
-        </Button>
+        <div class="hidden md:block">
+          <Button variant="primary" href="/#pricing" class="island-cta !h-[38px] !py-0 !px-4 !rounded-full !text-xs flex items-center !gap-1.5 font-semibold">
+            <Icon name="sparkles" size={13} />
+            <span class="hidden sm:inline">Get Started</span>
+            <span class="sm:hidden">Start</span>
+          </Button>
+        </div>
         <button
           class="md:hidden flex items-center justify-center w-[38px] h-[38px] border-none bg-transparent text-ink cursor-pointer rounded-full hover:bg-surface-soft transition-colors"
           id="island-mobile-toggle"
@@ -73,7 +75,7 @@ const logoHref = isHomepage ? '#hero' : '/';
           aria-expanded="false"
           type="button"
         >
-          <span class="mobile-menu-icon"><Icon name="menu" size={18} /></span>
+          <span class="mobile-menu-icon flex items-center justify-center"><Icon name="menu" size={18} /></span>
           <span class="mobile-close-icon hidden"><Icon name="x" size={18} /></span>
         </button>
       </div>
