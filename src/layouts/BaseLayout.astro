@@ -1,0 +1,81 @@
+---
+import '@/styles/global.css';
+import DynamicIsland from '@/components/navigation/DynamicIsland.astro';
+import Footer from '@/components/navigation/Footer.astro';
+import SEO from '@/components/shared/SEO.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const { title, description, ogImage, jsonLd } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/strat.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <SEO title={title} description={description} ogImage={ogImage} jsonLd={jsonLd} />
+  </head>
+  <body>
+    <DynamicIsland />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<script is:inline>
+  (function() {
+    var theme = localStorage.getItem('strat-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+
+<script>
+  function initScrollReveal() {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px 0px -8% 0px',
+      threshold: 0.05
+    };
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          if (el instanceof HTMLElement) {
+            if (el.hasAttribute('data-reveal-group')) {
+              const items = el.querySelectorAll('[data-reveal-item], .reveal-item');
+              items.forEach((item, index) => {
+                setTimeout(() => { item.classList.add('reveal-in'); }, index * 80);
+              });
+              el.classList.add('reveal-in');
+            } else {
+              el.classList.add('reveal-in');
+            }
+          }
+          observer.unobserve(el);
+        }
+      });
+    }, observerOptions);
+
+    const elementsToReveal = document.querySelectorAll('.reveal, [data-reveal-group]');
+    elementsToReveal.forEach(el => {
+      if (!el.classList.contains('reveal-in')) {
+        observer.observe(el);
+      }
+    });
+  }
+
+  initScrollReveal();
+  document.addEventListener('astro:after-swap', initScrollReveal);
+</script>
