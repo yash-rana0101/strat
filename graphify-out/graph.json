@@ -4,58 +4,130 @@
   "graph": {},
   "nodes": [
     {
+      "label": "HowItWorks.tsx",
+      "file_type": "code",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L1",
+      "id": "howitworks_tsx",
+      "community": 24,
+      "norm_label": "howitworks.tsx"
+    },
+    {
+      "label": "steps",
+      "file_type": "code",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L7",
+      "id": "how_it_works_howitworks_steps",
+      "community": 24,
+      "norm_label": "steps"
+    },
+    {
+      "label": "Mockup1()",
+      "file_type": "code",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L40",
+      "id": "how_it_works_howitworks_mockup1",
+      "community": 24,
+      "norm_label": "mockup1()"
+    },
+    {
+      "label": "Mockup2()",
+      "file_type": "code",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L98",
+      "id": "how_it_works_howitworks_mockup2",
+      "community": 24,
+      "norm_label": "mockup2()"
+    },
+    {
+      "label": "Mockup3()",
+      "file_type": "code",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L130",
+      "id": "how_it_works_howitworks_mockup3",
+      "community": 24,
+      "norm_label": "mockup3()"
+    },
+    {
+      "label": "Mockup4()",
+      "file_type": "code",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L168",
+      "id": "how_it_works_howitworks_mockup4",
+      "community": 24,
+      "norm_label": "mockup4()"
+    },
+    {
+      "label": "Mockup5()",
+      "file_type": "code",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L208",
+      "id": "how_it_works_howitworks_mockup5",
+      "community": 24,
+      "norm_label": "mockup5()"
+    },
+    {
+      "label": "HowItWorks()",
+      "file_type": "code",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L254",
+      "id": "how_it_works_howitworks_howitworks",
+      "community": 24,
+      "norm_label": "howitworks()"
+    },
+    {
       "label": "DarkVeil.tsx",
       "file_type": "code",
       "source_file": "DarkVeil.tsx",
       "source_location": "L1",
-      "id": "darkveil_tsx",
       "community": 9,
-      "norm_label": "darkveil.tsx"
+      "norm_label": "darkveil.tsx",
+      "id": "darkveil_tsx"
     },
     {
       "label": "DarkVeilInner",
       "file_type": "code",
       "source_file": "DarkVeil.tsx",
       "source_location": "L6",
-      "id": "effects_darkveil_darkveilinner",
       "community": 9,
-      "norm_label": "darkveilinner"
+      "norm_label": "darkveilinner",
+      "id": "effects_darkveil_darkveilinner"
     },
     {
       "label": "DarkVeil()",
       "file_type": "code",
       "source_file": "DarkVeil.tsx",
       "source_location": "L11",
-      "id": "effects_darkveil_darkveil",
       "community": 9,
-      "norm_label": "darkveil()"
+      "norm_label": "darkveil()",
+      "id": "effects_darkveil_darkveil"
     },
     {
       "label": "DarkVeilInner.tsx",
       "file_type": "code",
       "source_file": "DarkVeilInner.tsx",
       "source_location": "L1",
-      "id": "darkveilinner_tsx",
       "community": 9,
-      "norm_label": "darkveilinner.tsx"
+      "norm_label": "darkveilinner.tsx",
+      "id": "darkveilinner_tsx"
     },
     {
       "label": "DarkVeilProps",
       "file_type": "code",
       "source_file": "DarkVeilInner.tsx",
       "source_location": "L84",
-      "id": "effects_darkveilinner_darkveilprops",
       "community": 9,
-      "norm_label": "darkveilprops"
+      "norm_label": "darkveilprops",
+      "id": "effects_darkveilinner_darkveilprops"
     },
     {
       "label": "DarkVeil()",
       "file_type": "code",
       "source_file": "DarkVeilInner.tsx",
       "source_location": "L94",
-      "id": "effects_darkveilinner_darkveil",
       "community": 9,
-      "norm_label": "darkveil()"
+      "norm_label": "darkveil()",
+      "id": "effects_darkveilinner_darkveil"
     },
     {
       "label": "layout.tsx",
@@ -2117,69 +2189,6 @@
       "community": 24,
       "norm_label": "howitworks.tsx",
       "id": "app_components_sections_how_it_works_howitworks_tsx"
-    },
-    {
-      "label": "steps",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L7",
-      "community": 24,
-      "norm_label": "steps",
-      "id": "how_it_works_howitworks_steps"
-    },
-    {
-      "label": "Mockup1()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L40",
-      "community": 24,
-      "norm_label": "mockup1()",
-      "id": "how_it_works_howitworks_mockup1"
-    },
-    {
-      "label": "Mockup2()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L98",
-      "community": 24,
-      "norm_label": "mockup2()",
-      "id": "how_it_works_howitworks_mockup2"
-    },
-    {
-      "label": "Mockup3()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L130",
-      "community": 24,
-      "norm_label": "mockup3()",
-      "id": "how_it_works_howitworks_mockup3"
-    },
-    {
-      "label": "Mockup4()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L168",
-      "community": 24,
-      "norm_label": "mockup4()",
-      "id": "how_it_works_howitworks_mockup4"
-    },
-    {
-      "label": "Mockup5()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L208",
-      "community": 24,
-      "norm_label": "mockup5()",
-      "id": "how_it_works_howitworks_mockup5"
-    },
-    {
-      "label": "HowItWorks()",
-      "file_type": "code",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L254",
-      "community": 24,
-      "norm_label": "howitworks()",
-      "id": "how_it_works_howitworks_howitworks"
     },
     {
       "label": "Pricing.tsx",
@@ -4639,15 +4648,6 @@
       "id": "featurebento_tsx"
     },
     {
-      "label": "HowItWorks.tsx",
-      "file_type": "code",
-      "source_file": "HowItWorks.tsx",
-      "source_location": "L1",
-      "community": 24,
-      "norm_label": "howitworks.tsx",
-      "id": "howitworks_tsx"
-    },
-    {
       "label": "RotatingTextRef",
       "file_type": "code",
       "source_file": "components/ui/hero-section-nexus.tsx",
@@ -5298,15 +5298,236 @@
   ],
   "links": [
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "effects_animateonscroll_animateonscroll"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_steps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L130",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L168",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HowItWorks.tsx",
+      "source_location": "L254",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "howitworks_tsx",
+      "target": "how_it_works_howitworks_howitworks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_steps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_steps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L110",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L130",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L148",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L168",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L188",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_mockup5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_howitworks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
+      "source_location": "L254",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sections_how_it_works_howitworks_tsx",
+      "target": "how_it_works_howitworks_howitworks"
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "DarkVeil.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "darkveil_tsx",
-      "target": "darkveilinner_tsx",
-      "confidence_score": 1.0
+      "target": "darkveilinner_tsx"
     },
     {
       "relation": "imports",
@@ -5315,9 +5536,9 @@
       "source_file": "DarkVeil.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "darkveil_tsx",
-      "target": "effects_darkveilinner_darkveilprops",
-      "confidence_score": 1.0
+      "target": "effects_darkveilinner_darkveilprops"
     },
     {
       "relation": "contains",
@@ -5325,9 +5546,9 @@
       "source_file": "DarkVeil.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "darkveil_tsx",
-      "target": "effects_darkveil_darkveilinner",
-      "confidence_score": 1.0
+      "target": "effects_darkveil_darkveilinner"
     },
     {
       "relation": "contains",
@@ -5375,9 +5596,9 @@
       "source_file": "DarkVeilInner.tsx",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "darkveilinner_tsx",
-      "target": "effects_darkveilinner_darkveilprops",
-      "confidence_score": 1.0
+      "target": "effects_darkveilinner_darkveilprops"
     },
     {
       "relation": "contains",
@@ -5385,9 +5606,9 @@
       "source_file": "DarkVeilInner.tsx",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "darkveilinner_tsx",
-      "target": "effects_darkveilinner_darkveil",
-      "confidence_score": 1.0
+      "target": "effects_darkveilinner_darkveil"
     },
     {
       "relation": "contains",
@@ -9187,17 +9408,6 @@
       "target": "effects_animateonscroll_animateonscroll"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "HowItWorks.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "howitworks_tsx",
-      "target": "effects_animateonscroll_animateonscroll"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/components/effects/AnimateOnScroll.tsx",
@@ -9779,76 +9989,6 @@
       "target": "app_components_effects_animateonscroll_tsx"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_steps"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L78",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup2"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L110",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L148",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup4"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L188",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup5"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_howitworks"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -9858,146 +9998,6 @@
       "confidence_score": 1.0,
       "source": "app_page_tsx",
       "target": "app_components_sections_how_it_works_howitworks_tsx"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_steps"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "HowItWorks.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "howitworks_tsx",
-      "target": "how_it_works_howitworks_steps"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "HowItWorks.tsx",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L98",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup2"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "HowItWorks.tsx",
-      "source_location": "L98",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup2"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L130",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "HowItWorks.tsx",
-      "source_location": "L130",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L168",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup4"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "HowItWorks.tsx",
-      "source_location": "L168",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup4"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L208",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup5"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "HowItWorks.tsx",
-      "source_location": "L208",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "howitworks_tsx",
-      "target": "how_it_works_howitworks_mockup5"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/how-it-works/HowItWorks.tsx",
-      "source_location": "L254",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_sections_how_it_works_howitworks_tsx",
-      "target": "how_it_works_howitworks_howitworks"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "HowItWorks.tsx",
-      "source_location": "L254",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "howitworks_tsx",
-      "target": "how_it_works_howitworks_howitworks"
     },
     {
       "relation": "imports_from",
@@ -13717,5 +13717,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ae9f356fd57c8061821fbe222d81d60d036e589b"
+  "built_at_commit": "dbdf1559efd9e3ba1cdc74c03ac36c5db4c5e4f8"
 }
