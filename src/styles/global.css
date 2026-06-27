@@ -143,11 +143,16 @@
     top: 0; bottom: 0;
     width: 1px;
     background-color: var(--color-hairline);
-    z-index: 10;
+    z-index: 30;
     pointer-events: none;
   }
-  #main-content::before { left: max(0px, calc((100% - 1400px) / 2)); }
-  #main-content::after { right: max(0px, calc((100% - 1400px) / 2)); }
+  #main-content::before { left: 0; }
+  #main-content::after { right: 0; }
+  
+  @media (min-width: 1400px) {
+    #main-content::before { left: calc((100% - 1400px) / 2); }
+    #main-content::after { right: calc((100% - 1400px) / 2); }
+  }
 }
 
 /* ================================================
