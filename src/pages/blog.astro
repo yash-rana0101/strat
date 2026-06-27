@@ -1,0 +1,35 @@
+---
+/**
+ * Blog Index — Blog listing page.
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Container from '@/components/ui/Container.astro';
+import Badge from '@/components/ui/Badge.astro';
+
+const posts = [
+  { title: 'How Multi-Agent AI Consensus Eliminates Confirmation Bias', date: 'June 24, 2026', tag: 'AI Research', tagVariant: 'violet' as const, excerpt: 'Single-model systems are inherently fragile. We explain how Strat Ai\'s 5-agent architecture generates conviction scores resistant to false signals.' },
+  { title: 'Understanding OLS Ghost Line: Predicting the Next Candle Close', date: 'June 18, 2026', tag: 'Technical', tagVariant: 'emerald' as const, excerpt: 'Deep dive into Ordinary Least Squares regression applied to 14-period closing prices. How the ghost line overlay works and when it fails.' },
+  { title: 'Sub-50ms Signal Latency: Why We Chose Rust for Our Data Pipeline', date: 'June 10, 2026', tag: 'Engineering', tagVariant: 'orange' as const, excerpt: 'From Python prototypes to production Rust — our journey to achieving tick-to-decision latency under 50 milliseconds.' },
+  { title: 'Open Interest Heatmaps: Reading Institutional Footprints in Nifty Options', date: 'June 3, 2026', tag: 'F&O', tagVariant: 'pink' as const, excerpt: 'How to interpret OI buildup patterns, PCR shifts, and max pain levels to identify institutional positioning before major moves.' },
+  { title: 'The Architecture of Strat Ai: From Raw Tick to Conviction Score', date: 'May 28, 2026', tag: 'Architecture', tagVariant: 'violet' as const, excerpt: 'A technical walkthrough of our entire pipeline — data ingestion, indicator computation, agent reasoning, and consensus fusion.' },
+  { title: 'Why Information Asymmetry is the Real Edge in Indian Markets', date: 'May 20, 2026', tag: 'Philosophy', tagVariant: 'emerald' as const, excerpt: 'Retail traders don\'t lose because of skill — they lose because of access. How AI-powered intelligence levels the playing field.' },
+];
+---
+<PageLayout title="Blog" description="Research, engineering insights, and trading intelligence from the Strat Ai team." badge="Insights" badgeVariant="emerald" breadcrumbs={[{ label: 'Blog' }]}>
+  <section class="py-16 md:py-20 bg-canvas transition-colors duration-300">
+    <Container size="wide" class="!px-0">
+      <div class="border-y border-hairline divide-y divide-hairline bg-surface-soft/5">
+        {posts.map((post) => (
+          <article class="p-6 md:p-8 lg:p-10 flex flex-col gap-3 hover:bg-surface-soft/10 transition-colors group cursor-pointer">
+            <div class="flex items-center gap-3">
+              <Badge variant={post.tagVariant}>{post.tag}</Badge>
+              <span class="text-xs text-muted-soft">{post.date}</span>
+            </div>
+            <h2 class="type-title-lg text-ink group-hover:text-brand-accent transition-colors leading-snug">{post.title}</h2>
+            <p class="type-body-md text-muted max-w-[700px]">{post.excerpt}</p>
+          </article>
+        ))}
+      </div>
+    </Container>
+  </section>
+</PageLayout>

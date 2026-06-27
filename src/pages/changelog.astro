@@ -1,0 +1,43 @@
+---
+/**
+ * Changelog — Product updates and release history.
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Container from '@/components/ui/Container.astro';
+import Badge from '@/components/ui/Badge.astro';
+
+const releases = [
+  { version: 'v1.4.0', date: 'June 25, 2026', tag: 'Latest', tagVariant: 'emerald' as const, changes: ['Added Crypto market support (BTC, ETH, SOL pairs)', 'Multi-agent consensus now factors in on-chain metrics', 'New volatility skew visualization on options chain', 'Performance: reduced signal latency from 65ms to 48ms'] },
+  { version: 'v1.3.0', date: 'June 10, 2026', tag: 'Feature', tagVariant: 'violet' as const, changes: ['OLS Ghost Line Predictor — 14-period regression overlay', 'Custom timeframe support (1m, 5m, 15m, 1h, 4h, 1D)', 'Improved Sentiment Agent with real-time news parsing', 'Dark/Light theme toggle'] },
+  { version: 'v1.2.0', date: 'May 28, 2026', tag: 'Feature', tagVariant: 'violet' as const, changes: ['Options chain with Greeks profile (Delta, Gamma, Theta, Vega)', 'Open Interest heatmap with PCR overlay', 'Max pain level indicator', 'API v1 beta access for Pro users'] },
+  { version: 'v1.1.0', date: 'May 15, 2026', tag: 'Improvement', tagVariant: 'orange' as const, changes: ['Redesigned trading terminal UI', 'Added conviction score breakdown by agent', 'WebSocket streaming for real-time updates', 'Bug fixes: chart rendering on mobile Safari'] },
+  { version: 'v1.0.0', date: 'May 1, 2026', tag: 'Launch', tagVariant: 'pink' as const, changes: ['Initial public beta launch', '5 ML agents: Technical, Sentiment, Predictive, Cognitive RAG, Consensus', '16 technical indicators computed in Rust', 'NSE F&O market coverage'] },
+];
+---
+<PageLayout title="Changelog" description="Product updates, new features, and improvements to the Strat Ai platform." badge="Updates" badgeVariant="emerald" breadcrumbs={[{ label: 'Changelog' }]}>
+  <section class="py-16 md:py-20 bg-canvas transition-colors duration-300">
+    <Container size="narrow">
+      <div class="flex flex-col gap-0">
+        {releases.map((release, i) => (
+          <div class="relative pl-8 pb-12 last:pb-0">
+            <div class="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-brand-accent border-2 border-canvas z-10"></div>
+            {i < releases.length - 1 && <div class="absolute left-[5px] top-4 bottom-0 w-[1px] bg-hairline"></div>}
+            <div class="flex flex-wrap items-center gap-3 mb-3">
+              <h3 class="type-title-md text-ink font-bold">{release.version}</h3>
+              <Badge variant={release.tagVariant}>{release.tag}</Badge>
+              <span class="text-xs text-muted-soft">{release.date}</span>
+            </div>
+            <ul class="list-none flex flex-col gap-2">
+              {release.changes.map((change) => (
+                <li class="flex items-start gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-muted-soft mt-2 shrink-0"></span>
+                  <span class="type-body-sm text-muted">{change}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </Container>
+  </section>
+</PageLayout>
