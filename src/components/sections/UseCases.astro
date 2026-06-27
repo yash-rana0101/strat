@@ -1,0 +1,45 @@
+---
+import Container from '@/components/ui/Container.astro';
+import Badge from '@/components/ui/Badge.astro';
+import FeatureCard from '@/components/ui/FeatureCard.astro';
+---
+
+<section class="py-16 md:py-20 bg-canvas transition-colors duration-300" id="use-cases" aria-labelledby="use-cases-heading">
+  <Container>
+    <div class="max-w-[800px] mx-auto text-center mb-12 md:mb-16" data-reveal-group>
+      <div data-reveal-item><Badge variant="emerald" class="mb-4">Key Capabilities</Badge></div>
+      <h2 id="use-cases-heading" class="type-display-lg leading-[1.1] tracking-tight text-ink" data-reveal-item>
+        Key uses for Strat Ai in F&O & Crypto trading
+      </h2>
+      <p class="type-body-md text-muted mt-4" data-reveal-item>
+        Every module is engineered to obliterate information asymmetry between retail and institutional traders.
+      </p>
+    </div>
+  </Container>
+
+  <Container>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6" data-reveal-group>
+      <div class="reveal-item">
+        <FeatureCard
+          icon="chart"
+          title="F&O Options Decoder"
+          description="Tracks institutional footprints. Analyzes Open Interest, volume profiles, and volatility skews to map pain points and alert you to gamma squeezes before they happen."
+        />
+      </div>
+      <div class="reveal-item">
+        <FeatureCard
+          icon="shield-check"
+          title="360° Trade Validator"
+          description="Performs a comprehensive teardown of supply/demand zones, trend strength, and risk-to-reward ratios to obliterate confirmation bias before you risk capital."
+        />
+      </div>
+      <div class="reveal-item">
+        <FeatureCard
+          icon="layers"
+          title="Anomaly Translation"
+          description="Constant surveillance for structural anomalies — unusual volume surges, sudden sector rotations, or asset correlation decoupling. Translates driving narratives in real-time."
+        />
+      </div>
+    </div>
+  </Container>
+</section>
