@@ -1,0 +1,46 @@
+---
+import Container from '@/components/ui/Container.astro';
+import Logo from '@/components/ui/Logo.astro';
+import Icon from '@/components/ui/Icon.astro';
+import { FOOTER_GROUPS } from '@/constants/navigation';
+---
+
+<footer class="bg-surface-dark py-16 pb-8 text-on-dark-soft" id="footer">
+  <Container>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr] gap-8 lg:gap-10 pb-8 lg:pb-12 border-b border-white/10" data-reveal-group>
+      <div class="reveal-item flex flex-col gap-3">
+        <Logo variant="light" />
+        <p class="type-body-sm text-on-dark-soft font-medium">Intelligence. Conviction. Execution.</p>
+        <p class="type-body-sm text-muted-soft max-w-[280px]">AI-powered trading intelligence for serious Indian F&O and Crypto traders.</p>
+        <div class="flex items-center gap-4 pt-2">
+          <a href="https://x.com/thestratai" target="_blank" rel="noopener noreferrer" class="text-on-dark-soft hover:text-brand-accent hover:scale-110 transition-all duration-300 transform" aria-label="Twitter">
+            <Icon name="twitter" size={18} />
+          </a>
+          <a href="https://github.com/thestratai" target="_blank" rel="noopener noreferrer" class="text-on-dark-soft hover:text-brand-accent hover:scale-110 transition-all duration-300 transform" aria-label="GitHub">
+            <Icon name="linkedin" size={18} />
+          </a>
+        </div>
+      </div>
+
+      {FOOTER_GROUPS.map((group) => (
+        <div class="reveal-item flex flex-col gap-4">
+          <h4 class="type-title-sm text-on-dark">{group.title}</h4>
+          <ul class="list-none flex flex-col gap-2" role="list">
+            {group.items.map((item) => (
+              <li>
+                <a href={item.href} class="text-on-dark-soft hover:text-on-dark no-underline type-body-sm transition-colors duration-200">{item.label}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <div class="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p class="type-body-sm text-muted-soft text-center sm:text-left">© 2026 Strat Ai Labs Private Ltd. All rights reserved.</p>
+      <p class="text-[10px] text-muted-soft max-w-[500px] text-center sm:text-right">
+        Trading involves substantial risk. Strat provides analysis tools only — not financial advice. Past performance does not guarantee future results.
+      </p>
+    </div>
+  </Container>
+</footer>
