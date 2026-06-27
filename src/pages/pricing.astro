@@ -1,0 +1,67 @@
+---
+/**
+ * Dedicated Pricing Page.
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Container from '@/components/ui/Container.astro';
+import Badge from '@/components/ui/Badge.astro';
+import PricingSection from '@/components/sections/Pricing.astro';
+
+const faqs = [
+  {
+    q: 'How do credits work in Strat Ai?',
+    a: 'Each query, option chain projection, or model diagnostic consumes a specific number of credits from your balance. The balance resets monthly on your billing anniversary.'
+  },
+  {
+    q: 'What happens if I run out of credits?',
+    a: 'If you exhaust your monthly credit allocation, you can purchase top-up credits directly within the terminal, or wait for the next billing cycle when your balance resets.'
+  },
+  {
+    q: 'Do you offer a free trial?',
+    a: 'Yes! We offer a 3-day Free Trial with 100 complimentary credits so you can fully explore the terminal capabilities before making a purchase. No credit card is required.'
+  },
+  {
+    q: 'What is your refund policy?',
+    a: 'We offer a full refund within 7 days of purchase under our cooling-off period, provided you have not consumed more than 50 API requests or 20 quantitative diagnostics.'
+  }
+];
+---
+
+<PageLayout 
+  title="Pricing & Credits" 
+  description="Flexible, credit-based plans tailored to your quantitative trading volume." 
+  badge="Pricing" 
+  badgeVariant="emerald" 
+  breadcrumbs={[{ label: 'Pricing' }]}
+>
+  <!-- Main Pricing Section -->
+  <PricingSection />
+
+  <!-- Pricing Details / FAQ Section -->
+  <section class="py-16 md:py-20 bg-canvas border-t border-hairline/80 transition-colors duration-300">
+    <Container>
+      <div class="max-w-[800px] mx-auto text-center mb-12">
+        <Badge variant="default" class="mb-4">FAQs</Badge>
+        <h2 class="type-display-lg leading-[1.1] tracking-tight text-ink font-bold">Pricing & Plan Questions</h2>
+      </div>
+
+      <div class="max-w-[800px] mx-auto flex flex-col divide-y divide-hairline border-y border-hairline">
+        {faqs.map((faq) => (
+          <details class="group">
+            <summary class="flex items-center justify-between cursor-pointer py-5 px-2 list-none [&::-webkit-details-marker]:hidden">
+              <span class="type-title-sm text-ink pr-4">{faq.q}</span>
+              <span class="w-6 h-6 flex items-center justify-center shrink-0 text-muted group-open:rotate-45 transition-transform duration-300">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+              </span>
+            </summary>
+            <div class="pb-5 px-2 pr-12">
+              <p class="type-body-md text-muted leading-relaxed">{faq.a}</p>
+            </div>
+          </details>
+        ))}
+      </div>
+    </Container>
+  </section>
+</PageLayout>
