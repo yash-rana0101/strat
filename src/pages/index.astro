@@ -46,12 +46,34 @@ const productSchema = {
     <Container>
       <div class="w-full rounded-2xl overflow-hidden border border-hairline/80 shadow-[0_20px_50px_rgba(16,185,129,0.08)] bg-surface-card reveal reveal-scale-up">
         <img 
-          src="/hero/hero.png" 
+          src="/hero/hero-dark.png" 
           alt="Strat Ai Terminal Dashboard Preview" 
-          class="w-full h-auto block"
+          class="w-full h-auto hero-image-dark"
+          loading="eager"
+        />
+        <img 
+          src="/hero/hero-light.png" 
+          alt="Strat Ai Terminal Dashboard Preview" 
+          class="w-full h-auto hero-image-light"
           loading="eager"
         />
       </div>
+
+<style>
+  .hero-image-dark {
+    display: block;
+  }
+  .hero-image-light {
+    display: none;
+  }
+  
+  :global([data-theme="light"]) .hero-image-dark {
+    display: none;
+  }
+  :global([data-theme="light"]) .hero-image-light {
+    display: block;
+  }
+</style>
     </Container>
   </section>
 

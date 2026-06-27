@@ -197,29 +197,34 @@ import Icon from '@/components/ui/Icon.astro';
 </section>
 
 <script>
-  const buttons = document.querySelectorAll('.tab-btn');
-  const contents = document.querySelectorAll('.tab-content');
+  function initHowItWorksTabs() {
+    const buttons = document.querySelectorAll('.tab-btn');
+    const contents = document.querySelectorAll('.tab-content');
 
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const targetTab = btn.getAttribute('data-tab');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetTab = btn.getAttribute('data-tab');
 
-      // Update buttons styling
-      buttons.forEach(b => {
-        b.classList.remove('bg-primary', 'text-on-primary', 'shadow');
-        b.classList.add('text-muted');
-      });
-      btn.classList.add('bg-primary', 'text-on-primary', 'shadow');
-      btn.classList.remove('text-muted');
+        // Update buttons styling
+        buttons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary', 'shadow');
+          b.classList.add('text-muted');
+        });
+        btn.classList.add('bg-primary', 'text-on-primary', 'shadow');
+        btn.classList.remove('text-muted');
 
-      // Update content visibility
-      contents.forEach(content => {
-        if (content.id === `tab-content-${targetTab}`) {
-          content.classList.remove('hidden');
-        } else {
-          content.classList.add('hidden');
-        }
+        // Update content visibility
+        contents.forEach(content => {
+          if (content.id === `tab-content-${targetTab}`) {
+            content.classList.remove('hidden');
+          } else {
+            content.classList.add('hidden');
+          }
+        });
       });
     });
-  });
+  }
+
+  initHowItWorksTabs();
+  document.addEventListener('astro:after-swap', initHowItWorksTabs);
 </script>
