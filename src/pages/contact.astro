@@ -1,0 +1,96 @@
+---
+/**
+ * Contact Page — 2-column bento layout with form and company info.
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Container from '@/components/ui/Container.astro';
+import Button from '@/components/ui/Button.astro';
+import Icon from '@/components/ui/Icon.astro';
+---
+<PageLayout title="Contact" description="Get in touch with Strat Ai. Reach out for partnerships, early access requests, or general inquiries." badge="Get in Touch" badgeVariant="emerald" breadcrumbs={[{ label: 'Contact' }]}>
+  <section class="py-16 md:py-20 bg-canvas transition-colors duration-300">
+    <Container size="wide" class="!px-0">
+      <div class="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] border-y border-hairline divide-y lg:divide-y-0 lg:divide-x divide-hairline bg-surface-soft/5">
+        <div class="p-8 md:p-12 lg:p-14">
+          <h2 class="type-title-lg text-ink mb-6">Send us a message</h2>
+          <form id="contact-form" class="flex flex-col gap-5" novalidate>
+            <div class="flex flex-col gap-1.5">
+              <label for="contact-name" class="type-body-sm text-ink font-medium">Full Name <span class="text-error">*</span></label>
+              <input type="text" id="contact-name" name="name" required placeholder="Your name" class="w-full px-4 py-3 rounded-lg bg-surface-card border border-hairline text-ink placeholder:text-muted-soft type-body-md focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent transition-colors duration-200" />
+            </div>
+            <div class="flex flex-col gap-1.5">
+              <label for="contact-email" class="type-body-sm text-ink font-medium">Email Address <span class="text-error">*</span></label>
+              <input type="email" id="contact-email" name="email" required placeholder="you@company.com" class="w-full px-4 py-3 rounded-lg bg-surface-card border border-hairline text-ink placeholder:text-muted-soft type-body-md focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent transition-colors duration-200" />
+            </div>
+            <div class="flex flex-col gap-1.5">
+              <label for="contact-subject" class="type-body-sm text-ink font-medium">Subject <span class="text-error">*</span></label>
+              <select id="contact-subject" name="subject" required class="w-full px-4 py-3 rounded-lg bg-surface-card border border-hairline text-ink type-body-md focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent transition-colors duration-200 appearance-none cursor-pointer">
+                <option value="" disabled selected class="text-muted-soft">Select a topic</option>
+                <option value="early-access">Early Access Request</option>
+                <option value="partnership">Partnership Inquiry</option>
+                <option value="research">Research Collaboration</option>
+                <option value="media">Media & Press</option>
+                <option value="general">General Inquiry</option>
+              </select>
+            </div>
+            <div class="flex flex-col gap-1.5">
+              <label for="contact-message" class="type-body-sm text-ink font-medium">Message <span class="text-error">*</span></label>
+              <textarea id="contact-message" name="message" required rows="5" placeholder="Tell us how we can help..." class="w-full px-4 py-3 rounded-lg bg-surface-card border border-hairline text-ink placeholder:text-muted-soft type-body-md focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent transition-colors duration-200 resize-y min-h-[120px]"></textarea>
+            </div>
+            <div class="mt-2">
+              <Button variant="primary" size="lg" type="submit" class="!rounded-full px-8 w-full sm:w-auto">Send Message</Button>
+            </div>
+            <div id="contact-success" class="hidden p-4 rounded-lg bg-success/10 border border-success/20">
+              <p class="type-body-sm text-success font-medium">Thank you! Your message has been received. We'll get back to you shortly.</p>
+            </div>
+          </form>
+        </div>
+        <div class="flex flex-col gap-8 p-8 md:p-12 lg:p-14 bg-surface-soft/10">
+          <div>
+            <h3 class="type-title-md text-ink mb-4">Contact Information</h3>
+            <div class="flex flex-col gap-4">
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-badge-emerald/10 flex items-center justify-center shrink-0 mt-0.5"><Icon name="mail" class="w-4 h-4 text-badge-emerald" /></div>
+                <div><p class="type-body-sm text-ink font-medium">Email</p><a href="mailto:hello@stratai.live" class="type-body-sm text-muted hover:text-ink no-underline transition-colors">hello@stratai.live</a></div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-badge-pink/10 flex items-center justify-center shrink-0 mt-0.5"><Icon name="chart" class="w-4 h-4 text-badge-pink" /></div>
+                <div><p class="type-body-sm text-ink font-medium">Research Inquiries</p><a href="mailto:research@stratai.live" class="type-body-sm text-muted hover:text-ink no-underline transition-colors">research@stratai.live</a></div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-badge-violet/10 flex items-center justify-center shrink-0 mt-0.5"><Icon name="shield-check" class="w-4 h-4 text-badge-violet" /></div>
+                <div><p class="type-body-sm text-ink font-medium">Legal</p><a href="mailto:legal@stratai.live" class="type-body-sm text-muted hover:text-ink no-underline transition-colors">legal@stratai.live</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6 border-t border-hairline/50">
+            <h3 class="type-title-md text-ink mb-4">Quick Links</h3>
+            <ul class="list-none flex flex-col gap-3">
+              <li><a href="/#features" class="type-body-sm text-muted hover:text-ink no-underline transition-colors flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-badge-emerald"></span>Strat AI Features</a></li>
+              <li><a href="/#pricing" class="type-body-sm text-muted hover:text-ink no-underline transition-colors flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-badge-orange"></span>Pricing</a></li>
+              <li><a href="/about" class="type-body-sm text-muted hover:text-ink no-underline transition-colors flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-badge-violet"></span>About Strat Ai</a></li>
+            </ul>
+          </div>
+          <div class="pt-6 border-t border-hairline/50">
+            <h3 class="type-title-md text-ink mb-2">Response Time</h3>
+            <p class="type-body-sm text-muted leading-relaxed">We typically respond within 1-2 business days. For urgent partnership or press inquiries, please indicate so in your message.</p>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+</PageLayout>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement;
+  const success = document.getElementById('contact-success');
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = (form.querySelector('#contact-name') as HTMLInputElement)?.value.trim();
+    const email = (form.querySelector('#contact-email') as HTMLInputElement)?.value.trim();
+    const subject = (form.querySelector('#contact-subject') as HTMLSelectElement)?.value;
+    const message = (form.querySelector('#contact-message') as HTMLTextAreaElement)?.value.trim();
+    if (!name || !email || !subject || !message) return;
+    if (success) { success.classList.remove('hidden'); form.reset(); setTimeout(() => success.classList.add('hidden'), 5000); }
+  });
+</script>

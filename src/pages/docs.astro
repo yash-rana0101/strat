@@ -1,0 +1,61 @@
+---
+/**
+ * Docs — Documentation hub linking to guides and references.
+ */
+import PageLayout from '@/layouts/PageLayout.astro';
+import Container from '@/components/ui/Container.astro';
+import Badge from '@/components/ui/Badge.astro';
+import Icon from '@/components/ui/Icon.astro';
+
+const sections = [
+  {
+    title: 'Getting Started', badge: 'Start Here', badgeVariant: 'emerald' as const,
+    items: [
+      { icon: 'compass', title: 'Quick Start Guide', desc: 'Set up your account, connect your first chart, and run your first AI analysis in under 5 minutes.', href: '/docs' },
+      { icon: 'chart', title: 'Understanding Conviction Scores', desc: 'Learn how to read and interpret the multi-agent conviction score output.', href: '/docs' },
+      { icon: 'layers', title: 'Dashboard Overview', desc: 'Navigate the Strat Ai terminal — charts, indicator panels, agent breakdown, and options chain.', href: '/docs' },
+    ],
+  },
+  {
+    title: 'Core Concepts', badge: 'Learn', badgeVariant: 'violet' as const,
+    items: [
+      { icon: 'brain', title: 'Multi-Agent Architecture', desc: 'Deep dive into how 5 agents (Technical, Sentiment, Predictive, RAG, Consensus) work together.', href: '/docs' },
+      { icon: 'target', title: 'OLS Ghost Line', desc: 'Understand the predictive regression overlay and its confidence intervals.', href: '/docs' },
+      { icon: 'shield-check', title: 'Risk Management', desc: 'Position sizing recommendations, stop-loss strategies, and conviction thresholds.', href: '/docs' },
+    ],
+  },
+  {
+    title: 'Developer Resources', badge: 'Build', badgeVariant: 'orange' as const,
+    items: [
+      { icon: 'cpu', title: 'API Reference', desc: 'Complete REST and WebSocket API documentation with code examples.', href: '/api-reference' },
+      { icon: 'zap', title: 'Webhooks', desc: 'Set up real-time event notifications for conviction changes and anomalies.', href: '/docs' },
+      { icon: 'search', title: 'SDKs & Libraries', desc: 'Official Python, JavaScript, and Rust client libraries for the Strat Ai API.', href: '/docs' },
+    ],
+  },
+];
+---
+<PageLayout title="Documentation" description="Guides, API reference, and developer resources for the Strat Ai platform." badge="Docs" badgeVariant="emerald" breadcrumbs={[{ label: 'Documentation' }]}>
+  {sections.map((section) => (
+    <section class="py-16 md:py-20 bg-canvas transition-colors duration-300">
+      <Container>
+        <div class="max-w-[800px] mb-8">
+          <Badge variant={section.badgeVariant} class="mb-3">{section.badge}</Badge>
+          <h2 class="type-display-sm tracking-tight text-ink">{section.title}</h2>
+        </div>
+      </Container>
+      <Container size="wide" class="!px-0">
+        <div class="grid grid-cols-1 md:grid-cols-3 border-y border-hairline divide-y md:divide-y-0 md:divide-x divide-hairline bg-surface-soft/5">
+          {section.items.map((item) => (
+            <a href={item.href} class="p-8 md:p-10 flex flex-col gap-4 no-underline hover:bg-surface-soft/10 transition-colors group">
+              <div class="w-10 h-10 rounded-lg bg-badge-emerald/10 flex items-center justify-center group-hover:bg-brand-accent/20 transition-colors">
+                <Icon name={item.icon} class="w-5 h-5 text-badge-emerald" />
+              </div>
+              <h3 class="type-title-md text-ink group-hover:text-brand-accent transition-colors">{item.title}</h3>
+              <p class="type-body-sm text-muted">{item.desc}</p>
+            </a>
+          ))}
+        </div>
+      </Container>
+    </section>
+  ))}
+</PageLayout>
