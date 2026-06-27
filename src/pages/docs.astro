@@ -11,30 +11,30 @@ const sections = [
   {
     title: 'Getting Started', badge: 'Start Here', badgeVariant: 'emerald' as const,
     items: [
-      { icon: 'compass', title: 'Quick Start Guide', desc: 'Set up your account, connect your first chart, and run your first AI analysis in under 5 minutes.', href: '/docs' },
-      { icon: 'chart', title: 'Understanding Conviction Scores', desc: 'Learn how to read and interpret the multi-agent conviction score output.', href: '/docs' },
-      { icon: 'layers', title: 'Dashboard Overview', desc: 'Navigate the Strat Ai terminal — charts, indicator panels, agent breakdown, and options chain.', href: '/docs' },
+      { icon: 'compass', title: 'Quick Start Guide', desc: 'Set up your account, connect your first chart, and evaluate your first market setup in under 5 minutes.', href: '/docs' },
+      { icon: 'chart', title: 'Understanding Conviction Scores', desc: 'Learn how to read and interpret the consensus conviction score output.', href: '/docs' },
+      { icon: 'layers', title: 'Dashboard Overview', desc: 'Navigate the Strat Ai terminal — charts, indicator panels, and options chains.', href: '/docs' },
     ],
   },
   {
     title: 'Core Concepts', badge: 'Learn', badgeVariant: 'violet' as const,
     items: [
-      { icon: 'brain', title: 'Multi-Agent Architecture', desc: 'Deep dive into how 5 agents (Technical, Sentiment, Predictive, RAG, Consensus) work together.', href: '/docs' },
-      { icon: 'target', title: 'OLS Ghost Line', desc: 'Understand the predictive regression overlay and its confidence intervals.', href: '/docs' },
-      { icon: 'shield-check', title: 'Risk Management', desc: 'Position sizing recommendations, stop-loss strategies, and conviction thresholds.', href: '/docs' },
+      { icon: 'brain', title: 'Unified Consensus Model', desc: 'Deep dive into how technical trends, news sentiment, and projections are evaluated together.', href: '/docs' },
+      { icon: 'target', title: 'Trend Projections', desc: 'Understand the predictive regression overlay and its application in mapping volatility.', href: '/docs' },
+      { icon: 'shield-check', title: 'Risk Management', desc: 'Position sizing recommendations, stop-loss rules, and capital preservation thresholds.', href: '/docs' },
     ],
   },
   {
-    title: 'Developer Resources', badge: 'Build', badgeVariant: 'orange' as const,
+    title: 'Integration Resources', badge: 'Integrate', badgeVariant: 'orange' as const,
     items: [
       { icon: 'cpu', title: 'API Reference', desc: 'Complete REST and WebSocket API documentation with code examples.', href: '/api-reference' },
-      { icon: 'zap', title: 'Webhooks', desc: 'Set up real-time event notifications for conviction changes and anomalies.', href: '/docs' },
-      { icon: 'search', title: 'SDKs & Libraries', desc: 'Official Python, JavaScript, and Rust client libraries for the Strat Ai API.', href: '/docs' },
+      { icon: 'zap', title: 'Alert Notifications', desc: 'Set up real-time event notifications for conviction changes and volatility alerts.', href: '/docs' },
+      { icon: 'search', title: 'SDKs & Clients', desc: 'Official client integrations and helpers for the Strat Ai API.', href: '/docs' },
     ],
   },
 ];
 ---
-<PageLayout title="Documentation" description="Guides, API reference, and developer resources for the Strat Ai platform." badge="Docs" badgeVariant="emerald" breadcrumbs={[{ label: 'Documentation' }]}>
+<PageLayout title="Documentation" description="Guides, API reference, and integration resources for the Strat Ai platform." badge="Docs" badgeVariant="emerald" breadcrumbs={[{ label: 'Documentation' }]}>
   {sections.map((section) => (
     <section class="py-16 md:py-20 bg-canvas transition-colors duration-300">
       <Container>

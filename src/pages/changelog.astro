@@ -7,11 +7,11 @@ import Container from '@/components/ui/Container.astro';
 import Badge from '@/components/ui/Badge.astro';
 
 const releases = [
-  { version: 'v1.4.0', date: 'June 25, 2026', tag: 'Latest', tagVariant: 'emerald' as const, changes: ['Added Crypto market support (BTC, ETH, SOL pairs)', 'Multi-agent consensus now factors in on-chain metrics', 'New volatility skew visualization on options chain', 'Performance: reduced signal latency from 65ms to 48ms'] },
-  { version: 'v1.3.0', date: 'June 10, 2026', tag: 'Feature', tagVariant: 'violet' as const, changes: ['OLS Ghost Line Predictor — 14-period regression overlay', 'Custom timeframe support (1m, 5m, 15m, 1h, 4h, 1D)', 'Improved Sentiment Agent with real-time news parsing', 'Dark/Light theme toggle'] },
-  { version: 'v1.2.0', date: 'May 28, 2026', tag: 'Feature', tagVariant: 'violet' as const, changes: ['Options chain with Greeks profile (Delta, Gamma, Theta, Vega)', 'Open Interest heatmap with PCR overlay', 'Max pain level indicator', 'API v1 beta access for Pro users'] },
-  { version: 'v1.1.0', date: 'May 15, 2026', tag: 'Improvement', tagVariant: 'orange' as const, changes: ['Redesigned trading terminal UI', 'Added conviction score breakdown by agent', 'WebSocket streaming for real-time updates', 'Bug fixes: chart rendering on mobile Safari'] },
-  { version: 'v1.0.0', date: 'May 1, 2026', tag: 'Launch', tagVariant: 'pink' as const, changes: ['Initial public beta launch', '5 ML agents: Technical, Sentiment, Predictive, Cognitive RAG, Consensus', '16 technical indicators computed in Rust', 'NSE F&O market coverage'] },
+  { version: 'v1.4.0', date: 'June 25, 2026', tag: 'Latest', tagVariant: 'emerald' as const, changes: ['New volatility skew visualization on options chain', 'Improved data feed refresh rate and responsiveness', 'Enhanced capital preservation model parameters'] },
+  { version: 'v1.3.0', date: 'June 10, 2026', tag: 'Feature', tagVariant: 'violet' as const, changes: ['Trend projection overlay — mathematical regression analysis', 'Custom timeframe support (1m, 5m, 15m, 1h, 4h, 1D)', 'Improved news sentiment parsing and scoring', 'Dark/Light theme toggle'] },
+  { version: 'v1.2.0', date: 'May 28, 2026', tag: 'Feature', tagVariant: 'violet' as const, changes: ['Options chain metrics with Open Interest and volume analysis', 'Open Interest heatmap and put-call ratio overlays', 'Max pain calculation visualization', 'API v1 access for Pro users'] },
+  { version: 'v1.1.0', date: 'May 15, 2026', tag: 'Improvement', tagVariant: 'orange' as const, changes: ['Redesigned quantitative trading terminal UI', 'Added conviction score detail breakdown panels', 'Real-time data synchronization support', 'Bug fixes: chart rendering on mobile browsers'] },
+  { version: 'v1.0.0', date: 'May 1, 2026', tag: 'Launch', tagVariant: 'pink' as const, changes: ['Initial public beta launch', 'Consensus score framework evaluating multiple analysis dimensions', '16 technical metrics computed in real-time', 'Full NSE F&O market coverage'] },
 ];
 ---
 <PageLayout title="Changelog" description="Product updates, new features, and improvements to the Strat Ai platform." badge="Updates" badgeVariant="emerald" breadcrumbs={[{ label: 'Changelog' }]}>
