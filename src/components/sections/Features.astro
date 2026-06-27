@@ -1,0 +1,57 @@
+---
+import Container from '@/components/ui/Container.astro';
+import Badge from '@/components/ui/Badge.astro';
+import Icon from '@/components/ui/Icon.astro';
+---
+
+<section class="py-16 md:py-20 bg-canvas transition-colors duration-300" id="features" aria-labelledby="features-heading">
+  <Container>
+    <div class="max-w-[800px] mx-auto text-center mb-12 md:mb-16" data-reveal-group>
+      <div data-reveal-item><Badge variant="emerald" class="mb-4">Platform</Badge></div>
+      <h2 id="features-heading" class="type-display-lg leading-[1.1] tracking-tight text-ink" data-reveal-item>
+        Purpose-built for precision trading
+      </h2>
+      <p class="type-body-md text-muted mt-4" data-reveal-item>
+        Every feature is engineered to obliterate asymmetry. No generic dashboards — only institutional-grade tools.
+      </p>
+    </div>
+  </Container>
+
+  <Container size="wide" class="!px-0">
+    <div class="border-y border-hairline overflow-hidden bg-surface-soft/5">
+      <div class="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-hairline border-b border-hairline" data-reveal-group>
+        <div class="reveal-item p-8 md:p-10 flex flex-col gap-4">
+          <div class="w-12 h-12 flex items-center justify-center bg-badge-emerald/15 rounded-lg text-badge-emerald shrink-0">
+            <Icon name="zap" size={24} />
+          </div>
+          <h3 class="type-title-lg text-ink font-bold">Real-Time Telemetry Stream</h3>
+          <p class="type-body-md text-muted leading-relaxed">Sub-50ms latency from tick to decision. Strat Ai ingests live market feeds and computes 16 technical indicators simultaneously in Rust.</p>
+        </div>
+        <div class="reveal-item p-8 md:p-10 flex flex-col gap-4">
+          <div class="w-12 h-12 flex items-center justify-center bg-badge-violet/15 rounded-lg text-badge-violet shrink-0">
+            <Icon name="target" size={24} />
+          </div>
+          <h3 class="type-title-lg text-ink font-bold">OLS Ghost Line Predictor</h3>
+          <p class="type-body-md text-muted leading-relaxed">Predictive overlay using Ordinary Least Squares regression on 14 closing prices. Shows where the next candle close is likely to land.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-hairline" data-reveal-group>
+        <div class="reveal-item p-8 md:p-10 flex flex-col gap-4">
+          <div class="w-12 h-12 flex items-center justify-center bg-badge-orange/15 rounded-lg text-badge-orange shrink-0">
+            <Icon name="brain" size={24} />
+          </div>
+          <h3 class="type-title-lg text-ink font-bold">Multi-Agent Consensus</h3>
+          <p class="type-body-md text-muted leading-relaxed">5 specialized agents — Technical, Sentiment, Predictive, Cognitive RAG, and Consensus — synthesize findings into a single conviction score.</p>
+        </div>
+        <div class="reveal-item p-8 md:p-10 flex flex-col gap-4">
+          <div class="w-12 h-12 flex items-center justify-center bg-badge-pink/15 rounded-lg text-badge-pink shrink-0">
+            <Icon name="cpu" size={24} />
+          </div>
+          <h3 class="type-title-lg text-ink font-bold">Macro Narrative Engine</h3>
+          <p class="type-body-md text-muted leading-relaxed">Weaves global news, financial reports, and macroeconomic sentiment directly into your charting experience. Explains the 'why' behind movements.</p>
+        </div>
+      </div>
+    </div>
+  </Container>
+</section>
