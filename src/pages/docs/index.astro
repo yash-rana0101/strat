@@ -42,7 +42,7 @@ const sections = [
 <PageLayout title="Documentation" description="Guides, API reference, and integration resources for the Strat Ai platform." badge="Docs" badgeVariant="emerald" breadcrumbs={[{ label: 'Documentation' }]}>
   {sections.map((section) => (
     section.items.length > 0 && (
-      <section class="py-16 md:py-20 bg-canvas border-b border-hairline last:border-none transition-colors duration-300">
+      <section class="py-16 md:py-20 bg-canvas transition-colors duration-300">
         <Container>
           <div class="max-w-[800px] mb-8">
             <Badge variant={section.badgeVariant} class="mb-3">{section.badge}</Badge>
