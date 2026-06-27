@@ -1,0 +1,85 @@
+---
+/**
+ * Docs Post Page — Dynamic route for individual documentation pages.
+ */
+
+import PageLayout from '@/layouts/PageLayout.astro';
+import Container from '@/components/ui/Container.astro';
+import Prose from '@/components/ui/Prose.astro';
+import Badge from '@/components/ui/Badge.astro';
+import TableOfContents from '@/components/ui/TableOfContents.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const docs = await getCollection('docs', ({ data }) => !data.draft);
+  return docs.map((doc) => ({
+    params: { slug: doc.id },
+    props: { doc },
+  }));
+}
+
+const { doc } = Astro.props;
+const { Content, headings } = await render(doc);
+
+const sectionVariants: Record<string, 'emerald' | 'violet' | 'orange' | 'default'> = {
+  'Getting Started': 'emerald',
+  'Core Concepts': 'violet',
+  'Integration Resources': 'orange',
+};
+
+const badgeVariant = sectionVariants[doc.data.section] || 'default';
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'TechArticle',
+  headline: doc.data.title,
+  description: doc.data.description,
+  publisher: {
+    '@type': 'Organization',
+    name: 'Trading & Research Wing',
+  },
+};
+---
+
+<PageLayout
+  title={doc.data.title}
+  description={doc.data.description}
+  breadcrumbs={[{ label: 'Documentation', href: '/docs' }, { label: doc.data.title }]}
+  showHero={false}
+  jsonLd={articleSchema}
+>
+  <!-- Article Header -->
+  <section class="pt-20 lg:pt-24 pb-0 bg-canvas transition-colors duration-300">
+    <Container size="wide" class="!px-0">
+      <div class="border-y border-hairline bg-surface-soft/5 p-8 md:p-12 lg:p-16">
+        <div class="max-w-[800px]">
+          <div class="flex items-center gap-3 mb-6">
+            <Badge variant={badgeVariant}>{doc.data.section}</Badge>
+            {doc.data.badge && <Badge variant="default">{doc.data.badge}</Badge>}
+          </div>
+
+          <h1 class="type-display-lg tracking-tight leading-[1.1] text-ink mb-4">
+            {doc.data.title}
+          </h1>
+
+          <p class="type-body-md text-muted leading-relaxed">
+            {doc.data.description}
+          </p>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <!-- Article Body -->
+  <section class="py-12 md:py-16 bg-canvas transition-colors duration-300">
+    <Container>
+      <div class="grid grid-cols-1 lg:grid-cols-[1fr_240px] gap-12 lg:gap-16">
+        <Prose>
+          <Content />
+        </Prose>
+
+        <TableOfContents headings={headings} />
+      </div>
+    </Container>
+  </section>
+</PageLayout>
