@@ -10,8 +10,8 @@ import Icon from '@/components/ui/Icon.astro';
 const endpoints = [
   { method: 'GET', path: '/v1/conviction', desc: 'Get the current conviction score for a given symbol.', params: 'symbol, timeframe' },
   { method: 'GET', path: '/v1/indicators', desc: 'Retrieve all 16 technical indicators for a symbol.', params: 'symbol, interval, limit' },
-  { method: 'GET', path: '/v1/agents', desc: 'Get individual agent scores (Technical, Sentiment, Predictive, RAG, Consensus).', params: 'symbol' },
-  { method: 'POST', path: '/v1/analyze', desc: 'Submit a symbol for full multi-agent analysis. Returns conviction + reasoning.', params: 'symbol, depth, include_narrative' },
+  { method: 'GET', path: '/v1/dimensions', desc: 'Get individual quantitative analysis dimensions (Technical, Sentiment, Trend, Context).', params: 'symbol' },
+  { method: 'POST', path: '/v1/analyze', desc: 'Submit a symbol for full multi-variable analysis. Returns conviction + textual reasoning.', params: 'symbol, depth, include_narrative' },
   { method: 'GET', path: '/v1/options/chain', desc: 'Retrieve the options chain with OI, IV, and Greeks for an underlying.', params: 'symbol, expiry' },
   { method: 'GET', path: '/v1/anomalies', desc: 'Get detected structural anomalies — unusual volume, sector rotations, correlation breaks.', params: 'market, timeframe' },
   { method: 'WS', path: '/v1/stream', desc: 'WebSocket stream for real-time conviction updates and indicator ticks.', params: 'symbols[]' },
