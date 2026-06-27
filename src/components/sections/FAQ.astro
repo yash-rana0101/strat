@@ -1,0 +1,45 @@
+---
+/**
+ * FAQ — Accordion using native <details> elements (zero JS).
+ */
+import Container from '@/components/ui/Container.astro';
+import Badge from '@/components/ui/Badge.astro';
+
+const faqs = [
+  { q: 'What exactly is Strat Ai?', a: 'Strat Ai is an AI-powered trading intelligence platform that fuses 5 specialized ML agents — Technical Analysis, Sentiment, Predictive, Cognitive RAG, and Consensus — into a single conviction score. It\'s designed for serious Indian F&O and Crypto traders who want institutional-grade analysis without a Bloomberg terminal.' },
+  { q: 'Is this financial advice?', a: 'No. Strat Ai is a research and analysis tool. It provides data-driven insights, conviction scores, and anomaly detection — but does not execute trades or provide financial recommendations. All trading decisions are yours.' },
+  { q: 'What markets does Strat Ai cover?', a: 'Currently, Strat Ai covers Indian equity derivatives (NSE F&O) and major cryptocurrency pairs. Our roadmap includes global equity markets and commodities.' },
+  { q: 'How does the conviction score work?', a: 'Five independent ML agents each analyze the market through different lenses (technical patterns, sentiment, price prediction, macro narratives, and cross-agent consensus). Their individual scores are weighted and fused into a single conviction percentage with a directional bias (Bullish/Bearish/Neutral).' },
+  { q: 'What does "zero-custody" mean?', a: 'Strat Ai never holds your funds, API keys to your broker, or access to your trading accounts. We provide intelligence — you execute trades through your own broker. Your capital stays in your control at all times.' },
+  { q: 'Can I try before paying?', a: 'Yes. The Starter plan is free forever and includes 3 Strat queries per day, 1 active chart, and basic technical indicators. No credit card required.' },
+];
+---
+
+<section class="py-16 md:py-20 bg-canvas transition-colors duration-300" id="faq" aria-labelledby="faq-heading">
+  <Container>
+    <div class="max-w-[800px] mx-auto text-center mb-12" data-reveal-group>
+      <div data-reveal-item><Badge variant="emerald" class="mb-4">FAQ</Badge></div>
+      <h2 id="faq-heading" class="type-display-lg leading-[1.1] tracking-tight text-ink" data-reveal-item>
+        Frequently asked questions
+      </h2>
+    </div>
+
+    <div class="max-w-[800px] mx-auto flex flex-col divide-y divide-hairline border-y border-hairline" data-reveal-group>
+      {faqs.map((faq) => (
+        <details class="reveal-item group">
+          <summary class="flex items-center justify-between cursor-pointer py-5 px-2 list-none [&::-webkit-details-marker]:hidden">
+            <span class="type-title-sm text-ink pr-4">{faq.q}</span>
+            <span class="w-6 h-6 flex items-center justify-center shrink-0 text-muted group-open:rotate-45 transition-transform duration-300">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+            </span>
+          </summary>
+          <div class="pb-5 px-2 pr-12">
+            <p class="type-body-md text-muted leading-relaxed">{faq.a}</p>
+          </div>
+        </details>
+      ))}
+    </div>
+  </Container>
+</section>
