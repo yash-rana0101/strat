@@ -1,0 +1,62 @@
+---
+import Container from '@/components/ui/Container.astro';
+import Badge from '@/components/ui/Badge.astro';
+---
+
+<section class="py-16 md:py-20 bg-canvas transition-colors duration-300" id="stats" aria-labelledby="stats-heading">
+  <Container>
+    <div class="max-w-[800px] mx-auto text-center mb-12" data-reveal-group>
+      <div data-reveal-item><Badge variant="emerald" class="mb-4">By The Numbers</Badge></div>
+      <h2 id="stats-heading" class="type-display-lg leading-[1.1] tracking-tight text-ink" data-reveal-item>
+        Performance that speaks
+      </h2>
+    </div>
+  </Container>
+
+  <Container size="wide" class="!px-0">
+    <div class="border-y border-hairline overflow-hidden bg-surface-soft/5">
+      <div class="grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-hairline" data-reveal-group>
+        <div class="reveal-item p-8 md:p-10 text-center flex flex-col gap-2">
+          <span class="text-4xl md:text-5xl font-bold text-ink font-display tracking-tight" data-count="5">5</span>
+          <span class="type-title-sm text-ink">AI Agents</span>
+          <span class="text-xs text-muted">Running in parallel</span>
+        </div>
+        <div class="reveal-item p-8 md:p-10 text-center flex flex-col gap-2">
+          <span class="text-4xl md:text-5xl font-bold text-ink font-display tracking-tight" data-count="16">16</span>
+          <span class="type-title-sm text-ink">Technical Indicators</span>
+          <span class="text-xs text-muted">Computed in Rust</span>
+        </div>
+        <div class="reveal-item p-8 md:p-10 text-center flex flex-col gap-2">
+          <span class="text-4xl md:text-5xl font-bold text-ink font-display tracking-tight">&lt;50ms</span>
+          <span class="type-title-sm text-ink">Signal Latency</span>
+          <span class="text-xs text-muted">Tick to decision</span>
+        </div>
+        <div class="reveal-item p-8 md:p-10 text-center flex flex-col gap-2">
+          <span class="text-4xl md:text-5xl font-bold text-ink font-display tracking-tight" data-count="150">150+</span>
+          <span class="type-title-sm text-ink">Beta Traders</span>
+          <span class="text-xs text-muted">Across F&O and Crypto</span>
+        </div>
+      </div>
+
+      <!-- Testimonial -->
+      <div class="border-t border-hairline p-8 md:p-12" data-reveal-group>
+        <div class="max-w-[800px] mx-auto">
+          <div class="flex items-center gap-2 mb-4" data-reveal-item>
+            <span class="w-1.5 h-1.5 rounded-full bg-badge-emerald"></span>
+            <span class="text-[10px] font-mono font-bold tracking-widest uppercase text-badge-emerald">Early Adopter Feedback</span>
+          </div>
+          <blockquote class="type-display-sm text-ink leading-relaxed mb-6" data-reveal-item>
+            "Strat Ai's multi-agent consensus replaced six browser tabs and gave me conviction I never had trading alone. The OLS Ghost Line is eerily accurate on 10-minute timeframes."
+          </blockquote>
+          <div class="flex items-center gap-3" data-reveal-item>
+            <div class="w-10 h-10 rounded-full bg-badge-emerald/20 text-badge-emerald flex items-center justify-center font-bold font-mono text-sm">AR</div>
+            <div>
+              <span class="block text-sm font-semibold text-ink">Aditya R.</span>
+              <span class="block text-xs text-muted">F&O Swing Trader · Beta Tester</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Container>
+</section>

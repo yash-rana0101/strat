@@ -1,0 +1,100 @@
+---
+/**
+ * Pricing — 3-column pricing grid with featured tier inversion.
+ */
+import Container from '@/components/ui/Container.astro';
+import Badge from '@/components/ui/Badge.astro';
+import Button from '@/components/ui/Button.astro';
+import Icon from '@/components/ui/Icon.astro';
+
+const plans = [
+  {
+    name: 'Starter',
+    price: '₹0',
+    period: '/forever',
+    description: 'Perfect for exploring Strat Ai and learning the interface.',
+    features: ['1 active chart', '3 Strat queries/day', 'Basic technical indicators', 'Community support', 'Delayed market data'],
+    cta: 'Start Free',
+    href: '/#',
+    featured: false,
+  },
+  {
+    name: 'Pro',
+    price: '₹999',
+    period: '/month',
+    description: 'For serious traders who need institutional-grade intelligence.',
+    features: ['Unlimited charts', 'Unlimited Strat queries', 'All 16 technical indicators', 'OLS Ghost Line Predictor', 'Multi-agent consensus', 'Real-time data feeds', 'Priority support'],
+    cta: 'Get Pro',
+    href: '/#',
+    featured: true,
+  },
+  {
+    name: 'Institutional',
+    price: 'Custom',
+    period: '',
+    description: 'For funds and prop desks needing dedicated infrastructure.',
+    features: ['Everything in Pro', 'Custom API access', 'Dedicated server instance', 'Custom SLA & uptime', 'White-glove onboarding', 'Audit-ready logging'],
+    cta: 'Contact Sales',
+    href: '/contact',
+    featured: false,
+  },
+];
+---
+
+<section class="py-16 md:py-20 bg-canvas transition-colors duration-300" id="pricing" aria-labelledby="pricing-heading">
+  <Container>
+    <div class="max-w-[800px] mx-auto text-center mb-12 md:mb-16" data-reveal-group>
+      <div data-reveal-item><Badge variant="emerald" class="mb-4">Pricing</Badge></div>
+      <h2 id="pricing-heading" class="type-display-lg leading-[1.1] tracking-tight text-ink" data-reveal-item>
+        Simple, transparent pricing
+      </h2>
+      <p class="type-body-md text-muted mt-4" data-reveal-item>
+        Start free. Upgrade when you need institutional-grade conviction.
+      </p>
+    </div>
+  </Container>
+
+  <Container>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6" data-reveal-group>
+      {plans.map((plan) => (
+        <div class:list={[
+          'reveal-item rounded-lg p-8 flex flex-col gap-6 transition-all duration-300',
+          plan.featured
+            ? 'bg-surface-dark text-on-dark ring-1 ring-brand-accent/30 shadow-[0_0_60px_rgba(16,185,129,0.08)]'
+            : 'bg-surface-card'
+        ]}>
+          <div class="flex flex-col gap-2">
+            <div class="flex items-center justify-between">
+              <h3 class="type-title-lg font-bold">{plan.name}</h3>
+              {plan.featured && <Badge variant="emerald" class="text-[10px]">Most Popular</Badge>}
+            </div>
+            <div class="flex items-baseline gap-1">
+              <span class="type-display-sm font-bold">{plan.price}</span>
+              {plan.period && <span class:list={['text-sm', plan.featured ? 'text-on-dark-soft' : 'text-muted']}>{plan.period}</span>}
+            </div>
+            <p class:list={['type-body-sm', plan.featured ? 'text-on-dark-soft' : 'text-muted']}>{plan.description}</p>
+          </div>
+
+          <ul class="list-none flex flex-col gap-3 flex-1" role="list">
+            {plan.features.map((feature) => (
+              <li class="flex items-start gap-2.5">
+                <div class:list={['w-4 h-4 rounded-full flex items-center justify-center shrink-0 mt-0.5', plan.featured ? 'bg-badge-emerald/20 text-badge-emerald' : 'bg-brand-accent/15 text-brand-accent']}>
+                  <svg class="w-2.5 h-2.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12" /></svg>
+                </div>
+                <span class:list={['text-sm', plan.featured ? 'text-on-dark-soft' : 'text-muted']}>{feature}</span>
+              </li>
+            ))}
+          </ul>
+
+          <Button
+            variant={plan.featured ? 'primary' : 'secondary'}
+            href={plan.href}
+            class="!rounded-full w-full justify-center"
+          >
+            {plan.cta}
+          </Button>
+        </div>
+      ))}
+    </div>
+  </Container>
+</section>
