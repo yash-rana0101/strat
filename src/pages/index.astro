@@ -1,0 +1,50 @@
+---
+/**
+ * Homepage — Strat Ai Landing Page.
+ * Thin orchestration layer composing all sections.
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/sections/Hero.astro';
+import UseCases from '@/components/sections/UseCases.astro';
+import HowItWorks from '@/components/sections/HowItWorks.astro';
+import Features from '@/components/sections/Features.astro';
+import Stats from '@/components/sections/Stats.astro';
+import Pricing from '@/components/sections/Pricing.astro';
+import FAQ from '@/components/sections/FAQ.astro';
+import Security from '@/components/sections/Security.astro';
+import CTA from '@/components/sections/CTA.astro';
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'Strat AI',
+  applicationCategory: 'FinanceApplication',
+  operatingSystem: 'Web',
+  description: 'AI-powered trading intelligence platform with 5 ML agents for Indian F&O and Crypto markets.',
+  featureList: [
+    'Multi-Agent Consensus',
+    'OLS Ghost Line Predictor',
+    'Real-Time Telemetry',
+    'F&O Options Decoder',
+    'Trade Validator',
+    'Macro Narrative Engine',
+  ],
+  audience: { '@type': 'Audience', audienceType: 'Traders, Investors, Financial Analysts' },
+};
+---
+
+<BaseLayout
+  title="Strat Ai — AI-Powered Trading Intelligence"
+  description="5 ML agents fuse Open Interest analytics, volatility skews, and macro narratives into a single conviction score. Sub-50ms latency. Zero-custody privacy. Built for serious Indian F&O and Crypto traders."
+  jsonLd={productSchema}
+>
+  <Hero />
+  <UseCases />
+  <HowItWorks />
+  <Features />
+  <Stats />
+  <Security />
+  <Pricing />
+  <FAQ />
+  <CTA />
+</BaseLayout>
